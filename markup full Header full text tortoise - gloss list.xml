@@ -1,0 +1,141 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> WHY THE TORTOISE HAS A CRACKED SHELL </title>
+                <storyteller> Konkomba people (Ghana)</storyteller>
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name> Jana Mankau </name>
+                    <resp> coding and editing </resp>
+                </respStmt>
+                <respStmt> 
+                    <name> Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitization"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">placeholder: Tasun's sponsor</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich Heine Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name></address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status> not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace>
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich Heine Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street>
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> not yet available </availability>
+<date> TBD </date>
+            </publicationStmt>
+            <sourceDesc>
+             
+              <bibl> <title> Why the Tortoise Has a Cracked Shell </title> <author> Konkomba people </author> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2​.1"/>
+                <tagsDesc>
+                    <rendition scheme="css" xml:id="mainTitle">font-size:large;</rendition>
+                    <rendition scheme="css" xml:id="umarked">term:unmarked;</rendition>
+                    <rendition scheme="css" xml:id="paragraph">display:block;</rendition>
+                </tagsDesc>
+            </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Chamba, Ghana">
+                     <placeName>Chamba, Ghana</placeName>
+                     <location>
+                         <geo>8.7, -0.133333</geo>      
+                     </location>
+                 </place>
+                  transcribed foktale from Likpakpaln as told by <name type="storyteller"> Vincent Nimobi Sagnan </name> on <date when="2019">4th November 2019 </date>in <name type="city">Chamba </name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+        </fileDesc>
+    
+    </teiHeader>
+   
+    <text>
+        <body>
+            <head type="mainTitle" rend="font-size(140%)">WHY THE TORTOISE HAS A CRACKED SHELL
+            </head>
+            <p>(As told by Nimobi Sagnan on 4th November 2019 in Chamba, Ghana)</p>
+            <div type="section">
+          <head type="subTitle">Introduction</head> 
+           <p> The following is a Konkomba folktale that relates how and why the tortoise has a rough, cracked shell. The story is situated in an imaginary, nameless animal kingdom where animals
+            assume human qualities and relate to one another. In this tale, the tortoise (the second wisest
+            animal next to the rabbit or hare or bunny in Konkomba folklore) is characterized as wise but
+            greedy; and his greed at a social function where he is a guest results in a dire consequence—an
+            accident that badly damages his shell.</p>
+           </div>
+           <div type="section">
+            <head type="subTitle">Full story</head>
+            <p><q>Do you know why the tortoise has a badly cracked shell?</q>, Nimobi asks.</p>
+            <p><hi rend="italic">(He pauses and casts a glance at his audience who variously respond excitedly: <q>Tell us!</q><q> We don't know!</q><q>No!</q>)</hi></p>
+<p>Nimobi continues:
+</p>
+<p>Once upon a time, the tortoise and the partridge were very good friends. They did almost
+    everything together. Every evening, they met under a shady tree outside Mr. Tortoise’s house to chat and drink <term xml:id="tdpv3" rend="normalfont">pito</term>. Mrs. Tortoise would usually serve them her delicious <term xml:id="tdpv3" rend="umarked">pito</term> 
+and cook them a sumptuous meal. One evening during their drinking escapade, Mr. Partridge invited his friend
+to the birds’ annual <term xml:id="tdpv1" rend="unmarked">Ndipoandaan</term> festival which was scheduled to take place on the next <term xml:id="tdpv2" rend="unmarked">Alasima Koofɛ</term>. On hearing that, Mr. Tortoise let out a loud, long laugh and asked: </p>
+<p>"How am I supposed to get to your house on top of that tall tree? You know I don't have wings like you, my friend?"</p>
+<p>"Don't worry, my friend. Some of my colleagues and I will lend you some feathers to fly," replied the partridge.</p>
+<p>     The next market day, the tortoise went to the market and bought new clothes, footwear,
+    and a haversack in readiness for the <term xml:id="tdpv1" rend="unmarked"> Ndipoandaan </term>. On the day of the festival, the tortoise flew
+    to the summit of the Mahogany tree on which the birds had converged for the feast. His friend
+    introduced him to his family, friends, and the other guests as Mr. Tortoise; but on each occasion,
+    the tortoise jokingly introduced himself rather as Nimɔmɔk, transliterated literally as  All-of-You. </p>
+    <p><hi rend="italic">(Audience interrupt: <q>Nimɔmɔk?</q> quizzes one of Nimobi’s audience.)</hi> </p>
+    <p><q>You heard me right,</q> Nimobi replies and continues his narration.</p>
+    <p>He changed his name to All-of-You! The witty Mr. Tortoise had a mischievous trick up his sleeves. When it was time to eat and drink, whenever the servants brought food or drinks the tortoise would ask: <q>Whose is this?</q> 
+    </p>
+    <p>To which they would reply: <q type="spoken">All-of-You!</q></p>
+    <p>The tortoise would immediately empty all the food into the haversack he had taken with him to the festival. Why?  
+        Because his new name at the festival was All-of-You! As a result, the other guests and friends of the partridge who were at the same table with Mr. Tortoise had nothing to eat. This infuriated them and the birds immediately hatched a plan to punish the tortoise for his greed. 
+    </p>
+    <p>After the feast, all the birds who had lent the tortoise feathers decided to take back their feathers so the tortoise had no wings to fly back home. The tortoise then sent word to his wife through the rabbit (who was also a guest at the festival) 
+    to bring out all their clothes and everything soft enough and pile them under the tree so that he could fall onto the pile of clothes without hurting himself.
+     However, the wittier rabbit and his angry bird buddies told Mrs. Tortoise on arrival that her husband had asked that she heap rocks and every hard thing she could find under the tree. So Mrs. Tortoise did exactly as she had been told.
+      When the tortoise looked down and saw the mountain of rocks under the tree, he thought it was a heap of clothes so he tossed himself off the tree and landed on the rocks, only to realise that they were not as soft as he had expected. 
+     Fortunately for him, he survived the fall but damaged his shell badly. 
+    </p>
+    <p>That’s why till date the tortoise’s shell has so many cracks. So you see, it’s not good to be greedy; greed will only ruin your relationships and hurt you too, like it did the tortoise. 
+        May my story diminish while I grow as tall as my grandfather’s male Kapok tree. <note type="footnote" n="1" place="bottom"> This is one of the numerous ways in which a Konkomba storyteller can end his or her story. This particular type of ending suggests that Konkombas believe that storytelling (or entertainment in the broader sense) has a health benefit, especially healthy physical growth. The association of storytelling with physical growth is so entrenched in Konkomba belief system that it is even believed that when a child engages in storytelling at daytime—for Konkomba storytelling sessions are held normally in the evenings after supper/dinner—he or she will have stunted growth.
+         Also, the reference to the grandfather’s male Kapok tree in this type of ending points to the patriarchal nature of traditional Konkomba society. </note> </p>
+            </div>
+
+<div type="section">
+    <head type="subtitle">A glossary of Likpakpaln words and phrases</head>
+    <list type="gloss">
+    <label><hi rend="bold"> Alasima Koofɛ:</hi> </label>
+     <item> <gloss target="#tdpv2">the big Friday market day. Konkombas have a six-day weekly calendar. Their market days are usually held in every sixth days’ time. Alasima Koofɛ is usually the big market day that falls on a Friday (Alasima). It is a day of rest and a sacred day on which Konkombas abstain from farming and pacify the land because it is a day of visitation by the gods/goddesses (especially the litingbawaal, the earth god) and ancestral spirits.
+</gloss> </item> 
+    <label>  <hi rend="bold">Ndipoandaan:</hi> </label>
+         <item> <gloss target="#tdpv1"> transliterated literally as fresh guinea corn drink. The Ndipoandaan festival is normally celebrated by Konkombas in January after the harvest of their crops to thank God, their gods/goddesses, and their ancestors for protection in the previous year and for a good harvest.
+ </gloss>  </item> 
+  <label> <hi rend="bold">Pito:</hi> </label>
+    <item> <gloss target="#tdpv3">a locally brewed beverage of the Konkomba people (and a few other northern ethnic groups in Ghana). It is made out of guinea corn. Though it can be consumed as a sweet beverage, it is mostly fermented into an alcoholic drink. </gloss></item>
+
+</list>
+    </div>
+        </body>
+    </text>
+</TEI>

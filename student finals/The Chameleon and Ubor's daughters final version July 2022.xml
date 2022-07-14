@@ -1,0 +1,163 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> THE CHAMELEON AND UBↃR’S DAUGHTERS </title>
+                <storyteller> Waja Ngnalbu </storyteller>
+                <author>Konkomba oral tradition</author>
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name> Noah Kann </name>
+                    <name> Alessia Pasquarelli </name>
+                    <name> Elena Lysova </name>
+                    <resp> coding and editing </resp>
+                </respStmt>
+                <respStmt> 
+                    <name> Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitization"> E-Learning Förderfonds HHU </sponsor>
+                <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich Heine Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name></address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status> not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace>
+                <address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                <name type="institution"> Heinrich Heine Universität Düsseldorf </name>
+                <street> Universitätsstraße 1 </street>
+                <postCode> 40225 </postCode>
+                <name type="city"> Düsseldorf </name>
+                <name type="country"> Germany </name>
+                </address>
+            <availability> not yet available </availability>
+            <date> TBD </date>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl> <title> THE CHAMELEON AND UBↃR’S DAUGHTERS </title> <author> Konkomba people oral tradition </author> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2​.1"/>
+        
+            <editorialDecl>
+                no author can be assigned to the story, as it is an oral tradition of a people with no original written source or record
+            </editorialDecl>
+            <projectDesc>
+                The project focuses on digitizing oral folktales from
+                Ghana, specifically the Konkomba people, through different media. The
+                project puts a body of oral folktales into writing and eventually makes
+                them available as annotated, digitized
+                narratives. It thus aims to make a contribution to visibilising this
+                culture, which through processes of colonisation, the accompanying
+                priviledging of written/print culture and Eurocentric/Western thinking
+                has been marginalised.
+            </projectDesc>
+            </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Chamba, Ghana">
+                     <placeName>Chamba, Ghana</placeName>
+                     <location>
+                         <geo>8.7, -0.133333</geo>      
+                     </location>
+                 </place>
+                  transcribed foktale from Likpakpaln as told by <name type="storyteller"> Waja Ngnalbu </name> on <date when="2020">21st February 2020 </date>in <name type="city">Chamba </name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+            </profileDesc>
+        </fileDesc>
+    </teiHeader>
+
+<text>
+    <body>
+        <div type="section">
+        <head type="Main Title">
+           THE CHAMELEON AND <term xml:id="tdpv2"> UBↃR’S </term> DAUGHTERS 
+        </head>
+        </div>
+        
+        <div type="section">
+        <head type="subTitle">Introduction</head>
+        </div>
+        <p>In this story, wisdom is projected as a key element in achieving one’s ambitions or goals. 
+        The story presents a chameleon who employs a clever method to win the hand of Ubɔr’s beautiful daughter in marriage. 
+        Here the chameleon is presented as the wisest of all in the village even though in Konkomba folklore that character trait is mostly the preserve of the rabbit or bunny. 
+        As evidenced here, therefore, the chameleon (and sometimes the tortoise) assumes the role of the wisest animal character who uses wisdom and tricks to outwit others. 
+        In this tale, the chameleon’s wisdom makes him to succeed at what others fail at.</p>
+        <p>
+            If you want to listen to the Likpakpaln narration, <ref target="https://mediathek.hhu.de/watch/8d5e9006-3e06-40d6-8b55-5e0703e6a772">click here</ref>.
+        </p>
+       
+        <div type="section">
+        <head type="subTitle">Story</head>
+        </div>
+        <p>“Here goes my story,” Waja announces. 
+        Once upon a time, there lived a Ubɔr who had three daughters. One of them was very pretty and always had an aura of calmness around her. 
+        These three daughters were raised in isolation and so no one in the village knew their names. 
+        When they became of age and started interacting with other members of the village, everyone wanted to know their names, 
+        but the girls always refused to reveal their names, for their father forbade them from doing so.</p>
+
+        <p>One day Ubɔr sent word throughout the village that his beautiful daughter was of age to marry and that any young man who was able to tell him the names of his three daughters 
+        would have her hand in marriage. All the interested young men tried in vain to get the girls to tell them their names.</p> 
+        
+        <p>One day the chameleon announced his intention to take up Ubɔr’s challenge and uncover the names of the girls so as to marry the beautiful one. 
+        The next day he spent his time spying on the girls. The girls decided to go and collect firewood later that day so on hearing that the chameleon quickly ran 
+        ahead and hid atop a tree along the path the girls would take when going to collect the firewood.</p>
+
+        <p>When eventually the girls were approaching, he plucked some leaves, chewed them, and spat the contents on the girls when they were passing right under 
+        the tree on which he was hiding. One of the girls looked up and spotted the chameleon hiding in the tree. 
+        The chameleon started changing the color of his skin from one color to another, whereupon the girl called out to one of her sisters, “Alewa, look at this amazing spectacle.” 
+        On seeing it, the second girl in turn tapped the third girl and said: “Dindilinya, look at this.” 
+        The third sister looked up and on seeing the color-changing chameleon, asked the sister who first saw the chameleon: “Alakusa, what is that?” 
+        The chameleon got to know their names, so when the girls finally left, he descended and headed straight to Ubɔr’s palace.</p>
+        
+        <p>On reaching the palace he told Ubɔr and his elders that he knew the three girls’ names and that Ubɔr should summon the entire village so that he would tell everyone the girls’ names. 
+        When everyone assembled, the chameleon then told the village the names of the girls. 
+        After hearing the names, Ubɔr nodded in affirmation, everyone clapped for the chameleon, and the girl was given to him in fulfillment of Ubɔr’s promise.</p> 
+        
+        <p>In this life, if you are wise, you will always succeed where others fail. 
+        <term xml:id="tdpv1">Maa tiin gur, ki gur, ki gur ki m-muun, ki muun ke n-yajah agbenja na.</term></p>
+
+       <div type="section">
+        <head type="subTitle">Glossary</head>
+        <list type="gloss">
+            <label> <hi rend="bold">Maa tiin gur, ki gur, ki gur ki m-muun, ki muun ke n-yajah agbenja na.: </hi></label>
+            <item> 
+            <gloss target="#tdpv1">transliterated as “May my story diminish and diminish and diminish whilst I grow and grow as tall as my grandfather’s male Kapok tree.” 
+            This is one of the numerous ways in which a Konkomba storyteller can end his/her story. 
+            This particular type of ending suggests that Konkombas believe that storytelling (or entertainment in the broader sense) 
+            has a health benefit, especially healthy physical growth. 
+            The association of storytelling with physical growth is so entrenched in Konkomba belief system 
+            that it is even believed that when a child engages in storytelling at daytime—for Konkomba storytelling sessions 
+            are held normally in the evenings after supper/dinner—he or she will have stunted growth. 
+            Also, the reference to the grandfather’s male Kapok tree in this type of ending points to the patriarchal nature of traditional Konkomba society.
+            </gloss>
+            </item>
+            <label> <hi rend="bold">Ubɔr:</hi></label>
+            <item>
+            <gloss target="#tdpv2">the political head of a Konkomba community. 
+            Ubɔr is usually the eldest male member of the royal family. 
+            He inherits that position from his father after the latter’s demise. 
+            </gloss>
+            </item> 
+        </list>    
+        </div>
+    </body>
+</text>
+
+    </TEI>

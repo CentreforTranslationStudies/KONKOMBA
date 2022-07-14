@@ -1,0 +1,178 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title> GOD GAVE EVERYONE A TALENT </title>
+                <author> Konkomba oral tradition </author>
+                <storyteller> Ndombi Kitindo </storyteller>
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name> Joline Klein </name>
+                        <name> Anh Pham Ho Tuan </name>
+                            <name>Raúl Wöstefeld Bautista </name>
+                    <resp> coding and editing </resp>
+                </respStmt>
+                <respStmt> 
+                    <name> Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitization"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Dienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich Heine Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name></address>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status> not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace>
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich Heine Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street>
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> not yet available </availability>
+<date> TBD </date>
+            </publicationStmt>
+
+            <seriesstmt>
+                <title> not yet available </title>
+                <respStmt>
+                <resp> responsible organisation(s) needs to be added </resp>
+                <name> to be determined </name>
+                </respStmt>
+                <biblScope unit="volume">1</biblScope>
+                <idno type="ISSN"> not yet available </idno>
+            </seriesstmt>
+
+            <sourceDesc>
+              <bibl>
+                <title> GOD GAVE EVERYONE A TALENT </title>
+                <author> Konkomba oral tradition </author>
+                <storyteller> Ndombi Kitindo </storyteller>
+                Translated by <editor role="translator"> Tasun Tidorchibe </editor>
+              </bibl> 
+            </sourceDesc>
+
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2​.1"/>
+                <tagsDesc>
+                </tagsDesc>
+                <projectDesc> The project focuses on digitizing oral folktales from Ghana, specifically the Konkomba people, through different media. The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitized
+                    narratives. It thus aims to make a contribution to visibilising this
+                    culture, which through processes of colonisation, the accompanying
+                    priviledging of written/print culture and Eurocentric/Western thinking
+                    has been marginalised. </projectDesc>
+                <refsDecl> to be determined </refsDecl>
+            <editorialDecl> The translation didn't contain notes in the first place. No need to create footnotes. In the interest of overview, we have arranged the words in the glossary in order of their appearance in the story. </editorialDecl>
+            </encodingDesc>
+
+            <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Chamba, Ghana">
+                     <placeName>Chamba, Ghana</placeName>
+                     <location>
+                         <geo>8.7, -0.133333</geo>      
+                     </location>
+                 </place>
+                  transcribed foktale from Likpakpaln as told by <name type="storyteller"> Ndombi Kitindo </name> on <date when="2019">4th November 2019 </date>in <name type="city">Chamba </name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>Transcribed Konkomba oral folktale</textClass>
+            </profileDesc>
+
+        </fileDesc>
+    
+    </teiHeader>
+
+
+<text>
+    <body>
+        <head type="mainTitle">GOD GAVE EVERYONE A TALENT</head>
+        <p> (As told by Ndombi Kitindo on 04.11.2019 in Chamba, Ghana) </p>
+        <head type="subTitle">Introduction</head>
+
+        
+        <p>The following story is about a group of differently gifted young men who use their abilities or strengths to save their father from drowning and from the claws of a hawk.
+        Aimed at demonstrating that everyone has something valuable to contribute to society, the story relates a farming competition between a farmer’s sons,
+        which eventually results in the old farmer falling into a well and his subsequent rescue through the collaborative efforts of his sons.</p>
+
+        <p>If you want to listen to the Likpakpaln narration, <ref target="https://mediathek.hhu.de/watch/5a5b7704-dce8-4978-8738-21793ca2da24">click here</ref>.</p>
+        
+        <head type="subTitle">Story</head>
+        
+       <p> Once upon a time there was a man who had several sons who were farmers. They were very hardworking, especially the eldest son.
+        As a result, whenever they went to farm, his father and his brothers could not keep up with him. This made him very overbearing.</p>
+
+       <p> One day he suggested that they have a farming contest to see who the best farmer was.
+        The rules of the contest were that they had to farm all day, on empty stomachs, and without pauses to rest.
+        The other brothers agreed reluctantly. So the following day they all set off as usual and went to farm and started the competition.
+        At midday their father decided to pay them a visit to see how the contest was progressing.
+        On arrival, he realized that his younger sons were far behind their elder brothers so out of pity he decided to roast yam for them.
+        After making the fire and roasting the yam, he decided to go and fetch water from some wells nearby for them to drink after eating.
+        Unfortunately, whilst attempting to draw water from one of the wells, the old man fell into it.</p>
+
+        <p>After a while, one of the old man’s sons, whose name was <term xml:id="tdpv1">Liteelr</term>,
+        reminded his brothers that their father had taken rather long in returning so they should check on him to find out what the problem was.
+        Unfortunately, there were several paths leading to the wells so their father could
+        have taken any of them. The sons were therefore at a loss as to which path to take.
+        One of the man’s sons, whose name was <term xml:id="tdpv2">Usanbaan</term>, told his brothers which path their father took.
+        The boys took the path and searched for their father all the way to the place the wells were located.
+        One of them suggested that they check in the wells to see if their father had fallen into one of them.
+        But because there were many wells and dugouts they needed the help of the hole-finder to pinpoint the specific well their father might have fallen into.
+        Another of the man’s sons, whose name was <term xml:id="tdpv3">Unyuunbunbaan</term> stepped up and told his brothers which well their father had fallen into.</p>
+
+       <p> Another of the boys, <term xml:id="tdpv4">Unyuunwul</term>, who was skilled in swimming, descended into the well to rescue their father.
+        After diving in and searching for a while, he emerged from under the water and told his brothers that he couldn’t find their father.
+        He told them that the well contained a lot of fish so perhaps one of them had swallowed their father.
+        The fisherman, Ujaanbaan, was summoned by the eldest son to fish so that they could cut open the fish that had swallowed their father and save him.
+        Ujaanbaan subsequently stepped up and after a good catch, they finally found the fish. They cut open the fish and found their father inside it.</p>
+
+       <p> Just when they were about to jubilate, a big hawk swooped in, snatched their father, and flew to the top of a tall tree.
+           <term xml:id="tdpv5">Utayator</term> was quick to pull out his slingshot and slung a stone at the hawk who dropped their father.
+        As their father was falling from the tall tree, <term xml:id="tdpv6">Uwanchur</term> ran forward and caught their father before he hit the ground.
+        They took their father home and celebrated.
+        From that day on, the eldest son learnt to respect and cherish his younger brothers.</p>
+
+       <p> So you see, everyone has his or her unique strength. God never created anyone without a gift or an ability. This is the end of my story.</p>
+        
+    <div type="section">  
+       <head type="subTitle">A glossary of Likpakpaln words and phrases</head>
+       <list type="gloss">
+           <label><hi rend="bold"> Liteelr:</hi></label>
+           <item><gloss target="#tdpv1">literally translated as a retentive memory. The full phrase is “wun kpa litelr na” (the-one-with-a-retentive-memory). In this tale’s context,
+           it means that this son had the gift of remembering things.</gloss></item>
+    
+           <label><hi rend="bold"> Usanbaan:</hi></label>
+           <item><gloss target="#tdpv2"> literally translated as “the pathfinder.” His superpower was tracking and finding lost items or people.</gloss></item>
+           
+           <label><hi rend="bold"> Unyuunbunbaan:</hi></label>
+           <item><gloss target="#tdpv3">transliterated as the well finder. This son’s superpower was the ability to pinpoint the right well their father had fallen into.</gloss></item>
+           
+           <label><hi rend="bold"> Unyuunwul:</hi></label>
+           <item><gloss target="#tdpv4">swimmer. This son’s superpower was swimming.</gloss></item>
+           
+           <label><hi rend="bold"> Utayator:</hi></label>
+           <item><gloss target="#tdpv5">transliterated as the catapult shooter or the sling shooter. In other words, he was the sniper in the group.</gloss></item>
+           
+           <label><hi rend="bold"> Uwanchur:</hi></label>
+           <item><gloss target="#tdpv6">transliterated as the catcher of things. He had good reflexes and the ability to catch things.</gloss></item>
+    </list>
+       </div>    
+         </body>
+       </text>
+    </TEI>

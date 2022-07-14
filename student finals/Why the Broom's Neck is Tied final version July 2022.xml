@@ -1,0 +1,161 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> WHY THE BROOM'S NECK IS TIED </title>
+                <storyteller> Vincent Nimobi Sagnan</storyteller>
+                <author> Konkomba oral tradition</author>
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                        <name> Tabita Zaboboka </name>
+                        <name> Nils Jaworski  </name>
+                        <name> Nina Lang </name>
+                        <name> Aaron Kassat </name>
+                        <resp> coding and editing </resp> 
+                    </respStmt>
+                    <respStmt>
+                    <name> Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitization"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich Heine Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name></address>  
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status> not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace>
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich Heine Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street>
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> not yet available </availability>
+<date> TBD </date>
+            </publicationStmt>
+            <sourceDesc>
+             
+              <bibl> <title> Why the Broom's neck is tied </title> <author> Konkomba oral tradition </author> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+            <encodingDesc>
+                <editorialDecl> Treating notes the same way as the glossary istead of using footnotes </editorialDecl>
+                <projectDesc> The project focuses on digitizing oral folktales from Ghana, specifically the Konkomba people,through different media.The project puts a body of oral folktales into writing and eventually makes them available as annotated,digitized narratives. 
+                    It thus aims to make a contribution to visibilsing this culture,which through processes of colonisation,the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised</projectDesc>
+                <styleDefDecl scheme="css" Version="2.1"/>
+            </encodingDesc>
+             <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Chamba, Ghana">
+                     <placeName>Chamba, Ghana</placeName>
+                     <location>
+                         <geo>8.7, -0.133333</geo>      
+                     </location>
+                 </place>
+                  transcribed foktale from Likpakpaln as told by <name type="storyteller">Nimobi Sagnan </name> on <date when="2019">4th November 2019 </date>in <name type="city">Chamba </name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+            </profileDesc>
+        </fileDesc>
+    
+    </teiHeader>
+    
+    <text>
+        <body>
+            <head type="mainTitle"> WHY THE BROOM’S NECK IS TIED
+            </head>
+            <p> (As told by Nimobi Sagnan on 4th November 2019 in Chamba, Ghana)</p>
+           <head type="subTitle">Introduction</head>      
+             <p> The following story gives an explanation as to why the individual broom sticks of the local broom are bound together into a bundle. 
+                 The story revolves around the illicit amorous relationship between an <term xml:id="tdpv4">Ubɔr</term> and his mother, which is witnessed and made public by the broom through gossip. 
+                 At the center of the tale therefore are issues of incest and gossip and their consequences—Ubɔr among them being the damage to Ubɔr’s reputation and the broom’s perpetual suffocation as punishment.</p>
+                 <p> If you want to listen to the Likpakpaln narration, <ref target="https://mediathek.hhu.de/watch/33c2f7b8-a207-437d-be8b-bb8917063718">click here.</ref></p>
+            <head type="subTitle">Story</head>
+            <p> A long, long time ago, <term xml:id="tdpv1"> n-ŋaan </term> existed as individual broom sticks.
+                Whenever it was time to use it to sweep, all its parts were then brought together.
+                A rope was never tied around <term xml:id="tdpv1"> n-ŋaan’s </term> neck as is the case today. 
+                Should I tell you why the broom is now tied? Nimobi asks his audience.</p>
+            <p><q>Why;yes, tell us; we want to know,</q> audience resond variously.</p>
+            <p> There once lived a great Ubɔr who had several wives and children. 
+                He was very wealthy and generous. For this reason, he was much loved and highly respected by all. 
+                But Ubɔr had a dark secret that was known only to <term xml:id="tdpv1">n-ŋaan </term> who lay in Ubɔr’s mother’s room. 
+                What was this secret? Despite having numerous wives, he was in an incestuous relationship with his biological mother. 
+                At night, whenever his wives and children went to bed, he snuck into his mother’s bedroom and slept with her. </p>
+                <p>  <term xml:id="tdpv1">  N-ŋaan </term> , who lay in Ubɔr’s mother’s room all the time, witnessed the abominable act but never opened his mouth to anyone about the illicit affair. 
+                    The affair therefore continued for a very long time without anyone’s knowledge. 
+                    One day the mouse, who also lived in Ubɔr’s palace, was running across the rooms on top of the <term xml:id="tdpv2"> nlɔkja </term> in search of materials to construct his bed, spotted <term xml:id="tdpv1">n-ŋaan </term> lying in Ubɔr’s mother’s room, and descended to take some of <term xml:id="tdpv1">n-ŋaan’s </term> sticks to make his bed.
+                   <term xml:id="tdpv1"> N-ŋaan </term> however begged for his life in exchange for a big secret he was ready to divulge to the mouse. The mouse retorted:</p>
+                   <p>“What can you who stays indoors all your life possible tell me that I don’t already know?”</p>
+                   <p>After much persuasion, the mouse obliged and spared <term xml:id="tdpv1">n-ŋaan’s</term> life. The latter then told the former: </p>
+                   <p> “Our Ubɔr has been having carnal knowledge of his mother right in this room.”</p>
+                  <p> The following day, whilst the mouse was on some errands, he ran into the cat who started pursuing him to eat him. 
+                      When the cat eventually caught the mouse, the mouse in turn begged for his life, promising to tell the cat a big secret he alone was privy to. 
+                      On sparing him, the mouse then told the cat:</p>
+                     <p> “Our Ubɔr has been having carnal knowledge of his mother.”</p>
+                     <p>When asked how he came by that information, the mouse disclosed that <term xml:id="tdpv1">n-ŋaan</term> saw it with the naked eyes and told him. 
+                        Shortly after this encounter, the cat was on his way home and also ran into the dog and a hot pursuit ensued.
+                         Just when the dog caught the cat and was about to snuff out his life, the cat also asked for clemency in exchange for a big secret he had heard. 
+                          The dog spared his life and was told about the affair between Ubɔr and his mother. </p>
+                           <p>  <term xml:id="tdpv1">  N-ŋaan </term> , who lay in Ubɔr’s mother’s room all the time, witnessed the abominable act but never opened his mouth to anyone about the illicit affair. 
+            The affair therefore continued for a very long time without anyone’s knowledge. 
+            One day the mouse, who also lived in Ubɔr’s palace, was running across the rooms on top of the <term xml:id="tdpv2"> nlɔkja </term> in search of materials to construct his bed, spotted <term xml:id="tdpv1">n-ŋaan </term> lying in Ubɔr’s mother’s room, and descended to take some of <term xml:id="tdpv1">n-ŋaan’s </term> sticks to make his bed.
+           <term xml:id="tdpv1"> N-ŋaan </term> however begged for his life in exchange for a big secret he was ready to divulge to the mouse. The mouse retorted:</p>
+           <p>“What can you who stays indoors all your life possible tell me that I don’t already know?”</p>
+           <p>After much persuasion, the mouse obliged and spared <term xml:id="tdpv1">n-ŋaan’s</term> life. The latter then told the former: </p>
+           <p> “Our Ubɔr has been having carnal knowledge of his mother right in this room.”</p>
+          <p> The following day, whilst the mouse was on some errands, he ran into the cat who started pursuing him to eat him. 
+              When the cat eventually caught the mouse, the mouse in turn begged for his life, promising to tell the cat a big secret he alone was privy to. 
+              On sparing him, the mouse then told the cat:</p>
+             <p> “Our Ubɔr has been having carnal knowledge of his mother.”</p>
+             <p>When asked how he came by that information, the mouse disclosed that <term xml:id="tdpv1">n-ŋaan</term> saw it with the naked eyes and told him. 
+                Shortly after this encounter, the cat was on his way home and also ran into the dog and a hot pursuit ensued.
+                 Just when the dog caught the cat and was about to snuff out his life, the cat also asked for clemency in exchange for a big secret he had heard. 
+                  The dog spared his life and was told about the affair between Ubɔr and his mother. </p>
+            <p>The next morning, the dog went to drink water from the village river but <term xml:id="tdpv3">ukpindaan</term> wouldn’t allow him. <term xml:id="tdpv3">Ukpindaan</term> pounced on him to swallow him but the dog begged for his life, promising to tell <term xml:id="tdpv3">ukpindaan</term> a big secret if he let him live. The latter got curious, spared the dog’s life, and was told that Ubɔr was in an amorous relationship with his mother. Armed with this information, <term xml:id="tdpv3">ukpindaan</term> spent the rest of the day sunbathing and narrating the story to all who went to fetch water from the river. 
+            </p>
+            <p>Ubɔr’s illicit affair soon became talk of the village and he eventually got wind of it and ordered the arrest of <term xml:id="tdpv3">ukpindaan</term>. When questioned regarding the source of his story, <term xml:id="tdpv3">ukpindaan</term> disclosed that the dog was the source. The dog in turn confessed, upon interrogation, to hearing it from the cat. The cat was also picked up for questioning, whereupon he revealed that the mouse told him. When interrogated, the mouse pointed Ubɔr to <term xml:id="tdpv1">n-ŋaan</term> as his source. Ubɔr summoned <term xml:id="tdpv1">n-ŋaan</term> immediately and upon questioning, <term xml:id="tdpv1">n-ŋaan</term> said:</p>
+            <p>“I witnessed it with my naked eyes.”</p>
+            <p>Ubɔr became furious and ordered that from that day onward, <term xml:id="tdpv1">n-ŋaan’s</term> neck be tied with a rope to choke him slowly to death.</p>
+            <p>That is why till date <term xml:id="tdpv1">n-ŋaan’s</term> neck remains tied. This is the end of my story. Whether my story is interesting or not, I hand over the mantle to Sanja.<hi rend="superscript">1</hi> <hi>(Nimobi points at one of his listeners to tell the next tale)</hi></p>
+
+            <head type="subTitle">Note</head>
+            <p>1. In Konkomba storytelling, the storyteller can nominate anyone from his or her audience to
+                tell the next story, as Nimobi does above</p>
+
+
+            <head type="subTitle">Glossary</head>
+            <list type="gloss">
+                <label><hi rend="bold">Ubɔr:</hi></label>
+                <item><gloss target="#tdpv4">the political head of a Konkomba community. Ubɔr is usually the eldest male member of the royal family. 
+                He inherits that position from his father after the latter’s demise.</gloss></item>
+                <label><hi rend="bold">N-ŋaan:</hi></label>
+            <item><gloss target="#tdpv1">A local broom made up of tiny, soft sticks tied together with a rope into a bundle and
+                used for sweeping. One would usually have to hold it by the neck and bend down (rather than
+                stand) to sweep the floor.</gloss></item>
+                <label><hi rend="bold">Nlɔkja:</hi></label>
+            <item><gloss target="#tdpv2">The main wood or log (ridge) at the center of the roof to which all rafters are tied before
+                thatch or aluminum roofing sheets are placed over a room or building.</gloss></item>
+                <label><hi rend="bold">Ukpindaan:</hi></label>
+            <item><gloss target="#tdpv3">Transliterated as “the owner-of-the-river.” It is the euphemism Konkombas use for
+                the crocodile out of reverence. The crocodile is believed to be the embodiment of the Konkomba
+                river god/goddess. As a result, Konkombas typically do not kill crocodiles even though some
+                people who do not subscribe to this belief do kill them. The actual Likpakpaln name for the
+                crocodile is unyii.</gloss></item>
+            </list>
+            </body>
+        </text>
+</TEI>

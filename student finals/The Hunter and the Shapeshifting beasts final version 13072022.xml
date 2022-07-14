@@ -1,0 +1,158 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title>THE HUNTER AND THE SHAPESHIFTING BEASTS</title>
+                <storyteller>Wassan Jachan</storyteller>
+                <author>Konkomba oral tradition</author>
+                <editor>Tasun Tidorchibe</editor>
+                <respStmt>
+                    <name>Tasun Tidorchibe</name>
+                    <resp>transcript and translation</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Ava Braus</name>
+                    <name>Caroline Hielscher </name>
+                    <name> Nadine Hoffmann</name>
+                    <resp>coding and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Dr. Eva Ulrike Pirker</name>
+                    <resp>supervisor</resp>
+                </respStmt>
+                <sponsor type="digitization">E-learning Förderfonds HHU</sponsor> 
+                <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address>
+                    <name type="institution"> Centre for Translation Studies Düsseldorf</name>
+                    <name type="institution"> Heinrich Heine University Düsseldorf</name>
+                    <street>Universitätsstraße 1</street> 
+                    <postCode>40225</postCode> 
+                    <name type="city">Düsseldorf</name>
+                    <name type="country"> Germany</name>
+                </address>
+                
+            </titleStmt> 
+            <publicationStmt>
+                <publisher>Centre for Translation Studies Düsseldorf</publisher>
+                <status>not yet published</status>
+                <pubPlace>Düsseldorf</pubPlace>
+                <address> <name type="institution"> Centre for Translation Studies Düsseldorf</name>
+                    <name type="institution"> Heinrich Heine University Düsseldorf</name>
+                    <street>Universitätsstraße 1</street> 
+                    <postCode>40225</postCode> 
+                    <name type="city">Düsseldorf</name>
+                    <name type="country"> Germany</name>
+                </address>
+                <availability> not yet available </availability>
+                <date> TBD </date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl> <title> The Hunter and the Shapeshifting Beasts </title> <author> Konkomba oral tradition </author> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2​.1"/>
+            
+            <editorialDecl>Treating notes the same way as the glossary instead of using footnotes; no single author since it is based on a Konkomba oral tradition</editorialDecl>
+            <projectDesc>The project focuses on digitizing oral folktales from Ghana, specifically the Konkomba people, through different media. 
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitized
+                narratives. It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying
+                priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc></encodingDesc>
+            <profileDesc>
+                
+                <creation> Originally told in
+                    <place xml:id="Chamba, Ghana">
+                        <placeName>
+                            Chamba, Ghana
+                        </placeName>
+                        <location>
+                            <geo>8.7, -0.133333</geo>      
+                        </location>
+                    </place>
+                    transcribed foktale from Likpakpaln as told by <name type="storyteller"> Wassan Jachan </name> on <date when="2019">13th November 2019 </date>in <name type="city">Chamba </name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+            </profileDesc>
+        </fileDesc>    
+    </teiHeader>
+    <text> 
+         <body>
+         <head type="Title">THE HUNTER AND THE SHAPESHIFTING BEASTS</head>
+         <p> (As told by Wassan Jachan on 13th November 2019 in Chamba, Ghana)</p>
+         <div type="section"><head type="subTitle"> Introduction </head>
+        <p>
+            This tale presents secrecy as a virtue as it relates how the inability of a great
+            hunter to conceal his secrets results in his death at the hands of a shapeshifting beast.
+            The story relates how a skilled and highly revered hunter divulges the secrets of his success as a hunter to his wife, whom unbeknownst to him is a beast with shapeshifting abilities intent on killing him. 
+            Having discovered the hunter’s secrets he beast-turned-woman clandestinely follows the hunter on one of his hunting adventures and kills him in the forest. 
+            The story essentially presents hunting as one of the success measuring benchmarks among the Konkomba people as the storyteller hints at the commencement of the tale about the privileged social status of the hunter in his community. 
+             Unfortunately, like all great men, he dies as a result of his flaw. 
+        </p>
+        <p>If you want to listen to the Likpakpaln narration,<ref target="https://mediathek.hhu.de/watch/51e74e5a-eff4-4ee9-947d-da7c831f3a8a"> click here.</ref></p> </div>
+       <div type="section"> <head type="subTitle"> Story </head>
+        <p> 
+        <term xml:id="tdpv1"> “My story goes like this…,” Wassan announces and proceeds without waiting for his audience to respond.</term><hi rend="superscript"> 1 </hi> 
+        </p>
+        <p>There lived a great hunter in a certain village. He was well known in the village and beyond for his bravery and hunting prowess. <term xml:id="tdpv2">To his credit were countless
+            and different animal kills, most of whose skulls he hung in his <term xml:id="tdpv3">kinakuɔk</term> as memorabilia.</term><hi rend="superscript"> 2 </hi> As a result of his hunting prowess, he was highly revered by all. 
+            One remarkable thing about this hunter was that he was attacked on several occasions by wild beasts but on each occasion, he escaped without a scratch. 
+            He was therefore a torn in the flesh of the wild animals in the forest near the village.</p>
+        <p>One day a buffalo with shapeshifting abilities turned into a beautiful lady and visited the village with the intention of ascertaining the secret behind 
+            the hunter’s countless escapes from her attacks.  With her charms, she was able to make the hunter fall in love with her and eventually marry her. 
+            One day during one of their usual conversations, the hunter’s wife tricked him into divulging the secret regarding his numerous escapes from dangerous 
+            animals’ attacks during his hunting escapades in the forest. Unbeknownst to the hunter that his wife was one of those wild beasts that had tried to kill 
+            him in the past, the young hunter told his wife that one of his secrets was that whenever he shot at a wild beast and it attacked him, he shape-shifted 
+            into the stump of a tree. The second secret was that if the beast further pursued him, he shape-shifted into the nearest grass or shrub. As the hunter was
+            about to reveal his last secret, his father, who was within earshot and who had been listening all along, shouted at his son in disapproval. The hunter 
+            therefore stopped talking so his wife didn’t learn the last secret.</p>
+        <p>
+            Armed with the two secrets of the hunter, the shapeshifting buffalo clandestinely followed the hunter on his next hunting 
+            adventure in the forest. She shape-shifted into a buffalo and the hunter, on spotting the buffalo, shot at it. The 
+            buffalo then attacked him in anger but the hunter quickly shape-shifted into a stump. The buffalo pursued him further 
+            and he turned into the nearest grass. The buffalo charged at him again, whereupon he shape-shifted into a needle and 
+            stuck on its tail. Since the buffalo failed to learn the last of the hunter’s secrets it didn’t know what to attack 
+            next, so it decided to walk away. As it was walking away, the hunter dropped off its tail and killed it.
+        </p>
+        <p>
+            When the hunter carried his game home and was searching for his wife to share the good news with her, she was nowhere 
+            to be found. This left the hunter an eligible bachelor again. Unfortunately for him, another wild beast shape-shifted 
+            into another beautiful lady and came to the village. The hunter fell in love with her and eventually married her. This 
+            second wife was equally curious and wanted to know the hunter’s secrets in escaping all the perilous attacks from the 
+            beasts of the wild. Fortunately for the shapeshifting wife, the hunter’s father was not around to stop the hunter from 
+            divulging all his three secrets. The hunter told his shapeshifting wife that whenever he shot at a wild beast and it 
+            attacked him, he shape-shifted into the stump of a tree; if it further charged at him, he shape-shifted into the nearest 
+            grass or shrub; and if the beast further pursued him, he turned into a needle and stuck on its tail. After learning the 
+            hunter’s secrets, the wild beast tailed the hunter on his next hunting expedition, shape-shifted back into a wild beast 
+            and attacked him. The hunter as usual shape-shifted into a stump. The animal pursued him further and he turned into the 
+            nearest grass. On a third attack, he shape-shifted into a needle and stuck on the wild beast’s tail. The wild beast 
+            looked on its tail and found the needle the hunter had turned into and killed him. 
+        </p>
+        <p>
+            That is why our elders say that you should never divulge all your secrets to anyone. This is the end of my story. 
+        </p> </div>
+        <div type="section">
+        <head type="subTitle">Notes</head>
+        <p><gloss target="#tdpv1">1. Wassan’s commencement of his tale without waiting for a response from his audience is a common phenomenon in Konkomba storytelling culture.
+            On occasions when a storytelling session has been ongoing for a while, a storyteller who announces his or her intention to tell the next tale can commence without any interruption
+            from his or her audience since they have been listening and responding to previous storytellers. Their response is contextually implied in their silence and presence at the session.</gloss></p>
+        <p><gloss target="#tdpv2">2. In traditional Konkomba communities, the skulls of special and dangerous animals killed by one are usually hung in the kinakuɔk
+                 as they speak volumes about one’s bravery and status in society. One’s success at hunting is contingent on the number of special and dangerous animals 
+                 one has killed; and one’s success at hunting determines his social status in his community. In other words, among Konkombas success at hunting is one of 
+                 the achievement markers. For further details on Konkomba achievement culture, see my article, “Concepts of achievement among Konkombas: representations in 
+                 their folktales” in Forward, Upward, Onward? Narratives of Achievement in African and Afroeuropean Contexts.</gloss></p> </div>
+        <div type="section">
+        <head type="subTitle">Glossary</head>
+        <list type="gloss">
+            <label><hi rend="bold">Kinakuɔk:</hi></label>
+        <item><gloss target="#tdpv3">a round room that serves as the main entrance to a typical Konkomba house. It has two doors at both ends to serve as the 
+                passage in and out of the house. It also serves as the place where men usually relax or host visitors. In Ubↄr’s palace (ubɔr: the political head of a Konkomba community. 
+                Ubɔr is usually the eldest male member of the royal family. He inherits that position from his father after the latter’s demise.), the kinakuɔk usually has a stage 
+                or raised platform where Ubↄr sits to hold meetings and perform other functions. Thus, the kinakuɔk can assume political significance rather than being 
+                a mere passage or a place for hanging out.</gloss></item>
+</list>
+</div>
+    </body>
+</text>
+</TEI>

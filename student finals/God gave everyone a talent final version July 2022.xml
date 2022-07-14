@@ -104,7 +104,7 @@
     <body>
         <head type="mainTitle">GOD GAVE EVERYONE A TALENT</head>
         <p> (As told by Ndombi Kitindo on 04.11.2019 in Chamba, Ghana) </p>
-        <head type="subTitle">Introduction</head>
+        <div type="section"><head type="subTitle">Introduction</head>
 
         
         <p>The following story is about a group of differently gifted young men who use their abilities or strengths to save their father from drowning and from the claws of a hawk.
@@ -112,7 +112,8 @@
         which eventually results in the old farmer falling into a well and his subsequent rescue through the collaborative efforts of his sons.</p>
 
         <p>If you want to listen to the Likpakpaln narration, <ref target="https://mediathek.hhu.de/watch/5a5b7704-dce8-4978-8738-21793ca2da24">click here</ref>.</p>
-        
+        </div>
+        <div type="section">
         <head type="subTitle">Story</head>
         
        <p> Once upon a time there was a man who had several sons who were farmers. They were very hardworking, especially the eldest son.
@@ -149,7 +150,7 @@
         From that day on, the eldest son learnt to respect and cherish his younger brothers.</p>
 
        <p> So you see, everyone has his or her unique strength. God never created anyone without a gift or an ability. This is the end of my story.</p>
-        
+        </div>
     <div type="section">  
        <head type="subTitle">A glossary of Likpakpaln words and phrases</head>
        <list type="gloss">

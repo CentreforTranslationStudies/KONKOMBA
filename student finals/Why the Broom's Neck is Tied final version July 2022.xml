@@ -79,12 +79,14 @@
             <head type="mainTitle"> WHY THE BROOM’S NECK IS TIED
             </head>
             <p> (As told by Nimobi Sagnan on 4th November 2019 in Chamba, Ghana)</p>
+            <div type="section">
            <head type="subTitle">Introduction</head>      
              <p> The following story gives an explanation as to why the individual broom sticks of the local broom are bound together into a bundle. 
                  The story revolves around the illicit amorous relationship between an <term xml:id="tdpv4">Ubɔr</term> and his mother, which is witnessed and made public by the broom through gossip. 
                  At the center of the tale therefore are issues of incest and gossip and their consequences—Ubɔr among them being the damage to Ubɔr’s reputation and the broom’s perpetual suffocation as punishment.</p>
                  <p> If you want to listen to the Likpakpaln narration, <ref target="https://mediathek.hhu.de/watch/33c2f7b8-a207-437d-be8b-bb8917063718">click here.</ref></p>
-            <head type="subTitle">Story</head>
+            </div> <div type="section">
+                <head type="subTitle">Story</head>
             <p> A long, long time ago, <term xml:id="tdpv1"> n-ŋaan </term> existed as individual broom sticks.
                 Whenever it was time to use it to sweep, all its parts were then brought together.
                 A rope was never tied around <term xml:id="tdpv1"> n-ŋaan’s </term> neck as is the case today. 
@@ -131,12 +133,12 @@
             <p>“I witnessed it with my naked eyes.”</p>
             <p>Ubɔr became furious and ordered that from that day onward, <term xml:id="tdpv1">n-ŋaan’s</term> neck be tied with a rope to choke him slowly to death.</p>
             <p>That is why till date <term xml:id="tdpv1">n-ŋaan’s</term> neck remains tied. This is the end of my story. Whether my story is interesting or not, I hand over the mantle to Sanja.<hi rend="superscript">1</hi> <hi>(Nimobi points at one of his listeners to tell the next tale)</hi></p>
-
+            </div> <div type="section">
             <head type="subTitle">Note</head>
             <p>1. In Konkomba storytelling, the storyteller can nominate anyone from his or her audience to
-                tell the next story, as Nimobi does above</p>
+                tell the next story, as Nimobi does above</p> </div>
 
-
+<div type="section">
             <head type="subTitle">Glossary</head>
             <list type="gloss">
                 <label><hi rend="bold">Ubɔr:</hi></label>
@@ -156,6 +158,7 @@
                 people who do not subscribe to this belief do kill them. The actual Likpakpaln name for the
                 crocodile is unyii.</gloss></item>
             </list>
+            </div>
             </body>
         </text>
 </TEI>

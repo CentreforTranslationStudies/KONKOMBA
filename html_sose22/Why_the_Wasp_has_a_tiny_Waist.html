@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Why the Wasp Has a Tiny Waist</title>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<style>
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #f7f7f7;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.teiHeader {
+text-align: center;
+font-style: bold;
+visibility: hidden;
+}
+
+  li {
+    list-style-type: none
+  }
+
+  ul {
+    margin-left: 0;
+    padding-left: 0
+  }
+
+
+  #sidebar, #content {
+    position: absolute;
+  }
+
+  #sidebar {
+    top: 0px;
+    width: 25%;
+    bottom: 0px;
+    background: #ffffff;
+    height: 100%;
+  }
+
+  #content {
+    top: 0px;
+    left: 25%;
+    right: 0;
+    bottom: 0px;
+    background: #f7f7f7;
+    -moz-transition: left 0.5s ease;
+    transition: left 0.5s ease;
+    }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 10% 70%;
+    grid-column-gap: 5%;
+    height: calc(100vh - 90px);;
+  }
+.hi {
+font-weight: bold;
+}
+
+  #col-main{
+    box-shadow: -5px 0 15px -5px #dfe3eb, 5px 0 15px -5px #dfe3eb;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: #ffffff;
+    position: relative;
+    overflow-y: scroll;
+    height: calc(100vh - 50px);
+    margin: 1em;
+  }
+
+  a {
+    text-decoration: none;
+    color:  DimGray;
+text-decoration: underline;
+  }
+
+  #mySidebar {
+    position: relative;
+    overflow-y: scroll;
+    height: calc(100vh - 50px);
+  }
+
+  #mySidebar a:hover {
+    width: auto;
+    background-color: #394867;
+    color: #ffffff;
+  }
+
+  #mySidebar a {
+    display: block;
+    padding: 6px;
+    padding-left: 3em;
+    font-size: 12pt;
+  }
+
+  .inner_link {
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+  }
+
+  #toggle-button:hover {
+    background-color: #394867;
+    color: #ffffff;
+  }
+
+  #toggle-button {
+    background-color: #f7f7f7;
+    border: none;
+    color: #394867;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .simple-btn {
+    background-color: #f7f7f7;
+    border: none;
+    color: #394867;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .simple-btn:hover {
+    color: #0a1931;
+  }
+
+  #fileinfo {
+    font-size: 30px;
+  }
+
+  #magnifier {
+     font-size: 30px;
+     font-weight: bold;
+   }
+
+  #info-icon, #search-icon {
+    color: #394867 !important;
+  }
+    
+  #info-icon:hover, #search-icon:hover {
+    color: #0a1931 !important;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1050;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+  }
+
+  .modal:target {
+    opacity: 1;
+    pointer-events: auto;
+    overflow-y: auto;
+  }
+
+  .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+  }
+
+  @media (min-width: 576px) {
+    .modal-dialog {
+      max-width: 50%;
+      margin: 30px auto;
+    }
+  }
+
+  .modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+    background-color: #f7f7f7;
+  }
+
+  @media (min-width: 768px) {
+    .modal-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+  }
+
+  .modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+  }
+
+  .modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  .close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+  }
+
+  .close:focus,
+  .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+  }
+
+  .modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 15px;
+    overflow: auto;
+  }
+
+  .fileinfo-head {
+    color: #394867 !important;
+  }
+
+  .fileinfo-node {
+    color: #394867 !important;
+    font-style: italic;
+  }
+
+  .fileinfo-block div {
+    margin-bottom: 3em; 
+    /*background-color: #ffffff;*/
+  }
+
+  .fileinfo-block h3{
+    padding-left: 1em;
+  }
+
+  .fileinfo-text{
+    margin-left: 2em;
+  }
+
+  #fileinfo-content {
+    /*background-color: #f7f7f7;*/
+  }
+
+  #modal-Search {
+    background-color: white;
+  }
+
+  form{
+    text-align: center;
+  }
+
+
+  #search {
+    margin-top: 1em;
+  }
+
+  #search-header {
+    display: block;
+    visibility: hidden;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+  }
+
+  #search-header h3 {
+    color: #70757a;
+    font-weight: normal;
+    display: inline-block;
+    margin-left: 1em;
+  }
+
+  .search-result {
+    padding: 1em;
+    border-top: 10px solid #f7f7f7;
+    border-bottom: 10px solid #f7f7f7;
+    display: block;
+  }
+
+ select {
+   /*background-color: #f7f7f7;*/
+     border: 1px solid #9ba4b4;
+  padding: 12px 20px;
+  width: 15%;
+  /*border: none;*/
+border-radius: 4px;
+background-color: #9ba4b4;
+color: #ffffff;
+  }
+
+ input[type=text] {
+     border: 2px solid #9ba4b4;
+  padding: 12px 20px;
+  width: 50%;
+  border-radius: 4px;
+  }
+
+ input[type=text]:focus {
+  background-color: #f7f7f7 !important;
+}
+
+  .btn-search {
+    background-color: #394867 !important;
+    /*border: none;*/
+    border: 1px solid #394867;
+    color: #ffffff;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+.btn-download {
+    background-color: inherit;
+    border-radius: 15px;
+    border: 1px solid #394867;
+    color: #394867;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  .btn-download:hover {
+  background-color: #394867;
+  color: #ffffff;
+}
+
+  .disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.view-more a{
+color: #70757a;
+display: block;
+/*font-weight: bold;*/
+}
+.term {
+position: relative;
+display: inline-block;
+
+}
+
+.term .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+padding: 5px 0;
+border-radius: 6px;
+position: absolute;
+z-index: 1;
+top: 100%;
+left: 50%;
+margin-left: -60px;
+}
+
+.term:hover .tooltiptext {
+visibility: visible;
+}
+/* ---------------- Main -------------------- */
+.wrapper {
+display: grid;
+grid-template-columns: 15% 65% 15%
+}
+li {
+list-style-type: none
+}
+ul {
+margin-left: 0;
+padding-left: 0
+}
+main {
+font-size: 11pt
+}
+/* ---------------- Headers -------------------- */
+.head {
+font-size: 12pt;
+font-weight: bold
+}
+.publisher {
+color: green;
+font-size: 250%
+}
+.castGroup-head {
+letter-spacing: 0;
+font-size: 10pt;
+text-align: center;
+color: rgb(192, 192, 192)
+}
+.sp {
+font-size: 15pt
+}
+.speaker {
+font-weight: bold;
+font-style: italic
+}</style></head>
+<body>
+<main>
+<div class="sidebar" id="sidebar">
+<div class="sidenav" id="mySidebar">
+<ul>
+<li>
+<a href="#nav-tabContent">^ Back to the beginning</a>
+</li>
+<li><a href="#c0">WHY THE WASP HAS A TINY WAIST</a></li><li><a href="#c1">Introduction:</a></li><li><a href="#c2">Story</a></li><li><a href="#c3"> Note </a></li><li><a href="#c4"> A glossary of Likpakpaln words and phrases </a></li></ul>
+</div>
+</div>
+<div class="main-content" id="content">
+<div class="grid">
+<div class="column" id="col-left">
+<button class="opened" id="toggle-button" onclick="toggle()">☰</button>
+<button class="simple-btn" id="increasetext" onclick="increaseFont()">+</button>
+<button class="simple-btn" id="decreasetext" onclick="decreaseFont()">−</button>
+<button class="simple-btn" id="fileinfo"><a href="#openModal" id="info-icon">Ꭵ</a></button>
+<button class="simple-btn" id="magnifier"><a href="#openSearch" id="search-icon">⌕</a></button>
+<div class="modal" id="openModal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="modal-title">File description</h3>
+<a class="close" href="#close" title="Close">x</a>
+</div>
+<div class="modal-body" id="fileinfo-content">
+<div class="file-desc" xmlns:tei_ns="http://www.tei-c.org/ns/1.0"><h3 class="fileinfo-head">fileDesc</h3><div class="fileinfo-block">
+<h3 class="fileinfo-head">titleStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">title: </span><span> WHY THE WASP HAS A TINY WAIST </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">author: </span><span> Konkomba Oral Tradition(Ghana)</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">storyteller: </span><span>Waja Ngnalbu </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">editor: </span><span> Tasun Tidorchibe </span></p>
+<h3 class="fileinfo-head">respStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Tasun Tidorchibe </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">resp: </span><span>transcript, editing and translation</span></p>
+</div>
+<h3 class="fileinfo-head">respStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Linda Buedshiew</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Nii Nai Adjei-Mensah</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Lilli Bloch</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">resp: </span><span> coding and editing </span></p>
+</div>
+<h3 class="fileinfo-head">respStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Dr. Eva Ulrike Pirker </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">resp: </span><span> supervision </span></p>
+</div>
+<p class="fileinfo-text"><span class="fileinfo-node">sponsor: </span><span> E-Learning Förderfonds HHU </span></p>
+<h3 class="fileinfo-head">address</h3><div class="fileinfo-block"><p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Centre for Translation Studies Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Heinrich Heine Universität Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">street: </span><span> Universitätsstraße 1 </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">postCode: </span><span> 40225 </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Germany </span></p></div>
+<h3 class="fileinfo-head">sponsor</h3><div class="fileinfo-block">
+<h3 class="fileinfo-head">address</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Katholischer Akademischer Ausländer-Dienst</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">street: </span><span>e.V.Hausdorffstr. 151</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">postcode: </span><span>53129</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Bonn</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Germany</span></p>
+</div>
+</div>
+</div>
+<h3 class="fileinfo-head">publicationStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">publisher: </span><span> Centre for Translation Studies Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">status: </span><span> not yet published</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">pubPlace: </span><span> Düsseldorf </span></p>
+<h3 class="fileinfo-head">address</h3><div class="fileinfo-block"> <p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Centre for Translation Studies Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Heinrich Heine Universität Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">street: </span><span> Universitätsstraße 1 </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">postCode: </span><span> 40225 </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Germany </span></p>
+</div>
+<p class="fileinfo-text"><span class="fileinfo-node">availability: </span><span> not yet available </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">date: </span><span> TBD </span></p>
+</div>
+<h3 class="fileinfo-head">sourceDesc</h3><div class="fileinfo-block">
+<h3 class="fileinfo-head">bibl</h3><div class="fileinfo-block"> <p class="fileinfo-text"><span class="fileinfo-node">title: </span><span>Why the Wasp has a tiny waist</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">author: </span><span> Konkomba Oral Tradition </span></p> Translated by <p class="fileinfo-text"><span class="fileinfo-node">editor: </span><span> Tasun Tidorchibe </span></p> </div>
+</div>
+<h3 class="fileinfo-head">encodingDesc</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">projectDesc: </span><span>"The project focuses on digitizing oral folktales from Ghana, specifically the Konkomba people, through different media. 
+                    The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitized narratives. It thus aims to make a contribution to visibilising this 
+                    culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised."
+                </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">editorialDecl: </span><span>
+                    To render both the Likpakpaln song and its translation in parallel, we employed the used of a table since this allowed us to remain faithful to the transcription and made for easier reading  
+                </span></p>
+</div>
+<h3 class="fileinfo-head">profileDesc</h3><div class="fileinfo-block">
+<h3 class="fileinfo-head">creation</h3><div class="fileinfo-block"> Originally told in
+                <h3 class="fileinfo-head">place</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">placeName: </span><span>Chamba, Ghana</span></p>
+<h3 class="fileinfo-head">location</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">geo: </span><span>8.7, -0.133333</span></p>
+</div>
+</div>
+                  transcribed folktale from Likpakpaln as told by <p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Waja Ngnalbu</span></p> on <p class="fileinfo-text"><span class="fileinfo-node">date: </span><span>21st February 2020 </span></p>in <p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Chamba </span></p>, <p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Ghana</span></p>
+</div>
+<h3 class="fileinfo-head">langUsage</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">language: </span><span>Likpakpaln</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">language: </span><span>English</span></p>
+</div>
+</div>
+</div></div></div>
+</div>
+</div>
+</div>
+<div class="modal" id="openSearch">
+<div class="modal-dialog">
+<div class="modal-content" id="modal-Search">
+<div class="modal-header">
+<h3 class="modal-title">Search the document</h3>
+<a class="close" href="#close" title="Close">x</a>
+</div>
+<div class="modal-body" id="search-modal">
+<div id="search">
+<form id="search-form">
+<select id="mySelect" name="type">
+<option value="text">text</option>
+<option value="tag">tag</option>
+</select>
+<input id="myInput" name="query" placeholder="..." type="text"/>
+<button class="btn btn-search" id="btn search-btn" type="submit">Search</button>
+</form>
+</div>
+<div id="search-content">
+<div id="search-header">
+<h3 id="search-title"> </h3>
+<button class="btn btn-download disabled" disabled="true" id="download-txt" type="button">⇩ Download</button>
+</div>
+<div id="search-results"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="column" id="col-main">
+<div class="document" id="nav-tabContent"><div class="column" id="col2"><div class="TEI">
+<div class="teiHeader" hidden>
+<div class="fileDesc">
+<div class="titleStmt">
+<p class="title" id="idp273566936"> WHY THE WASP HAS A TINY WAIST </p>
+<p class="author" id="idp273567064"> Konkomba Oral Tradition(Ghana)</p>
+<p class="storyteller" id="idp273561304">Waja Ngnalbu </p>
+<p class="editor" id="idp273562200"> Tasun Tidorchibe </p>
+<div class="respStmt">
+<p class="name" id="idp273562840"> Tasun Tidorchibe </p>
+<p class="resp" id="idp273561432">transcript, editing and translation</p>
+</div>
+<div class="respStmt">
+<p class="name" id="idp273561688">Linda Buedshiew</p>
+<p class="name" id="idp273566296">Nii Nai Adjei-Mensah</p>
+<p class="name" id="idp273565528">Lilli Bloch</p>
+<p class="resp" id="idp273566040"> coding and editing </p>
+</div>
+<div class="respStmt">
+<p class="name" id="idp273562328"> Dr. Eva Ulrike Pirker </p>
+<p class="resp" id="idp273562456"> supervision </p>
+</div>
+<p class="sponsor" id="idp273567832" type="digitization"> E-Learning Förderfonds HHU </p>
+<div class="address"><p class="name" id="idp273565912" type="institution"> Centre for Translation Studies Düsseldorf </p>
+<p class="name" id="idp273567704" type="institution"> Heinrich Heine Universität Düsseldorf </p>
+<p class="street" id="idp230350376"> Universitätsstraße 1 </p>
+<p class="postCode" id="idp230348840"> 40225 </p>
+<p class="name" id="idp230351656" type="city"> Düsseldorf </p>
+<p class="name" id="idp230354600" type="country"> Germany </p></div>
+<div class="sponsor" type="funding">
+<div class="address">
+<p class="name" id="idp230349224" tyoe="institution">Katholischer Akademischer Ausländer-Dienst</p>
+<p class="street" id="idp230353064">e.V.Hausdorffstr. 151</p>
+<p class="postcode" id="idp230352808">53129</p>
+<p class="name" id="idp230353320" type="city">Bonn</p>
+<p class="name" id="idp230354856" type="country">Germany</p>
+</div>
+</div>
+</div>
+<div class="publicationStmt">
+<p class="publisher" id="idp230354984"> Centre for Translation Studies Düsseldorf </p>
+<p class="status" id="idp230351016"> not yet published</p>
+<p class="pubPlace" id="idp230353960"> Düsseldorf </p>
+<div class="address"> <p class="name" id="idp230350120" type="institution"> Centre for Translation Studies Düsseldorf </p>
+<p class="name" id="idp230350504" type="institution"> Heinrich Heine Universität Düsseldorf </p>
+<p class="street" id="idp230351400"> Universitätsstraße 1 </p>
+<p class="postCode" id="idp269445832"> 40225 </p>
+<p class="name" id="idp269446216" type="city"> Düsseldorf </p>
+<p class="name" id="idp269447752" type="country"> Germany </p>
+</div>
+<p class="availability" id="idp269445320"> not yet available </p>
+<p class="date" id="idp269444936"> TBD </p>
+</div>
+<div class="sourceDesc">
+<div class="bibl"> <p class="title" id="idp269445064">Why the Wasp has a tiny waist</p>
+<p class="author" id="idp269445192"> Konkomba Oral Tradition </p> Translated by <p class="editor" id="idp269445704" role="translator"> Tasun Tidorchibe </p> </div>
+</div>
+<div class="encodingDesc">
+<p class="projectDesc" id="idp217342408">"The project focuses on digitizing oral folktales from Ghana, specifically the Konkomba people, through different media. 
+                    The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitized narratives. It thus aims to make a contribution to visibilising this 
+                    culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised."
+                </p>
+<p class="editorialDecl" id="idp217343816">
+                    To render both the Likpakpaln song and its translation in parallel, we employed the used of a table since this allowed us to remain faithful to the transcription and made for easier reading  
+                </p>
+</div>
+<div class="profileDesc">
+<div class="creation"> Originally told in
+                <div class="place" href="ChambaGhana">
+<p class="placeName" id="idp217341512">Chamba, Ghana</p>
+<div class="location">
+<p class="geo" id="idp217344584">8.7, -0.133333</p>
+</div>
+</div>
+                  transcribed folktale from Likpakpaln as told by <p class="name" id="idp217569592" type="storyteller">Waja Ngnalbu</p> on <p class="date" id="idp217566392" when="2020">21st February 2020 </p>in <p class="name" id="idp217564472" type="city">Chamba </p>, <p class="name" id="idp217569208" type="country">Ghana</p>
+</div>
+<div class="langUsage">
+<p class="language" id="idp217564088" ident="lik">Likpakpaln</p>
+<p class="language" id="idp217570744" ident="en">English</p>
+</div>
+</div>
+</div>
+</div>
+<div class="text">
+<div class="body">
+<div class="div"><h1 class="head" id="c0" type="Title" style="text-align: center;">WHY THE WASP HAS A TINY WAIST</h1>
+<p class="p" id="idp217569976" style="text-align: center;">(As told by Waja Ngnalbu on 21st February 2020 in Chamba, Ghana)</p>
+</div>
+<div class="div"><h1 class="head" id="c1" type="subTitle">Introduction:</h1>
+<div class="p">The following story relates how the wasp's self-exile from his community eventually deformed him. It presents the wasp as a loner who refuses to participate 
+                in communal activities and thus incurs the wrath of his kith and kin. The story, grounded in the communal spirit of Konkomba funerals (particularly 
+                the <a class="term" id="idp217569848" href="#loss1">kinachuŋ</a> cultural dance), celebrates teamwork and depicts the centrality of communal living among Konkombas. The storyteller 
+                makes this clear at the outset of his narrative when he commences his tale with its moral lesson before relating the tale itself.</div>
+<div class="p"><a class="ref" id="idp217570232" href="https://mediathek.hhu.de/watch/2ff8ea41-1cb3-48bd-8373-447affd48c5b" target="_blank">Click here</a> to listen to the Likpakpaln narration.</div>
+</div>
+<div class="div">
+<h1 class="head" id="c2" type="subTitle">Story</h1>
+<div class="p"><p class="quote" id="idp272437704">Do you know why the wasp has such a tiny waist?</p>asks Waja.</div>
+<div class="p"><p class="quote" id="idp272434376">We don't know; tell us; why?</p> audience respond variously.</div>
+<p class="p" id="idp272432712">Waja then continues:</p>
+<div class="p">It is important to participate in communal activities with others whenever the occasion arises. Once upon a time, there lived a wasp and his kin. 
+                   They lived together with other members of the community in peace and unity. The wasp however decided to be a loner, excluding himself from all communal           
+                   activities. He neither attended any funeral nor participated in any <a class="term" id="idp272434760" href="#loss2">nkpaawiin</a>. One day the wasp received news about the demise           
+                   of his in-law and had to leave for the funeral. Unfortunately, because he had not been attending other people's funerals, no one wanted to accompany him to           
+                   his in-law's funeral. Left with no other option, he decided to go alone, carrying with him all the instruments needed to perform the <a class="term" id="idp272435016" href="#loss3">njeen</a>           
+                   and <a class="term" id="idp272432584" href="#loss1">kinachuŋ</a>: he picked up the <a class="term" id="idp272432968" href="#loss4">ligangaln</a>; he tied <a class="term" id="idp272437192" href="#loss5">tibaln</a> around his ankles; 
+                   he strapped the <a class="term" id="idp272431816" href="#loss6">kiloŋ</a> to one shoulder; he slung an axe over the other shoulder; he picked up his uduun in his hand; he tied all the 
+                   other <a class="term" id="idp272436936" href="#loss7">tinachinchen</a> around his waist and hit the road running.<a class="term" href="#note1"> <sup>1</sup></a> As he 
+                   journeyed, he sang this song:</div>
+<table>
+<tr>
+<th class="cell"><div  rend="bold"><a class="term" id="idp269576632" href="#loss13">Likpakpaln</a> transcription</div></th>
+<th class="cell"><p  id="idp269576504" rend="bold">English translation</p></th>
+</tr>
+<tr class="row">
+<td class="cell"><p  id="idp269576888" style="font-style: italic;">Chorus</p> </td>
+<td></td>
+</tr>
+<tr class="row">
+<td class="cell"><div class="l"><p  id="idp269581240" style="font-style: italic;">Nfa nbiin ye</p></div></td>
+<td class="cell"><div class="l"><p  id="idp269579832" style="font-style: italic;">I've let out a loud cry</p></div></td>
+</tr>
+<tr class="row">
+<td class="cell"><div class="l"><p  id="idp269582264" style="font-style: italic;">Garwa si ee, ki u si ee garwa. (2x)</p></div></td>
+<td class="cell"><div class="l">[But] the world stands aloof; he stands aloof. (2x)</div></td>
+</tr>
+<tr class="row">
+<td class="cell"></td>
+</tr>
+<tr class="row">
+<td class="cell"><div class="l"><a class="term" id="idp274443432" href="#loss11">Gum gum gum gum</a></div></td>
+<td class="cell"><div class="l"><div  style="font-style: italic;"><a class="term" id="idp274447016" href="#loss11">Gum gum gum gum</a>(beats the <a class="term" id="idp274446888" href="#loss4">ligangaln</a>)</div></div></td>
+</tr>
+<tr class="row">
+<td class="cell"><p class="l" id="idp274441640">Garwa si ee, ki u si ee garwa.</p></td>
+<td class="cell"><div class="l"><p  id="idp274443560" style="font-style: italic;">The world stands aloof; he stands aloof.</p></div></td>
+</tr>
+<tr class="row">
+<td class="cell"></td>
+</tr>
+<tr class="row">
+<td class="cell"><div class="l"><a class="term" id="idp274443688" href="#loss12">Tou tilouti</a></div></td>
+<td class="cell"><div class="l"><a class="term" id="idp224649720" href="#loss12">Tou tilouti</a><div style="font-style: italic;">(blows the <a class="term" id="idp224651000" href="#loss14">liwul</a>)</div></div></td>
+</tr>
+<tr class="row">
+<td class="cell"><p class="l" id="idp224650360">Garwa si ee, ki u si ee garwa.</p></td>
+<td class="cell"><p class="l" id="idp224644984">The world stands aloof</p></td>
+</tr>
+<tr class="row">
+<td class="cell"></td>
+</tr>
+<tr class="row">
+<td class="cell"><div class="l"><a class="term" id="idp224644728" href="#loss9">Chakta chakta</a></div></td>
+<td class="cell"><div class="l"><a class="term" id="idp224646264" href="#loss9">Chakta chakta</a><div  id="idp224649848" style="font-style: italic;">(dances with the tibaln around his ankles)</div></div></td>
+</tr>
+<tr class="row">
+<td class="cell"><p class="l" id="idp224650744">Garwa si ee, ki u si ee garwa.</p></td>
+<td class="cell"><p class="l" id="idp224646136">The world stands aloof; he stands aloof.</p></td>
+</tr>
+<tr class="row">
+<td class="cell"></td>
+</tr>
+<tr class="row">
+<td class="cell"><p  id="idp271611992" style="font-style: italic;">Chorus</p> </td>
+</tr>
+<tr class="row">
+<td class="cell"><div class="l"><p  id="idp271611480" style="font-style: italic;">Nfa nbiin ye</p></div></td>
+<td class="cell"><div class="l"><p  id="idp271612760" style="font-style: italic;">I've let out a loud cry</p></div></td>
+</tr>
+<tr class="row">
+<td class="cell"><div class="l"><p  id="idp271609688" style="font-style: italic;">Garwa si ee, ki u si ee garwaaa.</p></div></td>
+<td class="cell"><div class="l"><p  id="idp271609816" style="font-style: italic;">[But] the world stands aloof; he stands aloof.</p></div></td>
+</tr>
+<tr class="row">
+<td class="cell"></td>
+</tr>
+</table>
+<p class="p" id="idp271613912">As he drew closer to his in-law's house, he intensified his singing, drumming, and dancing:</p>
+<br>
+<table class="table">
+<tr class="row">
+<td class="cell"></td>
+</tr>
+<tr class="row">
+<td class="cell"><div class="l"><p  id="idp271617368" style="font-style: italic;">Nfa nbiin ye</p></div></td>
+<td class="cell"><div class="l"><p  id="idp271617624" style="font-style: italic;">I've let out a loud cry</p></div></td>
+</tr>
+<tr class="row">
+<td class="cell"><div class="l"><p  id="idp271617112" style="font-style: italic;">Garwa si ee, ki u si ee garwa. /2x)</p></div></td>
+<td class="cell"><div class="l"><p  id="idp271618136" style="font-style: italic;">The world stands aloof; he stands aloof.(2x)</p></div> </td>
+</tr>
+<tr class="row">
+<td class="cell"></td>
+</tr>
+<tr class="row">
+<td class="cell"><p class="l" id="idp271618264">Tou tilouti</p></td>
+<td class="cell"><div class="l">Tou tilouti <p  id="idp271621208" style="font-style: italic;">(blows the liwul)</p></div></td>
+</tr>
+<tr class="row">
+<td class="cell"><p class="l" id="idp271618904">Garwa si ee, ki u si ee garwa.</p></td>
+<td class="cell"><p class="l" id="idp271619928">The world stands aloof; he stands aloof.</p> </td>
+</tr>
+<tr class="row">
+<td class="cell"></td>
+</tr>
+<tr class="row">
+<td class="cell"><p class="l" id="idp272610280">Gum gum gum gum</p></td>
+<td class="cell"><div class="l"><p  id="idp272604904" style="font-style: italic;">Gum gum gum gum (beats the ligangaln)</p></div></td>
+</tr>
+<tr class="row">
+<td class="cell"><p class="l" id="idp272603752">Garwa si ee, ki u si ee garwa.</p></td>
+<td class="cell"><p class="l" id="idp272609896">The world stands aloof; he stands aloof.</p> </td>
+</tr>
+<tr class="row">
+<td class="cell"></td>
+</tr>
+<tr class="row">
+<td class="cell"><p class="l" id="idp272605160">Chakta chakta</p></td>
+<td class="cell"><div class="l">Chakta chakta <div  style="font-style: italic;">(dances with the <a class="term" id="idp272605288" href="#loss5">tibaln</a>)</div></div></td>
+</tr>
+<tr class="row">
+<td class="cell"><p class="l" id="idp272605544">Garwa si ee, ki u si ee garwa.</p></td>
+<td class="cell"><p class="l" id="idp272608104">The world stands aloof; he stands aloof.</p></td>
+</tr>
+<tr class="row">
+<td class="cell"></td>
+</tr>
+<tr class="row">
+<td class="cell"><div class="l"><a class="term" id="idp272616680" href="#loss10">Gang galaang ga</a></div></td>
+<td class="cell"><div class="l">Gang galaang ga <p  id="idp272617192" style="font:style: italic;">(beats the dawul)</p></div></td>
+</tr>
+<tr class="row">
+<td class="cell"><p class="l" id="idp272612968">Garwa si ee, ki u si ee garwa.</p></td>
+<td class="cell"><p class="l" id="idp272612072">The world stands aloof; he stands aloof.</p></td>
+</tr>
+<tr class="row">
+<td class="cell"></td>
+</tr>
+</table>
+<div class="p">From a distance, his in-laws heard the singing and drumming and speculated that the wasp, and perhaps his kin, were arriving. 
+                  Some of them remarked sarcastically, in reaction to the wasp's appearance at the funeral grounds-the first of its kind-that: 
+                  "<a class="term" id="idp272612328" href="#loss8">Bo</a>! Today the wasp is coming; the earth will explode." Out of curiosity they rushed out and fixed 
+                  their eyes in the direction of the singing and drumming. The wasp soon emerged, staggering under the weight of all the <a class="term" id="idp272618216" href="#loss1">kinachuŋ</a> 
+                  musical instruments he was carrying and playing. On helping him take the musical instruments off his body, the wasp's in-laws discovered that 
+                  the <a class="term" id="idp272618472" href="#loss7">tinachinchen</a> around his waist had compressed his waist into a tiny size. All their efforts to get his waist 
+                  to return to its normal size proved futile.</div>
+<div class="p">That is why till date the wasp's waist is so tiny. <div  style="font-style: italic;"><a class="term" id="idp272614760" href="#loss16">Tiin tiin kolb</a>. 
+                  Maa tiin gur, ki gur, ki gur, ki m muun, ki muun ke n-yajah agbenja na.</div></div>
+</div>
+<div class="div">
+<h1 class="head" id="c3" type="subTitle"> Note </h1>
+<div class="p"><div class="gloss" id="note1">1. "... and hit the road running" is my translation of the Likpakpaln idiom, "le u fii lir nsan bo (ki cha), which 
+                            literally but nonsensically translates: "and he fell on the road going. Its closest English equivalent is "to hit the road." But because 
+                            the English equivalent does not capture the sense of urgency and enthusiasm suggested in the Likpakpaln idiom, I introduced this enthusiasm 
+                            by adding the word "running" from the English idiom, "to hit the ground running," which suggests an enthusiastic start to an activity but 
+                            does not mean to set off on a journey. To therefore communicate the idea of the wasp setting off energetically/enthusiastically, I had to 
+                            amalgamate the above English idioms into, "... and hit the road running."</div></div>
+</div>
+<div class="div">
+<h1 class="head" id="c4" type="subTitle"> A glossary of Likpakpaln words and phrases </h1>
+<div class="list" type="g#loss">
+<div class="label"><p class="hi" id="idp269985816" rend="bold">Bo!:</p></div>
+<div class="item"><div class="gloss" id="loss8">'Bo'is an interjection used by Konkombas to express surprise</div></div>
+<div class="label"><p class="hi" id="idp269981208" rend="bold">chakta chakta:</p></div>
+<div class="item"><div class="gloss" id="loss9">the Konkomba onomatopoeic words for the sound made by ankle bangles when one stomps the ground when dancing.</div></div>
+<div class="label"><p class="hi" id="idp269983512" rend="bold">gang galaang ga:</p></div>
+<div class="item"><div class="gloss" id="loss10">Konkomba onomatopoeic words for the sound of the dawul—a two-pieced hollow metal musical instrument used to 
+                            produce music by alternatingly hitting both hollow metal parts with either a stick or the horn of an animal.</div></div>
+<div class="label"><p class="hi" id="idp269980184" rend="bold">gum gum gum gum:</p></div>
+<div class="item"><div class="gloss" id="loss11">are onomatopoeic words Konkombas use to describe the sound of the drum.</div></div>
+<div class="label"><p class="hi" id="idp269988632" rend="bold">kiloŋ:</p></div>
+<div class="item"><div class="gloss" id="loss6">an hourglass-shaped musical instrument with round skin coverings at both ends. Known
+                               variously as dondo, tama, dundun, kalungu, or lunna across West Africa, it is usually placed under the armpit and struck with a stick to produce music. 
+                               One can change the pitch or tone of the sound by compressing and releasing the strings connecting the two skin coverings at both ends. This makes kiloŋ 
+                               suitable for use as a talking drum in some West African cultures.</div></div>
+<div class="label"><p class="hi" id="idp269990552" rend="bold">kinachuŋ:</p></div>
+<div class="item"><div class="gloss" id="loss1"> the cultural dance of the Konkomba people. It is a communal dance that requires the effective participation of 
+                            a large group rather than an individual. Though mostly associated with funerals, it can also be performed outside funeral occasions such 
+                            as in church, at social and political gatherings among others.</div></div>
+<div class="label"><p class="hi" id="idp269987864" rend="bold">ligangaln:</p></div>
+<div class="item"><div class="gloss" id="loss4">a cylindrical drum with skin coverings at both ends. It comes in different sizes that determine the sound it 
+                            produces. The big drum (ligangaln-sakpeln) produces bass or a lowpitched sound while the small drum (kiganganbik) usually produces a 
+                            high-pitched sound.</div></div>
+<div class="label"><p class="hi" id="idp269992344" rend="bold">Likpakpaln:</p></div>
+<div class="item"><div class="gloss" id="loss13">is the language spoken by the Konkomba people of Ghana.</div></div>
+<div class="label"><p class="hi" id="idp269988248" rend="bold">liwul:</p></div>
+<div class="item"><div class="gloss" id="loss14">a local flute made of wood.</div></div>
+<div class="label"><p class="hi" id="idp269989784" rend="bold">Maa tiin gur, ki gur, ki gur ki m muun, ki muun ke n-yajah agbenja na:</p></div>
+<div class="item"><div class="gloss" id="loss15"> transliterated as "May my story diminish and diminish and diminish whilst I grow 
+                            and grow as tall as my grandfather's male Kapok tree." This is one of the numerous ways in which a Konkomba storyteller can end his/her story. 
+                            This particular type of ending suggests that Konkombas believe that storytelling (or entertainment in the broader sense) has health benefits, 
+                            especially healthy physical growth. The association of storytelling with physical growth is so entrenched in Konkomba belief system that it is 
+                            even believed that when a child engages in storytelling at daytime-for Konkomba storytelling sessions are held normally in the evenings after 
+                            supper/dinner-he or she will have stunted growth. Also, the reference to the grandfather's male Kapok tree in this type of ending points to the 
+                            patriarchal nature of traditional Konkomba society.</div></div>
+<div class="label"><p class="hi" id="idp269781400" rend="bold">nkpaawiin:</p></div>
+<div class="item"><div class="gloss" id="loss2">communal activity. Among Konkombas when one is swamped with work, he or she can ask for the help of others, who would usually 
+                            respond generously in their numbers provided the "help-seeker" has been participating in ikpaawiin (plural form of nkpaawiin). Ikpaawiin are mostly called 
+                            when one has a lot of farm work, is building, flooring or roofing a house, shelling maize/corn, cracking groundnuts, or thrashing guinea corn among other 
+                            physical activities. Such occasions are not just for working but also for communal interaction and bonding.</div></div>
+<div class="label"><p class="hi" id="idp269782168" rend="bold">njeen:</p></div>
+<div class="item"><div class="gloss" id="loss3">procession. Normally kinachuŋ commences with a procession, even though this is not a hard and fast rule.</div></div>
+<div class="label"><p class="hi" id="idp269783832" rend="bold">tibaln:</p></div>
+<div class="item"><div class="gloss" id="loss5"> ankle bangles used to dance kinachuŋ. They consist of small pieces of metals sewn unto animal skin; and are usually worn around 
+                            the ankle by dancers or performers.</div></div>
+<div class="label"><p class="hi" id="idp269778968" rend="bold">tinachinchen:</p></div>
+<div class="item"><div class="gloss" id="loss7"> is a collective noun that refers to all the musical instruments—such as drums, rattle, gong, flute, bangles, etc.-used in 
+                            the performance of the kinachuŋ.</div></div>
+<div class="label"><p class="hi" id="idp269781016" rend="bold">Tiin tiin kolb:</p></div>
+<div class="item"><div class="gloss" id="loss16">the end of my story. This is the commonest and easiest way to end one’s story in Konkomba storytelling. However, a storyteller 
+                            can also choose to use this as a prelude to the end of the story and then finish with another statement such as the one used in the story above or a 
+                            statement nominating the next storyteller.</div></div>
+<div class="label"><p class="hi" id="idp269779736" rend="bold">tou tilouti:</p></div>
+<div class="item"><div class="gloss" id="loss12">the onomatopoeic words used by Konkombas for the sound of the flute.</div></div>
+<div class="label"><p class="hi" id="idp269783320" rend="bold">uduun:</p></div>
+<div class="item"><div class="gloss" id="loss17">a round-shaped hollow metal used to produce music by incessantly brushing over its surface a small nut-like metal fixed on one’s 
+                            thumb. It is shaped like the gong but consists of only one hollow metal piece.</div></div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div>
+</div>
+</div>
+</div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" type="text/javascript"> </script>
+<script type="text/javascript">
+
+      const options = {
+        isCaseSensitive: false,
+        includeScore: false,
+        shouldSort: true,
+        includeMatches: true,
+        findAllMatches: false,
+        minMatchCharLength: 1,
+        location: 0,
+        threshold: 0.6,
+        distance: 100,
+        useExtendedSearch: false,
+        ignoreLocation: false,
+        ignoreFieldNorm: false,
+        keys: ['sentences', 'text']
+      };
+
+      const list = document.getElementById("nav-tabContent").getElementsByTagName('p');
+      var search_results = [];
+      Object.values(list).forEach(getContent);
+      const fuse = new Fuse(search_results, options);
+
+
+      function getContent(element, index){
+        var text = element.innerText || element.textContent;
+        var isEmpty = text.trim().length==0;
+        if (isEmpty === false){
+          var result = new Object();
+          result.name = element.tagName;
+          result.sentences = text.match( /[^\.!\?]+[\.!\?]+/g ) || [];
+          result.sentences = result.sentences.map(function (str) { return str.trim(); });
+          result.text = text;
+          result.link = element.id;
+          result.element = element.cloneNode(true);
+          search_results.push(result);
+        };
+      };
+
+      function toggle() {
+
+        var btn = document.getElementById("toggle-button");
+        var content = document.getElementById("content")
+
+        if ("opened" == btn.classList){
+          content.style.left = "0%";
+          btn.classList.remove('opened');
+          btn.classList.add('closed');
+        } else if ("closed" == btn.classList){
+          content.style.left = "25%";
+          btn.classList.remove('closed');
+          btn.classList.add('opened');
+        }
+      };
+
+      function increaseFont() {
+        var elements = document.getElementById('nav-tabContent').querySelectorAll('p,span');
+
+        for (i in elements){
+          var element = elements[i]
+          var isEmpty = element.innerHTML.trim().length==0;
+          if (isEmpty === false){
+            style = window.getComputedStyle(element, null).getPropertyValue('font-size');
+            currentSize = parseFloat(style);
+            element.style.fontSize = (currentSize + 5) + 'px';
+          }
+        }
+      };
+
+      function decreaseFont() {
+        var elements = document.getElementById('nav-tabContent').querySelectorAll('p,span');
+
+        for (i in elements){
+          var element = elements[i]
+          var isEmpty = element.innerHTML.trim().length==0;
+          if (isEmpty === false){
+            style = window.getComputedStyle(element, null).getPropertyValue('font-size');
+            currentSize = parseFloat(style);
+            element.style.fontSize = (currentSize - 5) + 'px';
+          }
+        }
+      };   
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var scrollbar = document.body.clientWidth - window.innerWidth + 'px';
+
+        document.querySelector('[href="#openModal"]').addEventListener('click', function () {
+          document.body.style.overflow = 'hidden';
+          document.querySelector('#openModal').style.marginLeft = scrollbar;
+        });
+
+        document.querySelector('[href="#close"]').addEventListener('click', function () {
+          document.body.style.overflow = 'visible';
+          document.querySelector('#openModal').style.marginLeft = '0px';
+        });
+
+        document.querySelector('form#search-form').addEventListener('submit', function () {
+          event.preventDefault();
+          let formElement = document.getElementById('search-form');
+          let outputDiv = document.getElementById('search-results');
+          let content = document.getElementById('search-header');
+      	  content.style.visibility = "hidden";
+          outputDiv.innerHTML = "";
+
+          var formData = new FormData(formElement);
+          var qType = formData.get('type');
+          var query = formData.get('query').trim();
+          var isEmpty = query.length==0;
+          if (isEmpty === false){
+          	if (qType === "text"){
+          		findTextMatches(query, outputDiv);
+          	} else if (qType === "tag"){
+          		findTagMatches(query, outputDiv);
+          	}}
+       });
+
+        document.querySelector("button#download-txt").addEventListener("click", function () {
+        	event.preventDefault();
+    		var data = document.querySelectorAll("div.search-result p:not(.view-more)");
+			export_table_to_csv(data, "results.text");
+		});
+    });
+
+      function findTagMatches(query, outputDiv){
+      	var results = document.getElementById("nav-tabContent").querySelectorAll(query);
+      	n_results = results.length.toString();
+
+      	createResultStructure(outputDiv, n_results);
+        results.forEach(addTagSearchResult);
+        btn = document.getElementById('download-txt');
+        btn.classList.remove('disabled');
+        btn.disabled = false;
+      };
+
+      function findTextMatches(query, outputDiv) {
+      	var results = fuse.search(query);
+        n_results = results.length.toString();
+
+        createResultStructure(outputDiv, n_results);
+        results.forEach(addTextSearchResult);
+        btn = document.getElementById('download-txt');
+        btn.classList.remove('disabled');
+        btn.disabled = false;
+      };
+
+      function export_table_to_csv(data, filename) {
+		var txt = [];
+		Object.values(data).forEach(function(item) {txt.push(item.textContent)});
+		download_txt(txt.join("\n=======================\n"), filename);
+		};
+
+
+		function download_txt(txt, filename) {
+		    var txtFile;
+		    var downloadLink;
+		    txtFile = new Blob([txt], {type: "text"});
+		    downloadLink = document.createElement("a");
+		    downloadLink.download = filename;
+		    downloadLink.href = window.URL.createObjectURL(txtFile);
+		    downloadLink.style.display = "none";
+			document.body.appendChild(downloadLink);
+		    downloadLink.click();
+		}
+
+      function createResultStructure (outputDiv, n_results) {
+
+      	let content = document.getElementById('search-header');
+      	content.style.visibility = "visible"
+
+      	let header = document.getElementById('search-header');
+      	let h3 = document.getElementById('search-title');
+      	h3.innerHTML = "Found results: <span>" +  n_results + "</span>"
+      	header.append(h3);
+      };
+
+      function addTextSearchResult(result){
+        if (result.item.text.trim().length==0 === false){
+          let outputDiv = document.getElementById('search-results');
+          let div = document.createElement('div');
+          div.innerHTML = '<p class="view-more"><a target="_blank" href="#' + result.item.link + '"/>read more...</p>'
+          div.className = "search-result";
+          div.append(result.item.element);
+          outputDiv.append(div);
+        }};
+
+         function addTagSearchResult(result){
+        if (result.textContent.trim().length==0 === false){
+          let outputDiv = document.getElementById('search-results');
+          let div = document.createElement('div');
+          div.innerHTML = '<p class="view-more"><a target="_blank" href="#' + result.id + '"/>read more...</p>'
+          div.className = "search-result";
+          result = result.cloneNode(true)
+          div.append(result);
+          outputDiv.append(div);
+        }};
+
+
+    </script>
+</body>
+</html>

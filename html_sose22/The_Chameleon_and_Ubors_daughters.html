@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>The Chameleon and Ubor's Daughters</title>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<style>
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #f7f7f7;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.teiHeader {
+text-align: center;
+font-style: bold;
+visibility: hidden;
+}
+
+  li {
+    list-style-type: none
+  }
+
+  ul {
+    margin-left: 0;
+    padding-left: 0
+  }
+
+
+  #sidebar, #content {
+    position: absolute;
+  }
+
+  #sidebar {
+    top: 0px;
+    width: 25%;
+    bottom: 0px;
+    background: #ffffff;
+    height: 100%;
+  }
+
+  #content {
+    top: 0px;
+    left: 25%;
+    right: 0;
+    bottom: 0px;
+    background: #f7f7f7;
+    -moz-transition: left 0.5s ease;
+    transition: left 0.5s ease;
+    }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 10% 70%;
+    grid-column-gap: 5%;
+    height: calc(100vh - 90px);;
+  }
+.hi {
+font-weight: bold;
+}
+
+  #col-main{
+    box-shadow: -5px 0 15px -5px #dfe3eb, 5px 0 15px -5px #dfe3eb;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: #ffffff;
+    position: relative;
+    overflow-y: scroll;
+    height: calc(100vh - 50px);
+    margin: 1em;
+  }
+
+  a {
+    text-decoration: none;
+    color:  DimGray;
+text-decoration: underline;
+  }
+
+  #mySidebar {
+    position: relative;
+    overflow-y: scroll;
+    height: calc(100vh - 50px);
+  }
+
+  #mySidebar a:hover {
+    width: auto;
+    background-color: #394867;
+    color: #ffffff;
+  }
+
+  #mySidebar a {
+    display: block;
+    padding: 6px;
+    padding-left: 3em;
+    font-size: 12pt;
+  }
+
+  .inner_link {
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+  }
+
+  #toggle-button:hover {
+    background-color: #394867;
+    color: #ffffff;
+  }
+
+  #toggle-button {
+    background-color: #f7f7f7;
+    border: none;
+    color: #394867;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .simple-btn {
+    background-color: #f7f7f7;
+    border: none;
+    color: #394867;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .simple-btn:hover {
+    color: #0a1931;
+  }
+
+  #fileinfo {
+    font-size: 30px;
+  }
+
+  #magnifier {
+     font-size: 30px;
+     font-weight: bold;
+   }
+
+  #info-icon, #search-icon {
+    color: #394867 !important;
+  }
+    
+  #info-icon:hover, #search-icon:hover {
+    color: #0a1931 !important;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1050;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+  }
+
+  .modal:target {
+    opacity: 1;
+    pointer-events: auto;
+    overflow-y: auto;
+  }
+
+  .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+  }
+
+  @media (min-width: 576px) {
+    .modal-dialog {
+      max-width: 50%;
+      margin: 30px auto;
+    }
+  }
+
+  .modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+    background-color: #f7f7f7;
+  }
+
+  @media (min-width: 768px) {
+    .modal-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+  }
+
+  .modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+  }
+
+  .modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  .close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+  }
+
+  .close:focus,
+  .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+  }
+
+  .modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 15px;
+    overflow: auto;
+  }
+
+  .fileinfo-head {
+    color: #394867 !important;
+  }
+
+  .fileinfo-node {
+    color: #394867 !important;
+    font-style: italic;
+  }
+
+  .fileinfo-block div {
+    margin-bottom: 3em; 
+    /*background-color: #ffffff;*/
+  }
+
+  .fileinfo-block h3{
+    padding-left: 1em;
+  }
+
+  .fileinfo-text{
+    margin-left: 2em;
+  }
+
+  #fileinfo-content {
+    /*background-color: #f7f7f7;*/
+  }
+
+  #modal-Search {
+    background-color: white;
+  }
+
+  form{
+    text-align: center;
+  }
+
+
+  #search {
+    margin-top: 1em;
+  }
+
+  #search-header {
+    display: block;
+    visibility: hidden;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+  }
+
+  #search-header h3 {
+    color: #70757a;
+    font-weight: normal;
+    display: inline-block;
+    margin-left: 1em;
+  }
+
+  .search-result {
+    padding: 1em;
+    border-top: 10px solid #f7f7f7;
+    border-bottom: 10px solid #f7f7f7;
+    display: block;
+  }
+
+ select {
+   /*background-color: #f7f7f7;*/
+     border: 1px solid #9ba4b4;
+  padding: 12px 20px;
+  width: 15%;
+  /*border: none;*/
+border-radius: 4px;
+background-color: #9ba4b4;
+color: #ffffff;
+  }
+
+ input[type=text] {
+     border: 2px solid #9ba4b4;
+  padding: 12px 20px;
+  width: 50%;
+  border-radius: 4px;
+  }
+
+ input[type=text]:focus {
+  background-color: #f7f7f7 !important;
+}
+
+  .btn-search {
+    background-color: #394867 !important;
+    /*border: none;*/
+    border: 1px solid #394867;
+    color: #ffffff;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+.btn-download {
+    background-color: inherit;
+    border-radius: 15px;
+    border: 1px solid #394867;
+    color: #394867;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  .btn-download:hover {
+  background-color: #394867;
+  color: #ffffff;
+}
+
+  .disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.view-more a{
+color: #70757a;
+display: block;
+/*font-weight: bold;*/
+}
+.term {
+position: relative;
+display: inline-block;
+
+}
+
+.term .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+padding: 5px 0;
+border-radius: 6px;
+position: absolute;
+z-index: 1;
+top: 100%;
+left: 50%;
+margin-left: -60px;
+}
+
+.term:hover .tooltiptext {
+visibility: visible;
+}
+/* ---------------- Main -------------------- */
+.wrapper {
+display: grid;
+grid-template-columns: 15% 65% 15%
+}
+li {
+list-style-type: none
+}
+ul {
+margin-left: 0;
+padding-left: 0
+}
+main {
+font-size: 11pt
+}
+/* ---------------- Headers -------------------- */
+.head {
+font-size: 12pt;
+font-weight: bold
+}
+.publisher {
+color: green;
+font-size: 250%
+}
+.castGroup-head {
+letter-spacing: 0;
+font-size: 10pt;
+text-align: center;
+color: rgb(192, 192, 192)
+}
+.sp {
+font-size: 15pt
+}
+.speaker {
+font-weight: bold;
+font-style: italic
+}</style></head>
+<body>
+<main>
+<div class="sidebar" id="sidebar">
+<div class="sidenav" id="mySidebar">
+<ul>
+<li>
+<a href="#nav-tabContent">^ Back to the beginning</a>
+</li>
+<li><a href="#c3">THE CHAMELEON AND UBↃR’S DAUGHTERS </a></li>
+<li><a href="#c0">Introduction</a></li><li><a href="#c1">Story</a></li><li><a href="#c2">Glossary</a></li></ul>
+</div>
+</div>
+<div class="main-content" id="content">
+<div class="grid">
+<div class="column" id="col-left">
+<button class="opened" id="toggle-button" onclick="toggle()">☰</button>
+<button class="simple-btn" id="increasetext" onclick="increaseFont()">+</button>
+<button class="simple-btn" id="decreasetext" onclick="decreaseFont()">−</button>
+<button class="simple-btn" id="fileinfo"><a href="#openModal" id="info-icon">Ꭵ</a></button>
+<button class="simple-btn" id="magnifier"><a href="#openSearch" id="search-icon">⌕</a></button>
+<div class="modal" id="openModal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="modal-title">File description</h3>
+<a class="close" href="#close" title="Close">x</a>
+</div>
+<div class="modal-body" id="fileinfo-content">
+<div class="file-desc" xmlns:tei_ns="http://www.tei-c.org/ns/1.0"><h3 class="fileinfo-head">fileDesc</h3><div class="fileinfo-block">
+<h3 class="fileinfo-head">titleStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">title: </span><span> THE CHAMELEON AND UBↃR’S DAUGHTERS </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">storyteller: </span><span> Waja Ngnalbu </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">author: </span><span>Konkomba oral tradition</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">editor: </span><span> Tasun Tidorchibe </span></p>
+<h3 class="fileinfo-head">respStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Tasun Tidorchibe </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">resp: </span><span>transcript, editing and translation</span></p>
+</div>
+<h3 class="fileinfo-head">respStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Noah Kann </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Alessia Pasquarelli </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Elena Lysova </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">resp: </span><span> coding and editing </span></p>
+</div>
+<h3 class="fileinfo-head">respStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Dr. Eva Ulrike Pirker </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">resp: </span><span> supervision </span></p>
+</div>
+<p class="fileinfo-text"><span class="fileinfo-node">sponsor: </span><span> E-Learning Förderfonds HHU </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">sponsor: </span><span>Katholischer Akademischer Ausländerdienst</span></p>
+<h3 class="fileinfo-head">address</h3><div class="fileinfo-block"><p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Centre for Translation Studies Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Heinrich Heine Universität Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">street: </span><span> Universitätsstraße 1 </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">postCode: </span><span> 40225 </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Germany </span></p></div>
+</div>
+<h3 class="fileinfo-head">publicationStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">publisher: </span><span> Centre for Translation Studies Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">status: </span><span> not yet published</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">pubPlace: </span><span> Düsseldorf </span></p>
+<h3 class="fileinfo-head">address</h3><div class="fileinfo-block"> <p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Centre for Translation Studies Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Heinrich Heine Universität Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">street: </span><span> Universitätsstraße 1 </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">postCode: </span><span> 40225 </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Germany </span></p>
+</div>
+<p class="fileinfo-text"><span class="fileinfo-node">availability: </span><span> not yet available </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">date: </span><span> TBD </span></p>
+</div>
+<h3 class="fileinfo-head">sourceDesc</h3><div class="fileinfo-block">
+<h3 class="fileinfo-head">bibl</h3><div class="fileinfo-block"> <p class="fileinfo-text"><span class="fileinfo-node">title: </span><span> THE CHAMELEON AND UBↃR’S DAUGHTERS </span></p> <p class="fileinfo-text"><span class="fileinfo-node">author: </span><span> Konkomba people oral tradition </span></p> Translated by <p class="fileinfo-text"><span class="fileinfo-node">editor: </span><span> Tasun Tidorchibe </span></p> </div>
+</div>
+<h3 class="fileinfo-head">encodingDesc</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">editorialDecl: </span><span>
+                no author can be assigned to the story, as it is an oral tradition of a people with no original written source or record
+            </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">projectDesc: </span><span>
+                The project focuses on digitizing oral folktales from
+                Ghana, specifically the Konkomba people, through different media. The
+                project puts a body of oral folktales into writing and eventually makes
+                them available as annotated, digitized
+                narratives. It thus aims to make a contribution to visibilising this
+                culture, which through processes of colonisation, the accompanying
+                priviledging of written/print culture and Eurocentric/Western thinking
+                has been marginalised.
+            </span></p>
+</div>
+<h3 class="fileinfo-head">profileDesc</h3><div class="fileinfo-block">
+<h3 class="fileinfo-head">creation</h3><div class="fileinfo-block"> Originally told in
+                <h3 class="fileinfo-head">place</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">placeName: </span><span>Chamba, Ghana</span></p>
+<h3 class="fileinfo-head">location</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">geo: </span><span>8.7, -0.133333</span></p>
+</div>
+</div>
+                  transcribed foktale from Likpakpaln as told by <p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Waja Ngnalbu </span></p> on <p class="fileinfo-text"><span class="fileinfo-node">date: </span><span>21st February 2020 </span></p>in <p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Chamba </span></p>, <p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Ghana</span></p>
+</div>
+<h3 class="fileinfo-head">langUsage</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">language: </span><span>Likpakpaln</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">language: </span><span>English</span></p>
+</div>
+</div>
+</div></div></div>
+</div>
+</div>
+</div>
+<div class="modal" id="openSearch">
+<div class="modal-dialog">
+<div class="modal-content" id="modal-Search">
+<div class="modal-header">
+<h3 class="modal-title">Search the document</h3>
+<a class="close" href="#close" title="Close">x</a>
+</div>
+<div class="modal-body" id="search-modal">
+<div id="search">
+<form id="search-form">
+<select id="mySelect" name="type">
+<option value="text">text</option>
+<option value="tag">tag</option>
+</select>
+<input id="myInput" name="query" placeholder="..." type="text"/>
+<button class="btn btn-search" id="btn search-btn" type="submit">Search</button>
+</form>
+</div>
+<div id="search-content">
+<div id="search-header">
+<h3 id="search-title"> </h3>
+<button class="btn btn-download disabled" disabled="true" id="download-txt" type="button">⇩ Download</button>
+</div>
+<div id="search-results"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="column" id="col-main">
+<div class="document" id="nav-tabContent"><div class="column" id="col2"><div class="TEI">
+<div class="teiHeader" hidden>
+<div class="fileDesc">
+<div class="titleStmt">
+<p class="title" id="idp272434120"> THE CHAMELEON AND UBↃR’S DAUGHTERS </p>
+<p class="storyteller" id="idp272432840"> Waja Ngnalbu </p>
+<p class="author" id="idp272434504">Konkomba oral tradition</p>
+<p class="editor" id="idp272434632"> Tasun Tidorchibe </p>
+<div class="respStmt">
+<p class="name" id="idp272431176"> Tasun Tidorchibe </p>
+<p class="resp" id="idp272430792">transcript, editing and translation</p>
+</div>
+<div class="respStmt">
+<p class="name" id="idp272434760"> Noah Kann </p>
+<p class="name" id="idp272435400"> Alessia Pasquarelli </p>
+<p class="name" id="idp272437320"> Elena Lysova </p>
+<p class="resp" id="idp272436296"> coding and editing </p>
+</div>
+<div class="respStmt">
+<p class="name" id="idp272436424"> Dr. Eva Ulrike Pirker </p>
+<p class="resp" id="idp272436680"> supervision </p>
+</div>
+<p class="sponsor" id="idp272437064" type="digitization"> E-Learning Förderfonds HHU </p>
+<p class="sponsor" id="idp272437576" type="funding">Katholischer Akademischer Ausländerdienst</p>
+<div class="address"><p class="name" id="idp272433096" type="institution"> Centre for Translation Studies Düsseldorf </p>
+<p class="name" id="idp222743736" type="institution"> Heinrich Heine Universität Düsseldorf </p>
+<p class="street" id="idp222746296"> Universitätsstraße 1 </p>
+<p class="postCode" id="idp222744120"> 40225 </p>
+<p class="name" id="idp222746552" type="city"> Düsseldorf </p>
+<p class="name" id="idp222744248" type="country"> Germany </p></div>
+</div>
+<div class="publicationStmt">
+<p class="publisher" id="idp222745400"> Centre for Translation Studies Düsseldorf </p>
+<p class="status" id="idp222743224"> not yet published</p>
+<p class="pubPlace" id="idp222745528"> Düsseldorf </p>
+<div class="address"> <p class="name" id="idp217570488" type="institution"> Centre for Translation Studies Düsseldorf </p>
+<p class="name" id="idp217570744" type="institution"> Heinrich Heine Universität Düsseldorf </p>
+<p class="street" id="idp217569848"> Universitätsstraße 1 </p>
+<p class="postCode" id="idp217570872"> 40225 </p>
+<p class="name" id="idp217569976" type="city"> Düsseldorf </p>
+<p class="name" id="idp217567928" type="country"> Germany </p>
+</div>
+<p class="availability" id="idp217564216"> not yet available </p>
+<p class="date" id="idp217567032"> TBD </p>
+</div>
+<div class="sourceDesc">
+<div class="bibl"> <p class="title" id="idp217570104"> THE CHAMELEON AND UBↃR’S DAUGHTERS </p> <p class="author" id="idp217566776"> Konkomba people oral tradition </p> Translated by <p class="editor" id="idp217567160" role="translator"> Tasun Tidorchibe </p> </div>
+</div>
+<div class="encodingDesc">
+<p class="editorialDecl" id="idp217565496">
+                no author can be assigned to the story, as it is an oral tradition of a people with no original written source or record
+            </p>
+<p class="projectDesc" id="idp217566136">
+                The project focuses on digitizing oral folktales from
+                Ghana, specifically the Konkomba people, through different media. The
+                project puts a body of oral folktales into writing and eventually makes
+                them available as annotated, digitized
+                narratives. It thus aims to make a contribution to visibilising this
+                culture, which through processes of colonisation, the accompanying
+                priviledging of written/print culture and Eurocentric/Western thinking
+                has been marginalised.
+            </p>
+</div>
+<div class="profileDesc">
+<div class="creation"> Originally told in
+                <div class="place" xml:id="ChambaGhana">
+<p class="placeName" id="idp272665512">Chamba, Ghana</p>
+<div class="location">
+<p class="geo" id="idp272665384">8.7, -0.133333</p>
+</div>
+</div>
+                  transcribed foktale from Likpakpaln as told by <p class="name" id="idp272664488" type="storyteller"> Waja Ngnalbu </p> on <p class="date" id="idp272666920" when="2020">21st February 2020 </p>in <p class="name" id="idp272665256" type="city">Chamba </p>, <p class="name" id="idp272667048" type="country">Ghana</p>
+</div>
+<div class="langUsage">
+<p class="language" id="idp222737704" ident="lik">Likpakpaln</p>
+<p class="language" id="idp222739496" ident="en">English</p>
+</div>
+</div>
+</div>
+</div>
+<div class="text">
+<div class="body">
+<div class="div" type="section">
+<h1 class="head" id="c3 type="Main Title" style="text-align: center;">
+           THE CHAMELEON AND <a class="term" href="#tdpv2"> UBↃR’S </a> DAUGHTERS 
+</h1>
+</div>
+<div class="div" type="section">
+<h1 class="head" id="c0" type="subTitle">Introduction</h1>
+</div>
+<p class="p" id="idp222736808">In this story, wisdom is projected as a key element in achieving one’s ambitions or goals. 
+        The story presents a chameleon who employs a clever method to win the hand of Ubɔr’s beautiful daughter in marriage. 
+        Here the chameleon is presented as the wisest of all in the village even though in Konkomba folklore that character trait is mostly the preserve of the rabbit or bunny. 
+        As evidenced here, therefore, the chameleon (and sometimes the tortoise) assumes the role of the wisest animal character who uses wisdom and tricks to outwit others. 
+        In this tale, the chameleon’s wisdom makes him to succeed at what others fail at.</p>
+<div class="p">
+            If you want to listen to the Likpakpaln narration, <a class="ref" id="idp222742056" href="https://mediathek.hhu.de/watch/8d5e9006-3e06-40d6-8b55-5e0703e6a772" target="_blank">click here</a>.
+        </div>
+<div class="div" type="section">
+<h1 class="head" id="c1" type="subTitle">Story</h1>
+</div>
+<p class="p" id="idp222738600">“Here goes my story,” Waja announces. 
+        Once upon a time, there lived a Ubɔr who had three daughters. One of them was very pretty and always had an aura of calmness around her. 
+        These three daughters were raised in isolation and so no one in the village knew their names. 
+        When they became of age and started interacting with other members of the village, everyone wanted to know their names, 
+        but the girls always refused to reveal their names, for their father forbade them from doing so.</p>
+<p class="p" id="idp222738728">One day Ubɔr sent word throughout the village that his beautiful daughter was of age to marry and that any young man who was able to tell him the names of his three daughters 
+        would have her hand in marriage. All the interested young men tried in vain to get the girls to tell them their names.</p>
+<p class="p" id="idp222735784">One day the chameleon announced his intention to take up Ubɔr’s challenge and uncover the names of the girls so as to marry the beautiful one. 
+        The next day he spent his time spying on the girls. The girls decided to go and collect firewood later that day so on hearing that the chameleon quickly ran 
+        ahead and hid atop a tree along the path the girls would take when going to collect the firewood.</p>
+<p class="p" id="idp229342664">When eventually the girls were approaching, he plucked some leaves, chewed them, and spat the contents on the girls when they were passing right under 
+        the tree on which he was hiding. One of the girls looked up and spotted the chameleon hiding in the tree. 
+        The chameleon started changing the color of his skin from one color to another, whereupon the girl called out to one of her sisters, “Alewa, look at this amazing spectacle.” 
+        On seeing it, the second girl in turn tapped the third girl and said: “Dindilinya, look at this.” 
+        The third sister looked up and on seeing the color-changing chameleon, asked the sister who first saw the chameleon: “Alakusa, what is that?” 
+        The chameleon got to know their names, so when the girls finally left, he descended and headed straight to Ubɔr’s palace.</p>
+<p class="p" id="idp229339976">On reaching the palace he told Ubɔr and his elders that he knew the three girls’ names and that Ubɔr should summon the entire village so that he would tell everyone the girls’ names. 
+        When everyone assembled, the chameleon then told the village the names of the girls. 
+        After hearing the names, Ubɔr nodded in affirmation, everyone clapped for the chameleon, and the girl was given to him in fulfillment of Ubɔr’s promise.</p>
+<div class="p">In this life, if you are wise, you will always succeed where others fail. 
+        <a class="term" href="#tdpv1">Maa tiin gur, ki gur, ki gur ki m-muun, ki muun ke n-yajah agbenja na.</a></div>
+<div class="div" type="section">
+<h1 class="head" id="c2" type="subTitle">Glossary</h1>
+<div class="list" type="gloss">
+<div class="label"> <p class="hi" id="idp229343560" rend="bold">Maa tiin gur, ki gur, ki gur ki m-muun, ki muun ke n-yajah agbenja na.: </p></div>
+<div class="item">
+<div class="gloss" id="tdpv1">transliterated as “May my story diminish and diminish and diminish whilst I grow and grow as tall as my grandfather’s male Kapok tree.” 
+            This is one of the numerous ways in which a Konkomba storyteller can end his/her story. 
+            This particular type of ending suggests that Konkombas believe that storytelling (or entertainment in the broader sense) 
+            has a health benefit, especially healthy physical growth. 
+            The association of storytelling with physical growth is so entrenched in Konkomba belief system 
+            that it is even believed that when a child engages in storytelling at daytime—for Konkomba storytelling sessions 
+            are held normally in the evenings after supper/dinner—he or she will have stunted growth. 
+            Also, the reference to the grandfather’s male Kapok tree in this type of ending points to the patriarchal nature of traditional Konkomba society.
+            </div>
+</div>
+<div class="label"> <p class="hi" id="idp229345352" rend="bold">Ubɔr:</p></div>
+<div class="item">
+<div class="gloss" id="tdpv2">the political head of a Konkomba community. 
+            Ubɔr is usually the eldest male member of the royal family. 
+            He inherits that position from his father after the latter’s demise. 
+            </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div>
+</div>
+</div>
+</div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" type="text/javascript"> </script>
+<script type="text/javascript">
+
+      const options = {
+        isCaseSensitive: false,
+        includeScore: false,
+        shouldSort: true,
+        includeMatches: true,
+        findAllMatches: false,
+        minMatchCharLength: 1,
+        location: 0,
+        threshold: 0.6,
+        distance: 100,
+        useExtendedSearch: false,
+        ignoreLocation: false,
+        ignoreFieldNorm: false,
+        keys: ['sentences', 'text']
+      };
+
+      const list = document.getElementById("nav-tabContent").getElementsByTagName('p');
+      var search_results = [];
+      Object.values(list).forEach(getContent);
+      const fuse = new Fuse(search_results, options);
+
+
+      function getContent(element, index){
+        var text = element.innerText || element.textContent;
+        var isEmpty = text.trim().length==0;
+        if (isEmpty === false){
+          var result = new Object();
+          result.name = element.tagName;
+          result.sentences = text.match( /[^\.!\?]+[\.!\?]+/g ) || [];
+          result.sentences = result.sentences.map(function (str) { return str.trim(); });
+          result.text = text;
+          result.link = element.id;
+          result.element = element.cloneNode(true);
+          search_results.push(result);
+        };
+      };
+
+      function toggle() {
+
+        var btn = document.getElementById("toggle-button");
+        var content = document.getElementById("content")
+
+        if ("opened" == btn.classList){
+          content.style.left = "0%";
+          btn.classList.remove('opened');
+          btn.classList.add('closed');
+        } else if ("closed" == btn.classList){
+          content.style.left = "25%";
+          btn.classList.remove('closed');
+          btn.classList.add('opened');
+        }
+      };
+
+      function increaseFont() {
+        var elements = document.getElementById('nav-tabContent').querySelectorAll('p,span');
+
+        for (i in elements){
+          var element = elements[i]
+          var isEmpty = element.innerHTML.trim().length==0;
+          if (isEmpty === false){
+            style = window.getComputedStyle(element, null).getPropertyValue('font-size');
+            currentSize = parseFloat(style);
+            element.style.fontSize = (currentSize + 5) + 'px';
+          }
+        }
+      };
+
+      function decreaseFont() {
+        var elements = document.getElementById('nav-tabContent').querySelectorAll('p,span');
+
+        for (i in elements){
+          var element = elements[i]
+          var isEmpty = element.innerHTML.trim().length==0;
+          if (isEmpty === false){
+            style = window.getComputedStyle(element, null).getPropertyValue('font-size');
+            currentSize = parseFloat(style);
+            element.style.fontSize = (currentSize - 5) + 'px';
+          }
+        }
+      };   
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var scrollbar = document.body.clientWidth - window.innerWidth + 'px';
+
+        document.querySelector('[href="#openModal"]').addEventListener('click', function () {
+          document.body.style.overflow = 'hidden';
+          document.querySelector('#openModal').style.marginLeft = scrollbar;
+        });
+
+        document.querySelector('[href="#close"]').addEventListener('click', function () {
+          document.body.style.overflow = 'visible';
+          document.querySelector('#openModal').style.marginLeft = '0px';
+        });
+
+        document.querySelector('form#search-form').addEventListener('submit', function () {
+          event.preventDefault();
+          let formElement = document.getElementById('search-form');
+          let outputDiv = document.getElementById('search-results');
+          let content = document.getElementById('search-header');
+      	  content.style.visibility = "hidden";
+          outputDiv.innerHTML = "";
+
+          var formData = new FormData(formElement);
+          var qType = formData.get('type');
+          var query = formData.get('query').trim();
+          var isEmpty = query.length==0;
+          if (isEmpty === false){
+          	if (qType === "text"){
+          		findTextMatches(query, outputDiv);
+          	} else if (qType === "tag"){
+          		findTagMatches(query, outputDiv);
+          	}}
+       });
+
+        document.querySelector("button#download-txt").addEventListener("click", function () {
+        	event.preventDefault();
+    		var data = document.querySelectorAll("div.search-result p:not(.view-more)");
+			export_table_to_csv(data, "results.text");
+		});
+    });
+
+      function findTagMatches(query, outputDiv){
+      	var results = document.getElementById("nav-tabContent").querySelectorAll(query);
+      	n_results = results.length.toString();
+
+      	createResultStructure(outputDiv, n_results);
+        results.forEach(addTagSearchResult);
+        btn = document.getElementById('download-txt');
+        btn.classList.remove('disabled');
+        btn.disabled = false;
+      };
+
+      function findTextMatches(query, outputDiv) {
+      	var results = fuse.search(query);
+        n_results = results.length.toString();
+
+        createResultStructure(outputDiv, n_results);
+        results.forEach(addTextSearchResult);
+        btn = document.getElementById('download-txt');
+        btn.classList.remove('disabled');
+        btn.disabled = false;
+      };
+
+      function export_table_to_csv(data, filename) {
+		var txt = [];
+		Object.values(data).forEach(function(item) {txt.push(item.textContent)});
+		download_txt(txt.join("\n=======================\n"), filename);
+		};
+
+
+		function download_txt(txt, filename) {
+		    var txtFile;
+		    var downloadLink;
+		    txtFile = new Blob([txt], {type: "text"});
+		    downloadLink = document.createElement("a");
+		    downloadLink.download = filename;
+		    downloadLink.href = window.URL.createObjectURL(txtFile);
+		    downloadLink.style.display = "none";
+			document.body.appendChild(downloadLink);
+		    downloadLink.click();
+		}
+
+      function createResultStructure (outputDiv, n_results) {
+
+      	let content = document.getElementById('search-header');
+      	content.style.visibility = "visible"
+
+      	let header = document.getElementById('search-header');
+      	let h3 = document.getElementById('search-title');
+      	h3.innerHTML = "Found results: <span>" +  n_results + "</span>"
+      	header.append(h3);
+      };
+
+      function addTextSearchResult(result){
+        if (result.item.text.trim().length==0 === false){
+          let outputDiv = document.getElementById('search-results');
+          let div = document.createElement('div');
+          div.innerHTML = '<p class="view-more"><a target="_blank" href="#' + result.item.link + '"/>read more...</p>'
+          div.className = "search-result";
+          div.append(result.item.element);
+          outputDiv.append(div);
+        }};
+
+         function addTagSearchResult(result){
+        if (result.textContent.trim().length==0 === false){
+          let outputDiv = document.getElementById('search-results');
+          let div = document.createElement('div');
+          div.innerHTML = '<p class="view-more"><a target="_blank" href="#' + result.id + '"/>read more...</p>'
+          div.className = "search-result";
+          result = result.cloneNode(true)
+          div.append(result);
+          outputDiv.append(div);
+        }};
+
+
+    </script>
+</body>
+</html>

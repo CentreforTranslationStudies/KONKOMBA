@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>The Hunter and the Shapeshifting Beasts</title>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<style>
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #f7f7f7;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.teiHeader {
+text-align: center;
+font-style: bold;
+visibility: hidden;
+}
+
+  li {
+    list-style-type: none
+  }
+
+  ul {
+    margin-left: 0;
+    padding-left: 0
+  }
+
+
+  #sidebar, #content {
+    position: absolute;
+  }
+
+  #sidebar {
+    top: 0px;
+    width: 25%;
+    bottom: 0px;
+    background: #ffffff;
+    height: 100%;
+  }
+
+  #content {
+    top: 0px;
+    left: 25%;
+    right: 0;
+    bottom: 0px;
+    background: #f7f7f7;
+    -moz-transition: left 0.5s ease;
+    transition: left 0.5s ease;
+    }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 10% 70%;
+    grid-column-gap: 5%;
+    height: calc(100vh - 90px);;
+  }
+.hi {
+font-weight: bold;
+}
+
+  #col-main{
+    box-shadow: -5px 0 15px -5px #dfe3eb, 5px 0 15px -5px #dfe3eb;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: #ffffff;
+    position: relative;
+    overflow-y: scroll;
+    height: calc(100vh - 50px);
+    margin: 1em;
+  }
+
+  a {
+    text-decoration: none;
+    color:  DimGray;
+text-decoration: underline;
+  }
+
+  #mySidebar {
+    position: relative;
+    overflow-y: scroll;
+    height: calc(100vh - 50px);
+  }
+
+  #mySidebar a:hover {
+    width: auto;
+    background-color: #394867;
+    color: #ffffff;
+  }
+
+  #mySidebar a {
+    display: block;
+    padding: 6px;
+    padding-left: 3em;
+    font-size: 12pt;
+  }
+
+  .inner_link {
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+  }
+
+  #toggle-button:hover {
+    background-color: #394867;
+    color: #ffffff;
+  }
+
+  #toggle-button {
+    background-color: #f7f7f7;
+    border: none;
+    color: #394867;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .simple-btn {
+    background-color: #f7f7f7;
+    border: none;
+    color: #394867;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .simple-btn:hover {
+    color: #0a1931;
+  }
+
+  #fileinfo {
+    font-size: 30px;
+  }
+
+  #magnifier {
+     font-size: 30px;
+     font-weight: bold;
+   }
+
+  #info-icon, #search-icon {
+    color: #394867 !important;
+  }
+    
+  #info-icon:hover, #search-icon:hover {
+    color: #0a1931 !important;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1050;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+  }
+
+  .modal:target {
+    opacity: 1;
+    pointer-events: auto;
+    overflow-y: auto;
+  }
+
+  .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+  }
+
+  @media (min-width: 576px) {
+    .modal-dialog {
+      max-width: 50%;
+      margin: 30px auto;
+    }
+  }
+
+  .modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+    background-color: #f7f7f7;
+  }
+
+  @media (min-width: 768px) {
+    .modal-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+  }
+
+  .modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+  }
+
+  .modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  .close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+  }
+
+  .close:focus,
+  .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+  }
+
+  .modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 15px;
+    overflow: auto;
+  }
+
+  .fileinfo-head {
+    color: #394867 !important;
+  }
+
+  .fileinfo-node {
+    color: #394867 !important;
+    font-style: italic;
+  }
+
+  .fileinfo-block div {
+    margin-bottom: 3em; 
+    /*background-color: #ffffff;*/
+  }
+
+  .fileinfo-block h3{
+    padding-left: 1em;
+  }
+
+  .fileinfo-text{
+    margin-left: 2em;
+  }
+
+  #fileinfo-content {
+    /*background-color: #f7f7f7;*/
+  }
+
+  #modal-Search {
+    background-color: white;
+  }
+
+  form{
+    text-align: center;
+  }
+
+
+  #search {
+    margin-top: 1em;
+  }
+
+  #search-header {
+    display: block;
+    visibility: hidden;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+  }
+
+  #search-header h3 {
+    color: #70757a;
+    font-weight: normal;
+    display: inline-block;
+    margin-left: 1em;
+  }
+
+  .search-result {
+    padding: 1em;
+    border-top: 10px solid #f7f7f7;
+    border-bottom: 10px solid #f7f7f7;
+    display: block;
+  }
+
+ select {
+   /*background-color: #f7f7f7;*/
+     border: 1px solid #9ba4b4;
+  padding: 12px 20px;
+  width: 15%;
+  /*border: none;*/
+border-radius: 4px;
+background-color: #9ba4b4;
+color: #ffffff;
+  }
+
+ input[type=text] {
+     border: 2px solid #9ba4b4;
+  padding: 12px 20px;
+  width: 50%;
+  border-radius: 4px;
+  }
+
+ input[type=text]:focus {
+  background-color: #f7f7f7 !important;
+}
+
+  .btn-search {
+    background-color: #394867 !important;
+    /*border: none;*/
+    border: 1px solid #394867;
+    color: #ffffff;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+.btn-download {
+    background-color: inherit;
+    border-radius: 15px;
+    border: 1px solid #394867;
+    color: #394867;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  .btn-download:hover {
+  background-color: #394867;
+  color: #ffffff;
+}
+
+  .disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.view-more a{
+color: #70757a;
+display: block;
+/*font-weight: bold;*/
+}
+.term {
+position: relative;
+display: inline-block;
+
+}
+
+.term .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+padding: 5px 0;
+border-radius: 6px;
+position: absolute;
+z-index: 1;
+top: 100%;
+left: 50%;
+margin-left: -60px;
+}
+
+.term:hover .tooltiptext {
+visibility: visible;
+}
+/* ---------------- Main -------------------- */
+.wrapper {
+display: grid;
+grid-template-columns: 15% 65% 15%
+}
+li {
+list-style-type: none
+}
+ul {
+margin-left: 0;
+padding-left: 0
+}
+main {
+font-size: 11pt
+}
+/* ---------------- Headers -------------------- */
+.head {
+font-size: 12pt;
+font-weight: bold
+}
+.publisher {
+color: green;
+font-size: 250%
+}
+.castGroup-head {
+letter-spacing: 0;
+font-size: 10pt;
+text-align: center;
+color: rgb(192, 192, 192)
+}
+.sp {
+font-size: 15pt
+}
+.speaker {
+font-weight: bold;
+font-style: italic
+}</style></head>
+<body>
+<main>
+<div class="sidebar" id="sidebar">
+<div class="sidenav" id="mySidebar">
+<ul>
+<li>
+<a href="#nav-tabContent">^ Back to the beginning</a>
+</li>
+<li><a href="#c0">THE HUNTER AND THE SHAPESHIFTING BEASTS</a></li><li><a href="#c1"> Introduction </a></li><li><a href="#c2"> Story </a></li><li><a href="#c3">Notes</a></li><li><a href="#c4">Glossary</a></li></ul>
+</div>
+</div>
+<div class="main-content" id="content">
+<div class="grid">
+<div class="column" id="col-left">
+<button class="opened" id="toggle-button" onclick="toggle()">☰</button>
+<button class="simple-btn" id="increasetext" onclick="increaseFont()">+</button>
+<button class="simple-btn" id="decreasetext" onclick="decreaseFont()">−</button>
+<button class="simple-btn" id="fileinfo"><a href="#openModal" id="info-icon">Ꭵ</a></button>
+<button class="simple-btn" id="magnifier"><a href="#openSearch" id="search-icon">⌕</a></button>
+<div class="modal" id="openModal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="modal-title">File description</h3>
+<a class="close" href="#close" title="Close">x</a>
+</div>
+<div class="modal-body" id="fileinfo-content">
+<div class="file-desc" xmlns:tei_ns="http://www.tei-c.org/ns/1.0"><h3 class="fileinfo-head">fileDesc</h3><div class="fileinfo-block">
+<h3 class="fileinfo-head">titleStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">title: </span><span>THE HUNTER AND THE SHAPESHIFTING BEASTS</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">storyteller: </span><span>Wassan Jachan</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">author: </span><span>Konkomba oral tradition</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">editor: </span><span>Tasun Tidorchibe</span></p>
+<h3 class="fileinfo-head">respStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Tasun Tidorchibe</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">resp: </span><span>transcript and translation</span></p>
+</div>
+<h3 class="fileinfo-head">respStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Ava Braus</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Caroline Hielscher </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Nadine Hoffmann</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">resp: </span><span>coding and editing</span></p>
+</div>
+<h3 class="fileinfo-head">respStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Dr. Eva Ulrike Pirker</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">resp: </span><span>supervisor</span></p>
+</div>
+<p class="fileinfo-text"><span class="fileinfo-node">sponsor: </span><span>E-learning Förderfonds HHU</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">sponsor: </span><span>Katholischer Akademischer Ausländerdienst</span></p>
+<h3 class="fileinfo-head">address</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Centre for Translation Studies Düsseldorf</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Heinrich Heine University Düsseldorf</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">street: </span><span>Universitätsstraße 1</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">postCode: </span><span>40225</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Düsseldorf</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Germany</span></p>
+</div>
+</div>
+<h3 class="fileinfo-head">publicationStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">publisher: </span><span>Centre for Translation Studies Düsseldorf</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">status: </span><span>not yet published</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">pubPlace: </span><span>Düsseldorf</span></p>
+<h3 class="fileinfo-head">address</h3><div class="fileinfo-block"> <p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Centre for Translation Studies Düsseldorf</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Heinrich Heine University Düsseldorf</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">street: </span><span>Universitätsstraße 1</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">postCode: </span><span>40225</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Düsseldorf</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Germany</span></p>
+</div>
+<p class="fileinfo-text"><span class="fileinfo-node">availability: </span><span> not yet available </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">date: </span><span> TBD </span></p>
+</div>
+<h3 class="fileinfo-head">sourceDesc</h3><div class="fileinfo-block">
+<h3 class="fileinfo-head">bibl</h3><div class="fileinfo-block"> <p class="fileinfo-text"><span class="fileinfo-node">title: </span><span> The Hunter and the Shapeshifting Beasts </span></p> <p class="fileinfo-text"><span class="fileinfo-node">author: </span><span> Konkomba oral tradition </span></p> Translated by <p class="fileinfo-text"><span class="fileinfo-node">editor: </span><span> Tasun Tidorchibe </span></p> </div>
+</div>
+<h3 class="fileinfo-head">encodingDesc</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">editorialDecl: </span><span>Treating notes the same way as the glossary instead of using footnotes; no single author since it is based on a Konkomba oral tradition</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">projectDesc: </span><span>The project focuses on digitizing oral folktales from Ghana, specifically the Konkomba people, through different media. 
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitized
+                narratives. It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying
+                priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</span></p></div>
+<h3 class="fileinfo-head">profileDesc</h3><div class="fileinfo-block">
+<h3 class="fileinfo-head">creation</h3><div class="fileinfo-block"> Originally told in
+                    <h3 class="fileinfo-head">place</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">placeName: </span><span>
+                            Chamba, Ghana
+                        </span></p>
+<h3 class="fileinfo-head">location</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">geo: </span><span>8.7, -0.133333</span></p>
+</div>
+</div>
+                    transcribed foktale from Likpakpaln as told by <p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Wassan Jachan </span></p> on <p class="fileinfo-text"><span class="fileinfo-node">date: </span><span>13th November 2019 </span></p>in <p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Chamba </span></p>, <p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Ghana</span></p>
+</div>
+<h3 class="fileinfo-head">langUsage</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">language: </span><span>Likpakpaln</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">language: </span><span>English</span></p>
+</div>
+</div>
+</div></div></div>
+</div>
+</div>
+</div>
+<div class="modal" id="openSearch">
+<div class="modal-dialog">
+<div class="modal-content" id="modal-Search">
+<div class="modal-header">
+<h3 class="modal-title">Search the document</h3>
+<a class="close" href="#close" title="Close">x</a>
+</div>
+<div class="modal-body" id="search-modal">
+<div id="search">
+<form id="search-form">
+<select id="mySelect" name="type">
+<option value="text">text</option>
+<option value="tag">tag</option>
+</select>
+<input id="myInput" name="query" placeholder="..." type="text"/>
+<button class="btn btn-search" id="btn search-btn" type="submit">Search</button>
+</form>
+</div>
+<div id="search-content">
+<div id="search-header">
+<h3 id="search-title"> </h3>
+<button class="btn btn-download disabled" disabled="true" id="download-txt" type="button">⇩ Download</button>
+</div>
+<div id="search-results"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="column" id="col-main">
+<div class="document" id="nav-tabContent"><div class="column" id="col2"><div class="TEI">
+<div class="teiHeader" hidden>
+<div class="fileDesc">
+<div class="titleStmt">
+<p class="title" id="idp269576248">THE HUNTER AND THE SHAPESHIFTING BEASTS</p>
+<p class="storyteller" id="idp269583288">Wassan Jachan</p>
+<p class="author" id="idp269580088">Konkomba oral tradition</p>
+<p class="editor" id="idp269577784">Tasun Tidorchibe</p>
+<div class="respStmt">
+<p class="name" id="idp269581752">Tasun Tidorchibe</p>
+<p class="resp" id="idp269578936">transcript and translation</p>
+</div>
+<div class="respStmt">
+<p class="name" id="idp269580600">Ava Braus</p>
+<p class="name" id="idp269579448">Caroline Hielscher </p>
+<p class="name" id="idp269580856"> Nadine Hoffmann</p>
+<p class="resp" id="idp269576376">coding and editing</p>
+</div>
+<div class="respStmt">
+<p class="name" id="idp269577912">Dr. Eva Ulrike Pirker</p>
+<p class="resp" id="idp269579832">supervisor</p>
+</div>
+<p class="sponsor" id="idp269581496" type="digitization">E-learning Förderfonds HHU</p>
+<p class="sponsor" id="idp269575864" type="funding">Katholischer Akademischer Ausländerdienst</p>
+<div class="address">
+<p class="name" id="idp269578168" type="institution"> Centre for Translation Studies Düsseldorf</p>
+<p class="name" id="idp222729384" type="institution"> Heinrich Heine University Düsseldorf</p>
+<p class="street" id="idp222729128">Universitätsstraße 1</p>
+<p class="postCode" id="idp222728232">40225</p>
+<p class="name" id="idp222730280" type="city">Düsseldorf</p>
+<p class="name" id="idp222726824" type="country"> Germany</p>
+</div>
+</div>
+<div class="publicationStmt">
+<p class="publisher" id="idp222727848">Centre for Translation Studies Düsseldorf</p>
+<p class="status" id="idp222727976">not yet published</p>
+<p class="pubPlace" id="idp222729640">Düsseldorf</p>
+<div class="address"> <p class="name" id="idp272430920" type="institution"> Centre for Translation Studies Düsseldorf</p>
+<p class="name" id="idp272433608" type="institution"> Heinrich Heine University Düsseldorf</p>
+<p class="street" id="idp272430536">Universitätsstraße 1</p>
+<p class="postCode" id="idp272432584">40225</p>
+<p class="name" id="idp272436040" type="city">Düsseldorf</p>
+<p class="name" id="idp272431944" type="country"> Germany</p>
+</div>
+<p class="availability" id="idp272431560"> not yet available </p>
+<p class="date" id="idp272438216"> TBD </p>
+</div>
+<div class="sourceDesc">
+<div class="bibl"> <p class="title" id="idp272431688"> The Hunter and the Shapeshifting Beasts </p> <p class="author" id="idp272437576"> Konkomba oral tradition </p> Translated by <p class="editor" id="idp272438344" role="translator"> Tasun Tidorchibe </p> </div>
+</div>
+<div class="encodingDesc">
+<p class="editorialDecl" id="idp272435656">Treating notes the same way as the glossary instead of using footnotes; no single author since it is based on a Konkomba oral tradition</p>
+<p class="projectDesc" id="idp272436424">The project focuses on digitizing oral folktales from Ghana, specifically the Konkomba people, through different media. 
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitized
+                narratives. It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying
+                priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</p></div>
+<div class="profileDesc">
+<div class="creation"> Originally told in
+                    <div class="place" xml:id="ChambaGhana">
+<p class="placeName" id="idp217568952">
+                            Chamba, Ghana
+                        </p>
+<div class="location">
+<p class="geo" id="idp217564472">8.7, -0.133333</p>
+</div>
+</div>
+                    transcribed foktale from Likpakpaln as told by <p class="name" id="idp217567160" type="storyteller"> Wassan Jachan </p> on <p class="date" id="idp217567928" when="2019">13th November 2019 </p>in <p class="name" id="idp217568568" type="city">Chamba </p>, <p class="name" id="idp217563192" type="country">Ghana</p>
+</div>
+<div class="langUsage">
+<p class="language" id="idp217569592" ident="lik">Likpakpaln</p>
+<p class="language" id="idp217569336" ident="en">English</p>
+</div>
+</div>
+</div>
+</div>
+<div class="text">
+<div class="body">
+<h1 class="head" id="c0" type="Title" style="text-align: center;">THE HUNTER AND THE SHAPESHIFTING BEASTS</h1>
+<p class="p" id="idp217565880" style="text-align: center;"> (As told by Wassan Jachan on 13th November 2019 in Chamba, Ghana)</p>
+<div class="div" type="section"><h1 class="head" id="c1" type="subTitle"> Introduction </h1>
+<p class="p" id="idp272663800">
+            This tale presents secrecy as a virtue as it relates how the inability of a great
+            hunter to conceal his secrets results in his death at the hands of a shapeshifting beast.
+            The story relates how a skilled and highly revered hunter divulges the secrets of his success as a hunter to his wife, whom unbeknownst to him is a beast with shapeshifting abilities intent on killing him. 
+            Having discovered the hunter’s secrets he beast-turned-woman clandestinely follows the hunter on one of his hunting adventures and kills him in the forest. 
+            The story essentially presents hunting as one of the success measuring benchmarks among the Konkomba people as the storyteller hints at the commencement of the tale about the privileged social status of the hunter in his community. 
+             Unfortunately, like all great men, he dies as a result of his flaw. 
+        </p>
+<div class="p">If you want to listen to the Likpakpaln narration,<a class="ref" id="idp272666360" href="https://mediathek.hhu.de/watch/51e74e5a-eff4-4ee9-947d-da7c831f3a8a" target="_blank"> click here.</a></div> </div>
+<div class="div" type="section"> <h1 class="head" id="c2" type="subTitle"> Story </h1>
+<div class="p">
+ “My story goes like this…,” Wassan announces and proceeds without waiting for his audience to respond.<a class="term" href="#tdpv1"><sup>1</sup></a>
+</div>
+<div class="p">There lived a great hunter in a certain village. He was well known in the village and beyond for his bravery and hunting prowess. To his credit were countless
+            and different animal kills, most of whose skulls he hung in his <a class="term" href="#tdpv3">kinakuɔk</a> as memorabilia.<a class="term" href="#tdpv2"><sup>2</sup></a> As a result of his hunting prowess, he was highly revered by all. 
+            One remarkable thing about this hunter was that he was attacked on several occasions by wild beasts but on each occasion, he escaped without a scratch. 
+            He was therefore a torn in the flesh of the wild animals in the forest near the village.</div>
+<p class="p" id="idp272668536">One day a buffalo with shapeshifting abilities turned into a beautiful lady and visited the village with the intention of ascertaining the secret behind 
+            the hunter’s countless escapes from her attacks.  With her charms, she was able to make the hunter fall in love with her and eventually marry her. 
+            One day during one of their usual conversations, the hunter’s wife tricked him into divulging the secret regarding his numerous escapes from dangerous 
+            animals’ attacks during his hunting escapades in the forest. Unbeknownst to the hunter that his wife was one of those wild beasts that had tried to kill 
+            him in the past, the young hunter told his wife that one of his secrets was that whenever he shot at a wild beast and it attacked him, he shape-shifted 
+            into the stump of a tree. The second secret was that if the beast further pursued him, he shape-shifted into the nearest grass or shrub. As the hunter was
+            about to reveal his last secret, his father, who was within earshot and who had been listening all along, shouted at his son in disapproval. The hunter 
+            therefore stopped talking so his wife didn’t learn the last secret.</p>
+<p class="p" id="idp272665848">
+            Armed with the two secrets of the hunter, the shapeshifting buffalo clandestinely followed the hunter on his next hunting 
+            adventure in the forest. She shape-shifted into a buffalo and the hunter, on spotting the buffalo, shot at it. The 
+            buffalo then attacked him in anger but the hunter quickly shape-shifted into a stump. The buffalo pursued him further 
+            and he turned into the nearest grass. The buffalo charged at him again, whereupon he shape-shifted into a needle and 
+            stuck on its tail. Since the buffalo failed to learn the last of the hunter’s secrets it didn’t know what to attack 
+            next, so it decided to walk away. As it was walking away, the hunter dropped off its tail and killed it.
+        </p>
+<p class="p" id="idp272668920">
+            When the hunter carried his game home and was searching for his wife to share the good news with her, she was nowhere 
+            to be found. This left the hunter an eligible bachelor again. Unfortunately for him, another wild beast shape-shifted 
+            into another beautiful lady and came to the village. The hunter fell in love with her and eventually married her. This 
+            second wife was equally curious and wanted to know the hunter’s secrets in escaping all the perilous attacks from the 
+            beasts of the wild. Fortunately for the shapeshifting wife, the hunter’s father was not around to stop the hunter from 
+            divulging all his three secrets. The hunter told his shapeshifting wife that whenever he shot at a wild beast and it 
+            attacked him, he shape-shifted into the stump of a tree; if it further charged at him, he shape-shifted into the nearest 
+            grass or shrub; and if the beast further pursued him, he turned into a needle and stuck on its tail. After learning the 
+            hunter’s secrets, the wild beast tailed the hunter on his next hunting expedition, shape-shifted back into a wild beast 
+            and attacked him. The hunter as usual shape-shifted into a stump. The animal pursued him further and he turned into the 
+            nearest grass. On a third attack, he shape-shifted into a needle and stuck on the wild beast’s tail. The wild beast 
+            looked on its tail and found the needle the hunter had turned into and killed him. 
+        </p>
+<p class="p" id="idp272669432">
+            That is why our elders say that you should never divulge all your secrets to anyone. This is the end of my story. 
+        </p> </div>
+<div class="div" type="section">
+<h1 class="head" id="c3" type="subTitle">Notes</h1>
+<div class="p"><div class="gloss" id="tdpv1">1. Wassan’s commencement of his tale without waiting for a response from his audience is a common phenomenon in Konkomba storytelling culture.
+            On occasions when a storytelling session has been ongoing for a while, a storyteller who announces his or her intention to tell the next tale can commence without any interruption
+            from his or her audience since they have been listening and responding to previous storytellers. Their response is contextually implied in their silence and presence at the session.</div></div>
+            <br>
+<div class="p"><div class="gloss" id="tdpv2">2. In traditional Konkomba communities, the skulls of special and dangerous animals killed by one are usually hung in the kinakuɔk
+                 as they speak volumes about one’s bravery and status in society. One’s success at hunting is contingent on the number of special and dangerous animals 
+                 one has killed; and one’s success at hunting determines his social status in his community. In other words, among Konkombas success at hunting is one of 
+                 the achievement markers. For further details on Konkomba achievement culture, see my article, “Concepts of achievement among Konkombas: representations in 
+                 their folktales” in Forward, Upward, Onward? Narratives of Achievement in African and Afroeuropean Contexts.</div></div> </div>
+<div class="div" type="section">
+<h1 class="head" id="c4" type="subTitle">Glossary</h1>
+<div class="list" type="gloss">
+<div class="label"><p class="hi" id="idp224527752" rend="bold">Kinakuɔk:</p></div>
+<div class="item"><div class="gloss" id="tdpv3">a round room that serves as the main entrance to a typical Konkomba house. It has two doors at both ends to serve as the 
+                passage in and out of the house. It also serves as the place where men usually relax or host visitors. In Ubↄr’s palace (ubɔr: the political head of a Konkomba community. 
+                Ubɔr is usually the eldest male member of the royal family. He inherits that position from his father after the latter’s demise.), the kinakuɔk usually has a stage 
+                or raised platform where Ubↄr sits to hold meetings and perform other functions. Thus, the kinakuɔk can assume political significance rather than being 
+                a mere passage or a place for hanging out.</div></div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div>
+</div>
+</div>
+</div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" type="text/javascript"> </script>
+<script type="text/javascript">
+
+      const options = {
+        isCaseSensitive: false,
+        includeScore: false,
+        shouldSort: true,
+        includeMatches: true,
+        findAllMatches: false,
+        minMatchCharLength: 1,
+        location: 0,
+        threshold: 0.6,
+        distance: 100,
+        useExtendedSearch: false,
+        ignoreLocation: false,
+        ignoreFieldNorm: false,
+        keys: ['sentences', 'text']
+      };
+
+      const list = document.getElementById("nav-tabContent").getElementsByTagName('p');
+      var search_results = [];
+      Object.values(list).forEach(getContent);
+      const fuse = new Fuse(search_results, options);
+
+
+      function getContent(element, index){
+        var text = element.innerText || element.textContent;
+        var isEmpty = text.trim().length==0;
+        if (isEmpty === false){
+          var result = new Object();
+          result.name = element.tagName;
+          result.sentences = text.match( /[^\.!\?]+[\.!\?]+/g ) || [];
+          result.sentences = result.sentences.map(function (str) { return str.trim(); });
+          result.text = text;
+          result.link = element.id;
+          result.element = element.cloneNode(true);
+          search_results.push(result);
+        };
+      };
+
+      function toggle() {
+
+        var btn = document.getElementById("toggle-button");
+        var content = document.getElementById("content")
+
+        if ("opened" == btn.classList){
+          content.style.left = "0%";
+          btn.classList.remove('opened');
+          btn.classList.add('closed');
+        } else if ("closed" == btn.classList){
+          content.style.left = "25%";
+          btn.classList.remove('closed');
+          btn.classList.add('opened');
+        }
+      };
+
+      function increaseFont() {
+        var elements = document.getElementById('nav-tabContent').querySelectorAll('p,span');
+
+        for (i in elements){
+          var element = elements[i]
+          var isEmpty = element.innerHTML.trim().length==0;
+          if (isEmpty === false){
+            style = window.getComputedStyle(element, null).getPropertyValue('font-size');
+            currentSize = parseFloat(style);
+            element.style.fontSize = (currentSize + 5) + 'px';
+          }
+        }
+      };
+
+      function decreaseFont() {
+        var elements = document.getElementById('nav-tabContent').querySelectorAll('p,span');
+
+        for (i in elements){
+          var element = elements[i]
+          var isEmpty = element.innerHTML.trim().length==0;
+          if (isEmpty === false){
+            style = window.getComputedStyle(element, null).getPropertyValue('font-size');
+            currentSize = parseFloat(style);
+            element.style.fontSize = (currentSize - 5) + 'px';
+          }
+        }
+      };   
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var scrollbar = document.body.clientWidth - window.innerWidth + 'px';
+
+        document.querySelector('[href="#openModal"]').addEventListener('click', function () {
+          document.body.style.overflow = 'hidden';
+          document.querySelector('#openModal').style.marginLeft = scrollbar;
+        });
+
+        document.querySelector('[href="#close"]').addEventListener('click', function () {
+          document.body.style.overflow = 'visible';
+          document.querySelector('#openModal').style.marginLeft = '0px';
+        });
+
+        document.querySelector('form#search-form').addEventListener('submit', function () {
+          event.preventDefault();
+          let formElement = document.getElementById('search-form');
+          let outputDiv = document.getElementById('search-results');
+          let content = document.getElementById('search-header');
+      	  content.style.visibility = "hidden";
+          outputDiv.innerHTML = "";
+
+          var formData = new FormData(formElement);
+          var qType = formData.get('type');
+          var query = formData.get('query').trim();
+          var isEmpty = query.length==0;
+          if (isEmpty === false){
+          	if (qType === "text"){
+          		findTextMatches(query, outputDiv);
+          	} else if (qType === "tag"){
+          		findTagMatches(query, outputDiv);
+          	}}
+       });
+
+        document.querySelector("button#download-txt").addEventListener("click", function () {
+        	event.preventDefault();
+    		var data = document.querySelectorAll("div.search-result p:not(.view-more)");
+			export_table_to_csv(data, "results.text");
+		});
+    });
+
+      function findTagMatches(query, outputDiv){
+      	var results = document.getElementById("nav-tabContent").querySelectorAll(query);
+      	n_results = results.length.toString();
+
+      	createResultStructure(outputDiv, n_results);
+        results.forEach(addTagSearchResult);
+        btn = document.getElementById('download-txt');
+        btn.classList.remove('disabled');
+        btn.disabled = false;
+      };
+
+      function findTextMatches(query, outputDiv) {
+      	var results = fuse.search(query);
+        n_results = results.length.toString();
+
+        createResultStructure(outputDiv, n_results);
+        results.forEach(addTextSearchResult);
+        btn = document.getElementById('download-txt');
+        btn.classList.remove('disabled');
+        btn.disabled = false;
+      };
+
+      function export_table_to_csv(data, filename) {
+		var txt = [];
+		Object.values(data).forEach(function(item) {txt.push(item.textContent)});
+		download_txt(txt.join("\n=======================\n"), filename);
+		};
+
+
+		function download_txt(txt, filename) {
+		    var txtFile;
+		    var downloadLink;
+		    txtFile = new Blob([txt], {type: "text"});
+		    downloadLink = document.createElement("a");
+		    downloadLink.download = filename;
+		    downloadLink.href = window.URL.createObjectURL(txtFile);
+		    downloadLink.style.display = "none";
+			document.body.appendChild(downloadLink);
+		    downloadLink.click();
+		}
+
+      function createResultStructure (outputDiv, n_results) {
+
+      	let content = document.getElementById('search-header');
+      	content.style.visibility = "visible"
+
+      	let header = document.getElementById('search-header');
+      	let h3 = document.getElementById('search-title');
+      	h3.innerHTML = "Found results: <span>" +  n_results + "</span>"
+      	header.append(h3);
+      };
+
+      function addTextSearchResult(result){
+        if (result.item.text.trim().length==0 === false){
+          let outputDiv = document.getElementById('search-results');
+          let div = document.createElement('div');
+          div.innerHTML = '<p class="view-more"><a target="_blank" href="#' + result.item.link + '"/>read more...</p>'
+          div.className = "search-result";
+          div.append(result.item.element);
+          outputDiv.append(div);
+        }};
+
+         function addTagSearchResult(result){
+        if (result.textContent.trim().length==0 === false){
+          let outputDiv = document.getElementById('search-results');
+          let div = document.createElement('div');
+          div.innerHTML = '<p class="view-more"><a target="_blank" href="#' + result.id + '"/>read more...</p>'
+          div.className = "search-result";
+          result = result.cloneNode(true)
+          div.append(result);
+          outputDiv.append(div);
+        }};
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Why the Broom's Neck is Tied</title>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<style>
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #f7f7f7;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.teiHeader {
+text-align: center;
+font-style: bold;
+visibility: hidden;
+}
+
+  li {
+    list-style-type: none
+  }
+
+  ul {
+    margin-left: 0;
+    padding-left: 0
+  }
+
+
+  #sidebar, #content {
+    position: absolute;
+  }
+
+  #sidebar {
+    top: 0px;
+    width: 25%;
+    bottom: 0px;
+    background: #ffffff;
+    height: 100%;
+  }
+
+  #content {
+    top: 0px;
+    left: 25%;
+    right: 0;
+    bottom: 0px;
+    background: #f7f7f7;
+    -moz-transition: left 0.5s ease;
+    transition: left 0.5s ease;
+    }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 10% 70%;
+    grid-column-gap: 5%;
+    height: calc(100vh - 90px);;
+  }
+.hi {
+font-weight: bold;
+}
+
+  #col-main{
+    box-shadow: -5px 0 15px -5px #dfe3eb, 5px 0 15px -5px #dfe3eb;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: #ffffff;
+    position: relative;
+    overflow-y: scroll;
+    height: calc(100vh - 50px);
+    margin: 1em;
+  }
+
+  a {
+    text-decoration: none;
+    color:  DimGray;
+text-decoration: underline;
+  }
+
+  #mySidebar {
+    position: relative;
+    overflow-y: scroll;
+    height: calc(100vh - 50px);
+  }
+
+  #mySidebar a:hover {
+    width: auto;
+    background-color: #394867;
+    color: #ffffff;
+  }
+
+  #mySidebar a {
+    display: block;
+    padding: 6px;
+    padding-left: 3em;
+    font-size: 12pt;
+  }
+
+  .inner_link {
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+  }
+
+  #toggle-button:hover {
+    background-color: #394867;
+    color: #ffffff;
+  }
+
+  #toggle-button {
+    background-color: #f7f7f7;
+    border: none;
+    color: #394867;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .simple-btn {
+    background-color: #f7f7f7;
+    border: none;
+    color: #394867;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .simple-btn:hover {
+    color: #0a1931;
+  }
+
+  #fileinfo {
+    font-size: 30px;
+  }
+
+  #magnifier {
+     font-size: 30px;
+     font-weight: bold;
+   }
+
+  #info-icon, #search-icon {
+    color: #394867 !important;
+  }
+    
+  #info-icon:hover, #search-icon:hover {
+    color: #0a1931 !important;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1050;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+  }
+
+  .modal:target {
+    opacity: 1;
+    pointer-events: auto;
+    overflow-y: auto;
+  }
+
+  .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+  }
+
+  @media (min-width: 576px) {
+    .modal-dialog {
+      max-width: 50%;
+      margin: 30px auto;
+    }
+  }
+
+  .modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+    background-color: #f7f7f7;
+  }
+
+  @media (min-width: 768px) {
+    .modal-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+  }
+
+  .modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+  }
+
+  .modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  .close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+  }
+
+  .close:focus,
+  .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+  }
+
+  .modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 15px;
+    overflow: auto;
+  }
+
+  .fileinfo-head {
+    color: #394867 !important;
+  }
+
+  .fileinfo-node {
+    color: #394867 !important;
+    font-style: italic;
+  }
+
+  .fileinfo-block div {
+    margin-bottom: 3em; 
+    /*background-color: #ffffff;*/
+  }
+
+  .fileinfo-block h3{
+    padding-left: 1em;
+  }
+
+  .fileinfo-text{
+    margin-left: 2em;
+  }
+
+  #fileinfo-content {
+    /*background-color: #f7f7f7;*/
+  }
+
+  #modal-Search {
+    background-color: white;
+  }
+
+  form{
+    text-align: center;
+  }
+
+
+  #search {
+    margin-top: 1em;
+  }
+
+  #search-header {
+    display: block;
+    visibility: hidden;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+  }
+
+  #search-header h3 {
+    color: #70757a;
+    font-weight: normal;
+    display: inline-block;
+    margin-left: 1em;
+  }
+
+  .search-result {
+    padding: 1em;
+    border-top: 10px solid #f7f7f7;
+    border-bottom: 10px solid #f7f7f7;
+    display: block;
+  }
+
+ select {
+   /*background-color: #f7f7f7;*/
+     border: 1px solid #9ba4b4;
+  padding: 12px 20px;
+  width: 15%;
+  /*border: none;*/
+border-radius: 4px;
+background-color: #9ba4b4;
+color: #ffffff;
+  }
+
+ input[type=text] {
+     border: 2px solid #9ba4b4;
+  padding: 12px 20px;
+  width: 50%;
+  border-radius: 4px;
+  }
+
+ input[type=text]:focus {
+  background-color: #f7f7f7 !important;
+}
+
+  .btn-search {
+    background-color: #394867 !important;
+    /*border: none;*/
+    border: 1px solid #394867;
+    color: #ffffff;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+.btn-download {
+    background-color: inherit;
+    border-radius: 15px;
+    border: 1px solid #394867;
+    color: #394867;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  .btn-download:hover {
+  background-color: #394867;
+  color: #ffffff;
+}
+
+  .disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.view-more a{
+color: #70757a;
+display: block;
+/*font-weight: bold;*/
+}
+.term {
+position: relative;
+display: inline-block;
+
+}
+
+.term .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+padding: 5px 0;
+border-radius: 6px;
+position: absolute;
+z-index: 1;
+top: 100%;
+left: 50%;
+margin-left: -60px;
+}
+
+.term:hover .tooltiptext {
+visibility: visible;
+}
+/* ---------------- Main -------------------- */
+.wrapper {
+display: grid;
+grid-template-columns: 15% 65% 15%
+}
+li {
+list-style-type: none
+}
+ul {
+margin-left: 0;
+padding-left: 0
+}
+main {
+font-size: 11pt
+}
+/* ---------------- Headers -------------------- */
+.head {
+font-size: 12pt;
+font-weight: bold
+}
+.publisher {
+color: green;
+font-size: 250%
+}
+.castGroup-head {
+letter-spacing: 0;
+font-size: 10pt;
+text-align: center;
+color: rgb(192, 192, 192)
+}
+.sp {
+font-size: 15pt
+}
+.speaker {
+font-weight: bold;
+font-style: italic
+}</style></head>
+<body>
+<main>
+<div class="sidebar" id="sidebar">
+<div class="sidenav" id="mySidebar">
+<ul>
+<li>
+<a href="#nav-tabContent">^ Back to the beginning</a>
+</li>
+<li><a href="#c0"> WHY THE BROOM’S NECK IS TIED
+            </a></li><li><a href="#c1">Introduction</a></li><li><a href="#c2">Story</a></li><li><a href="#c3">Note</a></li><li><a href="#c4">Glossary</a></li></ul>
+</div>
+</div>
+<div class="main-content" id="content">
+<div class="grid">
+<div class="column" id="col-left">
+<button class="opened" id="toggle-button" onclick="toggle()">☰</button>
+<button class="simple-btn" id="increasetext" onclick="increaseFont()">+</button>
+<button class="simple-btn" id="decreasetext" onclick="decreaseFont()">−</button>
+<button class="simple-btn" id="fileinfo"><a href="#openModal" id="info-icon">Ꭵ</a></button>
+<button class="simple-btn" id="magnifier"><a href="#openSearch" id="search-icon">⌕</a></button>
+<div class="modal" id="openModal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="modal-title">File description</h3>
+<a class="close" href="#close" title="Close">x</a>
+</div>
+<div class="modal-body" id="fileinfo-content">
+<div class="file-desc" xmlns:tei_ns="http://www.tei-c.org/ns/1.0"><h3 class="fileinfo-head">fileDesc</h3><div class="fileinfo-block">
+<h3 class="fileinfo-head">titleStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">title: </span><span> WHY THE BROOM'S NECK IS TIED </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">storyteller: </span><span> Vincent Nimobi Sagnan</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">author: </span><span> Konkomba oral tradition</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">editor: </span><span> Tasun Tidorchibe </span></p>
+<h3 class="fileinfo-head">respStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Tasun Tidorchibe </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">resp: </span><span>transcript, editing and translation</span></p>
+</div>
+<h3 class="fileinfo-head">respStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Tabita Zaboboka </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Nils Jaworski  </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Nina Lang </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Aaron Kassat </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">resp: </span><span> coding and editing </span></p>
+</div>
+<h3 class="fileinfo-head">respStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Dr. Eva Ulrike Pirker </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">resp: </span><span> supervision </span></p>
+</div>
+<p class="fileinfo-text"><span class="fileinfo-node">sponsor: </span><span> E-Learning Förderfonds HHU </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">sponsor: </span><span>Katholischer Akademischer Ausländerdienst</span></p>
+<h3 class="fileinfo-head">address</h3><div class="fileinfo-block"><p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Centre for Translation Studies Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Heinrich Heine Universität Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">street: </span><span> Universitätsstraße 1 </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">postCode: </span><span> 40225 </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Germany </span></p></div>
+</div>
+<h3 class="fileinfo-head">publicationStmt</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">publisher: </span><span> Centre for Translation Studies Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">status: </span><span> not yet published</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">pubPlace: </span><span> Düsseldorf </span></p>
+<h3 class="fileinfo-head">address</h3><div class="fileinfo-block"> <p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Centre for Translation Studies Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Heinrich Heine Universität Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">street: </span><span> Universitätsstraße 1 </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">postCode: </span><span> 40225 </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Düsseldorf </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">name: </span><span> Germany </span></p>
+</div>
+<p class="fileinfo-text"><span class="fileinfo-node">availability: </span><span> not yet available </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">date: </span><span> TBD </span></p>
+</div>
+<h3 class="fileinfo-head">sourceDesc</h3><div class="fileinfo-block">
+<h3 class="fileinfo-head">bibl</h3><div class="fileinfo-block"> <p class="fileinfo-text"><span class="fileinfo-node">title: </span><span> Why the Broom's neck is tied </span></p> <p class="fileinfo-text"><span class="fileinfo-node">author: </span><span> Konkomba oral tradition </span></p> Translated by <p class="fileinfo-text"><span class="fileinfo-node">editor: </span><span> Tasun Tidorchibe </span></p> </div>
+</div>
+<h3 class="fileinfo-head">encodingDesc</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">editorialDecl: </span><span> Treating notes the same way as the glossary istead of using footnotes </span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">projectDesc: </span><span> The project focuses on digitizing oral folktales from Ghana, specifically the Konkomba people,through different media.The project puts a body of oral folktales into writing and eventually makes them available as annotated,digitized narratives. 
+                    It thus aims to make a contribution to visibilsing this culture,which through processes of colonisation,the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised</span></p>
+</div>
+<h3 class="fileinfo-head">profileDesc</h3><div class="fileinfo-block">
+<h3 class="fileinfo-head">creation</h3><div class="fileinfo-block"> Originally told in
+                <h3 class="fileinfo-head">place</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">placeName: </span><span>Chamba, Ghana</span></p>
+<h3 class="fileinfo-head">location</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">geo: </span><span>8.7, -0.133333</span></p>
+</div>
+</div>
+                  transcribed foktale from Likpakpaln as told by <p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Nimobi Sagnan </span></p> on <p class="fileinfo-text"><span class="fileinfo-node">date: </span><span>4th November 2019 </span></p>in <p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Chamba </span></p>, <p class="fileinfo-text"><span class="fileinfo-node">name: </span><span>Ghana</span></p>
+</div>
+<h3 class="fileinfo-head">langUsage</h3><div class="fileinfo-block">
+<p class="fileinfo-text"><span class="fileinfo-node">language: </span><span>Likpakpaln</span></p>
+<p class="fileinfo-text"><span class="fileinfo-node">language: </span><span>English</span></p>
+</div>
+</div>
+</div></div></div>
+</div>
+</div>
+</div>
+<div class="modal" id="openSearch">
+<div class="modal-dialog">
+<div class="modal-content" id="modal-Search">
+<div class="modal-header">
+<h3 class="modal-title">Search the document</h3>
+<a class="close" href="#close" title="Close">x</a>
+</div>
+<div class="modal-body" id="search-modal">
+<div id="search">
+<form id="search-form">
+<select id="mySelect" name="type">
+<option value="text">text</option>
+<option value="tag">tag</option>
+</select>
+<input id="myInput" name="query" placeholder="..." type="text"/>
+<button class="btn btn-search" id="btn search-btn" type="submit">Search</button>
+</form>
+</div>
+<div id="search-content">
+<div id="search-header">
+<h3 id="search-title"> </h3>
+<button class="btn btn-download disabled" disabled="true" id="download-txt" type="button">⇩ Download</button>
+</div>
+<div id="search-results"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="column" id="col-main">
+<div class="document" id="nav-tabContent"><div class="column" id="col2"><div class="TEI">
+<div class="teiHeader" hidden>
+<div class="fileDesc">
+<div class="titleStmt">
+<p class="title" id="idp269622680"> WHY THE BROOM'S NECK IS TIED </p>
+<p class="storyteller" id="idp269621272"> Vincent Nimobi Sagnan</p>
+<p class="author" id="idp269626520"> Konkomba oral tradition</p>
+<p class="editor" id="idp269627928"> Tasun Tidorchibe </p>
+<div class="respStmt">
+<p class="name" id="idp269626648"> Tasun Tidorchibe </p>
+<p class="resp" id="idp269625624">transcript, editing and translation</p>
+</div>
+<div class="respStmt">
+<p class="name" id="idp269627160"> Tabita Zaboboka </p>
+<p class="name" id="idp269624728"> Nils Jaworski  </p>
+<p class="name" id="idp269627672"> Nina Lang </p>
+<p class="name" id="idp269625880"> Aaron Kassat </p>
+<p class="resp" id="idp269628312"> coding and editing </p>
+</div>
+<div class="respStmt">
+<p class="name" id="idp269627416"> Dr. Eva Ulrike Pirker </p>
+<p class="resp" id="idp269622424"> supervision </p>
+</div>
+<p class="sponsor" id="idp269628056" type="digitization"> E-Learning Förderfonds HHU </p>
+<p class="sponsor" id="idp269623192" type="funding">Katholischer Akademischer Ausländerdienst</p>
+<div class="address"><p class="name" id="idp269624088" type="institution"> Centre for Translation Studies Düsseldorf </p>
+<p class="name" id="idp273282760" type="institution"> Heinrich Heine Universität Düsseldorf </p>
+<p class="street" id="idp273283016"> Universitätsstraße 1 </p>
+<p class="postCode" id="idp273283784"> 40225 </p>
+<p class="name" id="idp273285704" type="city"> Düsseldorf </p>
+<p class="name" id="idp273284808" type="country"> Germany </p></div>
+</div>
+<div class="publicationStmt">
+<p class="publisher" id="idp273285192"> Centre for Translation Studies Düsseldorf </p>
+<p class="status" id="idp273285960"> not yet published</p>
+<p class="pubPlace" id="idp273285320"> Düsseldorf </p>
+<div class="address"> <p class="name" id="idp217562936" type="institution"> Centre for Translation Studies Düsseldorf </p>
+<p class="name" id="idp217566776" type="institution"> Heinrich Heine Universität Düsseldorf </p>
+<p class="street" id="idp217568568"> Universitätsstraße 1 </p>
+<p class="postCode" id="idp217569080"> 40225 </p>
+<p class="name" id="idp217566904" type="city"> Düsseldorf </p>
+<p class="name" id="idp217563064" type="country"> Germany </p>
+</div>
+<p class="availability" id="idp217568696"> not yet available </p>
+<p class="date" id="idp217566264"> TBD </p>
+</div>
+<div class="sourceDesc">
+<div class="bibl"> <p class="title" id="idp217566392"> Why the Broom's neck is tied </p> <p class="author" id="idp217563960"> Konkomba oral tradition </p> Translated by <p class="editor" id="idp217567544" role="translator"> Tasun Tidorchibe </p> </div>
+</div>
+<div class="encodingDesc">
+<p class="editorialDecl" id="idp217564472"> Treating notes the same way as the glossary istead of using footnotes </p>
+<p class="projectDesc" id="idp217570232"> The project focuses on digitizing oral folktales from Ghana, specifically the Konkomba people,through different media.The project puts a body of oral folktales into writing and eventually makes them available as annotated,digitized narratives. 
+                    It thus aims to make a contribution to visibilsing this culture,which through processes of colonisation,the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised</p>
+</div>
+<div class="profileDesc">
+<div class="creation"> Originally told in
+                <div class="place" xml:id="ChambaGhana">
+<p class="placeName" id="idp227579960">Chamba, Ghana</p>
+<div class="location">
+<p class="geo" id="idp227577528">8.7, -0.133333</p>
+</div>
+</div>
+                  transcribed foktale from Likpakpaln as told by <p class="name" id="idp227583288" type="storyteller">Nimobi Sagnan </p> on <p class="date" id="idp227585080" when="2019">4th November 2019 </p>in <p class="name" id="idp227583416" type="city">Chamba </p>, <p class="name" id="idp227579192" type="country">Ghana</p>
+</div>
+<div class="langUsage">
+<p class="language" id="idp227583160" ident="lik">Likpakpaln</p>
+<p class="language" id="idp227579576" ident="en">English</p>
+</div>
+</div>
+</div>
+</div>
+<div class="text">
+<div class="body">
+<h1 class="head" id="c0" type="mainTitle" style="text-align: center;"> WHY THE BROOM’S NECK IS TIED
+            </h1>
+<p class="p" id="idp227583672" style="text-align: center;"> (As told by Nimobi Sagnan on 4th November 2019 in Chamba, Ghana)</p>
+<div class="div" type="section">
+<h1 class="head" id="c1" type="subTitle">Introduction</h1>
+<div class="p"> The following story gives an explanation as to why the individual broom sticks of the local broom are bound together into a bundle. 
+                 The story revolves around the illicit amorous relationship between an <a class="term" href="#tdpv4">Ubɔr</a> and his mother, which is witnessed and made public by the broom through gossip. 
+                 At the center of the tale therefore are issues of incest and gossip and their consequences—Ubɔr among them being the damage to Ubɔr’s reputation and the broom’s perpetual suffocation as punishment.</div>
+<div class="p"> If you want to listen to the Likpakpaln narration, <a class="ref" id="idp272435016" href="https://mediathek.hhu.de/watch/33c2f7b8-a207-437d-be8b-bb8917063718" target="_blank">click here.</a></div>
+</div> <div class="div" type="section">
+<h1 class="head" id="c2" type="subTitle">Story</h1>
+<div class="p"> A long, long time ago, <a class="term" href="#tdpv1"> n-ŋaan </a> existed as individual broom sticks.
+                Whenever it was time to use it to sweep, all its parts were then brought together.
+                A rope was never tied around <a class="term" href="#tdpv1"> n-ŋaan’s </a> neck as is the case today. 
+                Should I tell you why the broom is now tied? Nimobi asks his audience.</div>
+<div class="p"><p class="q" id="idp272431560">Why;yes, tell us; we want to know,</p> audience resond variously.</div>
+<div class="p"> There once lived a great Ubɔr who had several wives and children. 
+                He was very wealthy and generous. For this reason, he was much loved and highly respected by all. 
+                But Ubɔr had a dark secret that was known only to <a class="term" href="#tdpv1">n-ŋaan </a> who lay in Ubɔr’s mother’s room. 
+                What was this secret? Despite having numerous wives, he was in an incestuous relationship with his biological mother. 
+                At night, whenever his wives and children went to bed, he snuck into his mother’s bedroom and slept with her. </div>
+<div class="p"> <a class="term" href="#tdpv1">  N-ŋaan </a> , who lay in Ubɔr’s mother’s room all the time, witnessed the abominable act but never opened his mouth to anyone about the illicit affair. 
+                    The affair therefore continued for a very long time without anyone’s knowledge. 
+                    One day the mouse, who also lived in Ubɔr’s palace, was running across the rooms on top of the <a class="term" href="#tdpv2"> nlɔkja </a> in search of materials to construct his bed, spotted <a class="term" href="#tdpv1">n-ŋaan </a> lying in Ubɔr’s mother’s room, and descended to take some of <a class="term" href="#tdpv1">n-ŋaan’s </a> sticks to make his bed.
+                   <a class="term" href="#tdpv1"> N-ŋaan </a> however begged for his life in exchange for a big secret he was ready to divulge to the mouse. The mouse retorted:</div>
+<p class="p" id="idp224524680">“What can you who stays indoors all your life possible tell me that I don’t already know?”</p>
+<div class="p">After much persuasion, the mouse obliged and spared <a class="term" href="#tdpv1">n-ŋaan’s</a> life. The latter then told the former: </div>
+<p class="p" id="idp224525832"> “Our Ubɔr has been having carnal knowledge of his mother right in this room.”</p>
+<p class="p" id="idp224528136"> The following day, whilst the mouse was on some errands, he ran into the cat who started pursuing him to eat him. 
+                      When the cat eventually caught the mouse, the mouse in turn begged for his life, promising to tell the cat a big secret he alone was privy to. 
+                      On sparing him, the mouse then told the cat:</p>
+<p class="p" id="idp224530568"> “Our Ubɔr has been having carnal knowledge of his mother.”</p>
+<div class="p">When asked how he came by that information, the mouse disclosed that <a class="term" href="#tdpv1">n-ŋaan</a> saw it with the naked eyes and told him. 
+                        Shortly after this encounter, the cat was on his way home and also ran into the dog and a hot pursuit ensued.
+                         Just when the dog caught the cat and was about to snuff out his life, the cat also asked for clemency in exchange for a big secret he had heard. 
+                          The dog spared his life and was told about the affair between Ubɔr and his mother. </div>
+<div class="p"> <a class="term" href="#tdpv1">  N-ŋaan </a> , who lay in Ubɔr’s mother’s room all the time, witnessed the abominable act but never opened his mouth to anyone about the illicit affair. 
+            The affair therefore continued for a very long time without anyone’s knowledge. 
+            One day the mouse, who also lived in Ubɔr’s palace, was running across the rooms on top of the <a class="term" href="#tdpv2"> nlɔkja </a> in search of materials to construct his bed, spotted <a class="term" id="idp224531208" href="#tdpv1">n-ŋaan </a> lying in Ubɔr’s mother’s room, and descended to take some of <a class="term" id="idp224531336" href="#tdpv1">n-ŋaan’s </a> sticks to make his bed.
+           <a class="term" id="idp224529416" href="#tdpv1"> N-ŋaan </a> however begged for his life in exchange for a big secret he was ready to divulge to the mouse. The mouse retorted:</div>
+<p class="p" id="idp224526216">“What can you who stays indoors all your life possible tell me that I don’t already know?”</p>
+<div class="p">After much persuasion, the mouse obliged and spared <a class="term" id="idp271534824" href="#tdpv1">n-ŋaan’s</a> life. The latter then told the former: </div>
+<p class="p" id="idp271536360"> “Our Ubɔr has been having carnal knowledge of his mother right in this room.”</p>
+<p class="p" id="idp271535976"> The following day, whilst the mouse was on some errands, he ran into the cat who started pursuing him to eat him. 
+              When the cat eventually caught the mouse, the mouse in turn begged for his life, promising to tell the cat a big secret he alone was privy to. 
+              On sparing him, the mouse then told the cat:</p>
+<p class="p" id="idp271536232"> “Our Ubɔr has been having carnal knowledge of his mother.”</p>
+<div class="p">When asked how he came by that information, the mouse disclosed that <a class="term" id="idp271538024" href="#tdpv1">n-ŋaan</a> saw it with the naked eyes and told him. 
+                Shortly after this encounter, the cat was on his way home and also ran into the dog and a hot pursuit ensued.
+                 Just when the dog caught the cat and was about to snuff out his life, the cat also asked for clemency in exchange for a big secret he had heard. 
+                  The dog spared his life and was told about the affair between Ubɔr and his mother. </div>
+<div class="p">The next morning, the dog went to drink water from the village river but <a class="term" href="#tdpv3">ukpindaan</a> wouldn’t allow him. <a class="term" href="#tdpv3">Ukpindaan</a> pounced on him to swallow him but the dog begged for his life, promising to tell <a class="term" href="#tdpv3">ukpindaan</a> a big secret if he let him live. The latter got curious, spared the dog’s life, and was told that Ubɔr was in an amorous relationship with his mother. Armed with this information, <a class="term" href="#tdpv3">ukpindaan</a> spent the rest of the day sunbathing and narrating the story to all who went to fetch water from the river. 
+            </div>
+<div class="p">Ubɔr’s illicit affair soon became talk of the village and he eventually got wind of it and ordered the arrest of <a class="term" href="#tdpv3">ukpindaan</a>. When questioned regarding the source of his story, <a class="term" href="#tdpv3">ukpindaan</a> disclosed that the dog was the source. The dog in turn confessed, upon interrogation, to hearing it from the cat. The cat was also picked up for questioning, whereupon he revealed that the mouse told him. When interrogated, the mouse pointed Ubɔr to <a class="term" id="idp271537128" href="#tdpv1">n-ŋaan</a> as his source. Ubɔr summoned <a class="term" id="idp271537384" href="#tdpv1">n-ŋaan</a> immediately and upon questioning, <a class="term" id="idp271538664" href="#tdpv1">n-ŋaan</a> said:</div>
+<p class="p" id="idp272666104">“I witnessed it with my naked eyes.”</p>
+<div class="p">Ubɔr became furious and ordered that from that day onward, <a class="term" id="idp272669944" href="#tdpv1">n-ŋaan’s</a> neck be tied with a rope to choke him slowly to death.</div>
+<div class="p">That is why till date <a class="term" id="idp272667640" href="#tdpv1">n-ŋaan’s</a> neck remains tied. This is the end of my story. Whether my story is interesting or not, I hand over the mantle to Sanja. <p class="hi" id="idp272671224">(Nimobi points at one of his listeners to tell the next tale) <a href="#c3"><sup>1</sup></a></div>
+</div> <div class="div" type="section">
+<h1 class="head" id="c3" type="subTitle">Note</h1>
+<p class="p" id="idp272667128">1. In Konkomba storytelling, the storyteller can nominate anyone from his or her audience to
+                tell the next story, as Nimobi does above</p> </div>
+<div class="div" type="section">
+<h1 class="head" id="c4" type="subTitle">Glossary</h1>
+<div class="list" type="gloss">
+<div class="label"><p class="hi" id="idp272665592" rend="bold">Ubɔr:</p></div>
+<div class="item"><div class="gloss" id="tdpv4">the political head of a Konkomba community. Ubɔr is usually the eldest male member of the royal family. 
+                He inherits that position from his father after the latter’s demise.</div></div>
+<div class="label"><p class="hi" id="idp272664824" rend="bold">N-ŋaan:</p></div>
+<div class="item"><div class="gloss" id="tdpv1">A local broom made up of tiny, soft sticks tied together with a rope into a bundle and
+                used for sweeping. One would usually have to hold it by the neck and bend down (rather than
+                stand) to sweep the floor.</div></div>
+<div class="label"><p class="hi" id="idp273295336" rend="bold">Nlɔkja:</p></div>
+<div class="item"><div class="gloss" id="tdpv2">The main wood or log (ridge) at the center of the roof to which all rafters are tied before
+                thatch or aluminum roofing sheets are placed over a room or building.</div></div>
+<div class="label"><p class="hi" id="idp273296616" rend="bold">Ukpindaan:</p></div>
+<div class="item"><div class="gloss" id="tdpv3">Transliterated as “the owner-of-the-river.” It is the euphemism Konkombas use for
+                the crocodile out of reverence. The crocodile is believed to be the embodiment of the Konkomba
+                river god/goddess. As a result, Konkombas typically do not kill crocodiles even though some
+                people who do not subscribe to this belief do kill them. The actual Likpakpaln name for the
+                crocodile is unyii.</div></div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div>
+</div>
+</div>
+</div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js" type="text/javascript"> </script>
+<script type="text/javascript">
+
+      const options = {
+        isCaseSensitive: false,
+        includeScore: false,
+        shouldSort: true,
+        includeMatches: true,
+        findAllMatches: false,
+        minMatchCharLength: 1,
+        location: 0,
+        threshold: 0.6,
+        distance: 100,
+        useExtendedSearch: false,
+        ignoreLocation: false,
+        ignoreFieldNorm: false,
+        keys: ['sentences', 'text']
+      };
+
+      const list = document.getElementById("nav-tabContent").getElementsByTagName('p');
+      var search_results = [];
+      Object.values(list).forEach(getContent);
+      const fuse = new Fuse(search_results, options);
+
+
+      function getContent(element, index){
+        var text = element.innerText || element.textContent;
+        var isEmpty = text.trim().length==0;
+        if (isEmpty === false){
+          var result = new Object();
+          result.name = element.tagName;
+          result.sentences = text.match( /[^\.!\?]+[\.!\?]+/g ) || [];
+          result.sentences = result.sentences.map(function (str) { return str.trim(); });
+          result.text = text;
+          result.link = element.id;
+          result.element = element.cloneNode(true);
+          search_results.push(result);
+        };
+      };
+
+      function toggle() {
+
+        var btn = document.getElementById("toggle-button");
+        var content = document.getElementById("content")
+
+        if ("opened" == btn.classList){
+          content.style.left = "0%";
+          btn.classList.remove('opened');
+          btn.classList.add('closed');
+        } else if ("closed" == btn.classList){
+          content.style.left = "25%";
+          btn.classList.remove('closed');
+          btn.classList.add('opened');
+        }
+      };
+
+      function increaseFont() {
+        var elements = document.getElementById('nav-tabContent').querySelectorAll('p,span');
+
+        for (i in elements){
+          var element = elements[i]
+          var isEmpty = element.innerHTML.trim().length==0;
+          if (isEmpty === false){
+            style = window.getComputedStyle(element, null).getPropertyValue('font-size');
+            currentSize = parseFloat(style);
+            element.style.fontSize = (currentSize + 5) + 'px';
+          }
+        }
+      };
+
+      function decreaseFont() {
+        var elements = document.getElementById('nav-tabContent').querySelectorAll('p,span');
+
+        for (i in elements){
+          var element = elements[i]
+          var isEmpty = element.innerHTML.trim().length==0;
+          if (isEmpty === false){
+            style = window.getComputedStyle(element, null).getPropertyValue('font-size');
+            currentSize = parseFloat(style);
+            element.style.fontSize = (currentSize - 5) + 'px';
+          }
+        }
+      };   
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var scrollbar = document.body.clientWidth - window.innerWidth + 'px';
+
+        document.querySelector('[href="#openModal"]').addEventListener('click', function () {
+          document.body.style.overflow = 'hidden';
+          document.querySelector('#openModal').style.marginLeft = scrollbar;
+        });
+
+        document.querySelector('[href="#close"]').addEventListener('click', function () {
+          document.body.style.overflow = 'visible';
+          document.querySelector('#openModal').style.marginLeft = '0px';
+        });
+
+        document.querySelector('form#search-form').addEventListener('submit', function () {
+          event.preventDefault();
+          let formElement = document.getElementById('search-form');
+          let outputDiv = document.getElementById('search-results');
+          let content = document.getElementById('search-header');
+      	  content.style.visibility = "hidden";
+          outputDiv.innerHTML = "";
+
+          var formData = new FormData(formElement);
+          var qType = formData.get('type');
+          var query = formData.get('query').trim();
+          var isEmpty = query.length==0;
+          if (isEmpty === false){
+          	if (qType === "text"){
+          		findTextMatches(query, outputDiv);
+          	} else if (qType === "tag"){
+          		findTagMatches(query, outputDiv);
+          	}}
+       });
+
+        document.querySelector("button#download-txt").addEventListener("click", function () {
+        	event.preventDefault();
+    		var data = document.querySelectorAll("div.search-result p:not(.view-more)");
+			export_table_to_csv(data, "results.text");
+		});
+    });
+
+      function findTagMatches(query, outputDiv){
+      	var results = document.getElementById("nav-tabContent").querySelectorAll(query);
+      	n_results = results.length.toString();
+
+      	createResultStructure(outputDiv, n_results);
+        results.forEach(addTagSearchResult);
+        btn = document.getElementById('download-txt');
+        btn.classList.remove('disabled');
+        btn.disabled = false;
+      };
+
+      function findTextMatches(query, outputDiv) {
+      	var results = fuse.search(query);
+        n_results = results.length.toString();
+
+        createResultStructure(outputDiv, n_results);
+        results.forEach(addTextSearchResult);
+        btn = document.getElementById('download-txt');
+        btn.classList.remove('disabled');
+        btn.disabled = false;
+      };
+
+      function export_table_to_csv(data, filename) {
+		var txt = [];
+		Object.values(data).forEach(function(item) {txt.push(item.textContent)});
+		download_txt(txt.join("\n=======================\n"), filename);
+		};
+
+
+		function download_txt(txt, filename) {
+		    var txtFile;
+		    var downloadLink;
+		    txtFile = new Blob([txt], {type: "text"});
+		    downloadLink = document.createElement("a");
+		    downloadLink.download = filename;
+		    downloadLink.href = window.URL.createObjectURL(txtFile);
+		    downloadLink.style.display = "none";
+			document.body.appendChild(downloadLink);
+		    downloadLink.click();
+		}
+
+      function createResultStructure (outputDiv, n_results) {
+
+      	let content = document.getElementById('search-header');
+      	content.style.visibility = "visible"
+
+      	let header = document.getElementById('search-header');
+      	let h3 = document.getElementById('search-title');
+      	h3.innerHTML = "Found results: <span>" +  n_results + "</span>"
+      	header.append(h3);
+      };
+
+      function addTextSearchResult(result){
+        if (result.item.text.trim().length==0 === false){
+          let outputDiv = document.getElementById('search-results');
+          let div = document.createElement('div');
+          div.innerHTML = '<p class="view-more"><a target="_blank" href="#' + result.item.link + '"/>read more...</p>'
+          div.className = "search-result";
+          div.append(result.item.element);
+          outputDiv.append(div);
+        }};
+
+         function addTagSearchResult(result){
+        if (result.textContent.trim().length==0 === false){
+          let outputDiv = document.getElementById('search-results');
+          let div = document.createElement('div');
+          div.innerHTML = '<p class="view-more"><a target="_blank" href="#' + result.id + '"/>read more...</p>'
+          div.className = "search-result";
+          result = result.cloneNode(true)
+          div.append(result);
+          outputDiv.append(div);
+        }};
+
+
+    </script>
+</body>
+</html>

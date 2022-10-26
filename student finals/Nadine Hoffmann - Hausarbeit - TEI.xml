@@ -1,0 +1,212 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title>NACHIIN PAYS FOR FEASTING ON UNYII'S CHILDREN</title>
+                <storyteller>Konkomba people (Ghana)</storyteller>
+                <author>Konkomba oral tradition</author>
+                <editor>Tasun Tidorchibe</editor>
+                <respStmt>  
+                    <name>Tasun Tidorchibe</name>
+                    <resp>transcript and translation</resp>
+                </respStmt>
+                <respStmt>
+                    <name> Nadine Hoffmann</name>
+                    <resp>coding and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Dr. Eva Ulrike Pirker</name>
+                    <resp>supervisor</resp>
+                </respStmt>
+                <sponsor type="digitaizion">E-learning Förderfonds HHU</sponsor> 
+                <address>
+                    <name type="institution"> Centre for Translation Studies Düsseldorf</name>
+                    <name type="institution"> Heinrich Heine University Düsseldorf</name>
+                    <street>Universitätsstraße 1</street> 
+                    <postCode>40225</postCode> 
+                    <name type="city">Düsseldorf</name>
+                    <name type="country"> Germany</name>
+                </address>
+                <sponsor type="funding">Katholischer Akademischer Ausländer-Dienst e.V.</sponsor>
+                <address>
+                    <name type="institution">Katholischer Akademischer Ausländer-Dienst e.V.</name>
+                    <street>Hausdorffstr. 151</street>
+                    <postCode>53129</postCode>
+                    <name type="city">Bonn</name>
+                    <name type="country">Germany</name>
+                </address>
+            </titleStmt> 
+            <publicationStmt>
+                <publisher>Centre for Translation Studies Düsseldorf</publisher>
+                <status>not yet published</status>
+                <pubPlace>Düsseldorf</pubPlace>
+                <address> <name type="institution"> Centre for Translation Studies Düsseldorf</name>
+                    <name type="institution"> Heinrich Heine University Düsseldorf</name>
+                    <street>Universitätsstraße 1</street> 
+                    <postCode>40225</postCode> 
+                    <name type="city">Düsseldorf</name>
+                    <name type="country"> Germany</name>
+                </address>
+                <availability> not yet available </availability>
+                <date> TBD </date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl> <title> Nachiin Pays for Feasting on Unyii's Children </title> <author> Konkomba people </author> 
+                    Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2​.1"/>
+            </encodingDesc>
+            <editorialDecl>No single author since it is based on a Konkomba oral tradition,
+                 only footnotes for certain terms for better readability/understanding</editorialDecl>
+            <projectDesc>The project focuses on digitizing oral folktales from Ghana, specifically the Konkomba people, through different media. 
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitized
+                narratives. It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying
+                priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+            <profileDesc> 
+                <creation> Originally told in
+                    <place xml:id="Kotul">
+                        <placeName>
+                            Kotul
+                        </placeName>
+                    </place>
+                    transcribed foktale from Likpakpaln as told by <name type="storyteller"> Bilinyi Chikpaab </name> on <date when="2022">18th March 2022 </date>in <name type="city">Kutol </name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+            </profileDesc>
+        </fileDesc>    
+    </teiHeader>
+    <text> 
+        <body>
+        <head type="Title">NACHIIN PAYS FOR FEASTING ON UNYII'S CHILDREN</head>
+        <p> (As told by Bilinyi Chikpaab on 18th March 2022 in Kotul)</p>
+        <head type="subTitle"> Introduction </head>
+            <p>The following story relates how a wolf deceives a crocodile and eats all her children. Unfortunately for the wolf, a rabbit also employs wit
+             to bring him to justice, resulting in him (the wolf) losing his testicles to the irate and distraught mother crocodile in the end. </p>
+
+             <p>If you want to listen to the Likpakpaln narration,<ref target="https://mediathek.hhu.de/watch/cc23e874-6ae3-4bfd-a232-ce5768227abd"> click here.</ref></p>
+             
+        <head type="subTitle"> Story </head>
+        <p>“Here goes my story,” Bilinyi announces.</p>
+        <p>“Daya,” responds audience.</p>
+        <p>“This story is about <gloss target="#glossary5">sande</gloss><note type="footnote" n="1" place="bottom">Likpakpaln word for rabbit or bunny or hare</note>, 
+            <gloss target="#glossary4">nachiin</gloss><note type="footnote" n="2" place="bottom">Likpakpaln word for wolf</note>, and 
+            <gloss target="#glossary6">unyii</gloss><note type="footnote" n="2" place="bottom">Likpakpaln word for crocodile</note>,” Bilinyi tells his audience, and proceeds thus:</p>
+        <p>Once upon a time, nachiin went to the river to drink water but was prevented from doing so by unyii. 
+            After much supplication, unyii finally allowed him to drink. When nachiin had had his fill, unyii then inquired from 
+            him whether or not he could make her children’s skins as smooth and colorful as his. This pleased nachiin who is, as you 
+            know, always hungry for meat; so he responded in the affirmative. But nachiin gave unyii one condition: on the day he would 
+            transform the skins of her children into finer textures and colors, unyii would bring all her hatchlings to the riverbank 
+            and retreat to the middle of the river. </p>
+        <p>On the appointed day, unyii did as nachiin had instructed. When unyii was safely away in the middle of the river in her hole 
+            of residence, nachiin made a fire, placed a basket nearby, and placed unyii’s hatchlings next to him. Now, nachiin had told 
+            unyii that whenever she heard the sound, kpeeeeb, she should respond, “<gloss target="#glossary1">ami, ami, ami, ami, ami.</gloss>” As a result, whenever 
+            nachiin placed one of unyii’s children on the burning coal to roast, the fat that dripped into the burning coal would produce 
+            the sound, kpeeeeb – to which unyii would respond, “ami, ami, ami, ami, ami.” After roasting and eating one hatchling, nachiin 
+            would take another, place it on the burning coal, and the dripping fat would produce the sound, kpeeeeb – to which unyii would 
+            always respond, “ami, ami, ami, ami, ami.” Eventually, he finished eating all the hatchlings.</p>
+        <p>When he was done, he gathered all the bones into a pile and hid them under the basket he had brought. He then instructed unyii 
+            to wait for seven days before lifting the basket off her children. On that seventh day, he said, unyii would find her children 
+            with transformed skins akin to his. Unyii obliged and waited. On the seventh day when unyii lifted the basket to look at her 
+            children, she found only bones. </p>
+        <p>Unyii became distraught and banned all animals from coming to drink water from the river.  Every animal that went to drink water 
+            was turned away. When the situation became unbearable for sande, he hatched a plan to deceive unyii and drink water from the river.
+            He went to the river and made an attempt to drink water, whereupon unyii pounced on him to tear him into shreds. But sande quickly 
+            asked unyii to exercise patience and allow him to drink, after which he would capture and bring to her the creature that killed her 
+            hatchlings.</p>
+        <p>Unyii released sande and allowed him to drink the water. Having quenched his thirst, he then told unyii to smear her mouth with 
+            <gloss target="#glossary7">tijun</gloss> and play dead on the sand on the riverbank. He added that while playing dead, unyii should open her mouth and allow houseflies to 
+            hover around her mouth as though she were a carcass. He then arranged with unyii that he would deceive nachiin so that both him and 
+            nachiin would put their testicles into unyii’s mouth: the small-sized testicles would obviously be his so unyii should not trap them 
+            in her mouth; but the large-sized testicles would be nachiin’s so unyii should grab them and deal with nachiin.</p>
+        <p>Having made this arrangement with unyii, sande ran off to get nachiin. On seeing him, he told nachiin he was returning from the river
+             where he drank water to his fill and even bathed. He showed nachiin his wet body and deceived him that unyii was dead. Nachiin 
+             then revealed to sande that he was the one who ate unyii’s hatchlings and that unyii obviously died out of grief. Sande quickly 
+             called dibs on unyii’s carcass since he found it. Thereupon, nachiin retorted sharply:</p>
+        <p>“<gloss target="#glossary2">Kinaatuuk kimina; naa sen m-mi m ti ŋmɔiŋ waabiyaab m ka u kpii? M-mi yi maa wan.</gloss>”   (The storyteller mimics nachiin as he renders this.)</p>
+        <p>Sande replied, “How can it be yours when I was the one who found the carcass and informed you?”</p>
+        <p>But nachiin maintained that since unyii died from the grief of the deaths of her hatchlings, and considering that he (nachiin) 
+            was responsible for their deaths, he could certainly lay claim to unyii’s carcass. Sande then told nachiin that the claim to 
+            unyii’s carcass should not be a bone of contention between them since they could easily settle it through a contest. He proposed 
+            that to settle the issue, they would go to the riverside and each would place his testicles in unyii’s mouth. The one whose 
+            testicles fit tightly into unyii’s mouth would be declared winner and receive unyii’s carcass as reward. To this, nachiin replied:</p>
+        <p>“You idiot, how large-sized are your testicles? Let’s go.”</p>
+        <p>On that note, the two set off for the riverside. When they got there, unyii was still lying on the riverbank in “play-dead” mode, 
+            with mouth wide open and flies dancing all over it. Nachiin presumed she was really dead. Sande then said, “If unyii’s carcass is 
+            mine, when I put my testicles in her mouth, may they fit tightly so that I can take her carcass home and eat. If not, then let my 
+            testicles not fit.”</p>
+        <p>“Well, how big are sande’s testicles?” Bilinyi asks rhetorically and proceeds:</p>
+        <p>So when he put them in unyii’s mouth, they dangled in her mouth loosely. Nachiin immediately shoved sande aside and stepped forward. 
+            Squatting over unyii, he pushed, and pushed, and pushed his testicles till they fit tightly into her mouth. (The storyteller squats 
+            and demonstrates as he relates this.)</p>
+        <p>He then turned to sande and said, “Hey idiot, as you can see, my testicles fit tightly so the carcass is mine.” Thereupon, unyii 
+            grabbed nachiin’s testicles and wouldn’t let go. A struggle ensued. Try as nachiin might, he couldn’t break free from unyii’s grips.
+             The struggle continued until unyii chewed off his testicles. Nachiin then ran off.</p>
+        <p>By this time, sande had fled the scene and was hiding in an anthill. As fate would have it, when nachiin escaped from unyii’s grips, 
+            he ran to that same anthill and sat on it. From the inside of the anthill, sande could see nachiin through a hole on top. He picked 
+            a stick and poked nachiin’s fresh wound. Each time sande did this, nachiin would jump in pain and blame flies for the pain. But 
+            sande’s luck soon ran out: when he was about to poke nachiin’s wound again, the latter caught sight of the stick and pulled it, 
+            whereupon sande emerged hanging onto the stick. Sande took off running, nachiin pursued him, grabbed him, and threatened to eat him 
+            since he was responsible for his predicament.</p>
+        <p>Sande then offered to climb a nearby tree, collect firewood, and make a fire so that nachiin could roast him before eating. He argued 
+            that his roasted meat would taste better than the raw one. Nachiin fell for it and asked him to climb the tree quickly and
+             do as he had proposed. Sande climbed the tree, broke off one dry twig and sat motionless on the tree. Nachiin yelled at him to be 
+             snappy and get down so that he would eat him. At that moment, sande suddenly responded, “whuoy!” – as though someone had called him. 
+             Nachiin insulted him and told him to get busy instead of responding, “whuoy!” But sande replied that he was hearing voices and 
+             that those voices were saying, “Here are footprints, the footprints; here are drops of blood.”</p>
+        <p>“Here are footprints; here are drops of blood,” interjects one audience, who is probably wondering what that means. So the storyteller explains as follows:</p>
+        <p>“That means here are nachiin’s footprints; here are drops of his blood. When nachiin lost his testicles and was running for his life, 
+            he left behind a trail of drops of blood. So when he was being traced, wasn’t it natural that the search party would update one 
+            another whenever they spotted his footprints and blood?”</p>
+        <p>“They would,” agrees the audience.</p>
+        <p>(Bilinyi then returns to his narration as follows:)</p>
+        <p>So in reply to nachiin, sande said he had heard some people shouting that “here are footprints; here are drops of blood” and so that 
+            was why he had responded whuoy!</p>
+        <p>“Well, sit there unperturbed; they’re saying here are your footprints; here are drops of your blood,” sande told nachiin again.</p>
+        <p>On hearing this, nachiin… (At this point, the storyteller breaks into laughter and gestures. So the audience who interjected earlier,
+             fills in the gap amid laughter as well.)</p>
+        <p>“He took off running. He ran and left sande,” she says.</p>
+        <p>(Bilinyi resumes and completes the story thus:)</p>
+        <p>Thanks to that, sande’s life was spared. This is why sande is wiser than nachiin. <gloss target="#glossary3">M muun ka maa tiin gur.</gloss></p>
+
+        <head type="subTitle">A Glossary of Likpakpaln Words and Phrases</head>
+        <list type="gloss">
+            <label><hi rend="bold">ami:</hi></label>
+            <item><gloss target="#glossary1">Likpakpaln equivalent of amen.</gloss></item>
+            <label><hi rend="bold">kinaatuuk kimina; naa sen m-mi m ti ŋmɔiŋ waabiyaab m ka u kpii? M-mi yi maa wan:</hi></label>
+            <item><gloss target="#glossary2">translated as, “You idiot; wasn’t I the one who ate her hatchlings and she died out of grief? Her carcass is mine.”</gloss></item>
+            <label><hi rend="bold">m muun ka maa tiin gur:</hi></label>
+            <item><gloss target="#glossary3">translated as “May I grow while my story diminishes. It is a shortened version of the standard conclusion, 
+                “Maa tiin gur, ki gur, ki gur ki m muun, ki muun ke n-yaaja agbenja na” (transliterated as “May my story diminish and diminish and diminish 
+                while I grow and grow as tall as my grandfather’s male Kapok tree”). This is one of the numerous ways in which a Konkomba storyteller can 
+                end his/her story. This particular type of ending and its variants suggest that Konkombas believe that storytelling 
+                (or entertainment in general) has health benefits, especially healthy physical growth. The association of storytelling with physical 
+                growth is so entrenched in Konkomba belief system that it is even believed that when a child engages in storytelling at daytime – for 
+                Konkomba storytelling sessions are held normally in the evenings after supper – he or she will have stunted growth.</gloss></item>
+            <label><hi rend="bold">nachiin:</hi></label>
+            <item><gloss target="#glossary4">Likpakpaln word for wolf. In Konkomba folklore, nachiin is the most unintelligent animal character. It almost 
+                always falls prey to the antics of others, especially sande (i.e. rabbit).</gloss></item>
+            <label><hi rend="bold">sande:</hi></label>
+            <item><gloss target="#glossary5">Likpakpaln word for rabbit or bunny or hare. Sande is the wisest and trickster character in Konkomba folklore. 
+                It is notorious for often using its cunning and witty nature to deceive other characters or wriggle its way out of difficult situations 
+                – case in point, the story above.</gloss></item>
+            <label><hi rend="bold">unyii:</hi></label>
+            <item><gloss target="#glossary6">Likpakpaln word for crocodile. Unyii is sometimes euphemistically called ukpindaan (transliterated as 
+                “the owner-of-the-river”) because Konkombas believe that it is the embodiment of the Konkomba river god/goddess. In the context 
+                of this story, therefore, unyii’s refusal to allow the other animals to drink from the river, feeds into this Konkomba belief 
+                – for unyii alone has the authority to determine who drinks from the river.</gloss></item>
+            <label><hi rend="bold">tijun (aka tijon):</hi></label>
+            <item><gloss target="#glossary7">variously known in West Africa as dawa dawa in Hausa, iru in Yoruba, colgo in Mooré, netetou in Wolof, etc., 
+                tijun is a pungent condiment made from the beans of the African locust bean tree (aka Parkia biglobosa). It is usually prepared by women 
+                by fermenting the boiled and pounded beans of Parkia biglobosa over several days. The end product has a pungent smell and is usually 
+                molded into various shapes – mostly spherical and rectangular – and used to add flavor to various stews, soups, and dishes. Its pungent 
+                smell is perhaps comparable to that of rotten cheese. Note that tijun can also be made from soybeans. </gloss></item>
+
+            
+        </list>
+        </body>
+    </text>
+</TEI>

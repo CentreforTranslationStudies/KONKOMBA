@@ -4,7 +4,7 @@
             <titleStmt>
                 <title>NACHIIN PAYS FOR FEASTING ON UNYII'S CHILDREN</title>
                 <storyteller>Konkomba people (Ghana)</storyteller>
-                <author>Konkomba oral tradition</author>
+                <author>Konkomba Oral Tradition</author>
                 <editor>Tasun Tidorchibe</editor>
                 <respStmt>  
                     <name>Tasun Tidorchibe</name>
@@ -51,16 +51,16 @@
                 <date> TBD </date>
             </publicationStmt>
             <sourceDesc>
-                <bibl> <title> Nachiin Pays for Feasting on Unyii's Children </title> <author> Konkomba people </author> 
+                <bibl> <title> Nachiin Pays for Feasting on Unyii's Children </title> <author> Konkomba People </author> 
                     Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
             </sourceDesc>
             <encodingDesc>
                 <styleDefDecl scheme="css" Version="2​.1"/>
             </encodingDesc>
-            <editorialDecl>No single author since it is based on a Konkomba oral tradition,
+            <editorialDecl>No single author since it is based on a Konkomba oral tradition;
                  only footnotes for certain terms for better readability/understanding</editorialDecl>
-            <projectDesc>The project focuses on digitizing oral folktales from Ghana, specifically the Konkomba people, through different media. 
-                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitized
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media. 
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised
                 narratives. It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying
                 priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
             <profileDesc> 
@@ -70,7 +70,7 @@
                             Kotul
                         </placeName>
                     </place>
-                    transcribed foktale from Likpakpaln as told by <name type="storyteller"> Bilinyi Chikpaab </name> on <date when="2022">18th March 2022 </date>in <name type="city">Kutol </name>, <name type="country">Ghana</name>
+                    transcribed folktale from Likpakpaln as told by <name type="storyteller"> Bilinyi Chikpaab </name> on <date when="2022">18th March 2022 </date>in <name type="city">Kutol </name>, <name type="country">Ghana</name>
                </creation>
                <langUsage>
                    <language ident="lik">Likpakpaln</language>
@@ -81,7 +81,7 @@
     </teiHeader>
     <text> 
         <body>
-        <head type="Title">NACHIIN PAYS FOR FEASTING ON UNYII'S CHILDREN</head>
+        <head type="mainTitle">Nachiin Pays for Feasting on Unyii's Children</head>
         <p> (As told by Bilinyi Chikpaab on 18th March 2022 in Kotul)</p>
         <head type="subTitle"> Introduction </head>
             <p>The following story relates how a wolf deceives a crocodile and eats all her children. Unfortunately for the wolf, a rabbit also employs wit
@@ -92,9 +92,9 @@
         <head type="subTitle"> Story </head>
         <p>“Here goes my story,” Bilinyi announces.</p>
         <p>“Daya,” responds audience.</p>
-        <p>“This story is about <gloss target="#glossary5">sande</gloss><note type="footnote" n="1" place="bottom">Likpakpaln word for rabbit or bunny or hare</note>, 
-            <gloss target="#glossary4">nachiin</gloss><note type="footnote" n="2" place="bottom">Likpakpaln word for wolf</note>, and 
-            <gloss target="#glossary6">unyii</gloss><note type="footnote" n="2" place="bottom">Likpakpaln word for crocodile</note>,” Bilinyi tells his audience, and proceeds thus:</p>
+        <p>“This story is about <term xml:id="glossary5">sande</term><note type="footnote" n="1" place="bottom">Likpakpaln word for rabbit or bunny or hare</note>, 
+            <term xml:id="glossary4">nachiin</term><note type="footnote" n="2" place="bottom">Likpakpaln word for wolf</note>, and 
+            <term xml:id="glossary6">unyii</term><note type="footnote" n="3" place="bottom">Likpakpaln word for crocodile</note>,” Bilinyi tells his audience, and proceeds thus:</p>
         <p>Once upon a time, nachiin went to the river to drink water but was prevented from doing so by unyii. 
             After much supplication, unyii finally allowed him to drink. When nachiin had had his fill, unyii then inquired from 
             him whether or not he could make her children’s skins as smooth and colorful as his. This pleased nachiin who is, as you 
@@ -103,7 +103,7 @@
             and retreat to the middle of the river. </p>
         <p>On the appointed day, unyii did as nachiin had instructed. When unyii was safely away in the middle of the river in her hole 
             of residence, nachiin made a fire, placed a basket nearby, and placed unyii’s hatchlings next to him. Now, nachiin had told 
-            unyii that whenever she heard the sound, kpeeeeb, she should respond, “<gloss target="#glossary1">ami, ami, ami, ami, ami.</gloss>” As a result, whenever 
+            unyii that whenever she heard the sound, kpeeeeb, she should respond, “<term xm:id="glossary1">ami, ami, ami, ami, ami.</term>” As a result, whenever 
             nachiin placed one of unyii’s children on the burning coal to roast, the fat that dripped into the burning coal would produce 
             the sound, kpeeeeb – to which unyii would respond, “ami, ami, ami, ami, ami.” After roasting and eating one hatchling, nachiin 
             would take another, place it on the burning coal, and the dripping fat would produce the sound, kpeeeeb – to which unyii would 
@@ -118,7 +118,7 @@
             asked unyii to exercise patience and allow him to drink, after which he would capture and bring to her the creature that killed her 
             hatchlings.</p>
         <p>Unyii released sande and allowed him to drink the water. Having quenched his thirst, he then told unyii to smear her mouth with 
-            <gloss target="#glossary7">tijun</gloss> and play dead on the sand on the riverbank. He added that while playing dead, unyii should open her mouth and allow houseflies to 
+            <term xml:id="glossary7">tijun</term> and play dead on the sand on the riverbank. He added that while playing dead, unyii should open her mouth and allow houseflies to 
             hover around her mouth as though she were a carcass. He then arranged with unyii that he would deceive nachiin so that both him and 
             nachiin would put their testicles into unyii’s mouth: the small-sized testicles would obviously be his so unyii should not trap them 
             in her mouth; but the large-sized testicles would be nachiin’s so unyii should grab them and deal with nachiin.</p>
@@ -126,7 +126,7 @@
              where he drank water to his fill and even bathed. He showed nachiin his wet body and deceived him that unyii was dead. Nachiin 
              then revealed to sande that he was the one who ate unyii’s hatchlings and that unyii obviously died out of grief. Sande quickly 
              called dibs on unyii’s carcass since he found it. Thereupon, nachiin retorted sharply:</p>
-        <p>“<gloss target="#glossary2">Kinaatuuk kimina; naa sen m-mi m ti ŋmɔiŋ waabiyaab m ka u kpii? M-mi yi maa wan.</gloss>”   (The storyteller mimics nachiin as he renders this.)</p>
+        <p>“<term xml:id="glossary2">Kinaatuuk kimina; naa sen m-mi m ti ŋmɔiŋ waabiyaab m ka u kpii? M-mi yi maa wan.</term>”   (The storyteller mimics nachiin as he renders this.)</p>
         <p>Sande replied, “How can it be yours when I was the one who found the carcass and informed you?”</p>
         <p>But nachiin maintained that since unyii died from the grief of the deaths of her hatchlings, and considering that he (nachiin) 
             was responsible for their deaths, he could certainly lay claim to unyii’s carcass. Sande then told nachiin that the claim to 
@@ -170,7 +170,7 @@
              fills in the gap amid laughter as well.)</p>
         <p>“He took off running. He ran and left sande,” she says.</p>
         <p>(Bilinyi resumes and completes the story thus:)</p>
-        <p>Thanks to that, sande’s life was spared. This is why sande is wiser than nachiin. <gloss target="#glossary3">M muun ka maa tiin gur.</gloss></p>
+        <p>Thanks to that, sande’s life was spared. This is why sande is wiser than nachiin. <term xml:id="glossary3">M muun ka maa tiin gur.</term></p>
 
         <head type="subTitle">A Glossary of Likpakpaln Words and Phrases</head>
         <list type="gloss">

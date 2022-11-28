@@ -4,7 +4,7 @@
             <titleStmt>
                 <title>THE HUNTER AND THE SHAPESHIFTING BEASTS</title>
                 <storyteller>Wassan Jachan</storyteller>
-                <author>Konkomba oral tradition</author>
+                <author>Konkomba Oral Tradition</author>
                 <editor>Tasun Tidorchibe</editor>
                 <respStmt>
                     <name>Tasun Tidorchibe</name>
@@ -20,16 +20,9 @@
                     <name>Dr. Eva Ulrike Pirker</name>
                     <resp>supervisor</resp>
                 </respStmt>
-                <sponsor type="digitization">E-learning Förderfonds HHU</sponsor> 
+                <sponsor type="digitisation">E-learning Förderfonds HHU</sponsor> 
                 <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
-                <address>
-                    <name type="institution"> Centre for Translation Studies Düsseldorf</name>
-                    <name type="institution"> Heinrich Heine University Düsseldorf</name>
-                    <street>Universitätsstraße 1</street> 
-                    <postCode>40225</postCode> 
-                    <name type="city">Düsseldorf</name>
-                    <name type="country"> Germany</name>
-                </address>
+               
                 
             </titleStmt> 
             <publicationStmt>
@@ -47,13 +40,14 @@
                 <date> TBD </date>
             </publicationStmt>
             <sourceDesc>
-                <bibl> <title> The Hunter and the Shapeshifting Beasts </title> <author> Konkomba oral tradition </author> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+                <bibl> <title> The Hunter and the Shapeshifting Beasts </title> <author> Konkomba Oral Tradition </author> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
             </sourceDesc>
+        </fileDesc>
             <encodingDesc>
                 <styleDefDecl scheme="css" Version="2​.1"/>
             
             <editorialDecl>Treating notes the same way as the glossary instead of using footnotes; no single author since it is based on a Konkomba oral tradition</editorialDecl>
-            <projectDesc>The project focuses on digitizing oral folktales from Ghana, specifically the Konkomba people, through different media. 
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media. 
                 The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitized
                 narratives. It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying
                 priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc></encodingDesc>
@@ -68,14 +62,14 @@
                             <geo>8.7, -0.133333</geo>      
                         </location>
                     </place>
-                    transcribed foktale from Likpakpaln as told by <name type="storyteller"> Wassan Jachan </name> on <date when="2019">13th November 2019 </date>in <name type="city">Chamba </name>, <name type="country">Ghana</name>
+                    transcribed folktale from Likpakpaln as told by <name type="storyteller"> Wassan Jachan </name> on <date when="2019">13th November 2019 </date>in <name type="city">Chamba </name>, <name type="country">Ghana</name>
                </creation>
                <langUsage>
                    <language ident="lik">Likpakpaln</language>
                    <language ident="en">English</language>
                </langUsage>
             </profileDesc>
-        </fileDesc>    
+       
     </teiHeader>
     <text> 
          <body>

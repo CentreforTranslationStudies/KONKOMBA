@@ -18,15 +18,7 @@
                     <name>Dr. Eva Ulrike Pirker</name>
                     <resp>supervisor</resp>
                 </respStmt>
-                <sponsor type="digitaizion">E-learning Förderfonds HHU</sponsor> 
-                <address>
-                    <name type="institution"> Centre for Translation Studies Düsseldorf</name>
-                    <name type="institution"> Heinrich Heine University Düsseldorf</name>
-                    <street>Universitätsstraße 1</street> 
-                    <postCode>40225</postCode> 
-                    <name type="city">Düsseldorf</name>
-                    <name type="country"> Germany</name>
-                </address>
+                <sponsor type="digitisation">E-learning Förderfonds HHU</sponsor> 
                 <sponsor type="funding">Katholischer Akademischer Ausländer-Dienst e.V.</sponsor>
                 <address>
                     <name type="institution">Katholischer Akademischer Ausländer-Dienst e.V.</name>

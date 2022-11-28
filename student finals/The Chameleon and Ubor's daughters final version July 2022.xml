@@ -5,7 +5,7 @@
             <titleStmt>
                 <title> THE CHAMELEON AND UBↃR’S DAUGHTERS </title>
                 <storyteller> Waja Ngnalbu </storyteller>
-                <author>Konkomba oral tradition</author>
+                <author>Konkomba Oral Tradition</author>
                 <editor> Tasun Tidorchibe </editor>
                 <respStmt>
                     <name> Tasun Tidorchibe </name>
@@ -21,14 +21,8 @@
                     <name> Dr. Eva Ulrike Pirker </name>
                     <resp> supervision </resp>
                 </respStmt>
-                <sponsor type="digitization"> E-Learning Förderfonds HHU </sponsor>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
                 <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
-                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
-                    <name type="institution"> Heinrich Heine Universität Düsseldorf </name>
-                    <street> Universitätsstraße 1 </street>
-                    <postCode> 40225 </postCode>
-                    <name type="city"> Düsseldorf </name>
-                    <name type="country"> Germany </name></address>
             </titleStmt>
             <publicationStmt>
                 <publisher> Centre for Translation Studies Düsseldorf </publisher>
@@ -48,6 +42,7 @@
             <sourceDesc>
                 <bibl> <title> THE CHAMELEON AND UBↃR’S DAUGHTERS </title> <author> Konkomba people oral tradition </author> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
             </sourceDesc>
+        </fileDesc>
             <encodingDesc>
                 <styleDefDecl scheme="css" Version="2​.1"/>
         
@@ -55,7 +50,7 @@
                 no author can be assigned to the story, as it is an oral tradition of a people with no original written source or record
             </editorialDecl>
             <projectDesc>
-                The project focuses on digitizing oral folktales from
+                The project focuses on digitising oral folktales from
                 Ghana, specifically the Konkomba people, through different media. The
                 project puts a body of oral folktales into writing and eventually makes
                 them available as annotated, digitized
@@ -73,14 +68,14 @@
                          <geo>8.7, -0.133333</geo>      
                      </location>
                  </place>
-                  transcribed foktale from Likpakpaln as told by <name type="storyteller"> Waja Ngnalbu </name> on <date when="2020">21st February 2020 </date>in <name type="city">Chamba </name>, <name type="country">Ghana</name>
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller"> Waja Ngnalbu </name> on <date when="2020">21st February 2020 </date>in <name type="city">Chamba </name>, <name type="country">Ghana</name>
                </creation>
                <langUsage>
                    <language ident="lik">Likpakpaln</language>
                    <language ident="en">English</language>
                </langUsage>
             </profileDesc>
-        </fileDesc>
+        
     </teiHeader>
 
 <text>

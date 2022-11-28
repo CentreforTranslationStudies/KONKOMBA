@@ -46,6 +46,7 @@
                 <bibl> <title> Nachiin Pays for Feasting on Unyii's Children </title> <author> Konkomba People </author> 
                     Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
             </sourceDesc>
+        </fileDesc>
             <encodingDesc>
                 <styleDefDecl scheme="css" Version="2​.1"/>
             </encodingDesc>
@@ -69,7 +70,7 @@
                    <language ident="en">English</language>
                </langUsage>
             </profileDesc>
-        </fileDesc>    
+           
     </teiHeader>
     <text> 
         <body>

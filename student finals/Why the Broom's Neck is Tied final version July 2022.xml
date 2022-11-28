@@ -5,7 +5,7 @@
             <titleStmt>
                 <title> WHY THE BROOM'S NECK IS TIED </title>
                 <storyteller> Vincent Nimobi Sagnan</storyteller>
-                <author> Konkomba oral tradition</author>
+                <author> Konkomba Oral Tradition</author>
                 <editor> Tasun Tidorchibe </editor>
                 <respStmt>
                     <name> Tasun Tidorchibe </name>
@@ -22,14 +22,8 @@
                     <name> Dr. Eva Ulrike Pirker </name>
                     <resp> supervision </resp>
                 </respStmt>
-                <sponsor type="digitization"> E-Learning Förderfonds HHU </sponsor>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
                <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
-                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
-                    <name type="institution"> Heinrich Heine Universität Düsseldorf </name>
-                    <street> Universitätsstraße 1 </street>
-                    <postCode> 40225 </postCode>
-                    <name type="city"> Düsseldorf </name>
-                    <name type="country"> Germany </name></address>  
             </titleStmt>
             <publicationStmt>
                 <publisher> Centre for Translation Studies Düsseldorf </publisher>
@@ -47,11 +41,11 @@
             </publicationStmt>
             <sourceDesc>
              
-              <bibl> <title> Why the Broom's neck is tied </title> <author> Konkomba oral tradition </author> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+              <bibl> <title> Why the Broom's neck is tied </title> <author> Konkomba Oral Tradition </author> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
             </sourceDesc>
             <encodingDesc>
                 <editorialDecl> Treating notes the same way as the glossary istead of using footnotes </editorialDecl>
-                <projectDesc> The project focuses on digitizing oral folktales from Ghana, specifically the Konkomba people,through different media.The project puts a body of oral folktales into writing and eventually makes them available as annotated,digitized narratives. 
+                <projectDesc> The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people,through different media.The project puts a body of oral folktales into writing and eventually makes them available as annotated,digitized narratives. 
                     It thus aims to make a contribution to visibilsing this culture,which through processes of colonisation,the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised</projectDesc>
                 <styleDefDecl scheme="css" Version="2.1"/>
             </encodingDesc>
@@ -63,7 +57,7 @@
                          <geo>8.7, -0.133333</geo>      
                      </location>
                  </place>
-                  transcribed foktale from Likpakpaln as told by <name type="storyteller">Nimobi Sagnan </name> on <date when="2019">4th November 2019 </date>in <name type="city">Chamba </name>, <name type="country">Ghana</name>
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller">Nimobi Sagnan </name> on <date when="2019">4th November 2019 </date>in <name type="city">Chamba </name>, <name type="country">Ghana</name>
                </creation>
                <langUsage>
                    <language ident="lik">Likpakpaln</language>

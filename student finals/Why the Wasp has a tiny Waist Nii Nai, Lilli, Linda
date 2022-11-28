@@ -20,13 +20,7 @@
                     <name> Dr. Eva Ulrike Pirker </name>
                     <resp> supervision </resp>
                 </respStmt>
-                <sponsor type="digitization"> E-Learning Förderfonds HHU </sponsor>
-                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
-                    <name type="institution"> Heinrich Heine Universität Düsseldorf </name>
-                    <street> Universitätsstraße 1 </street>
-                    <postCode> 40225 </postCode>
-                    <name type="city"> Düsseldorf </name>
-                    <name type="country"> Germany </name></address>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
                 <sponsor type="funding">
                     <address>
                         <name tyoe="institution">Katholischer Akademischer Ausländer-Dienst</name> 
@@ -51,13 +45,15 @@
                 <availability> not yet available </availability>
                 <date> TBD </date>
             </publicationStmt>
+       
             <sourceDesc>
-              <bibl> <title>Why the Wasp has a tiny waist</title> 
+              <bibl> <title>Why the Wasp Has a Tiny Waist</title> 
                 <author> Konkomba Oral Tradition </author> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
             </sourceDesc>
+            </fileDesc>
             <encodingDesc>
                 <styleDefDecl scheme="css" Version="2​.1"/>
-                <projectDesc>"The project focuses on digitizing oral folktales from Ghana, specifically the Konkomba people, through different media. 
+                <projectDesc>"The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media. 
                     The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitized narratives. It thus aims to make a contribution to visibilising this 
                     culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised."
                 </projectDesc>
@@ -80,14 +76,16 @@
                    <language ident="en">English</language>
                </langUsage>
             </profileDesc>
-        </fileDesc>
+            <revisionDesc>
+            <p> In November 2022, changes were made in the textual code: Beforehand, before and after songs <l/> had been added to add space. Now this has been changed 
+            and divisions of the type song have been added and <l/> has been deleted. <p> </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div><head type="Title">WHY THE WASP HAS A TINY WAIST</head>
                 <p>(As told by Waja Ngnalbu on 21st February 2020 in Chamba, Ghana)</p>
             </div>
-            <div><head type="subTitle">Introduction:</head>
+            <div><head type="subTitle">Introduction</head>
                 <p>The following story relates how the wasp's self-exile from his community eventually deformed him. It presents the wasp as a loner who refuses to participate 
                 in communal activities and thus incurs the wrath of his kith and kin. The story, grounded in the communal spirit of Konkomba funerals (particularly 
                 the <term xml:id="gloss1">kinachuŋ</term> cultural dance), celebrates teamwork and depicts the centrality of communal living among Konkombas. The storyteller 
@@ -108,8 +106,7 @@
                    he strapped the <term xml:id="gloss6">kiloŋ</term> to one shoulder; he slung an axe over the other shoulder; he picked up his uduun in his hand; he tied all the 
                    other <term xml:id="gloss7">tinachinchen</term> around his waist and hit the road running.<term xml:id="note1"> <hi rend="superscript">1</hi></term> As he 
                    journeyed, he sang this song:</p>
-                <l></l>
-                <l></l>
+                <div type="song>
                <table>
                   <row role="head">
                       <cell><hi rend="bold"><term xml:id="gloss13">Likpakpaln</term> transcription</hi></cell> 
@@ -179,10 +176,11 @@
                   <row>
                       <cell><lb></lb></cell>
                   </row>
+                  <row/>
                </table>
-               <l></l>
+               </div>
                  <p>As he drew closer to his in-law's house, he intensified his singing, drumming, and dancing:</p> 
-               <l></l>
+             <div type="song">
                <table>
                    <row>
                        <cell><lb></lb></cell>
@@ -242,8 +240,9 @@
                   <row>
                       <cell><lb></lb></cell>
                   </row>
+                  <row/>
                </table>
-               <l></l>
+              </div>
                <p>From a distance, his in-laws heard the singing and drumming and speculated that the wasp, and perhaps his kin, were arriving. 
                   Some of them remarked sarcastically, in reaction to the wasp's appearance at the funeral grounds-the first of its kind-that: 
                   "<term xml:id="gloss8">Bo</term>! Today the wasp is coming; the earth will explode." Out of curiosity they rushed out and fixed 
@@ -264,7 +263,7 @@
                             amalgamate the above English idioms into, "... and hit the road running."</gloss></p>
                 </div>
                 <div>
-                    <head type="subTitle"> A glossary of Likpakpaln words and phrases </head>
+                    <head type="subTitle"> A Glossary of Likpakpaln Words and Phrases </head>
                     <list type="gloss">
                         <label><hi rend="bold">Bo!:</hi></label>
                         <item><gloss target="gloss8">'Bo'is an interjection used by Konkombas to express surprise</gloss></item>

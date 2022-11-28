@@ -43,6 +43,7 @@
              
               <bibl> <title> Why the Broom's neck is tied </title> <author> Konkomba Oral Tradition </author> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
             </sourceDesc>
+            </fileDesc>
             <encodingDesc>
                 <editorialDecl> Treating notes the same way as the glossary istead of using footnotes </editorialDecl>
                 <projectDesc> The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people,through different media.The project puts a body of oral folktales into writing and eventually makes them available as annotated,digitized narratives. 
@@ -64,7 +65,6 @@
                    <language ident="en">English</language>
                </langUsage>
             </profileDesc>
-        </fileDesc>
     
     </teiHeader>
     

@@ -33,7 +33,7 @@
                 <status>not yet published</status>
                 <pubPlace>Düsseldorf</pubPlace>
                 <address> <name type="institution"> Centre for Translation Studies Düsseldorf</name>
-                    <name type="institution"> Heinrich Heine University Düsseldorf</name>
+                    <name type="institution"> Heinrich-Heine-University Düsseldorf</name>
                     <street>Universitätsstraße 1</street> 
                     <postCode>40225</postCode> 
                     <name type="city">Düsseldorf</name>
@@ -58,10 +58,11 @@
                 priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
             <profileDesc> 
                 <creation> Originally told in
-                    <place xml:id="Kotul">
+                    <place xml:id="Kutol">
                         <placeName>
-                            Kotul
+                            Kutol
                         </placeName>
+                        <geo>9,58, 0,24 </geo>
                     </place>
                     transcribed folktale from Likpakpaln as told by <name type="storyteller"> Bilinyi Chikpaab </name> on <date when="2022">18th March 2022 </date>in <name type="city">Kutol </name>, <name type="country">Ghana</name>
                </creation>
@@ -75,7 +76,7 @@
     <text> 
         <body>
         <head type="mainTitle">Nachiin Pays for Feasting on Unyii's Children</head>
-        <p> (As told by Bilinyi Chikpaab on 18th March 2022 in Kotul)</p>
+        <p> (As told by Bilinyi Chikpaab on 18th March 2022 in Kutol)</p>
         <head type="subTitle"> Introduction </head>
             <p>The following story relates how a wolf deceives a crocodile and eats all her children. Unfortunately for the wolf, a rabbit also employs wit
              to bring him to justice, resulting in him (the wolf) losing his testicles to the irate and distraught mother crocodile in the end. </p>

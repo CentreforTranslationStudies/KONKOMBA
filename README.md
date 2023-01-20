@@ -1,4 +1,4 @@
-<p> The repository contains the TEI files transcribed by students at HHU's Philosophical Faculty. They were prepared in the context of the project <a href="https://blogs.phil.hhu.de/ctsdus/" target="blank"> Demarginalising Orature. </a> </p> <br>
+<p> The repository contains the TEI and pdf files transcribed by students at HHU's Philosophical Faculty. They were prepared in the context of the project <a href="https://blogs.phil.hhu.de/ctsdus/" target="blank"> Demarginalising Orature. </a> </p> <br>
 <p> List of Folktales <br>
 <a href="https://centrefortranslationstudies.github.io/KONKOMBA/html_sose22/God_gave_everyone_a_talent.html" target="_blank">God Gave Everyone a Talent</a> <br>
 <a href="https://centrefortranslationstudies.github.io/KONKOMBA/html_sose22/The_Chameleon_and_Ubors_daughters.html" target="_blank">The Chameleon and the Ubor's Daughters</a> <br>

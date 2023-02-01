@@ -1,0 +1,132 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> One Should Treat Everyone Fairly </title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller> Piichaan Chikpaab </storyteller>
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name> Lisa Brandt </name>
+                    <name> Anne Schulzki </name>
+                    <name> Anna Prickarz </name>
+                    <resp> coding and editing </resp>
+                </respStmt>
+                <respStmt> 
+                    <name> Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitalisation"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name></address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status>not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace>
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street>
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> available on Github https://github.com/CentreforTranslationStudies/KONKOMBA
+ </availability>
+<date> TBD </date>
+            </publicationStmt>
+            <sourceDesc>
+              <bibl> <title> One Should Treat Everyone Fairly</title> <storyteller> Piichaan Chikpaab </storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+        </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc>      
+                </tagsDesc>
+            <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+                </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in 
+                <place xml:id="Kutol, Ghana">
+                     <placeName> Kutol, Ghana </placeName>
+                     <location>
+                         <geo> 9,57797, 0,24202</geo>    
+                     </location>
+                 </place>  
+                    transcribed folktale from Likpakpaln as told by <name type="storyteller"> Piichaan Chikpaab </name> on <date when="2022">22nd March 2022 </date>in <name type="city"> Kutol</name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+    </teiHeader>
+<text>
+    <body>
+        <head type="mainTitle">One Should Treat Everyone Fairly</head>
+        <p>(as narrated by Piichaan Chilpaab in Kutol on 22/03/2022)</p>
+        <div type="introduction">
+            <head type="subTitle">Introduction</head>
+            <p>In this story, the storyteller tells her audience about the necessity of treating everyone and everything with dignity and equal love.
+                Her story presents a man who dislikes and maltreats one of his wives. But as fate will have it, when the man requests for communal help one day, it is this wife who better entertains their guests with her drink. To watch the Likpakpaln narration <ref target="https://mediathek.hhu.de/watch/71f4c077-0a67-4f59-a1ac-409cb3ec8d9a">click here.</ref>
+            </p>
+        </div>
+        <div type="story">
+            <head type="subTitle">Story</head>
+            <p><q><term target="#gloss1">Da tiin man</term>,</q> Piichaan announces her intent to tell a story.</p>
+            <p><q><term target="#gloss2">Daya</term>,</q> the audience respind to indicate that she can go ahead.</p>
+            <p>She then proceeds:</p>
+            <p>There was a man who had three wives. Unfortunately he didn't like one of them. Against all her protests, the man always insisted that the woman was a bad person.
+                That notwithstanding, they remained married and the woman, together with her two co-wives, gave birth to a lot of children.
+            </p>
+            <p>One day the man requested for <term target="#gloss3">nkpaawiin</term> and gave each of his wives guinea corn to brew a local drink. He then instructed them to sell their drinks, buy extra guinea corn, and brew more of the drink for the <term target="#gloss3">nkpaawiin</term>.<term xml:id="footnote1"><hi rend="superscript">1</hi></term>
+            The women did as instructed: each brewed her drink, sold it, and made enough money. However, their husband confiscated the earnings of the wife he disliked and threatened her that if she failed to brew her drink on the day of his <term target="#gloss3">nkpaawiin</term>, she would be in trouble.</p>
+            <p>On the day of the <term target="#gloss3">nkpaawiin</term>, the woman’s co-wives each brewed their drinks and took them to their husband for inspection. On realizing that the mother had not brewed hers, the woman’s <term target="#gloss4">ubupul</term> took a container and left the house. As the ubu (i.e., child) was wandering, a man saw the child and asked where the child was from. 
+                The ubu told him and narrated the mother’s situation to the man. The man then told the child to stop worrying, and that when it was inching close to the time food and drinks would be served at the get-together, the ubu should come back to him.</p>
+            <p>The child did as the man had instructed. When the ubu went, the man gave the child a fattened <term target="#gloss5">unaa</term> to take home and kill for the mother to cook food for the guests. He also gave the child plenty of honey to be given to the mother.</p>
+            <p>At the ‘after-<term target="#gloss3">nkpaawiin</term>’ get-together, the three wives, including the despised woman, took their drinks to the guests. The husband derogatorily instructed the wife he disliked to serve her drink first. When the woman did, the guests found her drink very delicious and wouldn’t stop drinking. They forgot about the food that was cooked for them and kept requesting for more of the woman’s drink. 
+                At a point, the woman told her husband and the guests to stop drinking, reminding the former of how badly he had treated her and how he had given her a dog’s chance to prepare a delicious drink.</p>
+            <p>Now, due to the delicious nature of the despised woman’s drink, the other women’s drinks went to waste as no one bothered to even taste them. Thus, the despised wife stole the show. 
+                So you see, no matter how bad your wife or something is, never discriminate against her/it or treat her/it unfairly.</p>
+                <p><q>Mbo!</q> <q>It might turn out to be good,</q> variously interject two of Piichaan's audience in agreement with her advice or the moral lesson of her story.</p>
+                <p><hi type="italic">(All clap for her as the storyteller ends her story on that note and breaks into laughter.)</hi></p>
+        </div>
+    </body>
+</text>
+<text>
+    <text>
+        <div type="note">
+            <head type="subTitle">Note</head>
+            <list type="index">
+            <label>1.</label><item><gloss target="#footnote1">In Konkomba culture, it is customary to host one’s work party to a get-together after <term target="#gloss3">nkpaawiin</term>. 
+                Typically, heavy foods such as tuo zaafi (aka TZ), fufu, or yam slices can be served together with pito (a local beverage/beer made from guinea corn) and/or patasii (a local gin akin to vodka). 
+                While this get-together is used to express the <term target="#gloss3">nkpaawiin</term> caller’s gratitude, it is also a platform for communal bonding in a more relaxed atmosphere outside the serious, heated work environment on the farm. Note that ‘after-<term target="#gloss3">nkpaawiin</term>’ get-togethers are only associated with very physical farm-labour-related ikpaawiin – such as clearing of farmlands, plowing, making of yam mounds, etc. 
+                During most ikpaawiin, however, food is usually served but no get-together is held afterward, except in cases of physical farming activities such as those mentioned above among others. In the context of this story, therefore, the drink (pito) the man asks his wives to brew is meant for the ‘after-<term target="#gloss3">nkpaawiin</term>’ get-together guests.</gloss></item>
+            </list>
+        </div>
+        <div type="glossary">
+            <head type="subTitle">A Glossary of Likpakpaln Words and Phrases</head>
+            <list type="gloss">
+                <label>da tiin man:</label><item><gloss xml:id="gloss1">translated as <q>Permission to tell a story.</q> This is one of the numerous ways to commence one’s story in Konkomba storytelling culture. It is aimed at drawing a storyteller’s audience’s attention to himself/herself in order to ensure that the audience are listening or ready to listen.</gloss></item>
+                <label>daya:</label><item><gloss xml:id="gloss2">translated as <q>Permission granted.</q> This response is one of the many ways audience at a Konkomba storytelling session can inform a storyteller that they are listening or are prepared to hear his/her story.</gloss></item>
+                <label>nkpaawiin:</label><item><gloss xml:id="gloss3">communal activity or labour. Among Konkombas when one is swamped with work, he or she can ask for the help of others, who would usually respond generously in their numbers provided the <q>help-seeker</q> has been participating in ikpaawiin (i.e., plural form of nkpaawiin). Ikpaawiin are mostly called when one has a lot of farm work, is building, flooring or roofing a house, shelling maize/corn, cracking groundnuts, or thrashing guinea corn among other physical activities. Such occasions are not just for working but also for communal interaction and bonding.</gloss></item>
+                <label>ubupul:</label><item><gloss xml:id="gloss4">Likpakpaln word for a firstborn (child). The root word is ubu (i.e., a child) – and it is a gender fluid noun. In the context of this story, when the storyteller uses <q>ubu</q> instead of ubujabu (i.e., a boy) or upiibu (i.e., a girl), she deliberately refuses to assign a gender – and by implication, a gender role definition – to her character. In fidelity to the storyteller’s decision, and to draw attention to the problem of translating gender-fluid words, the use of any of the gendered English pronouns was avoided and instead it was alternated between ‘ubu’ and ‘child’ (as found in the text).</gloss></item>
+                <label>unaa:</label><item><gloss xml:id ="gloss5">Likpakpaln word for a cow or a bull. Unaa is a gender fluid noun so to assign gender distinctions, one will have to add Likpakpaln gender markers such as <q>ja</q> (for masculine) or <q>sal</q> (for feminine) to the noun. Thus, a cow is called unaasal while a bull is called unaaja. In the context of this story, the storyteller is unspecific as to the gender of the unaa the man gives the child – hence the untranslatability of the word unaa into English.</gloss></item>
+            </list>
+        </div>
+    </text>
+</text>
+</TEI>

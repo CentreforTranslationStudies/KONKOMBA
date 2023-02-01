@@ -1,0 +1,159 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> The Selfish Upininkpil and Her Granddaughter </title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller> Maatulnbi Dandam Poryii </storyteller>
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name>Anna Prickarz</name>
+                    <name>Anne Schulzki</name>
+                    <name>Lisa Brandt</name>
+                    <resp> coding and editing </resp>
+                </respStmt>
+                <respStmt> 
+                    <name> Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name></address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status>not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace>
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street>
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> Github: https://github.com/CentreforTranslationStudies/KONKOMBA </availability>
+<date> February 1st 2023 </date>
+            </publicationStmt>
+            <sourceDesc>
+              <bibl> <title> The Selfish Upininkpil and Her Granddaughter</title> <storyteller> Maatulnbi Dandam Poryii </storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+        </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc>      
+                </tagsDesc>
+            <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+                </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in 
+                <place xml:id="Kutol, Ghana">
+                     <placeName> Kutol, Ghana</placeName>
+                     <location>
+                         <geo> 9,57797, 0,24202</geo>    
+                     </location>
+                 </place>  
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller"> Maatulnbi Dandam Poryii </name> on <date when="2022">18th March 2022 </date>in <name type="city">Kutol</name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type="mainTitle">The Selfish Upininkpil and Her Granddaughter</head>
+            <p>(as narrated by Maatulnbi Dandam Poryii in Kutol on 18/03/2022)</p>
+            <div type="introduction">
+                <head type="subTitle">Introduction</head>
+                <p>This story makes a case for the necessity of knowledge transfer, especially from the older generation to the younger generation. 
+                    The story has it that an elderly woman living with her granddaughter refuses to teach the girl the basics of life because she is afraid that the girl will abandon her after learning everything there is to learn. 
+                    But the girl's persistence eventually wears the old lady down and she teaches the child all she needs to know. To watch the Likpakpaln narration <ref target="https://mediathek.hhu.de/watch/594c1643-f8b9-445e-a15b-4d2aa67473e4">click here.</ref>
+                </p>
+            </div>
+            <div type="story">
+                <head type="subTitle">Story</head>
+                <p><q>This is my story,</q> Poryii announces to her audience and proceeds:</p>
+                <p>There lived a certain <term target="#gloss4">upininkpil</term> and her grandchildren. <term target="#gloss4">Upininkpil</term> was very knowledgeable in so many things but was never willing to pass on the knowledge to her grandchildren. </p>
+                   <p> Anytime the grandchildren asked her to teach them something or show them how to do something, she declined with the excuse that if she taught them, they would eventually learn all they needed to know and abandon her. </p>
+                    <p>One day one of her grandchildren threatened that if she failed to pass on her knowledge to her, she would relocate to <term target="#gloss2">liŋaanltaab</term> and bear a lot of fruits. The girl sang this in a song as follows: </p>
+                    <p><hi rend="italic">(The storyteller teaches her audience the contents of the song, tells them which lines to sing, and breaks into singing.)</hi></p>
+            </div>
+            <div type="song">
+                <table type="translation">
+                    <row role="head">
+                        <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                        <cell><hi rend="bold">English translation</hi></cell>
+                    </row>
+                    <row>
+                        <cell><l><term target="#gloss3">N-ya</term> ee, <term target="#gloss3">n-ya</term> ee,</l></cell>
+                        <cell><l>Grandmother, grandmother,</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Mɔk ’bi la ŋaan bu ya.</l></cell>
+                        <cell><l>Teach me how to do stuff.</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Aa yaa kaa mɔk ’bi la ŋaan bu ya,</l></cell>
+                        <cell><l>If you do not teach me how to do stuff,</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>M la fii kpi <term target="#gloss2">liŋaanltaab</term> ee</l></cell>
+                        <cell><l>I’ll relocate to the foot of the <term target="#gloss1">liŋaanl</term> tree</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Ki ti lu <term target="#gloss1">liŋaanl</term> gbar gbar gbar gbar – </l></cell>
+                        <cell><l>And bear <term target="#gloss1">liŋaanl</term> fruits in abundance – </l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Lu <term target="#gloss1">liŋaanl</term> gbar gbar gbar gbar.</l></cell>
+                        <cell><l>Bear <term target="#gloss1">liŋaanl</term> fruits in abundance.</l></cell>
+                    </row>
+                    <row></row>
+                </table>
+            </div>
+            <div type="story">
+                    <p><hi rend="italic">(The storyteller repeats the song and the audience join in again.)</hi></p>
+                <p>After much persistence from the girl, <term target="#gloss4">upininkpil</term> finally gave in and taught her granddaughter how to cook, how to do the dishes, and several other things. 
+                    The girl was content and consequently aborted her plan to relocate. </p>
+                <p><hi rend="italic">(Poryii now attempts to break down the moral of the story to her audience as follows:)</hi></p>
+                <p><q>By teaching the girl how to do these things, the elderly woman was preparing the young girl for life. 
+                    So initially when she refused to pass on the knowledge, was the girl not right in threatening that she would relocate unless the grandmother taught her the basic things of life?</q> she quizzes rhetorically.</p>
+                <p><q>Yes, she had the right to relocate,</q> interjects one of her audience simultaneously as the storyteller.</p>
+                <p><q>M-hen!</q> Poryii seems pleased with the audience’s response. She then concludes:</p>
+                <p>When a child lives with <term target="#gloss4">upininkpil</term>, she must endeavor to teach the child the basics of life so that the child can survive later in life. </p>
+                <p>This is the story I have (to wit, this is the end of my story).<term target="#footnote1"><hi rend="superscript">1</hi></term></p>
+            </div>
+            <div type="Note">
+                <head type="subTitle">Note</head>
+                    <list type="index">
+                    <label>1.</label><item><gloss xml:id="footnote1">Poryii’s conclusion is atypical. The usual conclusion to a Konkomba folktale is, 
+                        <q>This is the end of my story,</q> or <q>May my story diminish while I grow as tall as my grandfather’s Kapok tree,</q> or <q>Tiin tiin kulb</q> (translated as <q>The end of the story</q>), etc. 
+                        But Poryii’s conclusion points to the liberty afforded to the Konkomba storyteller in creating variants of so-called standardised or normative forms.</gloss></item>
+                    </list>
+            </div>
+            <div type="glossary">
+                <head type="subTitle">A Glossary of Likpakpaln Words</head>
+                <list type="gloss">
+                    <label>liŋaanl:</label><item><gloss xml:id="gloss1">a type of tree found in the savannah region of Ghana. Perhaps its closest resemblance is the fig tree.</gloss></item>
+                    <label>liŋaanltaab:</label><item><gloss xml:id="gloss2">translated as, <q>under the liŋaanl tree;</q> or <q>at the foot of the liŋaanl tree.</q></gloss></item>
+                    <label>n-ya:</label><item><gloss xml:id="gloss3">Likpakpaln word for grandmother</gloss></item>
+                    <label>upininkpil:</label><item><gloss xml:id="gloss4">Likpakpaln word for an old lady or old woman. The plural form is bipininkpiib.</gloss></item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

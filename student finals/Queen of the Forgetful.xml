@@ -1,0 +1,200 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Queen of the Forgetful</title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller>Inimoan C. Wungemi</storyteller>
+                <editor>Tasun Tidorchibe</editor>
+                <respStmt>
+                    <name>Tasun Tidorchibe</name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Michael-Zane Brose</name> 
+                    <name>Filippa Bitter</name>
+                    <resp>coding and editing </resp>
+                 </respStmt>
+                <respStmt> 
+                    <name>Dr. Eva Ulrike Pirker</name>
+                    <resp>supervision</resp>
+                </respStmt>
+                <sponsor type="digitisation">E-Learning Förderfonds HHU</sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Translation Studies Düsseldorf </publisher>
+                <status>not yet published</status> 
+                <pubPlace>Düsseldorf </pubPlace> </publicationStmt>
+        <address> <name type="institution">Centre for Translation Studies Düsseldorf </name> 
+            <name type="institution">Heinrich-Heine-Universität Düsseldorf </name>
+            <street>Universitätsstraße 1 </street>
+            <postCode>40225 </postCode>
+            <name type="city">Düsseldorf </name>
+            <name type="country">Germany </name>
+        </address>
+        <availability>"https://github.com/CentreforTranslationStudies/KONKOMBA"</availability>
+        <date>February 2023</date>
+    </fileDesc>
+    <sourceDesc>
+        <bibl> <title>Why Dogs Rummage through Hearths</title> 
+        <storyteller> Liwalaa Ntakbi </storyteller>Translated by <editor role="translator">Tasun Tidorchibe </editor></bibl> 
+  </sourceDesc>
+  <encodingDesc>
+      <styleDefDecl scheme="css" Version="2.1"/>
+      <tagsDesc>      
+      </tagsDesc>
+  <editorialDecl>No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+  <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+      The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+      It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+      </encodingDesc>
+      <profileDesc> 
+        <creation>Originally told in
+        <place xml:id="Chakping, Ghana">
+             <placeName>Chakping, Ghana</placeName>
+             <location>
+                 <geo>9.629702, 0.248884</geo>     
+             </location>
+             </place>
+             transcribed folktale from Likpakpaln as told by <name type="storyteller">Inimoan C. Wungemi</name> on <date when="2019">16th March 2022 </date>in <name type="city">Chakping</name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+    </teiHeader> 
+    <text>
+        <body> 
+            <head type="mainTitle">Queen of the Forgetful</head>
+            <p>(as told by Inimoan C. Wungemi in Chakping on 18/03/2022)</p>
+            <div type="introduction">
+                <head type="subTitle">Introduction</head>
+                <p>This story cautions against discrimination by advocating that husbands love their wives equally. Centered on polygamous marriages, it interrogates the possibility of a man to love his wives equally. The story has it that the political head of an unidentified Konkomba community has two wives, of whom he secretly loves one more and wishes to declare that based on a test. Unfortunately, the one he secretly loves and is rooting for so that he can openly declare that he loves her more, fails the test while the one he dislikes passes the test. To watch the Likpakpaln narration <ref target="https://mediathek.hhu.de/watch/267e029c-08cd-41a7-b819-28c04a9d6cb3"> click here.</ref></p>
+            </div>
+            <div type="story"> 
+                <head type="subTitle">Story</head>
+                <p><q>My story is as follows,</q> Inimoan announces to her audience.</p> 
+                <p><q>M-hmm!</q> respond some audience.</p>
+                <p>Inimoan proceeds:</p>
+                <p>There lived an <gloss target="#gloss4">ubɔr</gloss> who had two wives. One day he took his son to farm, set aside some tubers of yam in his <gloss target="#gloss1">libool</gloss> and told his son that the next day he would bring his wives and test them. According to him, of the two wives, the one that was able to tell him the name of the tubers of yam he had set aside, would be his most cherished wife from then on.</p>
+                <p>Now, his two wives were of different personalities: one was noted for her cleanliness and retentive memory while the other was noted for her untidiness and forgetfulness. The boy ubɔr took to the farm was the son of the wife who was noted for cleanliness and information retention. Fortunately for the untidy and forgetful wife, her child was eavesdropping on the conversation between ubɔr and the hygienic wife’s son. The child therefore ran home and told the mother that the tubers of yam the father had set aside to test them on were called kpiknandin, and that when asked, the mother should say the yam-type was kpiknandin.</p>
+                <p>The next day, when they all went to farm, the untidy and forgetful wife’s son was lingering around the barn and playing a song on his <gloss target="#gloss2">liwul</gloss>:</p>
+                <div type="song">
+                    <table>
+                        <row role="head">
+                            <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                            <cell><hi rend="bold">English translation</hi></cell>
+                        </row>
+                        <row>
+                            <cell></cell>
+                        </row>
+                        <row> 
+                            <cell><l>Nna usunsunbɔr ee,</l></cell>
+                            <cell><l>Mother, queen of the forgetful,</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>Taa tin len ki i sun na ee.</l></cell>
+                            <cell><l>Don’t go and say you’ve forgotten.<gloss target="note1"><hi rend="superscript">1</hi></gloss></l></cell>
+                        </row>
+                        <row>
+                            <cell><l>Nna upiigiinbɔr ee,</l></cell>
+                            <cell><l>Mother, queen of the gentle,</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>Taa tin len ki i sun na ee.</l></cell>
+                            <cell><l>Don’t go and say you’ve forgotten.</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>Maa-te fi yin linuli kpiknandin.</l></cell>
+                            <cell><l>Yesterday, father called the yam kpiknandin.</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>Kpiknandin, ki gir ki din, kpiknandiiin!!!!</l></cell>
+                            <cell><l>Kpiknandin, again, kpiknandiiiin!!!!</l></cell>
+                        </row>
+                        <row>
+                            <cell></cell>
+                        </row>
+                    </table>
+                </div>
+                <p>When the man opened the libool and entered with his wives, he asked the hygienic wife what the tubers of yam were called. Unfortunately, she didn’t know the answer. But before the man could ask the untidy wife, her son broke into his song again:</p>
+                <div type="song">
+                    <table>
+                        <row role="head">
+                            <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                            <cell><hi rend="bold">English translation</hi></cell>
+                        </row>
+                        <row>
+                            <cell></cell>
+                        </row>
+                        <row> 
+                            <cell><l>Nna upiigiinbɔr ee,</l></cell>
+                            <cell><l>Mother, queen of the gentle,</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>Taa tin len ki i sun na ee.</l></cell>
+                            <cell><l>Don’t go and say you’ve forgotten.</l></cell>
+                        </row>
+                        <row> 
+                            <cell><l>Nna upiigiinbɔr ee,</l></cell>
+                            <cell><l>Mother, queen of the gentle,</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>Taa tin len ki i sun na ee.</l></cell>
+                            <cell><l>Don’t go and say you’ve forgotten.</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>Nte fi yin linuli kpiknandin.</l></cell>
+                            <cell><l>Yesterday, father called the yam kpiknandin.</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>Kpiknandin, ki gir ki din, kpiknandiiiin!!!!</l></cell>
+                            <cell><l>Kpiknandin, again, kpiknandiiiin!!!!</l></cell>
+                        </row>
+                        <row>
+                            <cell></cell>
+                        </row>
+                        </table>
+                        <p>The man then called the untidy wife and asked, <q>What is the name of this yam?</q></p>
+                        <p>Due to the boy’s song, the mother remembered the name and told her husband that the yam was called kpiknandin. On hearing the answer, ubɔr became dumbfounded. The wife from whom he had expected to elicit the correct answer failed; but the one he had least expected to provide the correct answer, got it right.</p>
+                        <p>That is why a man should never love one wife more than the other. On that day the untidy, unloved wife became the hygienic, loved one. <hi rend="italic">(The storyteller and one of her audience say the last bit of this sentence simultaneously.)</hi></p>
+                        <p><q><gloss target="#gloss3">Maa tiin gur ki m muun chaa</gloss></q>, Inimoan concludes.</p>
+                    </div>
+                </div>
+                </body>
+            </text>
+                <text>
+                    <text>
+                    <div type="note">
+                        <head type="subTitle">Notes</head>
+                        <list type="index">
+                            <label>1.</label><item><gloss xml:id="#note1">This line translates fluently into English and contextually as, <q>On entering the barn, don’t say you’ve forgotten.</q> The literal translation in the text is meant to register the linguistic structure of the Likpakpaln language in the text and ultimately foreignize it.</gloss></item>
+                        </list>
+                    </div>
+                    <div type="glossary">
+                        <head type="subtitle">A Glossary of Likpakpaln Words and Phrases</head>
+                        <list type="gloss">
+                            <label>libool:</label>
+                            <item>
+                                <gloss xml:id="#gloss1">Likpakpaln word for a yam barn (aka yam shed). Libool is the traditional yam storage facility for Konkomba yam farmers. It is a thatch structure usually erected, ideally, under a shady tree. After harvest, a traditional Konkomba yam farmer proudly displays his/her yams – which are always grouped according to sizes and types – in the barn. The bumper one’s harvest is, the bigger his/her yam barn. In Konkomba achievement culture, yam barn size is one of the benchmarks for measuring one’s wealth, success, and subsequently social status. For more details, please read Tasun Tidorchibe’s article titled <q>Concepts of Achievement among Konkombas: Representations in Their Folktales</q> (<ref target="https://books.ulb.hhu.de/index.php/hhu_books/catalog/view/21/13/221">https://books.ulb.hhu.de/index.php/hhu_books/catalog/view/21/13/221</ref>).</gloss>
+                            </item>
+                            <label>liwul:</label>
+                            <item>
+                                <gloss xml:id="#gloss2">Likpakpaln word for a flute. It is typically a (wooden) stick with curved holes.</gloss>
+                            </item>
+                            <label>maa tiin gur ki m muun chaa:</label>
+                            <item>
+                                <gloss xml:id="#gloss3">translated as, <q>May my story diminish while I grow very tall.</q> This is a shortened version of the standard conclusion, <hi rend="italic"><q>Maa tiin gur, ki gur, ki gur ki m muun, ki muun ke n-yaaja agbenja na</q></hi> (transliterated as, <q>May my story diminish and diminish and diminish while I grow and grow as tall as my grandfather’s male Kapok tree</q>). This standard conclusion is one of the numerous ways in which a Konkomba storyteller can end his/her story. The ending and its numerous variants suggest that Konkombas believe that storytelling (or entertainment in general) has health benefits, especially healthy physical growth. The association of storytelling with physical growth is so entrenched in Konkomba belief system that it is even believed that when a child engages in storytelling at daytime – for Konkomba storytelling sessions are held normally in the evenings/night after supper – he or she will have stunted growth.</gloss>
+                            </item>
+                            <label>ubɔr:</label>
+                            <item>
+                                <gloss xml:id="#gloss4">the political head of a Konkomba community. Ubɔr is usually the eldest male member of the royal family. He inherits that position from his father after the latter’s demise. Thus, Konkombas practice the patrilineal system of inheritance.</gloss>
+                            </item>
+                            </list>
+                    </div>
+                </text>
+            </text>
+            </TEI>

@@ -1,0 +1,401 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Why the Python's Skin Has Dark-Brown Blotches </title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller> Wumbein </storyteller>
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name> Jana Mankau </name>
+                    <resp> coding and editing </resp>
+                </respStmt>
+                <respStmt> 
+                    <name> Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländer-Dienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name></address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status> not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace>
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street>
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> available on Github: https://github.com/CentreforTranslationStudies/KONKOMBA </availability>
+<date> February 2nd 2023 </date>
+            </publicationStmt>
+            <sourceDesc>
+              <bibl> <title> Why the Python’s Skin Has Dark-Brown Blotches
+            </title> <storyteller> Wumbein </storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2​.1"/>
+            <editorialDecl>No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+                </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Chakping, Ghana">
+                     <placeName>Chakping, Ghana</placeName>
+                     <location>
+                         <geo>9.7, 0.27</geo>      
+                     </location>
+                 </place>
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller"> Wumbein </name> on <date when="2019">16th March 2021 </date>in <name type="city">Chakping </name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+       
+    
+    </teiHeader>
+
+    <text>
+        <body>
+            <head type="mainTitle"> Why the Python’s Skin Has Dark-Brown Blotches </head>
+            <p>As told by Wumbein in Chakping on 16th March 2022 </p>
+            <div type="introduction">
+                <head type="subTitle">Introduction</head>
+                <p>The following story is one of many, in Konkomba folklore, that seek to offer insights into why a python’s skin is multi-colored. 
+                    In this story, the storyteller relates the costly friendship between a python and fire, which ultimately results in the former’s house being gutted by fire,
+                     forcing him to flee to the riverside. Worst of all, the fire incident leaves the python forever scarred and multi-colored. </p>
+                     <p>If you want to see some of the Likpakpaln narration in action, <ref target="https://mediathek.hhu.de/watch/4996dcf0-0790-476d-85a2-f86e3b8906e0"> click here.</ref> </p>
+                </div>
+            <div type="story">
+                <head type="subTitle">Story </head>
+                <p><q>There once lived a wild creature,</q> Wumbein commences his story.</p>
+                <p><q>Ehen!</q> <hi rend="italics">Some audience respond amid unintelligible chatter to assure the storyteller that they're paying attention to him.</hi> </p>
+                <p>Wumbein continues:</p>
+                <p>The creature was known as <term target="#gloss4">ujuun</term>. He used to visit his friend <term target="#gloss3">n-ŋmii </term>, and the two would usually eat together.<term target="#Note1"><hi rend="superscript">1</hi></term>
+                    However, his friend replied: <q>Ujuun, I can’t come to your house. Continue coming to my house instead.</q>
+                    But ujuun insisted,<q>No! It’s only fitting that if you frequent your friend’s house, he should also visit you one day.</q></p>
+                    <p><hi rend="italics">Wumbein intones the song and his audience join in:</hi></p>
+                    
+                    <div type="song">
+                    <table>
+                        <row role="head">
+                        <cell><hi rend="bold">Likpakpaln transcription</hi> </cell>
+                        <cell><hi rend="bold">English translation</hi> </cell>
+                        </row>
+                        <row>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell> <l>Ki cha la’i ’kuur?<term target="#Note2"><hi rend="superscript">2</hi></term></l> </cell>
+                            <cell> <l>Where to, when it’s so dry? </l></cell>
+                        </row>
+                        <row>
+                            <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                            <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>(2x)</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>Njɔ le yin ma.</l></cell>
+                            <cell><l>My friend has invited me.</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                            <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>M bui maa choo ya.</l></cell>
+                            <cell><l>I said I won’t come.</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                            <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>U bui ki m dan na.</l></cell>
+                            <cell><l>He insisted that I should come.</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                            <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                        </row>
+                        <row/>
+                    </table>
+            </div>
+                    <p>After walking a distance, he resumed singing: </p>
+                   <div type="song">
+                    <table>
+                        <row role="head">
+                        <cell><hi rend="bold">Likpakpaln transcription</hi> </cell>
+                        <cell><hi rend="bold">English translation</hi> </cell>
+                        </row>
+                        <row>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell> <l>Ki cha la’i ’kuur?</l> </cell>
+                            <cell> <l>Where to, when it’s so dry? </l></cell>
+                        </row>
+                        <row>
+                            <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                            <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                        </row>
+                        <row>
+                           <cell><l>(2x)</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>Njɔ le yin ma.</l></cell>
+                            <cell><l>My friend has invited me.</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                            <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>M bui maa choo ya.</l></cell>
+                            <cell><l>I said I won’t come.</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                            <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>U bui ki m dan na.</l></cell>
+                            <cell><l>He insisted that I should come.</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                            <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                        </row>
+                        <row/>
+                    </table>
+                    </div>
+                    <p>On walking further he repeated the song:</p>
+                    
+                    <div type="song">
+                    <table>
+                        <row role="head">
+                        <cell><hi rend="bold">Likpakpaln transcription</hi> </cell>
+                        <cell><hi rend="bold">English translation</hi> </cell>
+                        </row>
+                        <row>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell> <l>Ki cha la’i ’kuur?</l> </cell>
+                            <cell> <l>Where to, when it’s so dry? </l></cell>
+                        </row>
+                        <row>
+                            <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                            <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>(2x)</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>Njɔ le yin ma.</l></cell>
+                            <cell><l>My friend has invited me.</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                            <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>M bui maa choo ya.</l></cell>
+                            <cell><l>I said I won’t come.</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                            <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>U bui ki m dan na.</l></cell>
+                            <cell><l>He insisted that I should come.</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                            <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                        </row>
+                    <row/>
+                    </table>
+                </div>
+             <p>By this time, n-ŋmii had walked closer to his friend’s house. As a result, ujuun and his wives could hear him from a distance.
+                They rushed to the wall at the entrance of their house and fixed their gaze in the direction from which ujuun’s friend was approaching.
+                 Ujuun asked his wives to open the gate quickly and let his friend in. As he inched closer to the house, n-ŋmii repeated his song: </p>
+                 
+                 <div type="song">
+                 <table>
+                     <row role="head">
+                     <cell><hi rend="bold">Likpakpaln transcription</hi> </cell>
+                     <cell><hi rend="bold">English translation</hi> </cell>
+                     </row>
+                     <row>
+                         <cell></cell>
+                     </row>
+                     <row>
+                         <cell> <l>Ki cha la’i ’kuur?</l> </cell>
+                         <cell> <l>Where to, when it’s so dry? </l></cell>
+                     </row>
+                     <row>
+                         <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                         <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                     </row>
+                     <row>
+                         <cell><l>(2x)</l></cell>
+                     </row>
+                     <row>
+                         <cell><l>Njɔ le yin ma.</l></cell>
+                         <cell><l>My friend has invited me.</l></cell>
+                     </row>
+                     <row>
+                         <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                         <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                     </row>
+                     <row>
+                         <cell><l>M bui maa choo ya.</l></cell>
+                         <cell><l>I said I won’t come.</l></cell>
+                     </row>
+                     <row>
+                         <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                         <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                     </row>
+                     <row>
+                         <cell><l>U bui ki m dan na.</l></cell>
+                         <cell><l>He insisted that I should come.</l></cell>
+                     </row>
+                     <row>
+                         <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                         <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                     </row>
+                     <row/>
+                 </table>
+                 </div>
+            <p>At this point ujuun announced to his friends and neighbors that his friend was coming to visit him. After a while, n-ŋmii resumed singing as he approached: </p>
+            
+            <div type="song">
+            <table>
+                <row role="head">
+                <cell><hi rend="bold">Likpakpaln transcription</hi> </cell>
+                <cell><hi rend="bold">English translation</hi> </cell>
+                </row>
+                <row>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell> <l>Ki cha la’i ’kuur?</l> </cell>
+                    <cell> <l>Where to, when it’s so dry? </l></cell>
+                </row>
+                <row>
+                    <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                    <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                </row>
+                <row>
+                    <cell><l>(2x)</l></cell>
+                </row>
+                <row>
+                    <cell><l>Njɔ le yin ma.</l></cell>
+                    <cell><l>My friend has invited me.</l></cell>
+                </row>
+                <row>
+                    <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                    <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                </row>
+                <row>
+                    <cell><l>M bui maa choo ya.</l></cell>
+                    <cell><l>I said I won’t come.</l></cell>
+                </row>
+                <row>
+                    <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                    <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                </row>
+                <row>
+                    <cell><l>U bui ki m dan na.</l></cell>
+                    <cell><l>He insisted that I should come.</l></cell>
+                </row>
+                <row>
+                    <cell><l>’Kan dama dama ye’i - ’kan dama!</l></cell>
+                    <cell><l>I’ve seen wonders – seen wonders!</l></cell>
+                </row>
+                <row/>
+            </table>
+            </div>
+    <p>Meanwhile, ujuun had retreated into his <term target="#gloss2">kinakuɔk</term> and instructed his wives to get ready to welcome his friend without delay.<term target="#Note3"><hi rend="superscript">3</hi></term>
+        However, his wives rushed to him and informed him that their house was on fire. N-ŋmii had set their house ablaze on entering. 
+        Ujuun subsequently fled his home to escape the blaze. Since then, the bush …</p>
+        <p><q>The riverside,</q> cuts in one of Wumbein's female audience, prompting the storyteller to correct himself as follows:</p>
+        <p>... Yes the riverside, has been his home; and whenever the dry season is approacing, he quicky moves closer to the riverside. <term xml:id="Note4"><hi rend="superscript">4</hi></term>.</p>
+        <p><q>The burns he sustained when n-ŋmii visited him are the blotches on his skin,</q>chips in another of Wumbein’s audience.</p>
+        <p><q><term target="#gloss1">Enn!</term></q>Wumbein agrees with him and concludes amid applause:</p>
+        <p><q>Ehen! That’s why the python’s skin has dark and brown blotches.</q></p>
+        <p><q>That's true, that's true,</q>concurs one of his audience while another one who appears more interested in why pythons now live in the wild quizzes:
+        <q>So that was what drove the python into the bush?</q></p>
+        <p>To this, Wumbein responds in the affirmative:<q>Yes, the riverside.</q></p>
+        <p><hi rend="italic">(After these exchanges, the next storyteller commences his tale.)</hi></p>
+
+</div>
+<div type="notes">
+    <head type="subTitle">Notes</head>
+   <list type="index">
+    <label>1.</label>
+    <item><gloss xml:id="Note1"> It is common practice in Konkomba culture for close friends, especially the youth, to share meals regularly.
+         The practice is often a mark of the depth of a friendship as close pals will usually visit each other’s houses and eat together as part of the things they do together.
+         It’s a symbol of trust between two or more friends, and also feeds into the Konkomba communal living spirit as this practice ultimately unites the families of friends.</gloss></item>
+    <label>2.</label>
+    <item> <gloss xml:id="Note2">This line is a truncation of the Likpakpaln interrogative clause, <q>Ki cha la ki ni kuur kina?</q> (transliterated as <q>Where to, when it’s so dry?</q>).
+         But it can be translated in this context as <q>Where am I going in this dry weather/season?</q> Note that the phrase, <q>Ki cha la</q> is non-subject specific. 
+         The subject is only determined contextually.
+        As a result, in other contexts, the phrase could be translated variously as: <q>Where are you going?</q> / <q>Where is he/she/it going?</q> / <q>Where are we going?</q> etc. </gloss></item>
+        <label>3.</label>
+        <item><gloss xml:id="Note3">In Konkomba culture, this <q>welcoming</q> will often commence with the offering of water, after which kola nuts, tobacco, or a local drink called pito can be offered – depending on the guest’s preference or what is available.
+             After this, food can then be served. The guest will either eat together (from the same bowl) with one of the host’s children or with the host, if they have a close relationship (e.g., as friends or relatives). 
+            The former case (i.e., a child of the host eating together with the guest) is known in Likpakpaln as lisambichuu /lisaˈmbitsu:/ (transliterated as <q>the act of holding a bowl</q>).</gloss> </item>
+        <label>4.</label>
+        <item> <gloss xml:id="Note4"> Here, the correction effected by one of Wumbein’ s audience points to the fact that even though the individual Konkomba (KKB) storyteller has the liberty to select, add, and/or omit certain details in a tale, the audience can still serve as checks and balances on the veracity of his/her details.
+             This underscores the communal ownership and policing of the development of tales among KKB communities.
+             However, individual storytellers can always agree or object to and defend any detail or details that are contested by their audience.</gloss> </item>
+   </list>
+</div>
+<div type="glossary">
+    <head type="subTitle">A Glossary of Likpakpaln Words</head>
+    <list type="gloss">
+        <label><hi rend="bold">enn!:</hi></label>
+        <item> <gloss xml:id="gloss1"> is one of the interjections used to say <q>yes</q> in Likpakpaln. </gloss> </item>
+        <label><hi rend="bold">kinakuɔk:</hi> </label>
+        <item> <gloss xml:id="gloss2">a round room that serves as the main entrance to a typical Konkomba house. It has two doors at both ends to serve as the passage in or out of a house.
+             It also serves as a place for relaxing or hosting visitors/guests.
+              In ubɔr’s palace, kinakuɔk usually has a stage or a raised platform where ubɔr sits to hold meetings and perform other functions.
+               Thus, kinakuɔk can assume political significance rather than being a mere passage or a place for hanging out or playing host to visitors.
+                Within this political context, kinakuɔk can be used as a synonym or a metonym (in literary speech) for ubɔr or the authority of ubɔr. 
+            It is therefore normal for a Konkomba to say that <q>Kinakuɔk has spoken</q> – meaning, <q>Ubɔr has spoken.</q></gloss></item>
+            <label><hi rend="bold">n-ŋmii:</hi> </label>
+            <item><gloss xml:id="gloss3">Likpakpaln word for fire.</gloss></item>
+            <label> <hi rend="bold">ujuun:</hi> </label>
+            <item><gloss xml:id="gloss4">Likpakpaln word for a python.</gloss></item>
+    </list>
+</div>
+
+</body>
+</text>
+</TEI>
+
+
+   

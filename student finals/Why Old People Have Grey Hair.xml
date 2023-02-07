@@ -1,0 +1,153 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt> 
+                <title> 
+                    Why Old People Have Grey Hair
+                </title> 
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller> Naalabr </storyteller>
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name> Livia Heyer </name>
+                    <name> Nadine Dorscheid </name>
+                    <resp> coding and editing </resp>
+                    </respStmt>
+                <respStmt> 
+                    <name> Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+                <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status> not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace>
+                <address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                <street> Universitätsstraße 1 </street>
+                <postCode> 40225 </postCode>
+                <name type="city"> Düsseldorf </name>
+                <name type="country"> Germany </name>
+                </address>
+                <availability> not yet available </availability>
+                <date> TBD </date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl> <title> Why Old People Have Grey Hair
+              </title> <storyteller> Naalabr </storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+        </fileDesc>
+            <encodingDesc>
+                  <styleDefDecl scheme="css" Version="2​.1"/>
+                  <tagsDesc>      
+                  </tagsDesc>
+                <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+                <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                  The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                  It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+                  </encodingDesc>
+              <profileDesc> 
+                  <creation> Originally told in
+                  <place xml:id="Chakping, Ghana">
+                       <placeName> Chakping, Ghana</placeName>
+                       <location>
+                           <geo> 9.67, -0.27 </geo>  
+                       </location>    
+                      </place>
+                      transcribed folktale from Likpakpaln as told by <name type="storyteller"> Naalabr </name> on <date when="2022">16th March 2022 </date>in <name type="city">Chakping </name>, <name type="country">Ghana</name>
+                    </creation>
+                    <langUsage>
+                        <language ident="lik">Likpakpaln</language>
+                        <language ident="en">English</language>
+                    </langUsage>
+                    <textClass>placeholder tbd</textClass>
+                </profileDesc>
+    </teiHeader>
+    <text> 
+        <body>
+            <head type="mainTitle">Why Old People Have Grey Hair</head>
+            <p>(as narrated by Naalabr in Chakping on 16/03/2022)</p>
+            <div type="Introduction">
+                <head type="subTitle">
+                Introduction
+                </head>
+                <p>
+                The following story, told by a child narrator, attempts to explain why people’s hair turn grey once they advance in age. According to the story, 
+                a series of dumbfounding encounters between a man, his beans farm, his dog, and his ax on the one hand, and the man, an old woman, and a log on the other, 
+                leads to unplanned sprint events that culminate in the old woman falling into ashes that turn her hair grey.
+                </p>
+                <p>
+                    To watch the Likpakpaln narration <ref target="https://mediathek.hhu.de/watch/119761cf-45e0-44a3-bdf6-3f015c29099d">click here</ref>.
+                </p>    
+            </div>
+            <div type="Story">
+                <head type="subTitle">
+                Story
+                </head>
+                <p>
+                <q>My story is as follows…</q> Naalabr announces to his audience and proceeds thus:
+                </p>
+                <p>
+                There lived a man who had a beans farm. After sowing the beans, he never visited the farm again. One day he decided to pay a visit to the farm. 
+                To his pleasant surprise, when he got to the farm, he discovered that the beans had yielded. The man remarked that his beans had yielded beyond expectations. 
+                On hearing this, the beans retorted: <q>What did you expect? That, we wouldn’t produce a high yield?</q>
+                </p> 
+                <p>
+                Shocked, the man looked at his <term target="#term2">ubɔja</term>, which only stared back at him in bewilderment. But for some strange reason, 
+                the man got mad at the <term target="#term2">ubɔja</term> for staring at him and tried to hit it with his <term target="#term1">kichɔk</term>. 
+                As he raised the <term target="#term1">kichɔk</term>, the latter warned the man that it would have a bone to pick with him if <term target="#term2">ubɔja</term> 
+                bit it in retaliation. At that point, the man decided that he had heard enough so he took off running.
+                </p>
+                <p> 
+                As he was running, he chanced upon an <term target="#term3">upininkpil</term> who was carrying a log. <term target="#term3">Upininkpil</term> called him 
+                and asked why he was running as though something were in pursuit of him. In reply, the man told <term target="#term3">upininkpil</term> that he cultivated 
+                beans but failed to visit the farm till that day. On arrival at the farm, he discovered that the beans had yielded beyond his expectations so he made a remark 
+                to that effect, whereupon the beans retorted: <q>What did you expect? That, we wouldn’t produce a high yield?</q> He added that his <term target="#term2">ubɔja</term> 
+                started staring at him so he got angry and wanted to hit it with his <term target="#term1">kichɔk</term> but the <term target="#term1">kichɔk</term> warned him that if 
+                <term target="#term2">ubɔja</term> bit it in retaliation, he would be held accountable.
+                </p>
+                <p>
+                After listening to the man, <term target="#term3">upininkpil</term> told him that was no justifiable reason to run. The log she was carrying then replied, 
+                <q>If you were in his shoes, wouldn’t you have run?</q> On hearing this, <term target="#term3">upininkpil</term> dropped the log and also took off running. 
+                Unfortunately, while running, she fell into some ashes. Her hair consequently turned grey – and has been the case for all bipininkpiib since.
+                </p>
+                <p> 
+                <q>So that’s why old people have grey hair,</q> one adult from the audience explains further amid laughter and chatter by the other audience.
+                </p>
+            </div>
+            <div type="Glossary">
+                <head type="subTitle">
+                    A Glossary of Likpakpaln Words
+                </head>
+                <list type="gloss">
+                
+                    <label>kichɔk:</label>
+                    <item>
+                        <gloss xml:id="term1">
+                            Likpakpaln word for an ax. It is typically small in nature. It is used for digging and chopping wood.
+                        </gloss>
+                    </item>
+                    <label>ubɔja:</label>
+                    <item>
+                        <gloss xml:id="term2">Likpakpaln word for a male dog. In everyday usage, ubɔja is sometimes inappropriately used for a dog – male or female – instead of the correct gender-neutral noun, 
+                            ubɔ. In the context of this story, therefore, when the storyteller uses ubɔja, he is not referring to a male dog but a dog in general terms. So the dog in this story 
+                            could be either male or female. FYI, a female dog is called ubɔsal in Likpakpaln.
+                        </gloss>
+                    </item>
+                    <label>upininkpil:</label>
+                    <item>
+                        <gloss xml:id="term3"> 
+                            Likpakpaln word for an old lady or old woman. The plural form is bipininkpiib.
+                        </gloss>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

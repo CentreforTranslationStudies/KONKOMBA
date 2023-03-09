@@ -36,7 +36,7 @@
                 <status> not yet published</status> 
                 <pubPlace> Düsseldorf </pubPlace>
                 <address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
-                    <name type="institution"> Heinrich Heine Universität Düsseldorf </name>
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
                     <street> Universitätsstraße 1 </street>
                     <postCode> 40225 </postCode>
                     <name type="city"> Düsseldorf </name>
@@ -88,7 +88,7 @@
             <div><head type="subTitle">Introduction</head>
                 <p>The following story relates how the wasp's self-exile from his community eventually deformed him. It presents the wasp as a loner who refuses to participate 
                 in communal activities and thus incurs the wrath of his kith and kin. The story, grounded in the communal spirit of Konkomba funerals (particularly 
-                the <term xml:id="gloss1">kinachuŋ</term> cultural dance), celebrates teamwork and depicts the centrality of communal living among Konkombas. The storyteller 
+                the <term ref="#gloss1">kinachuŋ</term> cultural dance), celebrates teamwork and depicts the centrality of communal living among Konkombas. The storyteller 
                 makes this clear at the outset of his narrative when he commences his tale with its moral lesson before relating the tale itself.</p>
                 <p><ref target="https://mediathek.hhu.de/watch/2ff8ea41-1cb3-48bd-8373-447affd48c5b">Click here</ref> to listen to the Likpakpaln narration.</p>
             </div>
@@ -99,17 +99,17 @@
                 <p>Waja then continues:</p> 
                 <p>It is important to participate in communal activities with others whenever the occasion arises. Once upon a time, there lived a wasp and his kin. 
                    They lived together with other members of the community in peace and unity. The wasp however decided to be a loner, excluding himself from all communal           
-                   activities. He neither attended any funeral nor participated in any <term xml:id="gloss2">nkpaawiin</term>. One day the wasp received news about the demise           
+                   activities. He neither attended any funeral nor participated in any <term ref="#gloss2">nkpaawiin</term>. One day the wasp received news about the demise           
                    of his in-law and had to leave for the funeral. Unfortunately, because he had not been attending other people's funerals, no one wanted to accompany him to           
-                   his in-law's funeral. Left with no other option, he decided to go alone, carrying with him all the instruments needed to perform the <term xml:id="gloss3">njeen</term>           
-                   and <term xml:id="gloss1">kinachuŋ</term>: he picked up the <term xml:id="gloss4">ligangaln</term>; he tied <term xml:id="gloss5">tibaln</term> around his ankles; 
-                   he strapped the <term xml:id="gloss6">kiloŋ</term> to one shoulder; he slung an axe over the other shoulder; he picked up his uduun in his hand; he tied all the 
-                   other <term xml:id="gloss7">tinachinchen</term> around his waist and hit the road running.<term xml:id="note1"> <hi rend="superscript">1</hi></term> As he 
+                   his in-law's funeral. Left with no other option, he decided to go alone, carrying with him all the instruments needed to perform the <term ref="#gloss3">njeen</term>           
+                   and <term ref="#gloss1">kinachuŋ</term>: he picked up the <term ref="#gloss4">ligangaln</term>; he tied <term ref="#gloss5">tibaln</term> around his ankles; 
+                   he strapped the <term ref="#gloss6">kiloŋ</term> to one shoulder; he slung an axe over the other shoulder; he picked up his uduun in his hand; he tied all the 
+                   other <term ref="#gloss7">tinachinchen</term> around his waist and hit the road running.<term ref="#note1"> <hi rend="superscript">1</hi></term> As he 
                    journeyed, he sang this song:</p>
                 <div type="song>
                <table>
                   <row role="head">
-                      <cell><hi rend="bold"><term xml:id="gloss13">Likpakpaln</term> transcription</hi></cell> 
+                      <cell><hi rend="bold"><term ref="#gloss13">Likpakpaln</term> transcription</hi></cell> 
                       <cell><hi rend="bold">English translation</hi></cell>
                   </row>
                   <row>
@@ -130,8 +130,8 @@
                       <cell><lb></lb></cell>
                   </row>
                   <row>
-                      <cell><l><term xml:id="gloss11">Gum gum gum gum</term></l></cell>
-                      <cell><l><hi rend="fontstyle: italic;"><term xml:id="gloss11">Gum gum gum gum</term>(beats the <term xml:id="gloss4">ligangaln</term>)</hi></l></cell>
+                      <cell><l><term ref="#gloss11">Gum gum gum gum</term></l></cell>
+                      <cell><l><hi rend="fontstyle: italic;"><term ref="#gloss11">Gum gum gum gum</term>(beats the <term ref="#gloss4">ligangaln</term>)</hi></l></cell>
                   </row> 
                   <row>
                       <cell><l>Garwa si ee, ki u si ee garwa.</l></cell>
@@ -141,8 +141,8 @@
                       <cell><lb></lb></cell>
                   </row>
                   <row>
-                      <cell><l><term xml:id="gloss12">Tou tilouti</term></l></cell>
-                      <cell><l><term xml:id="gloss12">Tou tilouti</term><hi rend="fontstyle: italic;">(blows the <term xml:id="gloss14">liwul</term>)</hi></l></cell>
+                      <cell><l><term ref="#gloss12">Tou tilouti</term></l></cell>
+                      <cell><l><term ref="#gloss12">Tou tilouti</term><hi rend="fontstyle: italic;">(blows the <term ref="#gloss14">liwul</term>)</hi></l></cell>
                   </row>
                   <row>
                       <cell><l>Garwa si ee, ki u si ee garwa.</l></cell>
@@ -152,8 +152,8 @@
                       <cell><lb></lb></cell>
                   </row>
                   <row>
-                      <cell><l><term xml:id="gloss9">Chakta chakta</term></l></cell>
-                      <cell><l><term xml:id="gloss9">Chakta chakta</term><hi rend="fontstyle: italic;">(dances with the tibaln around his ankles)</hi></l></cell>
+                      <cell><l><term ref="#gloss9">Chakta chakta</term></l></cell>
+                      <cell><l><term ref="#gloss9">Chakta chakta</term><hi rend="fontstyle: italic;">(dances with the tibaln around his ankles)</hi></l></cell>
                   </row>
                   <row>
                       <cell><l>Garwa si ee, ki u si ee garwa.</l></cell>
@@ -220,7 +220,7 @@
                   </row>
                   <row>
                       <cell><l>Chakta chakta</l></cell>
-                      <cell><l>Chakta chakta <hi rend="fontstyle: italic;">(dances with the <term xml:id="gloss5">tibaln</term>)</hi></l></cell>
+                      <cell><l>Chakta chakta <hi rend="fontstyle: italic;">(dances with the <term ref="#gloss5">tibaln</term>)</hi></l></cell>
                   </row>
                   <row>
                       <cell><l>Garwa si ee, ki u si ee garwa.</l></cell>
@@ -230,7 +230,7 @@
                      <cell><lb></lb></cell>
                   </row>
                   <row>
-                      <cell><l><term xml:id="gloss10">Gang galaang ga</term></l></cell>
+                      <cell><l><term ref="#gloss10">Gang galaang ga</term></l></cell>
                       <cell><l>Gang galaang ga <hi rend="fontstyle: italic;">(beats the dawul)</hi></l></cell>
                   </row>
                   <row>
@@ -245,17 +245,17 @@
               </div>
                <p>From a distance, his in-laws heard the singing and drumming and speculated that the wasp, and perhaps his kin, were arriving. 
                   Some of them remarked sarcastically, in reaction to the wasp's appearance at the funeral grounds-the first of its kind-that: 
-                  "<term xml:id="gloss8">Bo</term>! Today the wasp is coming; the earth will explode." Out of curiosity they rushed out and fixed 
-                  their eyes in the direction of the singing and drumming. The wasp soon emerged, staggering under the weight of all the <term xml:id="gloss1">kinachuŋ</term> 
+                  "<term ref="#gloss8">Bo</term>! Today the wasp is coming; the earth will explode." Out of curiosity they rushed out and fixed 
+                  their eyes in the direction of the singing and drumming. The wasp soon emerged, staggering under the weight of all the <term ref="#gloss1">kinachuŋ</term> 
                   musical instruments he was carrying and playing. On helping him take the musical instruments off his body, the wasp's in-laws discovered that 
-                  the <term xml:id="gloss7">tinachinchen</term> around his waist had compressed his waist into a tiny size. All their efforts to get his waist 
+                  the <term ref="#gloss7">tinachinchen</term> around his waist had compressed his waist into a tiny size. All their efforts to get his waist 
                   to return to its normal size proved futile.</p>
-               <p>That is why till date the wasp's waist is so tiny. <hi rend="fontstyle: italic;"><term xml:id="gloss16">Tiin tiin kolb</term>. 
+               <p>That is why till date the wasp's waist is so tiny. <hi rend="fontstyle: italic;"><term ref="#gloss16">Tiin tiin kolb</term>. 
                   Maa tiin gur, ki gur, ki gur, ki m muun, ki muun ke n-yajah agbenja na.</hi></p>  
                 </div>
                 <div>
                     <head type="subTitle"> Note </head>
-                        <p><gloss target="note1">1. "... and hit the road running" is my translation of the Likpakpaln idiom, "le u fii lir nsan bo (ki cha), which 
+                        <p><gloss xml:id="#note1">1. "... and hit the road running" is my translation of the Likpakpaln idiom, "le u fii lir nsan bo (ki cha), which 
                             literally but nonsensically translates: "and he fell on the road going. Its closest English equivalent is "to hit the road." But because 
                             the English equivalent does not capture the sense of urgency and enthusiasm suggested in the Likpakpaln idiom, I introduced this enthusiasm 
                             by adding the word "running" from the English idiom, "to hit the ground running," which suggests an enthusiastic start to an activity but 
@@ -266,33 +266,33 @@
                     <head type="subTitle"> A Glossary of Likpakpaln Words and Phrases </head>
                     <list type="gloss">
                         <label><hi rend="bold">Bo!:</hi></label>
-                        <item><gloss target="gloss8">'Bo'is an interjection used by Konkombas to express surprise</gloss></item>
+                        <item><gloss xml:id="#gloss8">'Bo'is an interjection used by Konkombas to express surprise</gloss></item>
                         <label><hi rend="bold">chakta chakta:</hi></label>
-                        <item><gloss target="gloss9">the Konkomba onomatopoeic words for the sound made by ankle bangles when one stomps the ground when dancing.</gloss></item>
+                        <item><gloss xml:id="#gloss9">the Konkomba onomatopoeic words for the sound made by ankle bangles when one stomps the ground when dancing.</gloss></item>
                         <label><hi rend="bold">gang galaang ga:</hi></label>
-                        <item><gloss target="gloss10">Konkomba onomatopoeic words for the sound of the dawul—a two-pieced hollow metal musical instrument used to 
+                        <item><gloss xml:id="#gloss10">Konkomba onomatopoeic words for the sound of the dawul—a two-pieced hollow metal musical instrument used to 
                             produce music by alternatingly hitting both hollow metal parts with either a stick or the horn of an animal.</gloss></item>
                         <label><hi rend="bold">gum gum gum gum:</hi></label>
-                        <item><gloss target="gloss11">are onomatopoeic words Konkombas use to describe the sound of the drum.</gloss></item>
+                        <item><gloss xml:id="#gloss11">are onomatopoeic words Konkombas use to describe the sound of the drum.</gloss></item>
                         <label><hi rend="bold">kiloŋ:</hi></label>
-                        <item><gloss target="gloss6">an hourglass-shaped musical instrument with round skin coverings at both ends. Known
+                        <item><gloss xml:id="#gloss6">an hourglass-shaped musical instrument with round skin coverings at both ends. Known
                                variously as dondo, tama, dundun, kalungu, or lunna across West Africa, it is usually placed under the armpit and struck with a stick to produce music. 
                                One can change the pitch or tone of the sound by compressing and releasing the strings connecting the two skin coverings at both ends. This makes kiloŋ 
                                suitable for use as a talking drum in some West African cultures.</gloss></item>
                         <label><hi rend="bold">kinachuŋ:</hi></label>
-                        <item><gloss target="gloss1"> the cultural dance of the Konkomba people. It is a communal dance that requires the effective participation of 
+                        <item><gloss xml:id="#gloss1"> the cultural dance of the Konkomba people. It is a communal dance that requires the effective participation of 
                             a large group rather than an individual. Though mostly associated with funerals, it can also be performed outside funeral occasions such 
                             as in church, at social and political gatherings among others.</gloss></item>
                         <label><hi rend="bold">ligangaln:</hi></label>
-                        <item><gloss target="gloss4">a cylindrical drum with skin coverings at both ends. It comes in different sizes that determine the sound it 
+                        <item><gloss xml:id="#gloss4">a cylindrical drum with skin coverings at both ends. It comes in different sizes that determine the sound it 
                             produces. The big drum (ligangaln-sakpeln) produces bass or a lowpitched sound while the small drum (kiganganbik) usually produces a 
                             high-pitched sound.</gloss></item>
                         <label><hi rend="bold">Likpakpaln:</hi></label>
-                        <item><gloss target="gloss13">is the language spoken by the Konkomba people of Ghana.</gloss></item>
+                        <item><gloss xml:id="#gloss13">is the language spoken by the Konkomba people of Ghana.</gloss></item>
                         <label><hi rend="bold">liwul:</hi></label>
-                        <item><gloss target="gloss14">a local flute made of wood.</gloss></item>
+                        <item><gloss xml:id="#gloss14">a local flute made of wood.</gloss></item>
                         <label><hi rend="bold">Maa tiin gur, ki gur, ki gur ki m muun, ki muun ke n-yajah agbenja na:</hi></label>
-                        <item><gloss target="gloss15"> transliterated as "May my story diminish and diminish and diminish whilst I grow 
+                        <item><gloss xml:id="#gloss15"> transliterated as "May my story diminish and diminish and diminish whilst I grow 
                             and grow as tall as my grandfather's male Kapok tree." This is one of the numerous ways in which a Konkomba storyteller can end his/her story. 
                             This particular type of ending suggests that Konkombas believe that storytelling (or entertainment in the broader sense) has health benefits, 
                             especially healthy physical growth. The association of storytelling with physical growth is so entrenched in Konkomba belief system that it is 
@@ -300,26 +300,26 @@
                             supper/dinner-he or she will have stunted growth. Also, the reference to the grandfather's male Kapok tree in this type of ending points to the 
                             patriarchal nature of traditional Konkomba society.</gloss></item>
                         <label><hi rend="bold">nkpaawiin:</hi></label>
-                        <item><gloss target="gloss2">communal activity. Among Konkombas when one is swamped with work, he or she can ask for the help of others, who would usually 
+                        <item><gloss xml:id="#gloss2">communal activity. Among Konkombas when one is swamped with work, he or she can ask for the help of others, who would usually 
                             respond generously in their numbers provided the "help-seeker" has been participating in ikpaawiin (plural form of nkpaawiin). Ikpaawiin are mostly called 
                             when one has a lot of farm work, is building, flooring or roofing a house, shelling maize/corn, cracking groundnuts, or thrashing guinea corn among other 
                             physical activities. Such occasions are not just for working but also for communal interaction and bonding.</gloss></item>
                         <label><hi rend="bold">njeen:</hi></label>
-                        <item><gloss target="gloss3">procession. Normally kinachuŋ commences with a procession, even though this is not a hard and fast rule.</gloss></item>
+                        <item><gloss xml:id="#gloss3">procession. Normally kinachuŋ commences with a procession, even though this is not a hard and fast rule.</gloss></item>
                         <label><hi rend="bold">tibaln:</hi></label>
-                        <item><gloss target="gloss5"> ankle bangles used to dance kinachuŋ. They consist of small pieces of metals sewn unto animal skin; and are usually worn around 
+                        <item><gloss xml:id="#gloss5"> ankle bangles used to dance kinachuŋ. They consist of small pieces of metals sewn unto animal skin; and are usually worn around 
                             the ankle by dancers or performers.</gloss></item>
                         <label><hi rend="bold">tinachinchen:</hi></label>
-                        <item><gloss target="gloss7"> is a collective noun that refers to all the musical instruments—such as drums, rattle, gong, flute, bangles, etc.-used in 
+                        <item><gloss xml:id="#gloss7"> is a collective noun that refers to all the musical instruments—such as drums, rattle, gong, flute, bangles, etc.-used in 
                             the performance of the kinachuŋ.</gloss></item>
                         <label><hi rend="bold">Tiin tiin kolb:</hi></label>
-                        <item><gloss target="gloss16">the end of my story. This is the commonest and easiest way to end one’s story in Konkomba storytelling. However, a storyteller 
+                        <item><gloss xml:id="#gloss16">the end of my story. This is the commonest and easiest way to end one’s story in Konkomba storytelling. However, a storyteller 
                             can also choose to use this as a prelude to the end of the story and then finish with another statement such as the one used in the story above or a 
                             statement nominating the next storyteller.</gloss></item>
                         <label><hi rend="bold">tou tilouti:</hi></label>
-                        <item><gloss target="gloss12">the onomatopoeic words used by Konkombas for the sound of the flute.</gloss></item>
+                        <item><gloss xml:id="#gloss12">the onomatopoeic words used by Konkombas for the sound of the flute.</gloss></item>
                         <label><hi rend="bold">uduun:</hi></label>
-                        <item><gloss target="gloss17">a round-shaped hollow metal used to produce music by incessantly brushing over its surface a small nut-like metal fixed on one’s 
+                        <item><gloss xml:id="#gloss17">a round-shaped hollow metal used to produce music by incessantly brushing over its surface a small nut-like metal fixed on one’s 
                             thumb. It is shaped like the gong but consists of only one hollow metal piece.</gloss></item>
                     </list>
                 </div>

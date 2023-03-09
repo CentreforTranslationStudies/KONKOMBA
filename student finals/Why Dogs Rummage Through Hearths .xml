@@ -77,10 +77,10 @@
             </div>
             <div type="story"> 
                 <head type="subTitle"> Story</head>
-                <p><q>There once lived a certain ubɔr,</q> Ntakbi commences his tale without the usual formality of announcing his intent to tell the story first since he did that at the outset of the storytelling session.<gloss target="note1"><hi rend="superscript">1</hi></gloss></p>
+                <p><q>There once lived a certain ubɔr,</q> Ntakbi commences his tale without the usual formality of announcing his intent to tell the story first since he did that at the outset of the storytelling session.<term ref="#note1"><hi rend="superscript">1</hi></gloss></p>
                 <p><q>M-hn!</q> responds his audience.</p>
                 <p>He continues thus:</p>
-                <p>One day ubɔr called for <gloss target="gloss2">nkpaawiin</gloss> and cooked beans for the ‘after-nkpaawiin’ get-together guests.<gloss target="note2"><hi rend="superscript">2</hi></gloss> When the food was ready, all the animals, together with all <gloss target="gloss3">ipiel</gloss> and <gloss target="gloss4">ubɔja</gloss>, gathered at the palace. As the beans was being served, some fell near the hearth so ubɔja ate what was on the floor as they awaited the rest of the food. This infuriated the other animals, especially ipiel and <gloss target="gloss5">ilaanten</gloss>, so they criticized ubɔja</p>
+                <p>One day ubɔr called for <term ref="#gloss2">nkpaawiin</gloss> and cooked beans for the ‘after-nkpaawiin’ get-together guests.<term ref="#note2"><hi rend="superscript">2</hi></gloss> When the food was ready, all the animals, together with all <term ref="#gloss3">ipiel</gloss> and <term ref="#gloss4">ubɔja</gloss>, gathered at the palace. As the beans was being served, some fell near the hearth so ubɔja ate what was on the floor as they awaited the rest of the food. This infuriated the other animals, especially ipiel and <term ref="#gloss5">ilaanten</gloss>, so they criticized ubɔja</p>
                 <p>The latter also got angry and decided to isolate himself from the rest of the guests. While lying at a reasonable distance, ubɔja suddenly barked – and you know that whenever ubɔja barks, there must be something approaching. After barking, ubɔja shouted,<q>Did you say a hunter? Yes, there are lots of them here</q></p>
                 <p>On hearing this, all the animals fled for fear of being killed by the hunter. Ubɔja had all the beans to himself and ate his fill. After that, he buried the rest in ubɔr’s wives’ hearths. Since then, whenever ubɔja is hungry, he rummages through the nearest hearth in search of the beans he buried at ubɔr’s ‘after-nkpaawiin’ get-together. <hi rend="italic">(The storyteller breaks into gestures as he relates this last sentence of his narration.)</hi></p>
             </div>
@@ -91,8 +91,8 @@
             <div type="note">
                 <head type="subTitle">Notes</head>
                 <list type="index">
-                    <label>1.</label><item><gloss xml:id="#note1">In Konkomba storytelling culture, one can plunge directly into his or her story without seeking permission from the audience or without announcing his/her intent to tell the story. This is mostly the case when a storytelling session has been ongoing for a while, or if the storyteller has already told one or more stories and is seeking to add another one</gloss></item>
-                    <label>2.</label><item><gloss xml:id="#note2">In Konkomba culture, it is customary to host one’s work party to a get-together after nkpaawiin. Typically, heavy foods such as tuo zaafi (aka TZ), fufu, or yam slices can be served together with pito (a local beverage/beer made from guinea corn) and/or patasii (local gin akin to vodka). While this get-together is used to express the nkpaawiin caller’s gratitude, it is also a platform for communal bonding in a more relaxed atmosphere outside the serious, heated work environment on the farm. Note that ‘after-nkpaawiin’ get-togethers are only associated with very physical farm-labor-related ikpaawiin – such as clearing of farmlands, plowing, making of yam mounds, etc. During most ikpaawiin, however, food is usually served but no get-together is held afterward, except in cases of physical farming activities such as those mentioned above among others.</gloss></item>
+                    <label>1.</label><item><gloss xml:id="note1">In Konkomba storytelling culture, one can plunge directly into his or her story without seeking permission from the audience or without announcing his/her intent to tell the story. This is mostly the case when a storytelling session has been ongoing for a while, or if the storyteller has already told one or more stories and is seeking to add another one</gloss></item>
+                    <label>2.</label><item><gloss xml:id="note2">In Konkomba culture, it is customary to host one’s work party to a get-together after nkpaawiin. Typically, heavy foods such as tuo zaafi (aka TZ), fufu, or yam slices can be served together with pito (a local beverage/beer made from guinea corn) and/or patasii (local gin akin to vodka). While this get-together is used to express the nkpaawiin caller’s gratitude, it is also a platform for communal bonding in a more relaxed atmosphere outside the serious, heated work environment on the farm. Note that ‘after-nkpaawiin’ get-togethers are only associated with very physical farm-labor-related ikpaawiin – such as clearing of farmlands, plowing, making of yam mounds, etc. During most ikpaawiin, however, food is usually served but no get-together is held afterward, except in cases of physical farming activities such as those mentioned above among others.</gloss></item>
                 </list>
             </div>
             <div type="glossary">
@@ -100,23 +100,23 @@
                 <list type="gloss">
                     <label>ubɔr</label>
                     <item>
-                        <gloss xml:id="#gloss1">the political head of a Konkomba community. Ubɔr is usually the eldest male member of the royal family. He inherits that position from his father after the latter’s demise. Thus, Konkombas practice the patrilineal system of inheritance.</gloss>
+                        <gloss xml:id="gloss1">the political head of a Konkomba community. Ubɔr is usually the eldest male member of the royal family. He inherits that position from his father after the latter’s demise. Thus, Konkombas practice the patrilineal system of inheritance.</gloss>
                     </item>
                     <label>nkpaawiin</label>
                     <item>
-                        <gloss xml:id="#gloss2">communal activity or labor. Among Konkombas when one is swamped with work, he or she can ask for help from others, who would usually respond generously in their numbers provided the <q>help-seeker</q> has been participating in ikpaawiin (plural form of nkpaawiin). Ikpaawiin are mostly called when one has a lot of farm work, is building, flooring or roofing a house, shelling maize/corn, cracking groundnuts, or thrashing guinea corn among other physical activities. Such occasions are not just for working but also for communal interaction and bonding.</gloss>
+                        <gloss xml:id="gloss2">communal activity or labor. Among Konkombas when one is swamped with work, he or she can ask for help from others, who would usually respond generously in their numbers provided the <q>help-seeker</q> has been participating in ikpaawiin (plural form of nkpaawiin). Ikpaawiin are mostly called when one has a lot of farm work, is building, flooring or roofing a house, shelling maize/corn, cracking groundnuts, or thrashing guinea corn among other physical activities. Such occasions are not just for working but also for communal interaction and bonding.</gloss>
                     </item>
                     <label>ubɔja</label>
                     <item>
-                        <gloss xml:id="#gloss3">Likpakpaln word for a male dog. In everyday usage, ubɔja is sometimes inappropriately used for a dog – male or female – instead of the correct gender neutral noun, ubɔ. In the context of this story, therefore, when the storyteller says that is why ubɔja rummages through hearths, he is not restricting this habit to male dogs. He is referring to dogs in general – male or female..</gloss>
+                        <gloss xml:id="gloss3">Likpakpaln word for a male dog. In everyday usage, ubɔja is sometimes inappropriately used for a dog – male or female – instead of the correct gender neutral noun, ubɔ. In the context of this story, therefore, when the storyteller says that is why ubɔja rummages through hearths, he is not restricting this habit to male dogs. He is referring to dogs in general – male or female..</gloss>
                     </item>
                     <label>ipiel</label>
                     <item>
-                        <gloss xml:id="#gloss4">plural form of upiel, which is the Likpakpaln word for an antelope.</gloss>
+                        <gloss xml:id="gloss4">plural form of upiel, which is the Likpakpaln word for an antelope.</gloss>
                     </item>
                     <label>ilaanten</label>
                     <item>
-                        <gloss xml:id="#gloss5">Likpakpaln word for monkeys. The singular form is ulaanten.</gloss>
+                        <gloss xml:id="gloss5">Likpakpaln word for monkeys. The singular form is ulaanten.</gloss>
                     </item>
                 </list>
             </div>

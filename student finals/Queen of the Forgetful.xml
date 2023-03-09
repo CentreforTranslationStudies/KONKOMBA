@@ -79,9 +79,9 @@
                 <p><q>My story is as follows,</q> Inimoan announces to her audience.</p> 
                 <p><q>M-hmm!</q> respond some audience.</p>
                 <p>Inimoan proceeds:</p>
-                <p>There lived an <gloss target="#gloss4">ubɔr</gloss> who had two wives. One day he took his son to farm, set aside some tubers of yam in his <gloss target="#gloss1">libool</gloss> and told his son that the next day he would bring his wives and test them. According to him, of the two wives, the one that was able to tell him the name of the tubers of yam he had set aside, would be his most cherished wife from then on.</p>
+                <p>There lived an <term ref="#gloss4">ubɔr</gloss> who had two wives. One day he took his son to farm, set aside some tubers of yam in his <term ref="#gloss1">libool</gloss> and told his son that the next day he would bring his wives and test them. According to him, of the two wives, the one that was able to tell him the name of the tubers of yam he had set aside, would be his most cherished wife from then on.</p>
                 <p>Now, his two wives were of different personalities: one was noted for her cleanliness and retentive memory while the other was noted for her untidiness and forgetfulness. The boy ubɔr took to the farm was the son of the wife who was noted for cleanliness and information retention. Fortunately for the untidy and forgetful wife, her child was eavesdropping on the conversation between ubɔr and the hygienic wife’s son. The child therefore ran home and told the mother that the tubers of yam the father had set aside to test them on were called kpiknandin, and that when asked, the mother should say the yam-type was kpiknandin.</p>
-                <p>The next day, when they all went to farm, the untidy and forgetful wife’s son was lingering around the barn and playing a song on his <gloss target="#gloss2">liwul</gloss>:</p>
+                <p>The next day, when they all went to farm, the untidy and forgetful wife’s son was lingering around the barn and playing a song on his <term ref="#gloss2">liwul</gloss>:</p>
                 <div type="song">
                     <table>
                         <row role="head">
@@ -97,7 +97,7 @@
                         </row>
                         <row>
                             <cell><l>Taa tin len ki i sun na ee.</l></cell>
-                            <cell><l>Don’t go and say you’ve forgotten.<gloss target="note1"><hi rend="superscript">1</hi></gloss></l></cell>
+                            <cell><l>Don’t go and say you’ve forgotten.<term ref="note1"><hi rend="superscript">1</hi></gloss></l></cell>
                         </row>
                         <row>
                             <cell><l>Nna upiigiinbɔr ee,</l></cell>
@@ -161,7 +161,7 @@
                         <p>The man then called the untidy wife and asked, <q>What is the name of this yam?</q></p>
                         <p>Due to the boy’s song, the mother remembered the name and told her husband that the yam was called kpiknandin. On hearing the answer, ubɔr became dumbfounded. The wife from whom he had expected to elicit the correct answer failed; but the one he had least expected to provide the correct answer, got it right.</p>
                         <p>That is why a man should never love one wife more than the other. On that day the untidy, unloved wife became the hygienic, loved one. <hi rend="italic">(The storyteller and one of her audience say the last bit of this sentence simultaneously.)</hi></p>
-                        <p><q><gloss target="#gloss3">Maa tiin gur ki m muun chaa</gloss></q>, Inimoan concludes.</p>
+                        <p><q><term ref="#gloss3">Maa tiin gur ki m muun chaa</gloss></q>, Inimoan concludes.</p>
                     </div>
                 </div>
                 </body>
@@ -171,7 +171,7 @@
                     <div type="note">
                         <head type="subTitle">Notes</head>
                         <list type="index">
-                            <label>1.</label><item><gloss xml:id="#note1">This line translates fluently into English and contextually as, <q>On entering the barn, don’t say you’ve forgotten.</q> The literal translation in the text is meant to register the linguistic structure of the Likpakpaln language in the text and ultimately foreignize it.</gloss></item>
+                            <label>1.</label><item><gloss xml:id="note1">This line translates fluently into English and contextually as, <q>On entering the barn, don’t say you’ve forgotten.</q> The literal translation in the text is meant to register the linguistic structure of the Likpakpaln language in the text and ultimately foreignize it.</gloss></item>
                         </list>
                     </div>
                     <div type="glossary">
@@ -179,19 +179,19 @@
                         <list type="gloss">
                             <label>libool:</label>
                             <item>
-                                <gloss xml:id="#gloss1">Likpakpaln word for a yam barn (aka yam shed). Libool is the traditional yam storage facility for Konkomba yam farmers. It is a thatch structure usually erected, ideally, under a shady tree. After harvest, a traditional Konkomba yam farmer proudly displays his/her yams – which are always grouped according to sizes and types – in the barn. The bumper one’s harvest is, the bigger his/her yam barn. In Konkomba achievement culture, yam barn size is one of the benchmarks for measuring one’s wealth, success, and subsequently social status. For more details, please read Tasun Tidorchibe’s article titled <q>Concepts of Achievement among Konkombas: Representations in Their Folktales</q> (<ref target="https://books.ulb.hhu.de/index.php/hhu_books/catalog/view/21/13/221">https://books.ulb.hhu.de/index.php/hhu_books/catalog/view/21/13/221</ref>).</gloss>
+                                <gloss xml:id="gloss1">Likpakpaln word for a yam barn (aka yam shed). Libool is the traditional yam storage facility for Konkomba yam farmers. It is a thatch structure usually erected, ideally, under a shady tree. After harvest, a traditional Konkomba yam farmer proudly displays his/her yams – which are always grouped according to sizes and types – in the barn. The bumper one’s harvest is, the bigger his/her yam barn. In Konkomba achievement culture, yam barn size is one of the benchmarks for measuring one’s wealth, success, and subsequently social status. For more details, please read Tasun Tidorchibe’s article titled <q>Concepts of Achievement among Konkombas: Representations in Their Folktales</q> (<ref target="https://books.ulb.hhu.de/index.php/hhu_books/catalog/view/21/13/221">https://books.ulb.hhu.de/index.php/hhu_books/catalog/view/21/13/221</ref>).</gloss>
                             </item>
                             <label>liwul:</label>
                             <item>
-                                <gloss xml:id="#gloss2">Likpakpaln word for a flute. It is typically a (wooden) stick with curved holes.</gloss>
+                                <gloss xml:id="gloss2">Likpakpaln word for a flute. It is typically a (wooden) stick with curved holes.</gloss>
                             </item>
                             <label>maa tiin gur ki m muun chaa:</label>
                             <item>
-                                <gloss xml:id="#gloss3">translated as, <q>May my story diminish while I grow very tall.</q> This is a shortened version of the standard conclusion, <hi rend="italic"><q>Maa tiin gur, ki gur, ki gur ki m muun, ki muun ke n-yaaja agbenja na</q></hi> (transliterated as, <q>May my story diminish and diminish and diminish while I grow and grow as tall as my grandfather’s male Kapok tree</q>). This standard conclusion is one of the numerous ways in which a Konkomba storyteller can end his/her story. The ending and its numerous variants suggest that Konkombas believe that storytelling (or entertainment in general) has health benefits, especially healthy physical growth. The association of storytelling with physical growth is so entrenched in Konkomba belief system that it is even believed that when a child engages in storytelling at daytime – for Konkomba storytelling sessions are held normally in the evenings/night after supper – he or she will have stunted growth.</gloss>
+                                <gloss xml:id="gloss3">translated as, <q>May my story diminish while I grow very tall.</q> This is a shortened version of the standard conclusion, <hi rend="italic"><q>Maa tiin gur, ki gur, ki gur ki m muun, ki muun ke n-yaaja agbenja na</q></hi> (transliterated as, <q>May my story diminish and diminish and diminish while I grow and grow as tall as my grandfather’s male Kapok tree</q>). This standard conclusion is one of the numerous ways in which a Konkomba storyteller can end his/her story. The ending and its numerous variants suggest that Konkombas believe that storytelling (or entertainment in general) has health benefits, especially healthy physical growth. The association of storytelling with physical growth is so entrenched in Konkomba belief system that it is even believed that when a child engages in storytelling at daytime – for Konkomba storytelling sessions are held normally in the evenings/night after supper – he or she will have stunted growth.</gloss>
                             </item>
                             <label>ubɔr:</label>
                             <item>
-                                <gloss xml:id="#gloss4">the political head of a Konkomba community. Ubɔr is usually the eldest male member of the royal family. He inherits that position from his father after the latter’s demise. Thus, Konkombas practice the patrilineal system of inheritance.</gloss>
+                                <gloss xml:id="gloss4">the political head of a Konkomba community. Ubɔr is usually the eldest male member of the royal family. He inherits that position from his father after the latter’s demise. Thus, Konkombas practice the patrilineal system of inheritance.</gloss>
                             </item>
                             </list>
                     </div>

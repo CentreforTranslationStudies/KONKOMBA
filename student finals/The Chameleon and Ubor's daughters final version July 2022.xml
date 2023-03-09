@@ -82,7 +82,7 @@
     <body>
         <div type="section">
         <head type="Main Title">
-           THE CHAMELEON AND <term xml:id="tdpv2"> UBↃR’S </term> DAUGHTERS 
+           THE CHAMELEON AND <term ref="#tdpv2"> UBↃR’S </term> DAUGHTERS 
         </head>
         </div>
         
@@ -126,14 +126,14 @@
         After hearing the names, Ubɔr nodded in affirmation, everyone clapped for the chameleon, and the girl was given to him in fulfillment of Ubɔr’s promise.</p> 
         
         <p>In this life, if you are wise, you will always succeed where others fail. 
-        <term xml:id="tdpv1">Maa tiin gur, ki gur, ki gur ki m-muun, ki muun ke n-yajah agbenja na.</term></p>
+        <term ref="#tdpv1">Maa tiin gur, ki gur, ki gur ki m-muun, ki muun ke n-yajah agbenja na.</term></p>
 
        <div type="section">
         <head type="subTitle">Glossary</head>
         <list type="gloss">
             <label> <hi rend="bold">Maa tiin gur, ki gur, ki gur ki m-muun, ki muun ke n-yajah agbenja na.: </hi></label>
             <item> 
-            <gloss target="#tdpv1">transliterated as “May my story diminish and diminish and diminish whilst I grow and grow as tall as my grandfather’s male Kapok tree.” 
+            <gloss xml:id="tdpv1">transliterated as “May my story diminish and diminish and diminish whilst I grow and grow as tall as my grandfather’s male Kapok tree.” 
             This is one of the numerous ways in which a Konkomba storyteller can end his/her story. 
             This particular type of ending suggests that Konkombas believe that storytelling (or entertainment in the broader sense) 
             has a health benefit, especially healthy physical growth. 
@@ -145,7 +145,7 @@
             </item>
             <label> <hi rend="bold">Ubɔr:</hi></label>
             <item>
-            <gloss target="#tdpv2">the political head of a Konkomba community. 
+            <gloss xml:id="tdpv2">the political head of a Konkomba community. 
             Ubɔr is usually the eldest male member of the royal family. 
             He inherits that position from his father after the latter’s demise. 
             </gloss>

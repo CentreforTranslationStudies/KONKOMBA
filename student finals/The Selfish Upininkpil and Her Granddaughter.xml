@@ -87,9 +87,9 @@
             <div type="story">
                 <head type="subTitle">Story</head>
                 <p><q>This is my story,</q> Poryii announces to her audience and proceeds:</p>
-                <p>There lived a certain <term target="#gloss4">upininkpil</term> and her grandchildren. <term target="#gloss4">Upininkpil</term> was very knowledgeable in so many things but was never willing to pass on the knowledge to her grandchildren. </p>
+                <p>There lived a certain <term ref="#gloss4">upininkpil</term> and her grandchildren. <term ref="#gloss4">Upininkpil</term> was very knowledgeable in so many things but was never willing to pass on the knowledge to her grandchildren. </p>
                    <p> Anytime the grandchildren asked her to teach them something or show them how to do something, she declined with the excuse that if she taught them, they would eventually learn all they needed to know and abandon her. </p>
-                    <p>One day one of her grandchildren threatened that if she failed to pass on her knowledge to her, she would relocate to <term target="#gloss2">liŋaanltaab</term> and bear a lot of fruits. The girl sang this in a song as follows: </p>
+                    <p>One day one of her grandchildren threatened that if she failed to pass on her knowledge to her, she would relocate to <term ref="#gloss2">liŋaanltaab</term> and bear a lot of fruits. The girl sang this in a song as follows: </p>
                     <p><hi rend="italic">(The storyteller teaches her audience the contents of the song, tells them which lines to sing, and breaks into singing.)</hi></p>
             </div>
             <div type="song">
@@ -99,7 +99,7 @@
                         <cell><hi rend="bold">English translation</hi></cell>
                     </row>
                     <row>
-                        <cell><l><term target="#gloss3">N-ya</term> ee, <term target="#gloss3">n-ya</term> ee,</l></cell>
+                        <cell><l><term ref="#gloss3">N-ya</term> ee, <term ref="#gloss3">n-ya</term> ee,</l></cell>
                         <cell><l>Grandmother, grandmother,</l></cell>
                     </row>
                     <row>
@@ -111,31 +111,31 @@
                         <cell><l>If you do not teach me how to do stuff,</l></cell>
                     </row>
                     <row>
-                        <cell><l>M la fii kpi <term target="#gloss2">liŋaanltaab</term> ee</l></cell>
-                        <cell><l>I’ll relocate to the foot of the <term target="#gloss1">liŋaanl</term> tree</l></cell>
+                        <cell><l>M la fii kpi <term ref="#gloss2">liŋaanltaab</term> ee</l></cell>
+                        <cell><l>I’ll relocate to the foot of the <term ref="#gloss1">liŋaanl</term> tree</l></cell>
                     </row>
                     <row>
-                        <cell><l>Ki ti lu <term target="#gloss1">liŋaanl</term> gbar gbar gbar gbar – </l></cell>
-                        <cell><l>And bear <term target="#gloss1">liŋaanl</term> fruits in abundance – </l></cell>
+                        <cell><l>Ki ti lu <term ref="#gloss1">liŋaanl</term> gbar gbar gbar gbar – </l></cell>
+                        <cell><l>And bear <term ref="#gloss1">liŋaanl</term> fruits in abundance – </l></cell>
                     </row>
                     <row>
-                        <cell><l>Lu <term target="#gloss1">liŋaanl</term> gbar gbar gbar gbar.</l></cell>
-                        <cell><l>Bear <term target="#gloss1">liŋaanl</term> fruits in abundance.</l></cell>
+                        <cell><l>Lu <term ref="#gloss1">liŋaanl</term> gbar gbar gbar gbar.</l></cell>
+                        <cell><l>Bear <term ref="#gloss1">liŋaanl</term> fruits in abundance.</l></cell>
                     </row>
                     <row></row>
                 </table>
             </div>
             <div type="story">
                     <p><hi rend="italic">(The storyteller repeats the song and the audience join in again.)</hi></p>
-                <p>After much persistence from the girl, <term target="#gloss4">upininkpil</term> finally gave in and taught her granddaughter how to cook, how to do the dishes, and several other things. 
+                <p>After much persistence from the girl, <term ref="#gloss4">upininkpil</term> finally gave in and taught her granddaughter how to cook, how to do the dishes, and several other things. 
                     The girl was content and consequently aborted her plan to relocate. </p>
                 <p><hi rend="italic">(Poryii now attempts to break down the moral of the story to her audience as follows:)</hi></p>
                 <p><q>By teaching the girl how to do these things, the elderly woman was preparing the young girl for life. 
                     So initially when she refused to pass on the knowledge, was the girl not right in threatening that she would relocate unless the grandmother taught her the basic things of life?</q> she quizzes rhetorically.</p>
                 <p><q>Yes, she had the right to relocate,</q> interjects one of her audience simultaneously as the storyteller.</p>
                 <p><q>M-hen!</q> Poryii seems pleased with the audience’s response. She then concludes:</p>
-                <p>When a child lives with <term target="#gloss4">upininkpil</term>, she must endeavor to teach the child the basics of life so that the child can survive later in life. </p>
-                <p>This is the story I have (to wit, this is the end of my story).<term target="#footnote1"><hi rend="superscript">1</hi></term></p>
+                <p>When a child lives with <term ref="#gloss4">upininkpil</term>, she must endeavor to teach the child the basics of life so that the child can survive later in life. </p>
+                <p>This is the story I have (to wit, this is the end of my story).<term ref="#footnote1"><hi rend="superscript">1</hi></term></p>
             </div>
             <div type="Note">
                 <head type="subTitle">Note</head>

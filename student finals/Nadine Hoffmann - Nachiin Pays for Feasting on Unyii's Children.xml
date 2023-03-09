@@ -50,8 +50,9 @@
             <encodingDesc>
                 <styleDefDecl scheme="css" Version="2​.1"/>
             </encodingDesc>
-            <editorialDecl>No single author since it is based on a Konkomba oral tradition;
-                 only footnotes for certain terms for better readability/understanding</editorialDecl>
+            <editorialDecl> <p>No single author since it is based on a Konkomba oral tradition;
+                 only footnotes for certain terms for better readability/understanding</p>
+                 <correction>I swapped xml:id and target and substituted ref for target - Jana </correction></editorialDecl>
             <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media. 
                 The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised
                 narratives. It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying
@@ -86,9 +87,9 @@
         <head type="subTitle"> Story </head>
         <p>“Here goes my story,” Bilinyi announces.</p>
         <p>“Daya,” responds audience.</p>
-        <p>“This story is about <term xml:id="glossary5">sande</term><note type="footnote" n="1" place="bottom">Likpakpaln word for rabbit or bunny or hare</note>, 
-            <term xml:id="glossary4">nachiin</term><note type="footnote" n="2" place="bottom">Likpakpaln word for wolf</note>, and 
-            <term xml:id="glossary6">unyii</term><note type="footnote" n="3" place="bottom">Likpakpaln word for crocodile</note>,” Bilinyi tells his audience, and proceeds thus:</p>
+        <p>“This story is about <term ref="#glossary5">sande</term><note type="footnote" n="1" place="bottom">Likpakpaln word for rabbit or bunny or hare</note>, 
+            <term ref="#glossary4">nachiin</term><note type="footnote" n="2" place="bottom">Likpakpaln word for wolf</note>, and 
+            <term ref="#glossary6">unyii</term><note type="footnote" n="3" place="bottom">Likpakpaln word for crocodile</note>,” Bilinyi tells his audience, and proceeds thus:</p>
         <p>Once upon a time, nachiin went to the river to drink water but was prevented from doing so by unyii. 
             After much supplication, unyii finally allowed him to drink. When nachiin had had his fill, unyii then inquired from 
             him whether or not he could make her children’s skins as smooth and colorful as his. This pleased nachiin who is, as you 
@@ -112,7 +113,7 @@
             asked unyii to exercise patience and allow him to drink, after which he would capture and bring to her the creature that killed her 
             hatchlings.</p>
         <p>Unyii released sande and allowed him to drink the water. Having quenched his thirst, he then told unyii to smear her mouth with 
-            <term xml:id="glossary7">tijun</term> and play dead on the sand on the riverbank. He added that while playing dead, unyii should open her mouth and allow houseflies to 
+            <term ref="#glossary7">tijun</term> and play dead on the sand on the riverbank. He added that while playing dead, unyii should open her mouth and allow houseflies to 
             hover around her mouth as though she were a carcass. He then arranged with unyii that he would deceive nachiin so that both him and 
             nachiin would put their testicles into unyii’s mouth: the small-sized testicles would obviously be his so unyii should not trap them 
             in her mouth; but the large-sized testicles would be nachiin’s so unyii should grab them and deal with nachiin.</p>
@@ -120,7 +121,7 @@
              where he drank water to his fill and even bathed. He showed nachiin his wet body and deceived him that unyii was dead. Nachiin 
              then revealed to sande that he was the one who ate unyii’s hatchlings and that unyii obviously died out of grief. Sande quickly 
              called dibs on unyii’s carcass since he found it. Thereupon, nachiin retorted sharply:</p>
-        <p>“<term xml:id="glossary2">Kinaatuuk kimina; naa sen m-mi m ti ŋmɔiŋ waabiyaab m ka u kpii? M-mi yi maa wan.</term>”   (The storyteller mimics nachiin as he renders this.)</p>
+        <p>“<term ref="#glossary2">Kinaatuuk kimina; naa sen m-mi m ti ŋmɔiŋ waabiyaab m ka u kpii? M-mi yi maa wan.</term>”   (The storyteller mimics nachiin as he renders this.)</p>
         <p>Sande replied, “How can it be yours when I was the one who found the carcass and informed you?”</p>
         <p>But nachiin maintained that since unyii died from the grief of the deaths of her hatchlings, and considering that he (nachiin) 
             was responsible for their deaths, he could certainly lay claim to unyii’s carcass. Sande then told nachiin that the claim to 
@@ -164,16 +165,16 @@
              fills in the gap amid laughter as well.)</p>
         <p>“He took off running. He ran and left sande,” she says.</p>
         <p>(Bilinyi resumes and completes the story thus:)</p>
-        <p>Thanks to that, sande’s life was spared. This is why sande is wiser than nachiin. <term xml:id="glossary3">M muun ka maa tiin gur.</term></p>
+        <p>Thanks to that, sande’s life was spared. This is why sande is wiser than nachiin. <term ref="#glossary3">M muun ka maa tiin gur.</term></p>
 
         <head type="subTitle">A Glossary of Likpakpaln Words and Phrases</head>
         <list type="gloss">
             <label><hi rend="bold">ami:</hi></label>
-            <item><gloss target="#glossary1">Likpakpaln equivalent of amen.</gloss></item>
+            <item><gloss xml:id="glossary1">Likpakpaln equivalent of amen.</gloss></item>
             <label><hi rend="bold">kinaatuuk kimina; naa sen m-mi m ti ŋmɔiŋ waabiyaab m ka u kpii? M-mi yi maa wan:</hi></label>
-            <item><gloss target="#glossary2">translated as, “You idiot; wasn’t I the one who ate her hatchlings and she died out of grief? Her carcass is mine.”</gloss></item>
+            <item><gloss xml:id="glossary2">translated as, “You idiot; wasn’t I the one who ate her hatchlings and she died out of grief? Her carcass is mine.”</gloss></item>
             <label><hi rend="bold">m muun ka maa tiin gur:</hi></label>
-            <item><gloss target="#glossary3">translated as “May I grow while my story diminishes. It is a shortened version of the standard conclusion, 
+            <item><gloss xml:id="glossary3">translated as “May I grow while my story diminishes. It is a shortened version of the standard conclusion, 
                 “Maa tiin gur, ki gur, ki gur ki m muun, ki muun ke n-yaaja agbenja na” (transliterated as “May my story diminish and diminish and diminish 
                 while I grow and grow as tall as my grandfather’s male Kapok tree”). This is one of the numerous ways in which a Konkomba storyteller can 
                 end his/her story. This particular type of ending and its variants suggest that Konkombas believe that storytelling 
@@ -181,19 +182,19 @@
                 growth is so entrenched in Konkomba belief system that it is even believed that when a child engages in storytelling at daytime – for 
                 Konkomba storytelling sessions are held normally in the evenings after supper – he or she will have stunted growth.</gloss></item>
             <label><hi rend="bold">nachiin:</hi></label>
-            <item><gloss target="#glossary4">Likpakpaln word for wolf. In Konkomba folklore, nachiin is the most unintelligent animal character. It almost 
+            <item><gloss xml:id="glossary4">Likpakpaln word for wolf. In Konkomba folklore, nachiin is the most unintelligent animal character. It almost 
                 always falls prey to the antics of others, especially sande (i.e. rabbit).</gloss></item>
             <label><hi rend="bold">sande:</hi></label>
-            <item><gloss target="#glossary5">Likpakpaln word for rabbit or bunny or hare. Sande is the wisest and trickster character in Konkomba folklore. 
+            <item><gloss xml:id="glossary5">Likpakpaln word for rabbit or bunny or hare. Sande is the wisest and trickster character in Konkomba folklore. 
                 It is notorious for often using its cunning and witty nature to deceive other characters or wriggle its way out of difficult situations 
                 – case in point, the story above.</gloss></item>
             <label><hi rend="bold">unyii:</hi></label>
-            <item><gloss target="#glossary6">Likpakpaln word for crocodile. Unyii is sometimes euphemistically called ukpindaan (transliterated as 
+            <item><gloss xml:id="glossary6">Likpakpaln word for crocodile. Unyii is sometimes euphemistically called ukpindaan (transliterated as 
                 “the owner-of-the-river”) because Konkombas believe that it is the embodiment of the Konkomba river god/goddess. In the context 
                 of this story, therefore, unyii’s refusal to allow the other animals to drink from the river, feeds into this Konkomba belief 
                 – for unyii alone has the authority to determine who drinks from the river.</gloss></item>
             <label><hi rend="bold">tijun (aka tijon):</hi></label>
-            <item><gloss target="#glossary7">variously known in West Africa as dawa dawa in Hausa, iru in Yoruba, colgo in Mooré, netetou in Wolof, etc., 
+            <item><gloss xml:id="glossary7">variously known in West Africa as dawa dawa in Hausa, iru in Yoruba, colgo in Mooré, netetou in Wolof, etc., 
                 tijun is a pungent condiment made from the beans of the African locust bean tree (aka Parkia biglobosa). It is usually prepared by women 
                 by fermenting the boiled and pounded beans of Parkia biglobosa over several days. The end product has a pungent smell and is usually 
                 molded into various shapes – mostly spherical and rectangular – and used to add flavor to various stews, soups, and dishes. Its pungent 

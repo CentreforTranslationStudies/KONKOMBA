@@ -19,10 +19,10 @@
                     <name> Dr. Eva Ulrike Pirker </name>
                     <resp> supervision </resp>
                 </respStmt>
-                <sponsor type="digitization"> E-Learning Förderfonds HHU </sponsor>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
                <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
                 <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
-                    <name type="institution"> Heinrich Heine Universität Düsseldorf </name>
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
                     <street> Universitätsstraße 1 </street>
                     <postCode> 40225 </postCode>
                     <name type="city"> Düsseldorf </name>
@@ -33,7 +33,7 @@
                 <status> not yet published</status> 
                 <pubPlace> Düsseldorf </pubPlace>
 <address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
-    <name type="institution"> Heinrich Heine Universität Düsseldorf </name>
+    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
     <street> Universitätsstraße 1 </street>
     <postCode> 40225 </postCode>
     <name type="city"> Düsseldorf </name>
@@ -52,11 +52,11 @@
                    
                 </tagsDesc>
             
-            <editorialDecl>No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
-            <projectDesc>The project focuses on digitizing oral folktales from
+            <editorialDecl>No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in termsrefdi#ng</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from
                 Ghana, specifically the Konkomba people, through different media. The
                 project puts a body of oral folktales into writing and eventually makes
-                them available as annotated, digitized
+                them available as annotated, digitised
                 narratives. It thus aims to make a contribution to visibilising this
                 culture, which through processes of colonisation, the accompanying
                 priviledging of written/print culture and Eurocentric/Western thinking
@@ -87,7 +87,7 @@
             <head type="mainTitle" rend="font-size(140%)">WHY THE TORTOISE HAS A CRACKED SHELL
             </head>
             <p>(As told by Nimobi Sagnan on 4th November 2019 in Chamba, Ghana)</p>
-            <div type="section">
+            <div type="introduction">
           <head type="subTitle">Introduction</head> 
            <p> The following is a Konkomba folktale that relates how and why the tortoise has a rough, cracked shell. The story is situated in an imaginary, nameless animal kingdom where animals
             assume human qualities and relate to one another. In this tale, the tortoise (the second wisest
@@ -96,22 +96,20 @@
             accident that badly damages his shell.</p>
             <p>If you want to listen to the Likpakpaln narration <ref target="https://mediathek.hhu.de/watch/dc512471-b858-4b99-ae39-a4c43a309cb8">click here.</ref></p>
            </div>
-           <div type="section">
+           <div type="story">
             <head type="subTitle">Full story</head>
             <p><q>Do you know why the tortoise has a badly cracked shell?</q>, Nimobi asks.</p>
             <p><hi rend="italic">(He pauses and casts a glance at his audience who variously respond excitedly: <q>Tell us!</q><q> We don't know!</q><q>No!</q>)</hi></p>
 <p>Nimobi continues:
 </p>
 <p>Once upon a time, the tortoise and the partridge were very good friends. They did almost
-    everything together. Every evening, they met under a shady tree outside Mr. Tortoise’s house to chat and drink <term xml:id="tdpv3" rend="normalfont">pito</term>.
-     Mrs. Tortoise would usually serve them her delicious <term xml:id="tdpv3" rend="umarked">pito</term> 
-and cook them a sumptuous meal. One evening during their drinking escapade, Mr. Partridge invited his friend
-to the birds’ annual <term xml:id="tdpv1" rend="unmarked">Ndipoandaan</term> festival which was scheduled to take place on the next
- <term xml:id="tdpv2" rend="unmarked">Alasima Koofɛ</term>. On hearing that, Mr. Tortoise let out a loud, long laugh and asked: </p>
+    everything together. Every evening, they met under a shady tree outside Mr. Tortoise’s house to chat and drink <term ref="#tdpv3" rend="normalfont">pito</term> Mrs. Tortoise would usually serve them her delicious <term ref="#tdpv3" rend="umarked">pito</term> and cook them a sumptuous meal. One evening during their drinking escapade, Mr. Partridge invited his friend
+to the birds’ annual <term ref="#tdpv1" rend="unmarked">Ndipoandaan</term> which was scheduled to take place on the next
+ <term ref="#tdpv2" rend="unmarked">Alasima Koofɛ</term>. Upon hearing that, Mr. Tortoise let out a loud, long laugh and asked: </p>
 <p>"How am I supposed to get to your house on top of that tall tree? You know I don't have wings like you, my friend?"</p>
 <p>"Don't worry, my friend. Some of my colleagues and I will lend you some feathers to fly," replied the partridge.</p>
 <p>     The next market day, the tortoise went to the market and bought new clothes, footwear,
-    and a haversack in readiness for the <term xml:id="tdpv1" rend="unmarked"> Ndipoandaan </term>. On the day of the festival, the tortoise flew
+    and a haversack in readiness for the <term ref="#tdpv1" rend="unmarked"> Ndipoandaan </term>. On the day of the festival, the tortoise flew
     to the summit of the Mahogany tree on which the birds had converged for the feast. His friend
     introduced him to his family, friends, and the other guests as Mr. Tortoise; but on each occasion,
     the tortoise jokingly introduced himself rather as Nimɔmɔk, transliterated literally as  All-of-You. </p>
@@ -134,7 +132,7 @@ to the birds’ annual <term xml:id="tdpv1" rend="unmarked">Ndipoandaan</term> f
      Fortunately for him, he survived the fall but damaged his shell badly. 
     </p>
     <p>That’s why till date the tortoise’s shell has so many cracks. So you see, it’s not good to be greedy; greed will only ruin your relationships and hurt you too, like it did the tortoise. 
-        May my story diminish while I grow as tall as my grandfather’s male <term xml:id="note1">Kapok tree.</term> <hi rend="superscript">1</hi> </p>
+        May my story diminish while I grow as tall as my grandfather’s male <term ref="#note1">Kapok tree.</term><hi rend="superscript">1</hi> </p>
             </div>
 <div type="section">
     <head type="subtitle">Note</head>
@@ -148,13 +146,13 @@ to the birds’ annual <term xml:id="tdpv1" rend="unmarked">Ndipoandaan</term> f
     <head type="subtitle">A glossary of Likpakpaln words and phrases</head>
     <list type="gloss">
     <label><hi rend="bold"> Alasima Koofɛ:</hi> </label>
-     <item> <gloss target="#tdpv2">the big Friday market day. Konkombas have a six-day weekly calendar. Their market days are usually held in every sixth days’ time. Alasima Koofɛ is usually the big market day that falls on a Friday (Alasima). It is a day of rest and a sacred day on which Konkombas abstain from farming and pacify the land because it is a day of visitation by the gods/goddesses (especially the litingbawaal, the earth god) and ancestral spirits.
+     <item> <gloss xml:id="tdpv2">the big Friday market day. Konkombas have a six-day weekly calendar. Their market days are usually held in every sixth days’ time. Alasima Koofɛ is usually the big market day that falls on a Friday (Alasima). It is a day of rest and a sacred day on which Konkombas abstain from farming and pacify the land because it is a day of visitation by the gods/goddesses (especially the litingbawaal, the earth god) and ancestral spirits.
 </gloss> </item> 
     <label>  <hi rend="bold">Ndipoandaan:</hi> </label>
-         <item> <gloss target="#tdpv1"> transliterated literally as fresh guinea corn drink. The Ndipoandaan festival is normally celebrated by Konkombas in January after the harvest of their crops to thank God, their gods/goddesses, and their ancestors for protection in the previous year and for a good harvest.
+         <item> <gloss xml:id="tdpv1"> transliterated literally as fresh guinea corn drink. The Ndipoandaan festival is normally celebrated by Konkombas in January after the harvest of their crops to thank God, their gods/goddesses, and their ancestors for protection in the previous year and for a good harvest.
  </gloss>  </item> 
   <label> <hi rend="bold">Pito:</hi> </label>
-    <item> <gloss target="#tdpv3">a locally brewed beverage of the Konkomba people (and a few other northern ethnic groups in Ghana). It is made out of guinea corn. Though it can be consumed as a sweet beverage, it is mostly fermented into an alcoholic drink. </gloss></item>
+    <item> <gloss xml:id="tdpv3">a locally brewed beverage of the Konkomba people (and a few other northern ethnic groups in Ghana). It is made out of guinea corn. Though it can be consumed as a sweet beverage, it is mostly fermented into an alcoholic drink. </gloss></item>
 
 </list>
     </div>

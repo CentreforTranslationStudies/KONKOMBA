@@ -89,7 +89,7 @@
                 <p><q>There once lived a wild creature,</q> Wumbein commences his story.</p>
                 <p><q>Ehen!</q> <hi rend="italics">Some audience respond amid unintelligible chatter to assure the storyteller that they're paying attention to him.</hi> </p>
                 <p>Wumbein continues:</p>
-                <p>The creature was known as <term target="#gloss4">ujuun</term>. He used to visit his friend <term target="#gloss3">n-ŋmii </term>, and the two would usually eat together.<term target="#Note1"><hi rend="superscript">1</hi></term>
+                <p>The creature was known as <term ref="#gloss4">ujuun</term>. He used to visit his friend <term ref="#gloss3">n-ŋmii </term>, and the two would usually eat together.<term ref="#Note1"><hi rend="superscript">1</hi></term>
                     However, his friend replied: <q>Ujuun, I can’t come to your house. Continue coming to my house instead.</q>
                     But ujuun insisted,<q>No! It’s only fitting that if you frequent your friend’s house, he should also visit you one day.</q></p>
                     <p><hi rend="italics">Wumbein intones the song and his audience join in:</hi></p>
@@ -104,7 +104,7 @@
                             <cell></cell>
                         </row>
                         <row>
-                            <cell> <l>Ki cha la’i ’kuur?<term target="#Note2"><hi rend="superscript">2</hi></term></l> </cell>
+                            <cell> <l>Ki cha la’i ’kuur?<term ref="#Note2"><hi rend="superscript">2</hi></term></l> </cell>
                             <cell> <l>Where to, when it’s so dry? </l></cell>
                         </row>
                         <row>
@@ -338,13 +338,13 @@
                 <row/>
             </table>
             </div>
-    <p>Meanwhile, ujuun had retreated into his <term target="#gloss2">kinakuɔk</term> and instructed his wives to get ready to welcome his friend without delay.<term target="#Note3"><hi rend="superscript">3</hi></term>
+    <p>Meanwhile, ujuun had retreated into his <term ref="#gloss2">kinakuɔk</term> and instructed his wives to get ready to welcome his friend without delay.<term ref="#Note3"><hi rend="superscript">3</hi></term>
         However, his wives rushed to him and informed him that their house was on fire. N-ŋmii had set their house ablaze on entering. 
         Ujuun subsequently fled his home to escape the blaze. Since then, the bush …</p>
         <p><q>The riverside,</q> cuts in one of Wumbein's female audience, prompting the storyteller to correct himself as follows:</p>
-        <p>... Yes the riverside, has been his home; and whenever the dry season is approacing, he quicky moves closer to the riverside. <term xml:id="Note4"><hi rend="superscript">4</hi></term>.</p>
+        <p>... Yes the riverside, has been his home; and whenever the dry season is approacing, he quicky moves closer to the riverside. <term ref="#Note4"><hi rend="superscript">4</hi></term>.</p>
         <p><q>The burns he sustained when n-ŋmii visited him are the blotches on his skin,</q>chips in another of Wumbein’s audience.</p>
-        <p><q><term target="#gloss1">Enn!</term></q>Wumbein agrees with him and concludes amid applause:</p>
+        <p><q><term ref="#gloss1">Enn!</term></q>Wumbein agrees with him and concludes amid applause:</p>
         <p><q>Ehen! That’s why the python’s skin has dark and brown blotches.</q></p>
         <p><q>That's true, that's true,</q>concurs one of his audience while another one who appears more interested in why pythons now live in the wild quizzes:
         <q>So that was what drove the python into the bush?</q></p>

@@ -1,0 +1,121 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>THE RABBIT PAYS FOR STEALING UBƆR’S RAM</title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller> Binkpetaab Baabayii  </storyteller>
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name>Laura Feiter</name>
+                    <name>Nesrin Charafi</name>
+                    <resp> coding and editing </resp>
+                    </respStmt>
+                <respStmt> 
+                    <name> Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name> </address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status>not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace> 
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street>
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> not yet available </availability>
+<date> TBD </date>
+</publicationStmt>
+            <sourceDesc>
+              <bibl> <title>THE RABITT PAYS FOR STEALING UBƆR’S RAM</title> <storyteller>Binkpetaab Baabayii</storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+        </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc>      
+                </tagsDesc>
+            <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+                </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Chagbaan">
+                     <placeName> Chagbaan</placeName>
+                     <location>
+                         <geo>9,54, 0,23</geo>    
+                     </location>
+                 </place>  
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller">Binkpetaab Baabayii</name> on <date when="2022">24th March 2022 </date> in <name type="city">Chagbaan</name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type= "mainTitle">THE RABBIT PAYS FOR STEALING UBƆR’S RAM</head>
+                <p>(As narrated by Binkpetaab Baabayii in Chagbaan on 24/03/2022)</p>
+            <div type= "introduction">
+            <head type= "subTitle">Introduction </head>
+            <p>The following story details one of the rare moments in Konkomba folklore when the rabbit, who is the acclaimed trickster character, suffers at the hands of other characters. In this story, his cunny nature gets him into trouble with the firefly and the leader of his community. According to the story, in the midst of famine, the firefly shares with the rabbit a secret that will enable them to feed their families. However, the rabbit tries to pull a fast one on the firefly so the latter abandons him in the bush. Wandering in the bush alone, the rabbit ends up in their community leader’s house, eventually steals his goat and is punished as a result. To watch the Likpakpaln narration <ref target="https://mediathek.hhu.de/watch/2976db23-501a-4277-a05d-8f3d80d8627e">click here.</ref></p>
+            </div>
+                <div type="story">
+                    <head type= "subTitle"> Story </head>
+                    <p><q>Famine once broke out in a certain land,</q> Baabayii starts her story without the usual opening formality of announcing her intent to tell the story and eliciting a response from her audience.<term xml:id="footnote1"><hi rend="superscript">1</hi></term></p>
+                    <p>Baabayii continues:</p>
+                    <p>In this land lived two good friends – <term ref="#gloss4">sandee</term> and <term ref="#gloss2">naapilmoon’s</term>. At night, <term ref="#gloss2">naapilmoon’s</term> would usually go hunting for food. With the aid of his light, he would discover wild guinea fowl eggs and take them home to feed his family.</p>
+                    <p>One day, <term ref="#gloss4">sandee</term> visited his friend and realised that <term ref="#gloss2">naapilmoon’s</term> and his family had eaten eggs. <term ref="#gloss4">Sandee</term> inquired: <q>My friend, where did you get these eggs to feed your household?</q></p>
+                    <p>In reply, <term ref="#gloss2">naapilmoon’s</term> told his friend that at night, he went out in search of food for his family and that with the aid of his light, he would usually find wild guinea fowl eggs and collect them for his family’s consumption. <term ref="#gloss4">Sandee</term> got interested and told his friend to call him later that night when he was going food-hunting again so that he could tag along. <term ref="#gloss2">Naapilmoon’s</term> agreed.</p>
+                    <p>At nightfall, <term ref="#gloss2">naapilmoon’s</term> called <term ref="#gloss4">sandee</term> and the two set off for the bush. The former generously used his light to show the latter the way so it was easy for <term ref="#gloss4">sandee</term> to follow. The two went deep into the bush and finally arrived in the area <term ref="#gloss2">naapilmoon’s</term> usually found the wild guinea fowl eggs. He flashed his light and they found the first collection of eggs. <term ref="#gloss4">Sandee</term> immediately called dibs on the eggs, so his friend allowed him to have them. After a while, <term ref="#gloss2">naapilmoon’s</term> found another set of eggs, whereupon <term ref="#gloss4">sandee</term> called dibs on them as well. This continued throughout their food-hunting expedition that night.</p>
+                    <p>At a point, <term ref="#gloss2">naapilmoon’s</term> asked his friend: <q>Have you had enough?</q> His friend responded in the affirmative. <term ref="#gloss2">Naapilmoon’s</term> then told his friend that it was time they returned home. On saying this, he took off as fast as he could and left <term ref="#gloss4">sandee</term> behind. <term ref="#gloss4">Sandee</term> yelled after his friend, begging him to stop and collect some of the eggs. However, his friend would not listen. Left without <term ref="#gloss2">naapilmoon’s</term> light to guide him home, <term ref="#gloss4">sandee</term> wandered in the dark and ended up in <term ref="#gloss5">ubɔr</term>’s house.</p>
+                    <p>On entering the house, <term ref="#gloss4">sandee</term> told <term ref="#gloss5">ubɔr</term> that he had brought him a gift from his hunting expedition. According to him, he was aware of the toll the famine had taken on families; hence his decision to bring <term ref="#gloss5">ubɔr</term> those eggs to enable him to feed his children. <term ref="#gloss5">Ubɔr</term> happily received the eggs and gave them to his wives to cook.</p>
+                    <p>When the eggs were cooked, one of <term ref="#gloss5">ubɔr</term>’s wives served her child. <term ref="#gloss4">Sandee</term> drew closer to the child and attempted to take the egg. The child started crying. <term ref="#gloss4">Sandee</term> immediately feigned ignorance and said: <q>Typical of children! You’ve been given an egg to eat; why are you crying?</q>  But the reality was that he attempted to pick the child’s egg; so the child was crying in protest.</p>
+                    <p><term ref="#gloss5">Ubɔr</term> soon realised what was happening, nodded his head and placed <term ref="#gloss6">unoon</term> near the child. The next time <term ref="#gloss4">sandee</term> made an attempt to pick the child’s egg, he got stung by <term ref="#gloss6">unoon</term>. <term ref="#gloss4">Sandee</term> fell over, started rolling on the ground and kicking all over the place in pain while shouting: <q>Even though <term ref="#gloss5">ubɔr</term>’s mother died in the dry season, I’m mourning (for) her this rainy season.</q><hi ref = "italic">(The storyteller repeats this three times while simultaneously demonstrating. On the third occasion, her audience join in, and all break into laughter at the end.)</hi></p>
+                    <p><term ref="#gloss4">Sandee</term> was in trouble! But after rolling, kicking and shouting for a while, he regained his composure. He then decided to give his share of the cooked eggs to <term ref="#gloss5">ubɔr</term> and set off homeward. However, the mischievous <term ref="#gloss4">sandee</term> didn’t go home directly. <term ref="#gloss5">Ubɔr</term> had a backyard maize farm where he usually tied his sheep. In retaliation for what <term ref="#gloss5">ubɔr</term> did to him, <term ref="#gloss4">sandee</term> decided to steal one of his rams. On reaching home, he killed the ram and feasted on it with his family to placate his anger.</p>
+                    <p>The next day <term ref="#gloss5">ubɔr</term> couldn’t find one of his rams so he announced that his ram had disappeared from his sheep-pen. No one owned up so <term ref="#gloss5">ubɔr</term> concluded that <term ref="#gloss4">sandee</term> must have stolen the ram. He subsequently summoned the entire community to his palace and confronted <term ref="#gloss4">sandee</term>. The latter refuted the allegation, insisting that he knew nothing about the lost animal. <term ref="#gloss5">Ubɔr</term> allowed the matter to rest and told the community to return the next day and help him roof one of his rooms. At that point, <term ref="#gloss5">ubɔr</term> noticed that <term ref="#gloss4">sandee</term> had a hat on so he instructed him to take it off as a mark of respect for his <term ref="#gloss1">kinakuɔk</term>.<term xml:id="footnote2"><hi rend="superscript">2</hi></term> But <term ref="#gloss4">sandee</term> refused. <term ref="#gloss5">Ubɔr</term> therefore asked everyone to don a hat when returning the following day.</p>
+                    <p>The next day, the entire community gathered at the palace again. Everyone wore a hat, save <term ref="#gloss4">sandee</term> who had two hats on. When all had assembled, <term ref="#gloss5">ubɔr</term> ordered everyone to take off his or her hat. All obliged, including <term ref="#gloss4">sandee</term> – who took off only one of the two hats. All efforts to get him to take off the second hat proved futile, as <term ref="#gloss4">sandee</term> argued that since everyone took off one hat, it was only fair that he took off only one hat as well. <term ref="#gloss4">Sandee</term> had his way again.</p>
+                    <p>The roofing of <term ref="#gloss5">ubɔr</term>’s room eventually commenced. When the roofing was almost done, <term ref="#gloss4">sandee</term> – who happened to be the only one who could knot the <term ref="#gloss3">ndipinju</term> – was asked to climb and knot it. While <term ref="#gloss4">sandee</term> was at it, <term ref="#gloss5">ubɔr</term> contracted a whirlwind to blow off <term ref="#gloss4">sandee</term>’s hat. This disoriented <term ref="#gloss4">sandee</term> and he hit his head against the pot he was about to suspend over the <term ref="#gloss3">ndipinju</term>. Unfortunately, one of the broken pieces of the pot got stuck in the middle of his head. That’s why to date, the rabbit has a mark in the mid-scalp region of his head.</p>
+                    <p><hi ref = "italic">(On hearing this, the audience variously respond, <q>M-ennn! M-hm! Ooooo! Mbo mbo mbo mbo…!</q> to indicate that they’ve enjoyed and learnt something from Baabayii’s tale. All laugh and clap for her.)</hi></p>
+                </div>
+                    <div type="notes">
+                        <head type="subTitle">Notes</head>
+                            <list type="index">
+                                <label>1.</label><item><gloss target="#footnote1">In the Konkomba storytelling culture, one can plunge straight into his or her story without seeking permission in the form of announcing intent to tell the story and receiving permission in the form of a response from the audience. This is mostly the case when a storytelling session has been ongoing for a while, or if the storyteller has already told one or more stories and is seeking to add another one.</gloss></item>
+                                <label>2.</label><item><gloss target="footnote2">In the Konkomba culture, and in the Ghanaian culture in general, it is rude for one to don a hat in the presence of an elder. When entering <term ref="#gloss4">ubɔr</term>’s palace therefore, irrespective of whom one is, he/she will have to take off the hat. This is why <term ref="#gloss4">ubɔr</term> orders <term ref="#gloss4">sandee</term>to take off his hat in this story.</gloss></item>
+                            </list>
+                    </div>
+                    <div type="glossary">
+                        <head type="subTitle">A Glossary of Likpakpaln Words and Phrases (or Expressions)</head>
+                            <list type="gloss">
+                                <label>kinakuɔk: </label><item><gloss xml:id="gloss1">a round room that serves as the main entrance to a typical Konkomba house. It has two doors at both ends to serve as the passage in or out of a house. It also serves as a place for relaxing or hosting visitors/guests. In ubɔr’s palace, kinakuɔk usually has a stage or a raised platform where <term ref="#gloss4">ubɔr</term> sits to hold meetings and perform other functions. Thus, kinakuɔk can assume political significance rather than being a mere passage or a place for hanging out or playing host to visitors. Within this political context, kinakuɔk can be used as a synonym or a metonym (in literary speech) for <term ref="#gloss4">ubɔr</term> or the authority of <term ref="#gloss4">ubɔr</term>. It is therefore normal for a Konkomba to say that <q>Kinakuɔk has spoken</q> – meaning, <q><term ref="#gloss5">Ubɔr</term> has spoken.</q></gloss></item>
+                                <label>naapilmoon: </label><item><gloss xml:id="gloss2">Likpakpaln word for a firefly.</gloss></item>
+                                <label>ndipinju: </label><item><gloss xml:id="gloss3">the knotted topmost part of the roof (usually thatch) of a spherical room. The roof is typically conically shaped. The vertex of the roof is usually skillfully tied to give the roof a nice, pointed tip like that of a cone. The fine-tuning of the vertex therefore requires a lot of skill; so not everyone can do it. The skill is largely passed on from fathers to sons or through apprenticeship. After tying the vertex, a hollow metal piece, or pot, or even a calabash without a base covering may be suspended over it. In the case of this story, a clay pot without a base covering is given to <term ref="#gloss4">sandee</term> to suspend over the vertex.</gloss></item>
+                                <label>sandee: </label><item><gloss xml:id="gloss4">Likpakpaln word for a rabbit, bunny or hare. Sandee is the wisest and trickster character in Konkomba folklore. It is notorious for often using its cunning and witty nature to deceive other characters or wriggle its way out of difficult situations.</gloss></item>
+                                <label>ubɔr: </label><item><gloss xml:id="gloss5">the political head of a Konkomba community. Ubɔr is usually the eldest male member of the royal family. He inherits that position from his father after the latter’s demise. Thus, Konkombas practise the patrilineal system of inheritance.</gloss></item>
+                                <label>unoon: </label><item><gloss xml:id="gloss6">Likpakpaln word for a scorpion. Unoon is one of several heteronyms in Likpakpaln. When pronounced with a falling intonation, it refers to a bird. But when pronounced with a rising intonation, it refers to a scorpion – as pertains in this story. The plural form is inoon.</gloss></item>
+                            </list>
+                    </div>
+        </body>
+    </text>
+</TEI>

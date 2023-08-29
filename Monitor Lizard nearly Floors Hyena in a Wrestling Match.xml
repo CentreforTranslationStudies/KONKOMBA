@@ -1,0 +1,345 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>THE MONITOR LIZARD NEARLY FLOORS THE HYENA IN A WRESTLING MATCH</title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller> Uninkpel Gmasimboon </storyteller>
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name>Laura Feiter</name>
+                    <name>Nesrin Charafi</name>
+                    <resp> coding and editing </resp>
+                    </respStmt>
+                <respStmt> 
+                    <name> Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name> </address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status>not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace> 
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street>
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> not yet available </availability>
+<date> TBD </date>
+</publicationStmt>
+            <sourceDesc>
+              <bibl> <title>THE MONITOR LIZARD NEARLY FLOORS THE HYENA IN A WRESTLING MATCH</title> <storyteller>Uninkpel Gmasimboon </storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+        </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc>      
+                </tagsDesc>
+            <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+                </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Chakping">
+                     <placeName> Chakping</placeName>
+                     <location>
+                         <geo>9.67, -0.27</geo>    
+                     </location>
+                 </place>  
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller">Uninkpel Gmasimboon </name> on <date when="2022">16nd March 2022 </date> in <name type="city">Chakping</name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type= "mainTitle">THE MONITOR LIZARD NEARLY FLOORS THE HYENA IN A WRESTLING MATCH </head>
+                <p>(As narrated by Uninkpel Gmasimboon in Chakping on 16/03/2022)</p>
+            <div type= "introduction">
+            <head type= "subTitle">Introduction </head>
+            <p>The story below relates the near-death experience of a greedy and overconfident hyena. The hyena challenges the monitor lizard to a wrestling match but soon finds out the hard way that one must never judge a book by its cover. The story borders on a common Konkomba practice in which young men often engage in wrestling contests or games as part of their pastime activities. As the hyena rightly admits at the end of the story, the tale seeks to teach the youth to never underestimate their opponents – or challenges in general. To watch the Likpakpaln narration <ref target="https://mediathek.hhu.de/watch/882981da-c37f-49c2-874f-61fd52c75181">click here.</ref></p>
+            </div>
+                <div type="story">
+                    <head type= "subTitle"> Story </head>
+                    <p>There once lived an <term ref="#gloss4">uwul</term> who started a community market. In this market, the main (business) activity was wrestling – anyone who defeated his opponent would usually kill him and feast on his carcass as a reward.</p>
+                    <p>One day <term ref="#gloss3">saadaan</term> participated in the wrestling competition and defeated his opponent. In accordance with the rules of <term ref="#gloss4">uwul</term>’s community market, <term ref="#gloss3">saadaan</term> killed his opponent, took the carcass home and feasted on it.</p>
+                    <p><term ref="#gloss2">Naachiin</term> paid <term ref="#gloss3">saadaan</term> a visit and saw the latter’s children eating the meat and enquired about its origin. In reply, <term ref="#gloss3">saadaan</term> told him that <term ref="#gloss4">uwul</term> had started a community market where people wrestled. He added that the winners always killed the losers and feasted on their carcasses.</p>
+                    <p>The next day <term ref="#gloss2">naachiin</term> dashed to the market square at the crack of dawn. When he got there the market was empty, for the wrestling market had not started so no one was present. Fortunately, he spotted the market’s owner, <term ref="#gloss4">uwul</term>, resting on a nearby tree. <term ref="#gloss2">Naachiin</term> lit up with joy and attempted to forcibly bring down the market’s owner to wrestle with him. However, the market’s owner said: <q>Ah! This is my market; why are you disturbing me at my own market by attempting to pull me down? Please exercise patience.</q></p>
+                    <p>But <term ref="#gloss2">naachiin</term> wouldn’t hear any of that. In response to <term ref="#gloss4">uwul</term>’s call for patience, he replied sharply that he was eager to floor <term ref="#gloss4">uwul</term> and use his carcass as an appetiser before the bigger animals arrived. <term ref="#gloss4">Uwul</term> obliged and descended. The two locked arms and the wrestling match commenced. <term ref="#gloss4">Uwul</term> tied his tail tightly around <term ref="#gloss2">naachiin</term>’s rear – near the hip and tail region of <term ref="#gloss2">naachiin</term>’s hind legs. As the wrestling peaked, <term ref="#gloss4">uwul</term> broke into song:</p>
+                    <p><hi ref = "italic">(The storyteller intones the song and his audience join in.)</hi></p>
+                    <div type= "song">
+                    <table type= "translation">
+                    <row role= "head">
+                            <cell><hi rend= "bold">Likpakpaln transcription</hi></cell>
+                            <cell><hi rend= "bold">English translation</hi></cell>
+                            </row>
+                            <row><cell></cell></row>
+                            <row>
+                            <cell><l>Njɔ le bui ki u ga lii mi ee</l></cell>
+                            <cell><l>My friend says that he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Muin u bui u ga lii mi ee.</l></cell>
+                            <cell><l>So he says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Njɔ le bui u ga lii mi ee.</l></cell>
+                            <cell><l>My friend says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Njɔ wee bui u ga lii mi ee.</l></cell>
+                            <cell><l>This friend of mine says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Njɔ le bui u ga lii mi ee.</l></cell>
+                            <cell><l>My friend says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>U bui u ga lii mi oo.</l></cell>
+                            <cell><l> He says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Njɔ le bui u ga lii mi ee.</l></cell>
+                            <cell><l>My friend says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>U bui u ga lii mi oo.</l></cell>
+                            <cell><l> He says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Njɔ le bui u ga lii mi ee.</l></cell>
+                            <cell><l>My friend says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>U bui u ga lii mi oo.</l></cell>
+                            <cell><l> He says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>A u bui u ga lii mi.</l></cell>
+                            <cell><l>And he says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Wee bui ki u ga lii mi.</l></cell>
+                            <cell><l>This one says that he’ll floor me. </l></cell>
+                            </row>
+                            <cell><l>Naa fuu mbiŋ naaa!!!</l></cell>
+                            <cell><l>I’m not scared at all.</l></cell>
+                         <row><cell></cell></row>
+                     </table>
+                    </div>
+                    <p>At this point, <term ref="#gloss2">naachiin</term> also broke into song:</p>
+                    <p><hi ref = "italic">(The storyteller intones the song and his audience join in again.)</hi></p>
+                     <div type= "song">
+                        <table type= "translation">
+                        <row role= "head">
+                            <cell><hi rend= "bold">Likpakpaln transcription</hi></cell>
+                            <cell><hi rend= "bold">English translation</hi></cell>
+                            </row>
+                            <row><cell></cell></row>
+                            <row>
+                            <cell><l>M ŋa nyar-nyar ki u joo mi oo.</l></cell>
+                            <cell><l>I’ve wriggled hard but his grip is tight.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Mchaŋ ee! Mchaŋ ee!</l></cell>
+                            <cell><l>Oh, my waist! Oh, my waist!</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>M ŋa nyar-nyar ki u joo mi oo.</l></cell>
+                            <cell><l>I’ve wriggled hard but his grip is tight.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Mchaŋ ee! Mchaŋ ee!</l></cell>
+                            <cell><l>Oh, my waist! Oh, my waist!</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>M ŋa nyar-nyar ki u joo mi oo.</l></cell>
+                            <cell><l>I’ve wriggled hard but his grip is tight.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Mchaŋ ee! Mchaŋ ee!</l></cell>
+                            <cell><l>Oh, my waist! Oh, my waist!</l></cell>
+                            </row>
+                          <row><cell></cell></row>
+                     </table>
+                 </div>
+                <p>After that, uwul also resumed singing:</p>
+                <p><hi ref = "italic">(The storyteller intones the song again and his audience join in.)</hi></p>
+                    <div type= "song">
+                      <table type= "translation">
+                        <row role= "head">
+                            <cell><hi rend= "bold">Likpakpaln transcription</hi></cell>
+                            <cell><hi rend= "bold">English translation</hi></cell>
+                            </row>
+                            <row><cell></cell></row>
+                            <row>
+                            <cell><l>Njɔ bui u ga lii mi oo.</l></cell>
+                            <cell><l>My friend says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni.</l></cell>
+                            <cell><l> I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>U bui u ga lii mi.</l></cell>
+                            <cell><l>He says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni.</l></cell>
+                            <cell><l> I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Njɔ gban bui u ga lii mi oo.</l></cell>
+                            <cell><l>That my friend says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni.</l></cell>
+                            <cell><l> I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Njɔ le bui u ga lii mi oo.</l></cell>
+                            <cell><l>My friend says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni.</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>U bui u ga lii mi oo.</l></cell>
+                            <cell><l>He says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni.</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Njɔ bui u ga lii mi oo.</l></cell>
+                            <cell><l>My friend says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni.</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>U bui u ga lii mi.</l></cell>
+                            <cell><l>He says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni.</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <cell><l>U bui u ga lii mi oo.</l></cell>
+                            <cell><l>He says he’ll floor me.</l></cell>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni.</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Njɔ wee bui u ga lii mi.</l></cell>
+                            <cell><l>This friend of mine says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni.</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Wee bui u ga lii mi oo.</l></cell>
+                            <cell><l>This one says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni.</l></cell>
+                            <cell><l>I’m not scared.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Njɔ gban bui u ga lii mi oo.</l></cell>
+                            <cell><l>That my friend says he’ll floor me.</l></cell>
+                            </row>
+                            <row>
+                            <cell><l>Naa fuu mbiŋ ni.</l></cell>
+                            <cell><l> I’m not scared.</l></cell>
+                            </row>
+                        <row><cell></cell></row>
+                    </table>
+                    </div>
+                <p><term ref="#gloss2">Naachiin</term> soon realised that he couldn’t floor <term ref="#gloss4">uwul</term> so he disengaged from him. <term ref="#gloss4">Uwul</term> also let go of him, whereupon <term ref="#gloss2">naachiin</term> fled the scene. On arriving home, his wife enquired about what transpired at the market but he uttered no word. She then asked, <q>Were you floored by the red antelope?</q> <term ref="#gloss2">Naachiin</term> remained silent. <q>Were you floored by the buffalo?</q> she probed further. But he remained tight-lipped. To prevent further probing, he finally retorted: <q>But for his skin, do you think the monitor lizard is a weakling?</q></p>
+                <p><hi ref = "italic">(The storyteller and his audience burst into laughter, after which he resumes and concludes thus:)</hi></p>
+                <p><term ref="#gloss1">Maatiin gur ki m muun</term>.</p>
+                </div>
+                    <div type="glossary">
+                        <head type="subTitle">A Glossary of Likpakpaln Words and Phrases (or Expressions)</head>
+                            <list type="gloss">
+                                <label>maatiin gur ki m muun: </label><item><gloss xml:id="gloss1">translated as <q>May my story diminish while I grow.</q> This is a short version of the standard conclusion, <q>Maatiin gur ki m muun ke n-yaaja aagbem na</q> (translated as <q>May my story diminish while I grow as tall as my grandfather’s Kapok tree</q>). This is one of the numerous ways in which a Konkomba storyteller can end his/her story. This ending and its various variants suggest that Konkombas believe that storytelling (or entertainment in general) has health benefits, especially healthy physical growth. The association of storytelling with physical growth is so entrenched in the Konkomba belief system that it is even believed that when a child engages in storytelling at daytime – for Konkomba storytelling sessions are held normally in the evenings after supper – he or she will have stunted growth.</gloss></item>
+                                <label>naachiin (aka tɔkɔ): </label><item><gloss xml:id="gloss2">Likpakpaln word for a hyena. In Konkomba folklore, naachiin is the most unintelligent animal character. It almost always falls prey to the antics of others, especially sandee or saadaan.</gloss></item>
+                                <label>saadaan (aka sandee): </label><item><gloss xml:id="gloss3">a rabbit, hare or bunny. Saadaan is the wisest and trickster character in Konkomba folklore. It is notorious for often using its cunning and witty nature to deceive other characters or wriggle its way out of difficult situations.</gloss></item>
+                                <label>uwul (also spelt uwol): </label><item><gloss xml:id="gloss4">Likpakpaln word for a monitor lizard.</gloss></item>
+                            </list>
+                </div>
+        </body>
+    </text>   
+</TEI>
+           

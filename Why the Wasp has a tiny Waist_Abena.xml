@@ -1,0 +1,232 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Why the Wasp Has a Tiny Waist</title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller>Abena</storyteller>
+                <editor>Tasun Tidorchibe</editor>
+                <respStmt>
+                    <name>Tasun Tidorchibe</name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name>Gina Heinzmann</name> <name>Safian Esfahani</name>
+                    <resp>coding and editing</resp>
+                    </respStmt> 
+                    <respStmt>
+                    <name> Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp></respStmt>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name></address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status>not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace>
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street>
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> not yet available </availability>
+<date> TBD </date></publicationStmt>
+            <sourceDesc>
+              <bibl> <title>Why the Wasp Has a Tiny Waist</title> <storyteller>Abena</storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+        </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc>      
+                </tagsDesc>
+            <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+                </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Chakping">
+                     <placeName>Chakping</placeName>
+                     <location>
+                         <geo>9.67, -0.27</geo>    
+                     </location>
+                 </place>  
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller">Abena</name> on <date when="2023">16th March 2023</date> in <name type="city">Chakping</name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+    </teiHeader>
+    <text>
+     <body>  
+        <head type="mainTitle"> WHY THE WASP HAS A TINY WAIST </head>
+        <p>(As told by Abena at Chakping, Ghana on 16/03/2023)</p>
+        <div type="introduction">
+         <head type="subTitle"> Introduction </head>
+         <p>The following story offers insights into the communal spirit of the Konkomba people. It highlights the communal nature of Konkomba funerals and the necessity of teamwork. The story presents a wasp that refuses to join his community during a funeral activity and gets punished as a result. The ultimate consequence is that the wasp is left with a tiny waist in perpetuity.</p>
+        </div>
+        <div type="story">
+            <head type="subTitle"> Story </head>
+            <p>There lived a certain <term ref="#gloss9">ubɔr</term> who ruled over an animal kingdom. In this kingdom, the tradition was that whenever one’s in-laws had a funeral, everyone would assist the fellow to perform the <term ref="#gloss3">kinachuŋ</term> dance.</p>
+            <p>One day <term ref="#gloss6">sandee’s</term> in-law passed away but when <term ref="#gloss10">ulangben</term> was informed about it, he refused to attend the funeral. Fortunately the other members of the community generously assisted <term ref="#gloss6">sandee</term> in attending the funeral and performing the <term ref="#gloss3">kinachuŋ</term> dance.</p>
+            <p>In the course of time, <term ref="#gloss10">ulangben</term> also lost his in-law. When he told his community, everyone declined to go and assist him so <term ref="#gloss10">ulangben</term> went alone. He took <term ref="#gloss2">kiloŋ</term>, took the drink he purchased for the funeral, added <term ref="#gloss5">ligangaln</term> and set off for the funeral.<term xml:id="footnote1"><hi rend="superscript">1</hi></term></p>
+            <p>When he got closer to his in-laws’ house, he broke into song:</p>
+            <p> <hi ref="italic">(The storyteller intones the chorus and signals to her audience to join in.)</hi></p>
+        <div type="song"> 
+        <table type="translation"> 
+            <row role="head">
+            <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+            <cell><hi rend="bold">English translation</hi></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+            <row>
+            <cell><hi ref="italic"><hi ref="bold">Chorus</hi></hi></cell>
+            </row>
+            <row>
+            <cell><l>M gbaa mbiin ee,</l></cell>
+            <cell><l>I’ve let out a loud cry,</l></cell>
+            </row>
+            <row>
+            <cell><l>Garwa sen ki sen garwa. (2x)</l></cell>
+            <cell><l>[But] the world flees and flees. (2x)</l></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+            <row>
+            <cell><l>Koin koin koin,</l></cell>
+            <cell><l><term ref="#gloss4">Koin koin koin</term>,</l></cell>
+            </row>
+            <row>
+            <cell><l>Garwa sen ki sen garwa.</l></cell>
+            <cell><l>[But] the world flees and flees.</l></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+            <row>
+            <cell><l>Chak chak lan chak,</l></cell>
+            <cell><l><term ref="#gloss1">Chak chak lan chak</term></l></cell>
+            </row>
+            <row>
+            <cell><l>Garwa sen ki sen garwa.</l></cell>
+            <cell><l>[But] the world flees and flees.</l></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+            <row>
+            <cell><l>Tu le tu le tu le,</l></cell>
+            <cell><l><term ref="#gloss8">Tu le tu le tu le</term></l></cell>
+            </row>
+            <row>
+            <cell><l>Garwa sen ki sen garwaaa!!!</l></cell>
+            <cell><l>[But] the world flees and flees!!!</l></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+        </table>
+        </div>
+        <p>Ulangben’s in-laws heard the singing and drumming and concluded that the former and his kith and kin were approaching. Ulangben kept singing as he inched closer:</p>
+        <p> <hi ref="italic">(The storyteller intones the song and her audience join in again.)</hi></p>
+         <div type="song"> 
+        <table type="translation"> 
+            <row role="head">
+            <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+            <cell><hi rend="bold">English translation</hi></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+            <row>
+            <cell><hi ref="italic"><hi ref="bold">Chorus</hi></hi></cell>
+            </row>
+            <row>
+            <cell><l>M gbaa mbiin ee,</l></cell>
+            <cell><l>I’ve let out a loud cry,</l></cell>
+            </row>
+            <row>
+            <cell><l>Garwa sen ki sen garwa. (2x)</l></cell>
+            <cell><l>[But] the world flees and flees. (2x)</l></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+            <row>
+            <cell><l>Koin koin koin,</l></cell>
+            <cell><l><term ref="#gloss4">Koin koin koin</term>,</l></cell>
+            </row>
+            <row>
+            <cell><l>Garwa sen ki sen garwa.</l></cell>
+            <cell><l>[But] the world flees and flees.</l></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+            <row>
+            <cell><l>Chak chak lan chak,</l></cell>
+            <cell><l><term ref="#gloss1">Chak chak lan chak</term></l></cell>
+            </row>
+            <row>
+            <cell><l>Garwa sen ki sen garwa.</l></cell>
+            <cell><l>[But] the world flees and flees.</l></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+            <row>
+            <cell><l>Tu le tu le tu le,</l></cell>
+            <cell><l>Tu le tu le tu le</l></cell>
+            </row>
+            <row>
+            <cell><l>Garwa sen ki sen garwaaa!!!</l></cell>
+            <cell><l>[But] the world flees and flees!!!</l></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+        </table>
+        </div>
+        <p><q>One wonders how he performed the <term ref="#gloss7">tiban</term> dance,</q>interjects one of Abena’s audience – apparently in reference to the last stanza above, which suggests that <term ref="#gloss10">ulangben</term> danced with some bangles tied around his feet. However, the storyteller ignores her and proceeds with her rendition as follows:</p>
+        <p><term ref="#gloss10">Ulangben</term> soon emerged, whereupon his in-laws realised that he had come to the funeral alone. On helping their son-in-law take off all the musical instruments and the drink he was carrying, they noticed that the weight of the things had compressed his waist into a tiny one.</p>
+        <p>When someone asks for your assistance in his or her time of need, help him or her. Don’t be selfish. <term ref="#gloss10">Ulangben’s</term> refusal to help others left him with a tiny waist. He wasn’t created with such a tiny waist</p>
+    </div>
+        <div type="Note">
+        <head type="subTitle">Note</head>
+        <list type="index">
+        <label>1.</label><item><gloss target="#footnote1"> In the Konkomba culture, it is mandatory for sons-in-law to send a designated quantity of drinks – usually alcoholic ones such as pito (a local drink brewed from guinea corn) or akpeteshie (a Ghanaian spirit akin to vodka) – to their in-laws’ funerals. The drink carried by the wasp in this story is in fulfilment of this custom.</gloss></item>
+        </list>
+        </div>
+     <div type="glossery">
+     <head type="subtitle">A Glossary of Likpakpaln Words and Phrases</head>
+     <list type="gloss">
+     <label>chak chak lan chak:</label><item><gloss xml:id="gloss1">an ideophone employed by the storyteller to imitate the sound produced by the ankle bangles the wasp danced with as he journeyed.</gloss></item>
+     <label>kiloŋ (also spelt kiluŋ):</label><item><gloss xml:id="gloss2">an hourglass-shaped musical instrument with round skin coverings at both ends. Known variously as dondo, tama, dundun, kalungu or lunna across West Africa, it is usually placed under the armpit and struck with a stick to produce music. One can change the pitch or tone of the sound by compressing and releasing the strings connecting the two skin coverings at both ends. This makes kiloŋ suitable for use as a talking drum in some West African cultures.</gloss></item>
+     <label>kinachuŋ:</label><item><gloss xml:id="gloss3">the cultural dance of the Konkomba people. It is a communal dance that requires the effective participation of a large group rather than an individual. Though mostly associated with funerals, it can also be performed outside funeral occasions such as in church, at social and political gatherings among others.</gloss></item>
+     <label>koin koin koin:</label><item><gloss xml:id="gloss4">an ideophone employed by the storyteller to imitate the sound produced by the drum ulangben was drumming.</gloss></item>
+     <label>ligangaln:</label><item><gloss xml:id="gloss5">a cylindrical drum with skin coverings at both ends. It comes in different sizes that determine the sound it produces. The big drum (ligangaln-sakpeln) produces bass or a low-pitched sound while the small drum (kiganganbik) usually produces a high-pitched sound.</gloss></item>
+     <label>sandee:</label><item><gloss xml:id="gloss6">Likpakpaln word for a bunny or a rabbit.</gloss></item>
+     <label>tiban:</label><item><gloss xml:id="gloss7">a traditional Konkomba dance performed by male dancers, who rhythmically stamp their feet on the ground. The dancers usually perform this dance with metallic bangles tied around their ankles.</gloss></item>
+     <label>tu le tu le tu le:</label><item><gloss xml:id="gloss8">an ideophone employed by the storyteller to imitate the sound produced by the wooden flute ulangben was playing.</gloss></item>
+     <label>ubɔr:</label><item><gloss xml:id="gloss9">the political head of a Konkomba community. Ubɔr is usually the eldest male member of the royal family. He inherits that position from his father after the latter’s demise.</gloss></item>
+     <label>ulangben:</label><item><gloss xml:id="gloss10">Likpakpaln word for a wasp.</gloss></item>
+     </list>
+     </div>
+    </body>
+     </text>      
+</TEI>

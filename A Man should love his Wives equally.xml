@@ -1,0 +1,431 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Man Should Love His Wives Equally</title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller>Uninkpel Gmasimboon</storyteller>
+                <editor>Tasun Tidorchibe</editor>
+                <respStmt>
+                    <name>Tasun Tidorchibe</name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name>Gina Heinzmann</name> <name>Zahra Safian Esfahani</name>
+                    <resp>coding and editing</resp>
+                    </respStmt> 
+                    <respStmt>
+                    <name> Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp></respStmt>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name></address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status>not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace>
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street>
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> not yet available </availability>
+<date> TBD </date></publicationStmt>
+            <sourceDesc>
+              <bibl> <title>A Man Should Love His Wives Equally</title> <storyteller>Uninkpel Gmasimboon</storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+        </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc>      
+                </tagsDesc>
+            <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+                </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Chakping">
+                     <placeName>Chakping</placeName>
+                     <location>
+                         <geo>9.67, -0.27</geo>    
+                     </location>
+                 </place>  
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller">Uninkpel Gmasimboon</name> on <date when="2022">16th March 2022</date> in <name type="city">Chakping</name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+    </teiHeader>
+    <text>
+     <body>  
+        <head type="mainTitle"> A MAN SHOULD LOVE HIS WIVES EQUALLY </head>
+        <p>(As told by Uninkpel Gmasimboon at Chakping, Ghana on 16/03/2022)</p>
+        <div type="introduction">
+         <head type="subTitle"> Introduction </head>
+         <p>The story below calls into question the ability of a man to love all his wives equally in a polygamous marriage. The story presents the political head of an unidentified Konkomba community who marries three wives but does not love them equally. However, the wife that eventually gives him the greatest joy, though short-lived, is the very wife he loathes. As the narrator states at the end of his narrative, the story condemns discrimination while promoting unconditional love for all, especially in polygamous homes.</p>
+        </div>
+        <div type="story">
+            <head type="subTitle"> Story </head>
+            <p><q>My story goes like this …,</q> Gmasimboon announces to his audience.</p>
+            <p><q>Ehen!</q> responds the audience, after which the storyteller proceeds thus:</p>
+            <p>There once lived a certain <term ref="#gloss3">ubɔr</term> who had more than one wife. Unfortunately, he did not love one of them as he did the others. One day, he sent the wife he disliked to fetch water from the river. When the woman got to the river, she found something called <term ref="#gloss1">kijabakr</term>.</p>
+            <p>On seeing the woman, the thing said: <q>Touch me and find out what happens.</q> The woman obliged and brushed the thing with a stick, whereupon the thing started singing::</p>
+            <p><hi ref="italic">(But before the storyteller can intone the song, one of his audience chips in with some information the storyteller omitted:)</hi></p>
+            <p><q>Meanwhile <term ref="#gloss3">ubɔr</term> had sent the woman to fetch water so that he could take his bath and sit in council,</q>the audience points out.</p>
+            <p><hi ref="italic">(The storyteller welcomes this additional information and integrates it into his narration as follows:)</hi></p>
+            <p>All this while that the woman was at the river, <term ref="#gloss3">ubɔr</term> was waiting in the <term ref="#gloss2">kinakuɔk</term> for her to return with water so that he could take his bath and sit in council. Now, when the woman touched the thing, it broke into song:</p>
+            <p><hi ref="italic">(The storyteller intones the song and his audience join in.)</hi></p>
+        <div type="song"> 
+        <table type="translation"> 
+            <row role="head">
+            <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+            <cell><hi rend="bold">English translation</hi></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+            <row>
+            <cell><l>Duur ’baa duur ’baa,</l></cell>
+            <cell><l>I touched someone; I touched someone,</l></cell>
+            </row>
+            <row>
+            <cell><l>Kaa see ’baa kaa duur ’baa.</l></cell>
+            <cell><l>Unaware that no one touches the other.</l></cell>
+            </row>
+             <row>
+            <cell><l>Duur ’baa duur ’baa,</l></cell>
+            <cell><l>I touched someone; I touched someone,</l></cell>
+            </row>
+            <row>
+            <cell><l>Kaa see ’baa kaa duur ’baa.</l></cell>
+            <cell><l>Unaware that no one touches the other.</l></cell>
+            </row>
+            <row>
+            <cell><l>M daa maa loor;</l></cell>
+            <cell><l>I’ve bought my car;</l></cell>
+            </row>
+            <row>
+            <cell><l>Maa gaan ni.</l></cell>
+            <cell><l>[I don’t discriminate.</l></cell>
+            </row>
+            <row>
+            <cell><l>M daa maa loor;</l></cell>
+            <cell><l>I’ve bought my car;</l></cell>
+            </row>
+            <row>
+            <cell><l>Maa gaan ni.</l></cell>
+            <cell><l>[I don’t discriminate.</l></cell>
+            </row>
+            <row>
+            <cell><l>Taa taa ’finn nju –</l></cell>
+            <cell><l>Step all over (and) wash the rear – </l></cell>
+            </row>
+            <row>
+            <cell><l>Ki finn nju, ki finn nju.</l></cell>
+            <cell><l>And wash the rear, and wash the rear.</l></cell>
+            </row>
+             <row>
+            <cell><l>Taa taa ’finn nju –</l></cell>
+            <cell><l>Step all over (and) wash the rear – </l></cell>
+            </row>
+            <row>
+            <cell><l>Ki finn nju, ki finn nju eee!!!</l></cell>
+            <cell><l>And wash the rear, and wash the rear!!!</l></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+        </table>
+        </div>
+        <p>On hearing the song, the woman started dancing. The thing kept singing its song:</p>
+            <row>
+            <cell></cell>
+            </row>
+        <div type="song"> 
+        <table type="translation"> 
+            <row role="head">
+            <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+            <cell><hi rend="bold">English translation</hi></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+            <row>
+            <cell><l>Duur ’baa duur ’baa,</l></cell>
+            <cell><l>I touched someone; I touched someone,</l></cell>
+            </row>
+            <row>
+            <cell><l>Kaa see ’baa kaa duur ’baa.</l></cell>
+            <cell><l>Unaware that no one touches the other.</l></cell>
+            </row>
+             <row>
+            <cell><l>Duur ’baa duur ’baa,</l></cell>
+            <cell><l>I touched someone; I touched someone,</l></cell>
+            </row>
+            <row>
+            <cell><l>Kaa see ’baa kaa duur ’baa.</l></cell>
+            <cell><l>Unaware that no one touches the other.</l></cell>
+            </row>
+            <row>
+            <cell><l>M daa maa loor;</l></cell>
+            <cell><l>I’ve bought my car;</l></cell>
+            </row>
+            <row>
+            <cell><l>Maa gaan ni.</l></cell>
+            <cell><l>[I don’t discriminate.</l></cell>
+            </row>
+            <row>
+            <cell><l>M daa maa loor;</l></cell>
+            <cell><l>I’ve bought my car;</l></cell>
+            </row>
+            <row>
+            <cell><l>Maa gaan ni.</l></cell>
+            <cell><l>[I don’t discriminate.</l></cell>
+            </row>
+            <row>
+            <cell><l>Taa taa ’finn nju –</l></cell>
+            <cell><l>Step all over (and) wash the rear – </l></cell>
+            </row>
+            <row>
+            <cell><l>Ki finn nju, ki finn nju.</l></cell>
+            <cell><l>And wash the rear, and wash the rear.</l></cell>
+            </row>
+             <row>
+            <cell><l>Taa taa ’finn nju –</l></cell>
+            <cell><l>Step all over (and) wash the rear – </l></cell>
+            </row>
+            <row>
+            <cell><l>Ki finn nju, ki finn nju eee!!!</l></cell>
+            <cell><l>And wash the rear, and wash the rear!!!</l></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+        </table>
+        </div>
+        <p>And... <hi ref="italic">(The storyteller is interrupted again by another person from the audience before he can complete this sentence.)</hi></p>
+        <p><q>The woman broke into a dance,</q>interjects this audience.</p>
+        <p><q>… and the woman broke into a dance and failed to return home,</q>Gmasimboon confirms and resumes his narration:</p>
+        <p>After waiting for a long time, <term ref="#gloss3">ubɔr</term> sent another of his wives – the second one, for he had three wives – to ascertain what had caused the other wife’s hold-up at the river. On reaching the riverside, the second wife stood on a hill and called out angrily:</p>
+        <p><q>Why are you idling while <term ref="#gloss3">ubɔr</term> is waiting for you even as a lot of people have arrived at the palace to see him?</q></p>
+        <p>The ‘unloved wife’ then told her co-wife, <q>Touch this thing here and see what happens.Touch this thing here and see what happens.</q>The second wife did as her colleague asked, whereupon the thing broke into song again:</p>
+        <div type="song"> 
+        <table type="translation"> 
+            <row role="head">
+            <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+            <cell><hi rend="bold">English translation</hi></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+            <row>
+            <cell><l>Duur ’baa duur ’baa,</l></cell>
+            <cell><l>I touched someone; I touched someone,</l></cell>
+            </row>
+            <row>
+            <cell><l>Kaa see ’baa kaa duur ’baa.</l></cell>
+            <cell><l>Unaware that no one touches the other.</l></cell>
+            </row>
+             <row>
+            <cell><l>Duur ’baa duur ’baa,</l></cell>
+            <cell><l>I touched someone; I touched someone,</l></cell>
+            </row>
+            <row>
+            <cell><l>Kaa see ’baa kaa duur ’baa.</l></cell>
+            <cell><l>Unaware that no one touches the other.</l></cell>
+            </row>
+            <row>
+            <cell><l>M daa maa loor;</l></cell>
+            <cell><l>I’ve bought my car;</l></cell>
+            </row>
+            <row>
+            <cell><l>Maa gaan ni.</l></cell>
+            <cell><l>[I don’t discriminate.</l></cell>
+            </row>
+            <row>
+            <cell><l>M daa maa loor;</l></cell>
+            <cell><l>I’ve bought my car;</l></cell>
+            </row>
+            <row>
+            <cell><l>Maa gaan ni.</l></cell>
+            <cell><l>[I don’t discriminate.</l></cell>
+            </row>
+            <row>
+            <cell><l>Taa taa ’finn nju –</l></cell>
+            <cell><l>Step all over (and) wash the rear – </l></cell>
+            </row>
+            <row>
+            <cell><l>Ki finn nju, ki finn nju.</l></cell>
+            <cell><l>And wash the rear, and wash the rear.</l></cell>
+            </row>
+             <row>
+            <cell><l>Taa taa ’finn nju –</l></cell>
+            <cell><l>Step all over (and) wash the rear – </l></cell>
+            </row>
+            <row>
+            <cell><l>Ki finn nju, ki finn nju eee!!!</l></cell>
+            <cell><l>And wash the rear, and wash the rear!!!</l></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+        </table>
+        </div>
+        <p>On hearing this, the second wife also broke into a dance. <hi ref="italic">(The second person who interjected earlier, simultaneously says the last bit of this sentence with the storyteller – obviously interested in the fact that the two women danced to the thing’s song. This time, however, Gmasimboon ignores him and continues his rendition as follows:)</hi></p>
+        <p>Consequently, the second wife also failed to return; so <term ref="#gloss3">ubɔr</term> had to send his last wife. On reaching the riverside, the last wife called out angrily to her co-wives. The two wives then invited her to touch the thing the first one had found at the river. When she did, the thing started singing again:</p>
+         <div type="song"> 
+        <table type="translation"> 
+            <row role="head">
+            <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+            <cell><hi rend="bold">English translation</hi></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+            <row>
+            <cell><l>Duur ’baa duur ’baa,</l></cell>
+            <cell><l>I touched someone; I touched someone,</l></cell>
+            </row>
+            <row>
+            <cell><l>Kaa see ’baa kaa duur ’baa.</l></cell>
+            <cell><l>Unaware that no one touches the other.</l></cell>
+            </row>
+             <row>
+            <cell><l>Duur ’baa duur ’baa,</l></cell>
+            <cell><l>I touched someone; I touched someone,</l></cell>
+            </row>
+            <row>
+            <cell><l>Kaa see ’baa kaa duur ’baa.</l></cell>
+            <cell><l>Unaware that no one touches the other.</l></cell>
+            </row>
+            <row>
+            <cell><l>M daa maa loor;</l></cell>
+            <cell><l>I’ve bought my car;</l></cell>
+            </row>
+            <row>
+            <cell><l>Maa gaan ni.</l></cell>
+            <cell><l>[I don’t discriminate.</l></cell>
+            </row>
+            <row>
+            <cell><l>M daa maa loor;</l></cell>
+            <cell><l>I’ve bought my car;</l></cell>
+            </row>
+            <row>
+            <cell><l>Maa gaan ni.</l></cell>
+            <cell><l>[I don’t discriminate.</l></cell>
+            </row>
+            <row>
+            <cell><l>Taa taa ’finn nju –</l></cell>
+            <cell><l>Step all over (and) wash the rear – </l></cell>
+            </row>
+            <row>
+            <cell><l>Ki finn nju, ki finn nju.</l></cell>
+            <cell><l>And wash the rear, and wash the rear.</l></cell>
+            </row>
+             <row>
+            <cell><l>Taa taa ’finn nju –</l></cell>
+            <cell><l>Step all over (and) wash the rear – </l></cell>
+            </row>
+            <row>
+            <cell><l>Ki finn nju, ki finn nju eee!!!</l></cell>
+            <cell><l>And wash the rear, and wash the rear!!!</l></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+        </table>
+        </div>
+        <p><term ref="#gloss3">ubɔr</term> waited for the return of his wives to no avail. As a result, he finally went on horseback to find out what had held them up at the river. When he got there, he scolded his wives for their behaviour. The wives then told him to touch the thing the wife he loathed had found. On doing so, the thing burst into song again:</p>
+        <row>
+            <cell></cell>
+            </row>
+        <div type="song"> 
+        <table type="translation"> 
+            <row role="head">
+            <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+            <cell><hi rend="bold">English translation</hi></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+            <row>
+            <cell><l>Duur ’baa duur ’baa,</l></cell>
+            <cell><l>I touched someone; I touched someone,</l></cell>
+            </row>
+            <row>
+            <cell><l>Kaa see ’baa kaa duur ’baa.</l></cell>
+            <cell><l>Unaware that no one touches the other.</l></cell>
+            </row>
+             <row>
+            <cell><l>Duur ’baa duur ’baa,</l></cell>
+            <cell><l>I touched someone; I touched someone,</l></cell>
+            </row>
+            <row>
+            <cell><l>Kaa see ’baa kaa duur ’baa.</l></cell>
+            <cell><l>Unaware that no one touches the other.</l></cell>
+            </row>
+            <row>
+            <cell><l>M daa maa loor;</l></cell>
+            <cell><l>I’ve bought my car;</l></cell>
+            </row>
+            <row>
+            <cell><l>Maa gaan ni.</l></cell>
+            <cell><l>[I don’t discriminate.</l></cell>
+            </row>
+            <row>
+            <cell><l>M daa maa loor;</l></cell>
+            <cell><l>I’ve bought my car;</l></cell>
+            </row>
+            <row>
+            <cell><l>Maa gaan ni.</l></cell>
+            <cell><l>[I don’t discriminate.</l></cell>
+            </row>
+            <row>
+            <cell><l>Taa taa ’finn nju –</l></cell>
+            <cell><l>Step all over (and) wash the rear – </l></cell>
+            </row>
+            <row>
+            <cell><l>Ki finn nju, ki finn nju.</l></cell>
+            <cell><l>And wash the rear, and wash the rear.</l></cell>
+            </row>
+             <row>
+            <cell><l>Taa taa ’finn nju –</l></cell>
+            <cell><l>Step all over (and) wash the rear – </l></cell>
+            </row>
+            <row>
+            <cell><l>Ki finn nju, ki finn nju eee!!!</l></cell>
+            <cell><l>And wash the rear, and wash the rear!!!</l></cell>
+            </row>
+            <row>
+            <cell></cell>
+            </row>
+        </table>
+        </div>
+        <p><term ref="#gloss3">ubɔr</term> also broke into a dance. But while dancing in excitement on his horse, the horse accidentally stepped on the thing and destroyed it.</p>
+        <p>Therefore, when you have wives, you have to love them equally. Never discriminate against any one of them on grounds that she isn’t a good wife.</p>
+        <p><q>Hear! Hear!</q>a female from the audience reacts to the moral lesson or advice Gmasimboon gives at the end of his tale.</p>
+    </div>
+     <div type="glossery">
+     <head type="subtitle">A Glossary of Likpakpaln Words</head>
+     <list type="gloss">
+     <label>kijabakr:</label><item><gloss xml:id="gloss1">Likpakpaln word for an aquatic creature indigenous, perhaps, to West Africa. There is no readily available English equivalent/translation.</gloss></item>
+     <label>kinakuɔk:</label><item><gloss xml:id="gloss2">a round room that serves as the main entrance to a typical Konkomba house. It has two doors at both ends to serve as the passage in or out of a house. It also serves as a place for relaxing or hosting visitors/guests. In ubɔr’s palace, kinakuɔk usually has a stage or a raised platform where ubɔr sits to hold meetings and perform other functions. Thus, kinakuɔk can assume political significance rather than being a mere passage or a place for hanging out or playing host to visitors. Within this political context, kinakuɔk can be used as a synonym or a metonym (in literary speech) for ubɔr or the authority of ubɔr. It is therefore normal for a Konkomba to say that <q>Kinakuɔk has spoken</q> – meaning, <q>Ubɔr has spoken.</q></gloss></item>
+     <label>ubɔr:</label><item><gloss xml:id="gloss3">the political head of a Konkomba community. Ubɔr is usually the eldest male member of the royal family. He inherits that position from his father after the latter’s demise.  </gloss></item>
+     </list>
+     </div>
+    </body>
+     </text>      
+</TEI>

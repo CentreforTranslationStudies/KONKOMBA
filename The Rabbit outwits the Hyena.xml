@@ -1,0 +1,213 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+       <fileDesc>
+            <titleStmt>
+                <title>The Rabbit outwits the Hyena</title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller>Jalula Jagri</storyteller>
+                <editor>Tasun Tidorchibe</editor>
+                 <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name>Aziza Fakiri</name> 
+                    <name>Yara Köster</name>
+                    <resp> coding and editing </resp>
+                <respStmt>
+                <name> Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 
+                    </postCode>
+                <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany</name>
+                    </address>
+                    </respStmt>                
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status>not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace>
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street>
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> not yet available </availability>
+<date> TBD </date>
+            <sourceDesc>
+              <bibl> <title>The Rabbit outwits the Hyena</title> <storyteller>Jalula Jagri</storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+            </publicationStmt>
+        </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc>      
+                </tagsDesc>
+            <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+                </encodingDesc>
+                <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Kakpeekni, Saboba">
+                     <placeName> Kakpeekni, Saboba</placeName>
+                     <location>
+                         <geo>9.72,0.31</geo>    
+                     </location>
+                 </place>  
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller">Jalula Jagri</name> on <date when="2022">19th March 2022</date> in <name type="city">Kakpeekni, Saboba</name>, <name type="country">Ghana</name>      
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+    </teiHeader>
+    <text>
+     <body>
+       <head type="mainTitle">The Rabbit outwits the Hyena</head>
+       <p>(As told by Jalula Jagri at Kakpeekni, Saboba on 19/03/2022)</p>
+       <div type="introduction">
+       <head type="subTitle"> Introduction </head>
+       <p>The story below details how the rabbit outsmarts the hyena in a battle between strength and
+        intelligence. The two friends are given meat as a reward for a kind gesture but the hyena beats
+        the rabbit and confiscates his share of the meat. Through a clever trick, the rabbit however
+        reclaims all the meat in the end. To watch the Likpakpaln narration <ref target="https://mediathek.hhu.de/watch/1db90bb0-6fe7-409c-aab9-7b6254d08d58">click here.</ref></p>
+        </div>
+        <div type="story">
+          <head type="subTitle">Story</head>
+          <p><q>My story is as follows:</q>Jalula announces and proceeds thus:</p>
+          <p>There once lived <term ref="#gloss4">sandee</term> and <cell><l><term ref="#gloss1">baanan (aka tɔkɔ)</term></l></cell>. The two were very good friends who did things
+                in common. They lived in a foreign land. One day, the two friends were returning from a
+                drinking spree when sandee suddenly tripped over something (and fell). He then told his friend,
+                <q>Baanaan, my pal, pause for a second. I stepped on something slippery here.</q>On groping the
+                ground, he found litabaaboln. The two friends took the object and proceeded to the village.</p> 
+          <p>On reaching the village, they discovered that the litabaaboln belonged to the<cell><l><term ref="#gloss5">ubɔr</term></l></cell> of the village –
+            for the latter had sent went throughout the village that he had lost his <cell><l><term ref="#gloss2">litabaaboln.</term></l></cell>. He even
+            promised that any person or group of persons who found and returned it to him would be given a
+            special reward.</p>   
+          <p>Sandee and baanaan came to a consensus and returned the object to ubɔr. This pleased ubɔr very
+            much. On taking custody of his litabaaboln, he asked the two friends where they hailed from.
+            The two replied that they came from Kitiŋpilnbu. Ubɔr then revealed that he had a gift for them
+            and that the gift belonged solely to the two of them. They were supposed to return to their home
+            village and enjoy the gift there. Ubɔr then ordered that two bulls and three rams be killed. The
+            meat was to be shared equally between sandee and baanaan. When that was done, ubɔr thanked
+            them again and they set off.</p>
+          <p>The two had barely left the premises of the palace when baanaan broke into song:</p>
+          <p><hi ref="italic">(The storyteller intones the song and his audience join in.)</hi></p>
+        <div type="song">
+ <table type="translation">
+ <row role="head">
+ <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+ <cell><hi rend="bold">English translation</hi></cell>
+ </row>
+ <row><cell></cell></row>
+ <row>
+ <cell><l>Unaabɔr nti ti ninmeen chɔi –</l></cell>
+ <cell><l>Unaabɔr has given us something fatty</l></cell>
+ </row>
+ <row>
+ <cell><l>Ti tin ji Kitiŋpilnbu.</l></cell>
+ <cell><l>To eat at Kitiŋpilnbu.(3x)</l></cell>
+ </row>
+ <row>
+<cell><l>Unaabɔr nti ti ninmeen chɔi</l></cell>
+<cell><l> Unaabɔr has given us something fatty</l></cell>
+</row>
+ <row>
+ <cell><l>Ti tin ji Kitiŋpilnbuuu!!!</l></cell>
+ <cell><l>To eat at Kitiŋpilnbuuu!!!</l></cell>
+ </row>  
+</table>
+</div>
+<p>When they had journeyed homeward to a point where they could no longer see the houses behind
+them, baanaan asked sandee whether or not ubɔr had specifically mentioned his name. Sandee
+responded in the affirmative. The former then said, <q>Let’s go then.</q> As they resumed walking,
+baanaan started singing again:</p>
+<p><hi ref="italic">(The storyteller intones the song again and his audience join in.)</hi></p>
+<div type="song">
+ <table type="translation">
+ <row role="head">
+ <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+ <cell><hi rend="bold">English translation</hi></cell>
+ <row><cell></cell></row></row>
+ <row>
+ <cell><l>Unaabɔr nti ti ninmeen chɔi –</l></cell>
+ <cell><l>Unaabɔr has given us something fatty</l></cell>
+ </row>
+ <row>
+ <cell><l>Ti tin ji Kitiŋpilnbu.</l></cell>
+ <cell><l>To eat at Kitiŋpilnbu.(2x)</l></cell>
+ </row>
+ <row>
+<cell><l>Unaabɔr nti ti ninmeen chɔi</l></cell>
+<cell><l> Unaabɔr has given us something fatty</l></cell>
+</row>
+ <row>
+ <cell><l>Ti tin ji Kitiŋpilnbuuu!!!</l></cell>
+ <cell><l>To eat at Kitiŋpilnbuuu!!!</l></cell>
+ </row> 
+<row><cell></cell></row> 
+</table>
+</div>
+<p>After the two friends had journeyed further, baanaan told sandee that all the meat belonged to
+him and that sandee had no claim to it. He argued that sandee was too small in stature and that he
+(baanaan) was the one who picked up the litabaaboln. He added that the only reason he allowed
+sandee to speak at ubɔr’s palace was because he (baanaan) wasn’t articulate in speech.</p>
+<p>Heated exchanges ensued between the two as a result, ultimately degenerating into fisticuffs.
+Baanaan bit off one of sandee’s ears and the latter fled the scene as fast as his legs could carry
+him. His initial plan was to run back and tell ubɔr what his friend had done to him. But on
+second thought, he stopped, took another route and ran ahead of baanaan. He then picked a red
+rope and tied on it a white kola nut, the skull of a dog and the tail of a horse. After that he tied
+the rope across the path baanaan was journeying on. Having done that, he hid in the bush and
+waited for him.</p>
+<p>Baanaan, who was dancing all along while carrying the meat, soon got to the spot where sandee
+was hiding. He hit the rope sandee had tied across the path and staggered under the weight of the
+meat. On regaining his balance, he looked at the rope and its accessories in bewilderment and
+asked, <q>Grandpa, what are you doing here? Are you looking for me?</q> But the rope didn’t
+respond. He then asked, <q>Do you want meat?</q> Again, the rope didn’t respond. He enquired
+further,<q>Do you want the head of the bull?</q></p>
+<p>At this point sandee pulled the rope and it shook, whereupon baanaan dropped the head of the
+bull. He then told the rope,<q>Well, please let me through.</q>But the rope didn’t respond. Baanaan
+then asked again, <q>Do you want meat?</q>The rope shook in response. <q>What do you want; the
+bull’s leg?</q> Sandee pulled the rope and it shook again. Baanaan obliged and dropped the bull’s
+leg. This continued until baanaan had no meat left on him.</p>
+<p>Unfortunately, the rope would still not let him through. He became terrified and enquired again,
+<q>Grandpa, who do you want? Me?</q> Sandee pulled the rope again, whereupon baanaan wet
+himself and took off running as fast as he could.</p>
+<p><q>This is the end of my story,</q>Jalula concludes and adds:</p>
+<p><q>The story seeks to teach us that we should have mutual respect for all. No one should use his or
+her intelligence or physical strength to cheat others. Baanaan wanted to use his might to cheat
+sandee but the latter outwitted him. <cell><l><term ref="#gloss3">Maatiin kpelb aanaa wɔŋ</term></l></cell>.</q></p>
+</div>
+<div type="glossary">
+<head type="subTitle">A Glossary of Likpakpaln Words and Phrases (or Expressions)</head>
+<list type="gloss">
+<label>baanaan (aka tɔkɔ):</label><item><gloss xml:id="gloss1">Likpakpaln word for a hyena. In Konkomba folklore, baanaan
+is the most unintelligent animal character. It almost always falls prey to the antics of others,
+especially sandee (i.e., rabbit).</gloss></item>
+<label>litabaaboln.:</label><item><gloss xml:id="gloss2">a wooden pipe for smoking tobacco, marijuana, etc.</gloss></item>
+<label>maatiin kpelb aanaa wɔŋ:</label><item><gloss xml:id="gloss3">translated as <q>The end of my story seeks/requires a continuation.</q>
+This is one of the numerous ways in which a Konkomba storyteller can end a tale.</gloss></item>
+<label>sandee:</label><item><gloss xml:id="gloss4">Likpakpaln word for a rabbit, bunny, or hare. Sandee is the wisest and trickster character
+in Konkomba folklore. It is notorious for often using its cunning and witty nature to deceive
+other characters or wriggle its way out of difficult situations.</gloss></item>
+<label>ubɔr:</label><item><gloss xml:id="gloss5">the political head of a Konkomba community. Ubɔr is usually the eldest male member of
+the royal family. He inherits that position from his father after the latter’s demise. Thus,
+Konkombas practise the patrilineal system of inheritance.</gloss></item>
+</list>
+</div>
+</body>
+</text>
+</TEI>

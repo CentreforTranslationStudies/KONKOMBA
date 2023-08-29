@@ -1,0 +1,407 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+       <fileDesc>
+            <titleStmt>
+                <title>ULAMBIDAAN SAVES HER COLLEAGUES FROM AN OLD LADY</title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller>Bilinyi Chiikpaab</storyteller>
+                <editor>Tasun Tidorchibe</editor>
+                 <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name>Aziza Fakiri</name> 
+                    <name>Yara Köster</name>
+                    <resp> coding and editing </resp>
+                <respStmt>
+                <name> Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 
+                    </postCode>
+                <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany</name>
+                    </address>
+                    </respStmt>                
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status>not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace>
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street>
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> not yet available </availability>
+<date> TBD </date>
+            <sourceDesc>
+              <bibl> <title>ULAMBIDAAN SAVES HER COLLEAGUES FROM AN OLD LADY</title> <storyteller>Bilinyi Chiikpaab</storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+            </publicationStmt>
+        </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc>      
+                </tagsDesc>
+            <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+                </encodingDesc>
+                <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Kakpeekni, Saboba">
+                     <placeName> Kakpeekni, Kutol</placeName>
+                     <location>
+                         <geo>9.58,0.24</geo>    
+                     </location>
+                 </place>  
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller">Bilinyi Chiikpaab</name> on <date when="2022">18th March 2022</date> in <name type="city">Kakpeekni, Saboba</name>, <name type="country">Ghana</name>      
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+    </teiHeader>
+    <text>
+     <body>
+       <head type="mainTitle">ULAMBIDAAN SAVES HER COLLEAGUES FROM AN OLD LADY</head>
+       <p>(As told by Bilinyi Chiikpaab in Kutol on 18/03/2022)</p>
+       <div type="introduction">
+       <head type="subTitle"> Introduction </head>
+       <p>The following story details how a hyperactive girl saves her three colleagues from an angry old
+       lady. The story has it that the old lady kills the girl’s colleagues with her magic wand because 
+       they refuse to give her firewood. Fortunately, the hyperactive girl tricks the old lady and kills her 
+       via the same magic wand, after which she resurrects her colleagues with it. As the storyteller 
+       spells out at the end of his rendition, the story warns against discriminating against people, 
+        especially people (and in the context of this story, kids) with disabilities or special needs. To watch the Likpakpaln narration <ref target="https://mediathek.hhu.de/watch/b3e1a0a9-3044-42b4-aab2-83b0f5238558">click here.</ref>
+        </p>
+        </div>
+        <div type="story">
+          <head type="subTitle">Story</head>
+          <p><q>My next story is as follows:</q>announces Bilinyi, who has obviously already told one or more stories 
+          during the storytelling session.</p>
+          <p>There lived a certain <term ref=“#gloss13”>upininkpil</term> who lived on the outskirts of a community. Her house was situated far
+           from the rest of the community. She had the habit of begging firewood from young ladies whenever they were returning 
+           from <term ref=“#gloss6”>lidɔbaal</term>.</p> 
+          <p>One day four girls, one of whom was <term ref=“#gloss12”>ulambidaan</term>, were returning from their firewood collecting expedition.
+           As they were passing by her house, the <term ref=“#gloss13”>upininkpil</term> said: <q>My grandchildren, please give me some firewood.</q> 
+           But <term ref=“#gloss12”>ulambidaan</term> told her colleagues: <q>Don’t give her; don’t give her.</q> The others wanted to do otherwise 
+           but <term ref=“#gloss12”>ulambidaan</term> insisted so the girls refused to give the <term ref=“#gloss13”>upininkpil</term> the firewood.</p>   
+          <p>On realising that the girls wouldn’t give her some of their firewood, the <term ref=“#gloss13”>upininkpil</term> deceived them and trapped them 
+          in her room. She then threatened that she was going to set the room ablaze and kill them. Having said this, 
+          she departed to get live coals from the main community. <term ref=“#gloss12”>Ulambidaan</term> took advantage of her departure and managed to open 
+          slightly the <term ref=“#gloss8”>likapil</term> the <term ref=“#gloss13”>upininkpil</term> had used as a door. She slid out, opened the room and let her colleagues out. </p>
+          <p>Now, the <term ref=“#gloss13”>upininkpil</term> had some pumpkins. After freeing her colleagues, <term ref=“#gloss12”>ulambidaan</term> selected four pumpkins of different 
+          sizes to correspond to her colleagues’ and her sizes – for the girls were of different sizes. Each of the four pumpkins 
+          therefore represented each girl. The smallest pumpkin represented <term ref=“#gloss2”>ulambidaan</term>. Of the four girls, she was the smallest 
+          in size. <term ref=“#gloss12”>Ulambidaan</term> then placed the four pumpkins in the room.</p>
+          <p>There was also a kapok tree near the <term ref=“#gloss13”>upininkpil’s</term> house. So after escaping from the room, the girls hid atop that tree.
+           Unbeknownst to the <term ref=“#gloss13”>upininkpil</term> that they had escaped, she set the room ablaze on returning. 
+           She then remarked smugly: <q>You’ll learn a bitter lesson today. You refused to give me your firewood. Well, I’ve taken possession of the firewood, and I’ll kill you as well.</q></p>
+          <p>As the room was burning, the biggest pumpkin exploded, <term ref=“#gloss5”>kpiin</term>! On hearing this, <term ref=“#gloss13”>upininkpil</term> said:
+           <q><term ref=“#gloss9”>Nhnn</term>! The extra-large in size has exploded.</q> After a while, the next pumpkin (in size) exploded, <term ref=“#gloss4”>kpaaa</term>!
+            The <term ref=“#gloss13”>upininkpil</term> said smugly again: <q>That’s the next in size.</q> The third pumpkin soon followed with a medium-pitched 
+            explosion, <term ref=“#gloss10”>pooo</term>! The <term ref=“#gloss13”>upininkpil</term> got excited and said: <q><term ref=“#gloss9”>Nhnn</term>! <term ref=“#gloss12”>Ulambidaan</term> is next. The other three are dead.</q> 
+            The last one soon exploded, <term ref=“#gloss2”>kassiii</term>!!! The <term ref=“#gloss13”>upininkpil</term> rejoiced and clapped in content.
+             (<hi ref="italic">The storyteller says this amidst clapping and gestures aimed at depicting the <term ref=“#gloss13”>upininkpil’s</term> body language and 
+             facial expressions.</hi>)The <term ref=“#gloss13”>upininkpil</term> remarked that the last explosion meant that <term ref=“#gloss12”>ulambidaan</term> was dead too. 
+             She was pleased that she had killed all the girls. (<hi=ref"italic">The storyteller utters the last sentence simultaneously with a
+              member of his audience.</hi>)</p>
+          <p>The whole room soon burnt to the ground. But before <term ref=“#gloss13”>upininkpil</term> could jubilate any further, <term ref=“#gloss12”>ulambidaan</term> laughed 
+          in excitement and shouted in derision from the top of the kapok tree: <q>Granny, granny, you’ve burnt down your room 
+          in vain. We’re unscathed.<term xml:id="footnote1"><hi rend="superscript">1</hi></term></q></p>
+          <p>The <term ref=“#gloss13”>upininkpil</term> looked up and saw the four girls safely hiding in the tree. She then ran into her room, 
+          picked her magical <term ref=“#gloss3”>kibeek</term>, returned to the foot of the tree and started playing.</p>
+          <p>(<hi ref="italic">The storyteller briefly teaches his audience the musical interlude and proceeds thus:</hi>)</p>
+         <p>The <term ref=“#gloss13”>upininkpil</term> picked the <term ref=“#gloss3”>kibeek</term>, sat on the ground and started playing:</p>     
+     <div type="song">
+ <table type="translation">
+ <row role="head">
+ <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+ <cell><hi rend="bold">English translation</hi></cell>
+ </row>
+ <row><cell></cell></row>
+ <row>
+ <cell><l><term ref=“#gloss1”>Gbin gbin gbin gbin,</term></l></cell>
+ <cell><l><term ref=“#gloss1”>Gbin gbin gbin gbin,</term></l></cell>
+ </row>
+ <row>
+ <cell><l><term ref=“#gloss11”>Sagnaa ee Sagnaa.</term> (2x)</l></cell>
+ <cell><l><term ref=“#gloss11”>Sagnaa ee Sagnaa.</term> (2x)</l></cell>
+ </row>
+ <row>
+<cell><l>Maa ŋman joi ee,</l></cell>
+<cell><l>I can’t climb,</l></cell>
+</row>
+ <row>
+ <cell><l><term ref=“#gloss11”>Sagnaa ee Sagnaa.</term></l></cell>
+ <cell><l><term ref=“#gloss11”>Sagnaa ee Sagnaa.</term></term></l></cell>
+ </row>  
+ <row>
+ <cell><l>Bar ki lii mi ee,</l></cell>
+ <cell><l>Throw down for me,</l></cell>
+ </row> 
+ <row>
+ <cell><l><term ref=“#gloss11”>Sagnaa ee Sagnaa</term>!!!</l></cell>
+ <cell><l><term ref=“#gloss11”>Sagnaa ee Sagnaa</term>!!!</l></cell>
+ </row>
+ <row><cell></cell></row>
+</table>
+</div>
+<p>(<hi ref="italic">Together with his audience, the storyteller sings while simultaneously demonstrating, with his hands, 
+how the <term ref=“#gloss13”>upininkpil</term> played her <term ref=“#gloss3”>kibeek</term>.</hi>)</p>
+<p>The extra-large sized girl fell from the tree and the <term ref=“#gloss13”>upininkpil</term> killed her with her <term ref=“#gloss7”>lijuul</term> of death – 
+for she had both the <term ref=“#gloss7”>lijuul</term> of life and the <term ref=“#gloss7”>lijuul</term> of death.</p>
+<p>After killing the first girl, she took the <term ref=“#gloss3”>kibeek</term> again:</p>
+<p>(<hi ref="italic">The storyteller breaks into song again and his audience join in. He sings while simultaneously demonstrating with his hands again.</hi>)</p>
+<div type="song">
+ <table type="translation">
+ <row role="head">
+ <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+ <cell><hi rend="bold">English translation</hi></cell>
+ <row><cell></cell></row></row>
+ <row>
+ <cell><l><term ref=“#gloss1”>Gbin gbin gbin gbin,</term></l></cell>
+ <cell><l><term ref=“#gloss1”>Gbin gbin gbin gbin,</term></l></cell>
+ </row>
+ <row>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>. (2x)</l></cell>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>. (2x)</l></cell>
+ </row>
+ <row>
+ <cell><l>Bar ki lii mi ee,</l></cell>
+ <cell><l>Throw down for me,</l></cell>
+ </row> 
+ <row>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>.</l></cell>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>.</l></cell>
+ </row>
+ <row>
+<cell><l>Maa ŋman joi ee,</l></cell>
+<cell><l>I can’t climb,</l></cell>
+</row>
+ <row>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>.</l></cell>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>.</l></cell>
+ </row> 
+ <row>
+ <cell><l>Bar ki lii mi ee,</l></cell>
+ <cell><l>Throw down for me,</l></cell>
+ </row> 
+ <row>
+ <cell><l><term ref=“#gloss11”>Sagnaa ee Sagnaaaa</term>!!!</l></cell>
+ <cell><l><term ref=“#gloss11”>Sagnaa ee Sagnaaaa</term>!!!</l></cell>
+ </row>
+<row><cell></cell></row> 
+</table>
+</div>
+<p>The next girl fell off the tree. Two girls were still on the tree – <term ref=“#gloss12”>ulambidaan</term> and another. So the <term ref=“#gloss13”>upininkpil</term> played her 
+<term ref=“#gloss3”>kibeek</term> again:</p>
+<div type="song">
+ <table type="translation">
+ <row role="head">
+ <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+ <cell><hi rend="bold">English translation</hi></cell>
+ <row><cell></cell></row></row>
+ <row>
+ <cell><l><term ref=“#gloss1”>Gbin gbin gbin gbin,</term></l></cell>
+ <cell><l><term ref=“#gloss1”>Gbin gbin gbin gbin,</term></l></cell>
+ </row>
+ <row>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>. (2x)</l></cell>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>. (2x)</l></cell>
+ </row>
+ <row>
+ <cell><l>Bar ki lii mi ee,</l></cell>
+ <cell><l>Throw down for me,</l></cell>
+ </row> 
+ <row>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>.</l></cell>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>.</l></cell>
+ </row>
+ <row>
+<cell><l>Maa ŋman joi ee,</l></cell>
+<cell><l>I can’t climb,</l></cell>
+</row>
+<row>
+<cell><l><term ref=“#gloss11”>Sagnaa ee Sagnaa, Sagnaaaa</term>!!!</l></cell>
+<cell><l><term ref=“#gloss11”>Sagnaa ee Sagnaa, Sagnaaaa</term>!!!</l></cell>
+<row><cell></cell></row> 
+</table>
+</div>
+<p>The third girl fell off the tree; so <term ref=“#gloss12”>ulambidaan</term> was the last one on the tree.
+ <term ref=“#gloss13”>Upininkpil</term> took her <term ref=“#gloss3”>kibeek</term> and started playing again:</p>
+<div type="song">
+ <table type="translation">
+ <row role="head">
+ <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+ <cell><hi rend="bold">English translation</hi></cell>
+ <row><cell></cell></row></row>
+ <row>
+ <cell><l><term ref=“#gloss1”>Gbin gbin gbin gbin,</term></l></cell>
+ <cell><l><term ref=“#gloss1”>Gbin gbin gbin gbin,</term></l></cell>
+ </row>
+ <row>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>. (2x)</l></cell>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>. (2x)</l></cell>
+ </row>
+ <row>
+ <cell><l>Bar ki lii mi ee,</l></cell>
+ <cell><l>Throw down for me,</l></cell>
+ </row> 
+ <row>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>.</l></cell>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>.</l></cell>
+ </row>
+ <row>
+<cell><l>Maa ŋman joi ee,</l></cell>
+<cell><l>I can’t climb,</l></cell>
+</row>
+<row>
+<cell><l><term ref=“#gloss11”>Sagnaa ee Sagnaa, Sagnaaaa</term>!!!</l></cell>
+<cell><l><term ref=“#gloss11”>Sagnaa ee Sagnaa, Sagnaaaa</term>!!!</l></cell>
+<row><cell></cell></row> 
+</table>
+</div>
+<p><term ref=“#gloss12”>Ulambidaan</term> lost her balance but while falling, she managed to grab a branch and quickly climbed up the tree again.
+ <term ref=“#gloss13”>Upininkpil</term> resumed playing her <term ref=“#gloss3”>kibeek</term>:</p>
+<p>(<hi=ref "italic">The storyteller, together with his audience, starts singing again.</hi>)</p>
+<div type="song">
+ <table type="translation">
+ <row role="head">
+ <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+ <cell><hi rend="bold">English translation</hi></cell>
+ <row><cell></cell></row></row>
+ <row>
+ <cell><l><term ref=“#gloss1”>Gbin gbin gbin gbin,</term></l></cell>
+ <cell><l><term ref=“#gloss1”>Gbin gbin gbin gbin,</term></l></cell>
+ </row>
+ <row>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>. (3x)</l></cell>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>. (3x)</l></cell>
+ </row>
+ <row>
+ <cell><l>Maa ŋman joi ee,</l></cell>
+ <cell><l>I can’t climb,</l></cell>
+ </row> 
+ <row>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>.</l></cell>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>.</l></cell>
+ </row>
+ <row>
+<cell><l>Bar ki lii mi ee,</l></cell>
+ <cell><l>Throw down for me,</l></cell>
+</row>
+<row>
+<cell><l><term ref=“#gloss11”>Sagnaa ee Sagnaaaa</term>!!!</l></cell>
+<cell><l><term ref=“#gloss11”>Sagnaa ee Sagnaaaa</term>!!!</l></cell>
+<row><cell></cell></row> 
+</table>
+</div>
+<p><term ref=“#gloss12”>Ulambidaan</term> lost her balance again but while falling, she managed to grab a branch again.
+ The <term ref=“#gloss13”>upininkpil</term> quickly dropped her <term ref=“#gloss3”>kibeek</term> and rushed to pull her down. <term ref=“#gloss12”>Ulambidaan</term> climbed up a little 
+ higher so the <term ref=“#gloss13”>upininkpil</term> decided to go after her. When she climbed the tree, <term ref=“#gloss12”>ulambidaan</term> climbed higher. 
+ The <term ref=“#gloss13”>upininkpil</term> pursued her further and she kept climbing higher, each time teasingly leaving her foot
+  a few inches from the <term ref=“#gloss13”>upininkpil</term> in order to entice her to climb higher.</p>
+<p>Having deceived the <term ref=“#gloss13”>upininkpil</term> to climb to the apex of the tree, she quickly jumped down,
+ picked up the <term ref=“#gloss3”>kibeek</term> and also started playing:</p>
+ <div type="song">
+ <table type="translation">
+ <row role="head">
+ <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+ <cell><hi rend="bold">English translation</hi></cell>
+ <row><cell></cell></row>
+ <row>
+ <cell><l><term ref=“#gloss1”>Gbin gbin gbin gbin,</term></l></cell>
+ <cell><l><term ref=“#gloss1”>Gbin gbin gbin gbin,</term></l></cell>
+ </row>
+ <row>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>. (2x)</l></cell>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>. (2x)</l></cell>
+ </row>
+ <row>
+ <cell><l>Bar ki lii mi ee,</l></cell>
+ <cell><l>Throw down for me,</l></cell>
+ </row>
+ </row>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>.</l></cell>
+ <cell><l><term ref=“#gloss11”>Sagnaa</term>.</l></cell>
+ </row>
+ <row>
+ <cell><l>Maa ŋman joi ee,</l></cell>
+ <cell><l>I can’t climb,</l></cell>
+ </row>
+ <row>
+ <cell><l><term ref=“#gloss11”>Sagnaa ee Sagnaaaa</term>!!!</l></cell>
+ <cell><l><term ref=“#gloss11”>Sagnaa ee Sagnaaaa</term>!!!</l></cell>
+ </row>
+ <row><cell></cell></row></row>
+</table>
+</div>
+<p>The <term ref=“#gloss13”>upininkpil</term> fell off the tree and <term ref=“#gloss12”>ulambidaan</term> killed her with the <term ref=“#gloss7”>lijuul</term> of death. After that, she
+used the <term ref=“#gloss7”>lijuul</term> of life to resurrect her colleagues.</p>
+<p>The funny thing was that, when the girls were departing home on that fateful day for the bush to
+collect firewood, they initially barred <term ref=“#gloss12”>ulambidaan</term> from going with them. Yet she was the one
+who saved them from danger. In life, never discriminate against anyone based on their age or
+personality trait. But for the <term ref=“#gloss12”>ulambidaan</term>, the girls would have died.<hi ref="italic">(Bilinyi concludes his
+rendition with this moral lesson, assisted intermittently by one of his audience. He then adds:)</hi></p>
+<p>This is the meaning and end of my story.</p>
+<p><hi ref="italic">(After this, all clap and another person tells the next tale.)</hi></p>
+</div>
+<div type="Note">
+<head type="subTitle">Note</head>
+<list type="index">
+<label>1.</label>
+<item><gloss target="#footnote1">In the Konkomba culture, just as pertains in other African cultures and several cultures
+across the globe, young people can address old women or old men as grandmother or
+grandfather out of respect – and not because of any blood ties. Thus, in the context of this
+story, “granny” has been used by the ulambidaan as a mark of respect and not because
+she and her colleagues are related to the old lady.</gloss></item>
+</list>
+</div>
+<div type="glossary">
+<head type="subTitle">A Glossary of Likpakpaln Words and Phrases (or Expressions)
+</head>
+<list type="gloss">
+<label>gbin gbin gbin gbin:</label><item><gloss xml:id="gloss1"></gloss>an ideophone that describes the sound of a local guitar.</gloss></item>
+<label>kassiii:</label><item><gloss xml:id="gloss2">the storyteller’s ideophone for a low-pitched explosion.</gloss></item>
+<label>kibeek:</label><item><gloss xml:id="gloss3">Likpakpaln word for a guitar.</gloss></item>
+<label>kpaaa:</label><item><gloss xml:id="gloss4">the storyteller’s ideophone for a relatively loud explosion.</gloss></item>
+<label>kpiin:</label><item><gloss xml:id="gloss5">a Likpakpaln ideophone for an extremely loud explosion.</gloss></item>
+<label>lidɔbaal (aka idɔbu):</label><item><gloss xml:id="gloss6">: the act of collecting firewood from the bush or forest.</gloss></item>
+<label>lijuul:</label><item><gloss xml:id="gloss7">Likpakpaln word for a magic wand or a tail – mostly, of an animal. Lijuul is one of the
+homonyms in Likpakpaln. Though it generally refers to the tail of something (most often an
+animal), it also refers to a magic wand that possesses supernatural powers to accomplish various
+tasks. It is often made from the tail of an animal. So in the context of this story, lijuul is a magic
+wand. The plural form of lijuul is ŋijuu.</gloss></item>
+<label>likapil (aka likapiil):</label><item><gloss xml:id="gloss8">a woven detached, movable door made from elephant grass. It looks like a
+trap door, save it is not usually fastened permanently to a doorpost. It is normally manually lifted
+and placed in front of a doorway to prevent access into or out of a room.</gloss></item>
+<label>nhnn:</label><item><gloss xml:id="gloss9">a Likpakpaln ideophone for expressing joy or satisfaction at someone’s misfortune. It is
+usually employed in situations where the user believes that the other person deserves a
+misfortune that befalls him or her.</gloss></item>
+<label>pooo:</label><item><gloss xml:id="gloss10">the storyteller’s ideophone for a medium-pitched explosion.</gloss></item>
+<label>Sagnaa:</label><item><gloss xml:id="gloss11">the name of the fairy (or spirit) the old lady in this story summons to throw the girls
+down from the kapok tree</gloss></item>
+<label>ulambidaan:</label><item><gloss xml:id="gloss12">a person who is hyperactive and derives joy from making fun of others.
+Transliterated as “the tongue’s owner,” it is a Likpakpaln body metaphor used to describe people
+who are restless in speech and action but who hardly attach any seriousness to whatever they do
+or to life in general.</gloss></item>
+<label>upininkpil:</label><item><gloss xml:id="gloss13">: Likpakpaln word for an old lady or old woman. The plural form is bipininkpiib.</gloss></item>
+</list>
+</div>
+</body>
+</text>
+</TEI>

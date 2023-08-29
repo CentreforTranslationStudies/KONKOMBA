@@ -1,0 +1,238 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Ubɔr's household and the singing lamb</title>
+                    <author>Konkomba Oral Tradition (Ghana)</author>
+                    <storyteller> Madoondang Piigri  </storyteller>
+                    <editor> Tasun Tidorchibe </editor>
+                    <respStmt>
+                        <name> Tasun Tidorchibe </name>
+                        <resp>transcript, editing and translation</resp>
+                    </respStmt>
+                    <respStmt>
+                        <name> Lennart Sprenger </name>
+                        <name> Karen Barwitzki </name>
+                        <resp> coding and editing </resp>
+                    </respStmt>
+                    <respStmt> 
+                        <name> Dr. Eva Ulrike Pirker </name>
+                        <resp> supervision </resp>
+                    </respStmt>
+                    <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+                    <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                    <address>
+                        <name type="institution">institution Centre for Translation Studies Düsseldorf </name>
+                        <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                        <street> Universitätsstraße 1 </street>
+                        <postCode> 40225 </postCode>
+                        <name type="city"> Düsseldorf </name>
+                        <name type="country"> Germany </name>
+                    </address>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                        <status>not yet published</status> 
+                        <pubPlace> Düsseldorf </pubPlace>
+                    <address>
+                        <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                        <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                        <street> Universitätsstraße 1 </street>
+                        <postCode> 40225 </postCode>
+                        <name type="city"> Düsseldorf </name> 
+                        <name type="country"> Germany </name>
+                    </address>
+                    <availability> not yet available </availability>
+                    <date> TBD </date>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl> <title>Ubɔr's household and the singing lamb</title> <storyteller> Madoondang Piigri </storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc></tagsDesc>
+                <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+                <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+            </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in
+                    <place xml:id="Chagbaan">
+                        <placeName>Chagbaan</placeName>
+                        <location>
+                            <geo>9.54, 0.23</geo>
+                        </location>
+                    </place>  
+                    transcribed folktale from Likpakpaln as told by <name type="storyteller">Madoondang Piigri</name> on <date when="2022">24th March 2022</date> in <name type="city">Chagbaan</name>, <name type="country">Ghana</name>
+                </creation>
+                <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+                </langUsage>
+                <textClass>placeholder tbd</textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="introduction">
+                    <head type="subTitle">Introduction</head>
+                    <p>The following story is one of many in Konkomba folklore that proffer explanations as to how and why certain animals are either domestic or wild. 
+                    In this particular tale, the story relates how sheep came to be domestic animals. The story has it that the household of a certain <term ref="#gloss2">ubɔr</term> 
+                    (i.e., leader of a Konkomba community) first encountered a singing lamb on their farm and brought it home. Since then, sheep have remained domestic animals. To watch the Likpakpaln narration <ref target="https://mediathek.hhu.de/watch/5f8089ae-9ffb-4cf2-bff4-baf2b1bcfe6b">click here.</ref></p>
+                </div>
+                <div type="story">
+                    <head type="subTitle">Story</head>
+                    <p><q>My story is as follows:</q> Piigri announces to her audience and proceeds without waiting for them to respond.<term xml:id="footnote1"><hi rend="superscript">1</hi></term></p>
+                    <p>Once upon a time, there lived a certain <term ref="#gloss1">ubɔr</term> who had three wives. He stored his food in a silo on the farm so whenever the women needed food, they 
+                    had to go to the farm and fetch some. One day they needed food so the first wife went to the farm, together with the <term ref="#gloss2">wunlaan</term>, and instructed the latter
+                    to climb and fetch the food from the silo. On entering the silo, the <term ref="#gloss2">wunlaan</term> saw a lamb. When he touched the lamb, it bleated as follows:</p>
+                    <p><hi ref="italic">(The storyteller intones a song and her audience join in.)</hi></p>
+                    <div type="song">
+                        <lg>
+                            <l>(Mbeeh mbeeh ee<term xml:id="footnote2"><hi rend="superscript">2</hi></term></l>
+                            <l>Dandar ka nyaa) x2</l>
+                        </lg>
+                        <lg>
+                            <l>Saa kimar nluu</l>
+                            <l>Dandar ka nyaa</l>
+                            <l>Saa kimar nkpee</l>
+                            <l>Dandar ka nyaa</l>
+                            <l>Ki mar nlu ki mar nkpee</l>
+                            <l>Dandar ka nyaa.</l>
+                            <l></l>
+                        </lg>
+                    </div>
+                    <p>The <term ref="#gloss2">wunlaan</term> and <term ref="#gloss1">ubɔr</term>’s wife broke into a dance on hearing the song. After a while, the second wife had to make a follow-up. On arriving, she reproved her 
+                    co-wife and <term ref="#gloss2">wunlaan</term> for taking longer than usual to return with the food, noting that their husband was complaining angrily back home about their delay. </p> 
+                    <p>The three then agreed that the second wife’s son should climb into the silo and fetch the food since the <term ref="#gloss2">wunlaan</term> had failed. When the boy entered, he also 
+                    touched the lamb and it broke into song again:</p>
+                    <div type="song">
+                        <lg>
+                            <l>(Mbeeh mbeeh ee</l>
+                            <l>Dandar ka nyaa) x2</l>
+                        </lg>
+                        <lg>
+                            <l>Saa kimar nluu</l>
+                            <l>Dandar ka nyaa</l>
+                            <l>Saa kimar nkpee</l>
+                            <l>Dandar ka nyaa</l>
+                            <l>Ki mar nlu ki mar nkpee</l>
+                            <l>Dandar ka nyaa.</l>
+                            <l></l>
+                        </lg>
+                    </div>
+                    <p>At the sound of the song, all of them started dancing. After some time, the third wife arrived at the scene to find out what was causing the hold-up. She 
+                    also rebuked her two co-wives and <term ref="#gloss2">wunlaan</term> for taking longer than usual, adding that their husband was complaining angrily back home that he was famished. </p>
+                    <p>The others suggested that the third wife’s son should enter the silo and fetch the food since the <term ref="#gloss2">wunlaan</term> and the second wife’s son had failed. On entering, 
+                    the boy also touched the lamb and it broke into song:</p>
+                    <div type="song">
+                        <lg>
+                            <l>(Mbeeh mbeeh ee</l>
+                            <l>Dandar ka nyaa) x2</l>
+                        </lg>
+                        <lg>
+                            <l>Saa kimar nluu</l>
+                            <l>Dandar ka nyaa</l>
+                            <l>Saa kimar nkpee</l>
+                            <l>Dandar ka nyaa</l>
+                            <l>Ki mar nlu ki mar nkpee</l>
+                            <l>Dandar ka nyaa.</l>
+                            <l></l>
+                        </lg>
+                    </div>
+                    <p>All present started dancing and failed to return with the food. </p>
+                    <p>After waiting for a long time, <term ref="#gloss1">ubɔr</term> sent another <term ref="#gloss2">wunlaan</term> to find out what was holding up his wives at the farm. On arriving at the farm, the <term ref="#gloss2">wunlaan</term> asked 
+                    why they had delayed in returning home, adding that their husband was complaining angrily back home. They then told him that the others had failed to fetch the food so he should give it a try. </p>
+                    <p>The second <term ref="#gloss2">wunlaan</term> went in, also saw the lamb and touched it, whereupon it burst into song: </p>
+                    <div type="song">
+                        <lg>
+                            <l>(Mbeeh mbeeh ee</l>
+                            <l>Dandar ka nyaa) x2</l>
+                        </lg>
+                        <lg>
+                            <l>Saa kimar nluu</l>
+                            <l>Dandar ka nyaa</l>
+                            <l>Saa kimar nkpee</l>
+                            <l>Dandar ka nyaa</l>
+                            <l>Ki mar nlu ki mar nkpee</l>
+                            <l>Dandar ka nyaa.</l>
+                            <l></l>
+                        </lg>
+                    </div>
+                    <p>At the sound of the song, all started dancing again and failed to return home. </p>
+                    <p>Eventually, <term ref="#gloss1">ubɔr</term> had to follow up in person to find out what was wrong. When he got to the farm, he saw his household and asked why they had failed to return. 
+                    They then told <term ref="#gloss1">ubɔr</term> that they couldn’t fetch the food because there was something that was singing in the silo, and that <term ref="#gloss1">ubɔr</term> should help fetch the food himself. 
+                    On entering the silo, ubɔr saw the lamb and touched it, whereupon it started singing:</p>
+                    <div type="song">
+                        <lg>
+                            <l>(Mbeeh mbeeh ee</l>
+                            <l>Dandar ka nyaa) x2</l>
+                        </lg>
+                        <lg>
+                            <l>Saa kimar nluu</l>
+                            <l>Dandar ka nyaa</l>
+                            <l>Saa kimar nkpee</l>
+                            <l>Dandar ka nyaa</l>
+                            <l>Ki mar nlu ki mar nkpee</l>
+                            <l>Dandar ka nyaa.</l>
+                            <l></l>
+                        </lg>
+                    </div>
+                    <p>After listening to the song, <term ref="#gloss1">ubɔr</term> suggested that they take the lamb home, together with the guinea corn they had gone to fetch, so that after eating food, 
+                    they could then dance to the lamb’s song properly. <term ref="#gloss1">Ubɔr</term> and his household, thus, returned home with the lamb and tied it outside their house. Unfortunately, 
+                    the lamb broke free. But instead of returning to the bush, it stayed home. That’s why to date, sheep are domestic animals – they used to be wild animals. </p>
+                    <p><q>This is the end of my story,</q> Piigri concludes.</p>
+                </div>
+                <div type="note">
+                    <head type="subTitle">Note</head>
+                        <list type="index">
+                            <label>1.</label>
+                            <item>
+                                <gloss target="#footnote1">
+                                    Piigri’s commencement of her tale without waiting for a response from her audience is a common phenomenon in the Konkomba storytelling 
+                                    culture. On occasions when a storytelling session has been ongoing for a while, a storyteller who announces his or her intention to tell 
+                                    the next tale can commence without any interruption from his or her audience since they have been listening and responding to previous 
+                                    storytellers. Their response is contextually implied in their silence and presence at the session.
+                                </gloss>
+                            </item>
+                            <label>2.</label>
+                            <item>
+                                <gloss target="#footnote2">
+                                    The musical interlude is untranslatable because it is not of Likpakpaln origin and contains a lot of meaningless words. It is in Dagbani, 
+                                    the language spoken by one of the neighbours of the Konkomba people. Thus, this story is clearly of Dagomba origin. According to the storyteller, 
+                                    they memorised it from school where their colleague told it. Unfortunately the musical interlude cannot be translated since some of the words 
+                                    are mispronounced by the storyteller and so cannot be found in any Dagbani dictionary. While this points to how folktales can travel and 
+                                    metamorphose in different cultural contexts, it also highlights the challenge with translating meaningless words.
+                                </gloss>
+                            </item>
+                        </list>
+                </div>
+                <div type="glossary">
+                    <head type="subTitle">A Glossary of Likpakpaln Words</head>
+                    <list type="glossary">
+                        <label>ubɔr:</label>
+                        <item>
+                            <gloss xml:id="gloss1"> the political head of a Konkomba community. Ubɔr is usually the eldest male member of the royal family. He 
+                            inherits that position from his father after the latter’s demise. Thus, Konkombas practise the patrilineal system of inheritance.</gloss>
+                        </item>
+                        <label>wunlaan:</label>
+                        <item>
+                            <gloss xml:id="gloss2"> Likpakpaln word for a linguist. It is of Mole-Dagbani origin. In traditional Ghanaian politics, the linguist is a 
+                            male official at the royal court. His duties, among several others, include serving as the mouthpiece for the ruler of a people, the 
+                            intermediary or liaison officer who conveys messages from subjects to their rulers, and an emissary on high diplomatic missions between 
+                            rulers. The word linguist is therefore not used in the context of scholarship in Linguistics or someone skilled in several foreign languages. 
+                            But the choice of this word for this office might be attributable to the fact that one major prerequisite for this office is mastery of 
+                            court language. Typically, in Ghanaian royal courts, rulers and their elders speak in proverbs and a highly sophisticated language that 
+                            the ordinary person cannot understand. So it is usually the responsibility of the linguist to decode and transmit such language from the 
+                            court to the people. Similarly, the linguist also encodes messages from subjects in court language before transmitting them to rulers. 
+                            Thus, there is usually no direct communication between rulers and their subjects – linguists speak for either party in the appropriate 
+                            language. In Konkomba culture, the roles of the linguist extend to running errands for the wives of rulers. This explains why in this 
+                            story, the wunlaan is asked to fetch food for ubɔr’s first wife.</gloss>
+                        </item>
+                    </list>
+                </div>
+            </body>
+        </text>
+</TEI>

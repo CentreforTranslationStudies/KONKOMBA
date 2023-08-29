@@ -1,0 +1,323 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Triumph of the Underdog</title>
+                    <author>Konkomba Oral Tradition (Ghana)</author>
+                    <storyteller> N-yaajasan  </storyteller>
+                    <editor> Tasun Tidorchibe </editor>
+                    <respStmt>
+                        <name> Tasun Tidorchibe </name>
+                        <resp>transcript, editing and translation</resp>
+                    </respStmt>
+                    <respStmt>
+                        <name> Lennart Sprenger </name>
+                        <name> Karen Barwitzki </name>
+                        <resp> coding and editing </resp>
+                    </respStmt>
+                    <respStmt> 
+                        <name> Dr. Eva Ulrike Pirker </name>
+                        <resp> supervision </resp>
+                    </respStmt>
+                    <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+                    <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                    <address>
+                        <name type="institution">institution Centre for Translation Studies Düsseldorf </name>
+                        <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                        <street> Universitätsstraße 1 </street>
+                        <postCode> 40225 </postCode>
+                        <name type="city"> Düsseldorf </name>
+                        <name type="country"> Germany </name>
+                    </address>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                        <status>not yet published</status> 
+                        <pubPlace> Düsseldorf </pubPlace>
+                    <address>
+                        <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                        <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                        <street> Universitätsstraße 1 </street>
+                        <postCode> 40225 </postCode>
+                        <name type="city"> Düsseldorf </name> 
+                        <name type="country"> Germany </name>
+                    </address>
+                    <availability> not yet available </availability>
+                    <date> TBD </date>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl> <title>Triumph of the Underdog</title> <storyteller> N-yaajasan </storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc></tagsDesc>
+                <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+                <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+            </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in
+                    <place xml:id="Chakping">
+                        <placeName>Chakping</placeName>
+                        <location>
+                            <geo>9.67, -0.27</geo>
+                        </location>
+                    </place>  
+                    transcribed folktale from Likpakpaln as told by <name type="storyteller">N-yaajasan</name> on <date when="2022">16th March 2022</date> in <name type="city">Chakping</name>, <name type="country">Ghana</name>
+                </creation>
+                <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+                </langUsage>
+                <textClass>placeholder tbd</textClass>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div type="introduction">
+                    <head type="subTitle">Introduction</head>
+                    <p>The following story is rendered by a child narrator. It is about a polygamous man who sets up one of his wives for failure. Fortunately for the 
+                    wife, her husband fails due to the providential intervention of a bee. Centred on polygamy and the Konkomba practice of 
+                    <term ref="#gloss1">nkpaawiin</term>, the story teaches all to guard against discrimination. To watch the Likpakpaln narration <ref target="https://mediathek.hhu.de/watch/6acfbcbc-db66-437a-9a0a-fc87757cbe3d">click here.</ref></p>
+                </div>
+                <div type="story">
+                    <head type="subTitle">Story</head>
+                    <p><q>My story is as follows:</q> N-yaajasan announces amidst audience’s chatter.</p>
+                    <p><q>M-hn!</q> responds one of his audience.</p>
+                    <p>N-yaajasan then proceeds as follows:</p>
+                    <p>There lived an <term ref="#gloss2">ubɔr</term>. He had two wives: one was noted for her cleanliness while the other wasn’t. One day he requested for 
+                    <term ref="#gloss1">nkpaawiin</term> and gave his hygienic wife some guinea corn to brew a local drink (called pito). 
+                    However, he gave the unhygienic wife roselle seeds to do the same.<term xml:id="footnote1"><hi rend="superscript">1</hi></term> He then told them that 
+                    he was looking forward to finding out who the better brewer was.</p>
+                    <p>On hearing this, the untidy wife started crying. One day a bee saw the woman weeping and asked why she was crying. In reply, the woman related 
+                    that her husband had called for <term ref="#gloss1">nkpaawiin</term>, given her co-wife guinea corn and given her roselle seeds to brew drinks.</p>
+                    <p>The bee then asked: <q>Is this why you’re crying?</q> The woman responded in the affirmative. The bee told the woman to bring a pot. When the woman 
+                    obliged, the bee filled the pot with honey and she took it home.</p>
+                    <p>On the day of the <term ref="#gloss1">nkpaawiin</term>, <term ref="#gloss2">ubɔr</term> sent someone to go and taste his wives’ drinks to ascertain 
+                    whose drink tasted better.</p>
+                    <p><q>During the <term ref="#gloss1">nkpaawiin</term>,</q> interjects one of N-yaajasan’s audience.</p> 
+                    <p><q>Enn!</q> the storyteller confirms the audience’s addition and proceeds thus:</p>
+                    <p>After tasting the drinks, the messenger broke into song:</p>
+                    <p><hi ref="italic">(The storyteller breaks into song and his audience join in.)</hi></p>
+                    <div type="song">
+                        <table type="translation">
+                            <row role="head">
+                                <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                                <cell><hi rend="bold">English translation</hi></cell>
+                            </row>
+                            <row><cell></cell></row>
+                            <row>
+                                <cell><l><term ref="#gloss2">Ubɔr</term> ee, <term ref="#gloss2">ubɔr</term> ee, saah tun mi n-tun mu naa,</l></cell>
+                                <cell><l><term ref="#gloss2">Ubɔr</term>, <term ref="#gloss2">ubɔr</term>, the mission you sent me on,</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Eh!</l></cell>
+                                <cell><l>Eh!</l></cell>
+                            </row>
+                            <row>
+                                <cell><l><term ref="#gloss2">Ubɔr</term> ee, <term ref="#gloss2">ubɔr</term> ee, saah tun mi n-tun mu naa,</l></cell>
+                                <cell><l><term ref="#gloss2">Ubɔr</term>, <term ref="#gloss2">ubɔr</term>, the mission you sent me on,</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Eh!</l></cell>
+                                <cell><l>Eh!</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Maa ti fuu na, unyankaln aadaan aamɔ ee.</l></cell>
+                                <cell><l>On arrival, I discovered that the hygienic wife’s drink isn’t delicious.</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Eh!</l></cell>
+                                <cell><l>Eh!</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Maa ti fuu na, uninsun aadaan na ’e mɔ ee.</l></cell>
+                                <cell><l>On arrival, I discovered that the unhygienic wife’s drink is delicious.</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Eh!</l></cell>
+                                <cell><l>Eh!</l></cell>
+                            </row>
+                            <row><cell></cell></row>
+                        </table>
+                    </div>
+                        <p><term ref="#gloss2">Ubɔr</term> didn’t believe the report and killed the messenger. He then dispatched another person on the same mission. The second messenger 
+                        returned and also broke into song:</p>
+                        <p><hi ref="italic">(The storyteller breaks into song again and his audience join in.)</hi></p>
+                    <div type="song">
+                        <table type="translation">
+                            <row role="head">
+                                <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                                <cell><hi rend="bold">English translation</hi></cell>
+                            </row>
+                            <row><cell></cell></row>
+                            <row>
+                                <cell><l><term ref="#gloss2">Ubɔr</term> ee, <term ref="#gloss2">ubɔr</term> ee, saah tun mi n-tun mu naa,</l></cell>
+                                <cell><l><term ref="#gloss2">Ubɔr</term>, <term ref="#gloss2">ubɔr</term>, the mission you sent me on,</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Eh!</l></cell>
+                                <cell><l>Eh!</l></cell>
+                            </row>
+                            <row>
+                                <cell><l><term ref="#gloss2">Ubɔr</term> ee, <term ref="#gloss2">ubɔr</term> ee, saah tun mi n-tun mu naa,</l></cell>
+                                <cell><l><term ref="#gloss2">Ubɔr</term>, <term ref="#gloss2">ubɔr</term>, the mission you sent me on,</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Eh!</l></cell>
+                                <cell><l>Eh!</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Maa ti fuu na, unyankaln aadaan aamɔ ee.</l></cell>
+                                <cell><l>On arrival, I discovered that the hygienic wife’s drink isn’t delicious.</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Eh!</l></cell>
+                                <cell><l>Eh!</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Maa ti fuu na, uninsun aadaan na ’e mɔ ee.</l></cell>
+                                <cell><l>On arrival, I discovered that the unhygienic wife’s drink is delicious.</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Eh!</l></cell>
+                                <cell><l>Eh!</l></cell>
+                            </row>
+                            <row><cell></cell></row>
+                        </table>
+                    </div>
+                        <p><term ref="#gloss2">Ubɔr</term> killed that person as well, after which he sent yet another person. The fellow too returned and broke into song:</p>
+                        <p><hi ref="italic">(The storyteller breaks into song again and his audience join in.)</hi></p>
+                    <div type="song">
+                        <table type="translation">
+                            <row role="head">
+                                <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                                <cell><hi rend="bold">English translation</hi></cell>
+                            </row>
+                            <row><cell></cell></row>
+                            <row>
+                                <cell><l><term ref="#gloss2">Ubɔr</term> ee, <term ref="#gloss2">ubɔr</term> ee, saah tun mi n-tun mu naa,</l></cell>
+                                <cell><l><term ref="#gloss2">Ubɔr</term>, <term ref="#gloss2">ubɔr</term>, the mission you sent me on,</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Eh!</l></cell>
+                                <cell><l>Eh!</l></cell>
+                            </row>
+                            <row>
+                                <cell><l><term ref="#gloss2">Ubɔr</term> ee, <term ref="#gloss2">ubɔr</term> ee, saah tun mi n-tun mu naa,</l></cell>
+                                <cell><l><term ref="#gloss2">Ubɔr</term>, <term ref="#gloss2">ubɔr</term>, the mission you sent me on,</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Eh!</l></cell>
+                                <cell><l>Eh!</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Maa ti fuu na, unyankaln aadaan aamɔ ee.</l></cell>
+                                <cell><l>On arrival, I discovered that the hygienic wife’s drink isn’t delicious.</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Eh!</l></cell>
+                                <cell><l>Eh!</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Maa ti fuu na, uninsun aadaan na ’e mɔ ee.</l></cell>
+                                <cell><l>On arrival, I discovered that the unhygienic wife’s drink is delicious.</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Eh!</l></cell>
+                                <cell><l>Eh!</l></cell>
+                            </row>
+                            <row><cell></cell></row>
+                        </table>
+                    </div>
+                        <p><term ref="#gloss2">Ubɔr</term> killed that messenger as well and sent the last of them. He also returned with the same report:</p>
+                        <p><hi ref="italic">(The storyteller starts singing again and his audience join in again.)</hi></p>
+                    <div type="song">
+                        <table type="translation">
+                            <row role="head">
+                                <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                                <cell><hi rend="bold">English translation</hi></cell>
+                            </row>
+                            <row><cell></cell></row>
+                            <row>
+                                <cell><l><term ref="#gloss2">Ubɔr</term> ee, <term ref="#gloss2">ubɔr</term> ee, saah tun mi n-tun mu naa,</l></cell>
+                                <cell><l><term ref="#gloss2">Ubɔr</term>, <term ref="#gloss2">ubɔr</term>, the mission you sent me on,</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Eh!</l></cell>
+                                <cell><l>Eh!</l></cell>
+                            </row>
+                            <row>
+                                <cell><l><term ref="#gloss2">Ubɔr</term> ee, <term ref="#gloss2">ubɔr</term> ee, saah tun mi n-tun mu naa,</l></cell>
+                                <cell><l><term ref="#gloss2">Ubɔr</term>, <term ref="#gloss2">ubɔr</term>, the mission you sent me on,</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Eh!</l></cell>
+                                <cell><l>Eh!</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Maa ti fuu na, unyankaln aadaan aamɔ ee.</l></cell>
+                                <cell><l>On arrival, I discovered that the hygienic wife’s drink isn’t delicious.</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Eh!</l></cell>
+                                <cell><l>Eh!</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Maa ti fuu na, uninsun aadaan na ’e mɔ ee.</l></cell>
+                                <cell><l>On arrival, I discovered that the unhygienic wife’s drink is delicious.</l></cell>
+                            </row>
+                            <row>
+                                <cell><l>Eh!</l></cell>
+                                <cell><l>Eh!</l></cell>
+                            </row>
+                            <row><cell></cell></row>
+                        </table>
+                    </div>
+                    <p><term ref="#gloss2">Ubɔr</term> killed the last messenger so he had to finally go and taste the drinks himself. He discovered that they were all right about the 
+                    untidy wife’s drink.</p>
+                    <p>Therefore, when someone requests for <term ref="#gloss1">nkpaawiin</term> and wants his wives to do something, he should never discriminate against any of them. 
+                    He should treat all of them equally.</p>
+                </div>
+                <div type="note">
+                    <head type="subTitle">Note</head>
+                        <list type="index">
+                            <label>1.</label>
+                            <item>
+                                <gloss target="#footnote1">
+                                    In the Konkomba culture, it is customary for someone who requests for communal help to treat his/her helpers or work party to 
+                                    food and/or drinks during the <term ref="#gloss1">nkpaawiin</term> or at an after-party. Typically, heavy foods such as tuo zaafi (aka TZ), fufu or yam 
+                                    slices can be served together with pito (a local beverage/beer made from guinea corn) and/or patasii (a local gin akin to vodka). 
+                                    While this is used to express the <term ref="#gloss1">nkpaawiin</term> caller’s gratitude, it is also a time for communal bonding in a more relaxed atmosphere 
+                                    outside the serious, heated work environment or time. Note that ‘after-<term ref="#gloss1">nkpaawiin</term>’ get-togethers are only associated with very 
+                                    physical farm-labour-related ikpaawiin – such as the clearing of farmlands, ploughing, making of yam mounds, etc. During other 
+                                    ikpaawiin, food and/or drinks are usually served but no get-together is held afterward. In the context of this story, the drink 
+                                    (pito) <term ref="#gloss2">ubɔr</term> asks his wives to brew is meant for the <term ref="#gloss1">nkpaawiin</term> work party during the <term ref="#gloss1">nkpaawiin</term> – as 
+                                    rightly pointed out by one of the storyteller’s audience.
+                                </gloss>
+                            </item>
+                        </list>
+                </div>
+                <div type="glossary">
+                    <head type="subTitle">A Glossary of Likpakpaln Words</head>
+                    <list type="glossary">
+                        <label>nkpaawiin:</label>
+                        <item>
+                            <gloss xml:id="gloss1"> communal activity or labour. Among Konkombas when one is swamped with work, he or she can ask for the help of 
+                            others, who would usually respond generously in their numbers provided that the <q>help-seeker</q> has been participating in ikpaawiin 
+                            (i.e., the plural form of nkpaawiin). Ikpaawiin are mostly called when one has a lot of farmwork, is building, flooring or roofing a house, 
+                            shelling maize/corn, cracking groundnuts, or thrashing guinea corn among other physical activities. Such occasions are not just for working 
+                            but also for communal interaction and bonding.</gloss>
+                        </item>
+                        <label>ubɔr:</label>
+                        <item>
+                            <gloss xml:id="gloss2"> the political head of a Konkomba community. Ubɔr is usually the eldest male member of the royal family. He 
+                            inherits that position from his father after the latter’s demise. Thus, Konkombas practise the patrilineal system of inheritance.</gloss>
+                        </item>
+                    </list>
+                </div>
+            </body>
+        </text>
+    </TEI>

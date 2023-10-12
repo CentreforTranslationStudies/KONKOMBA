@@ -1,0 +1,255 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Cat Saves an Old Lady from a Troublesome Wolf</title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller> Yajonignan </storyteller>
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name>Anne Schulzki</name>
+                    <resp> coding and editing </resp>
+                </respStmt>
+                <respStmt> 
+                    <name> Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name></address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status>not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace>
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street>
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> not yet available </availability>
+<date> TBD </date>
+            </publicationStmt>
+            <sourceDesc>
+              <bibl> <title>A Cat Saves an Old Lady from a Troublesome Wolf</title> <storyteller>Yajonignan</storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+        </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc>      
+                </tagsDesc>
+            <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+                </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in 
+                <place xml:id="Chakping, Ghana">
+                     <placeName> Chakping, Ghana</placeName>
+                     <location>
+                         <geo>9.67, -0.27</geo>    
+                     </location>
+                 </place>  
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller">Yajonignan</name> on <date when="2022">16th March 2022</date> in <name type="city">Chakping</name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type="mainTitle">A Cat Saves an Old Lady from a Troublesome Wolf</head>
+            <p>(as narrated by Yajonignan in Chakping on 16/03/2022)</p>
+            <div type="introduction">
+                <head type="subTitle">Introduction</head>
+                <p>This story offers insights, from a Konkomba mythological viewpoint, into the reason most old ladies are cat lovers. 
+                    The story has it that an old lady is the target of a wolf. The wild creature usually appears whenever the old woman finishes cooking her supper, scares her away, and eats her food. 
+                    Of all the animals, the cat is the only one who successfully captures the wolf in the end; hence the old lady’s decision to keep the cat as her protector – and, since then, all old ladies’ preference for cats as pets. 
+                    To watch the Likpakpaln narration <ref target="https://mediathek.hhu.de/watch/a7a25dd7-352f-40f5-b5e7-e68fd990198f">click here.</ref>
+                </p>
+            </div>
+            <div type="story">
+                <head type="subTitle">Story</head>
+                <p><q>There once lived a certain <term ref="#gloss5">upininkpil</term> …,</q> Yajonignan commences his story amid some chatter.</p>
+                <p><q>Mhm!</q> <hi rend="italic">(Some of his audience respond to assure him that they’re listening.)</hi></p>
+                   <p><q>… and there also lived a wild creature – <term ref="#gloss1">nachiin</term>,</q> he adds, and proceeds:</p>
+                    <p><term ref="#gloss5">Upininkpil</term> had a habit of pounding fufu in the evenings. Whenever she cooked her yam and started pounding, she would sing this song:</p>
+                    <p><hi rend="italic">(Yajonignan intones the song and his audience join in.)</hi></p>
+            <div type="song">
+                <table type="translation">
+                    <row role="head">
+                        <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                        <cell><hi rend="bold">English translation</hi></cell>
+                    </row>
+                    <row>
+                        <cell><l><term ref="#gloss2">Kpa ti lap!</term></l></cell>
+                        <cell><l><term ref="#gloss2">Kpa ti lap!</term></l></cell>
+                    </row>
+                    <row>
+                        <cell><l>M ni ŋma gi?</l></cell>
+                        <cell><l>With whom do I eat?</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>(3x)</l></cell>
+                    </row>
+                    <row>
+                        <cell><l><term ref="#gloss2">Kpa ti lap!</term></l></cell>
+                        <cell><l><term ref="#gloss2">Kpa ti lap!</term></l></cell>
+                    </row>
+                    <row>
+                        <cell><l>M ni ŋma gi?</l></cell>
+                        <cell><l>With whom do I eat?</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>M gi mbaa la.</l></cell>
+                        <cell><l>I eat alone.</l></cell>
+                    </row>
+                    <row></row>
+                </table>
+            </div>
+                    <p><hi rend="italic">(The last 3 lines are added by the audience while Yajonignan bursts into laughter.)</hi></p>
+                <p>At the sound of <term ref="#gloss5">upininkpil</term>’s song and pounding, the wild creature would emerge from nowhere and start singing:</p>
+                <p><hi rend="italic">(Yajonignan intones the song and his audience join in again.)</hi></p>
+            <div type="song">
+                <table type="translation">
+                    <row role="head">
+                        <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                        <cell><hi rend="bold">English translation</hi></cell>
+                    </row>
+                    <row>
+                        <cell><l>Kaduun san san san;</l></cell>
+                        <cell><l>Kaduun has pounded;</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Tin dii bitindam saa.<term xml:id="footnote1"><hi rend="superscript">1</hi></term></l></cell>
+                        <cell><l>We’ll eat the landowners’ food.</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>‘San san san;</l></cell>
+                        <cell><l>’Has pounded;</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Tin dii bitindam saa.</l></cell>
+                        <cell><l>We’ll eat the landowners’ food.</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Kaduun san san san;</l></cell>
+                        <cell><l>Kaduun has pounded;</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Tin dii bitindam saaa!</l></cell>
+                        <cell><l>We’ll eat the landowners’ food!</l></cell>
+                    </row>
+                    <row></row>
+                </table>
+            </div>
+                <p>On hearing the singing and the approaching wild creature, <term ref="#gloss5">upininkpil</term> would run away and the wolf would feast on her fufu. 
+                    Such was the predicament of <term ref="#gloss5">upininkpil</term> that she decided to seek protection. Unfortunately, all the animals – including <term ref="#gloss3">ibɔja</term> – 
+                    from whom she sought protection, could not stop the wolf from harassing her.</p>
+                <p>One day <term ref="#gloss4">jakuno</term> approached <term ref="#gloss5">upininkpil</term> and offered to capture the wild creature for her. 
+                    <term ref="#gloss4">Jakuno</term> instructed <term ref="#gloss5">upininkpil</term> to cook yam and start pounding fufu as usual. <term ref="#gloss5">Upininkpil</term> obliged and when the yam was cooked, she started pounding and singing:</p>
+                <p><hi rend="italic">(Yajonignan intones the song and his audience join in again.)</hi></p>
+            <div type="song">
+                <table type="translation">
+                    <row role="head">
+                        <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                        <cell><hi rend="bold">English translation</hi></cell>
+                    </row>
+                    <row>
+                        <cell><l><term ref="#gloss2">Kpa ti lap!</term></l></cell>
+                        <cell><l><term ref="#gloss2">Kpa ti lap!</term></l></cell>
+                    </row>
+                    <row>
+                        <cell><l>M ni ŋma gi?</l></cell>
+                        <cell><l>With whom do I eat?</l></cell>
+                    </row>
+                    <row>
+                        <cell><l><term ref="#gloss2">Kpa ti lap!</term></l></cell>
+                        <cell><l><term ref="#gloss2">Kpa ti lap!</term></l></cell>
+                    </row>
+                    <row>
+                        <cell><l>M ni ŋma gi?</l></cell>
+                        <cell><l>With whom do I eat?</l></cell>
+                    </row>
+                    <row></row>
+                </table>
+            </div>
+                <p>On hearing <term ref="#gloss5">upininkpil</term>’s singing and pounding, the wild creature emerged as usual and started singing:</p>
+                <p><hi rend="italic">(Yajonignan intones the song and his audience join in.)</hi></p>
+            <div type="song">
+                <table type="translation">
+                    <row role="head">
+                        <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                        <cell><hi rend="bold">English translation</hi></cell>
+                    </row>
+                    <row>
+                        <cell><l>Kaduun san san san;</l></cell>
+                        <cell><l>Kaduun has pounded;</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Tin dii bitindam saa.</l></cell>
+                        <cell><l>We’ll eat the landowners’ food.</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>‘San san san;</l></cell>
+                        <cell><l>’Has pounded;</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Tin dii bitindam saa.</l></cell>
+                        <cell><l>We’ll eat the landowners’ food.</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Kaduun san san san;</l></cell>
+                        <cell><l>Kaduun has pounded;</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Tin dii bitindam saaa!</l></cell>
+                        <cell><l>We’ll eat the landowners’ food!</l></cell>
+                    </row>
+                    <row></row>
+                </table>
+            </div>
+                <p>When the wild creature entered <term ref="#gloss5">upininkpil</term>’s house to eat her food, <term ref="#gloss4">jakuno</term> pounced on it and killed it.</p>
+                <p>That is why to date, every <term ref="#gloss5">upininkpil</term> keeps <term ref="#gloss4">jakuno</term> as a pet.</p>
+            </div>
+            <div type="Note">
+                <head type="subTitle">Note</head>
+                    <list type="index">
+                    <label>1.</label><item><gloss target="#footnote1">This line features a linguistic blend of Likpakpaln and Dagbani. Dagbani is spoken by the Dagomba people, who are one of the neighbors of the Konkomba people. 
+                        They are migrants from present-day Lake Chad region, who have since the 15th century settled mostly on lands previously owned by Konkombas. The cross pollination of linguistic, cultural, social, political, etc. 
+                        ideas and practices that has been ongoing since these two ethnic groups encountered each other, manifests in this tale’s musical interlude, especially in lines 2, 4 and 6 of the wolf’s song, where the storyteller engages in code mixing
+                         – of Dagbani and Likpakpaln. From a historical-geographical perspective, this tale seems to have been borrowed from Dagomba folklore.</gloss></item>
+                    </list>
+            </div>
+            <div type="glossary">
+                <head type="subTitle">A Glossary of Likpakpaln Words</head>
+                <list type="gloss">
+                    <label>nachiin (aka tɔkɔ):</label><item><gloss xml:id="gloss1">Likpakpaln word for a wolf. In Konkomba folklore, nachiin is the most unintelligent animal character. 
+                        It almost always falls prey to the antics of sande (i.e., rabbit), who is the wisest and trickster character in Konkomba folklore.</gloss></item>
+                    <label>kpa ti lap!:</label><item><gloss xml:id="gloss2">an onomatopoeic phrase that captures the sound produced by upininkpil’s pounding and simultaneous turning or driving of the fufu in the mortar. 
+                        Fufu is a popular West African cuisine made from pounding cooked yam, cassava, or plantain – or a combination of any two of these –into a starchy form. The pounding is usually done with a mortar and pestle. 
+                        Among the Konkomba people, and other northern ethnic groups in Ghana, yam and/or cassava fufu is common, while cassava and/or plantain fufu is popular with southern ethnic groups like the Akan.</gloss></item>
+                    <label>ibɔja:</label><item><gloss xml:id="gloss3">Likpakpaln word for male dogs. The singular form is ubɔja. In everyday usage, the plural form, ibɔja, is sometimes inappropriately used as a plural form for all dogs – male and female – instead of the correct word, ibɔ. 
+                        In the context of this story, therefore, when the storyteller says ibɔja, he means all dogs – both male and female. FYI, the Likpakpaln word for a female dog is ubɔsal – ibɔsal is the plural form.</gloss></item>
+                    <label>jakuno:</label><item><gloss xml:id="gloss4">Likpakpaln word for a domestic cat.</gloss></item>
+                    <label>upininkpil:</label><item><gloss xml:id="gloss5">Likpakpaln word for an old lady or old woman.</gloss></item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,118 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Farmer's Strange Encounters</title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller> Bilinyi Chiikpaab </storyteller> 
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt> 
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name> Carlotta Cilia </name>
+                    <name> Teona Sandu </name>
+                    <name> Yannic Wolle </name>
+                    <resp> coding and editing </resp>
+                </respStmt>
+                <respStmt> 
+                    <name> Prof. Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name> 
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name></address>
+            </titleStmt> 
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status>not yet published</status> 
+                <pubPlace>Düsseldorf</pubPlace> 
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street> 
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> not yet available </availability>
+<date> TBD </date>
+            </publicationStmt>
+            <sourceDesc>
+              <bibl> <title>A Farmer's Strange Encounters</title> <storyteller>Bilinyi Chiikpaab </storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl>
+            </sourceDesc>
+        </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc> 
+                </tagsDesc>
+            <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+                </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Kutol">
+                     <placeName> Kutol </placeName>
+                     <location>
+                         <geo>9.57797, 0.24202</geo>    
+                     </location>
+                 </place>
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller">Bilinyi Chiikpaab </name> on <date when="2022">17th March 2022</date> in <name type="city">Kutol</name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type="mainTitle">A Farmer's Strange Encounters</head>
+            <p>(As narrated by Bilinyi Chiikpaab at Kutol on 17/03/2022)</p>
+            <div type="introduction">
+                <head type="subTitle">Introduction</head>
+                <p>The following story is about the strange encounters of a farmer and a stranger he meets. According to the narrative, the farmer encounters some talking beans and guinea corn on his farm. Much to his surprise, he discovers that his dog can talk as well. This scares him and he runs away. While running, he meets a stranger who chastises him for running. But on encountering a talking log, the person reacts exactly as the farmer. As the storyteller spells out clearly at the end of his performance, the story seeks to caution against hasty condemnation of others. </p>
+            </div>
+            <div type="story">
+                <head type="subTitle">Story</head>
+                <p><q>Once upon a time</q> Bilinyi plunges directly into his story but quickly backtracks to announce it first.</p>
+                <p><q>My next story is as follows:</q>he announces and proceeds thus:</p>
+                <p>A man once cultivated guinea corn and beans. After planting the crops, he never went to weed the farm. One day he finally decided to visit the farm. On arrival, he discovered that his beans had yielded bountifully. </p>
+                <p><q><term ref="#gloss2">Uja</term>, if you saw the beans yourself, you’d marvel. The beans yielded so much that you couldn’t even walk without crushing them. The guinea corn grew tall and tasselled so much that their stems bent downward. If you saw one guinea corn tassel, it was longer than this arm of mine. They looked really big and healthy,</q>Bilinyi tells his audience, in an attempt to draw them into the narrative.</p>
+                <p><hi ref="italic">(The storyteller says all the above amid gestures such as raising his hands, bending the upper part of his body and holding out his arm in order to paint a graphic picture for the audience.)</hi></p>
+                <p>Now, the man went to the farm with his dog …</p>
+                <p><q>As big as yours,</q>interrupts one of Bilinyi’s audience, apparently referring to the storyteller’s claim that the guinea corn looked big and healthy.</p>
+                <p><q>I tell you,</q>Bilinyi confirms amid laughter with some of his audience and continues his rendition as follows:</p>
+                <p>His dog had followed him to the farm. When he got to the farm and realised that the crops had yielded abundantly – for he had not expected them to – he remarked, <q>Wow, these guinea corn and beans of mine have yielded well.</q> </p>
+                <p>The guinea corn retorted, <q>We beg your pardon? Did you expect us to yield poorly?</q> </p>
+                <p>The beans also responded in a similar fashion, asking him, <q>Did you expect us to yield poorly?</q> </p>
+                <p>The man became scared and turned towards his dog, whereupon their eyes met. <hi ref="italic"></hi>(The storyteller stands up and points to the ground while uttering the latter part of this statement – as if the dog were standing right in front of him.)</p></hi> 
+                <p>On locking eyes with the owner, the dog asked, <q>Why are you staring at me; was I the one who said it?</q> </p>
+                <p>The man became more scarred and took off running. While running and sweating, he met someone who was carrying a log on the way from his farm. The person started shouting and calling after the farmer: <q>Uncle, please stop. My friend, why are you running? Uncle, stop, stop.</q> But the farmer kept running. Eventually, he stopped and started gasping for air.</p>
+                <p><hi ref="italic">(The storyteller breaks into a demonstration again, breathing heavily to illustrate how the farmer was panting when he finally stopped.)</hi> </p>
+                <p>On catching up with the farmer, the person who was carrying the log inquired, <q>Why are you running and panting like that?</q></p>
+                <p>The man replied, <q>Hm! I cultivated guinea corn … <hi ref="italic">(Bilinyi continues breathing heavily in demonstration.)</hi> … and beans. <hi ref="italic">(He breathes heavily again.)</hi> But I failed to weed the farm. <hi ref="italic">(There is more heavy breathing while audience laugh.)</hi> On visiting the farm, I realised that the crops had yielded bountifully. <hi ref="italic">(Further heavy breathing.)</hi> They yielded well so I said these crops of mine have yielded well – I was merely thinking aloud. But before I could say anything else, the guinea corn asked me if I’d expected them to yield poorly. The beans followed suit. When I turned, my eyes met my dog’s, who in turn asked me, 'Why are you staring at me; was I the one who said it?' That’s why I’m running. <hi ref="italic">(Bilinyi says all these while intermittently breathing heavily to demonstrate how the farmer gasped for breath while relating his ordeal.)</hi></q></p>
+                <p>After listening to the farmer, the person who was carrying the log then asked, <q>Is that why you’re running?</q></p> 
+                <p>The log the person was carrying in turn asked the fellow, <q>Were you in his shoes, wouldn’t you have run?</q></p> 
+                <p>On hearing this, the person carrying the log immediately dropped the log and also took off running. <hi ref="italic">(Bilinyi stands up again amid demonstrations while rendering the log’s direct speech and the ‘log-bearer’s’ reaction.)</hi> The person ran as fast as possible, leaving behind the farmer – who was by then too tired to run again.</p>
+                <p>This is why one must always be slow to judge or condemn others. Never say if it were you, you would have done better. Caught in the same predicament as another person, you might not behave differently. <hi ref="italic">(The storyteller is aided by some of his audience to say the last sentence – in an apparent show of agreement.)</hi></p>
+                <p><q><term ref="#gloss1">Tiin tiin kulb</term>,</q> Bilinyi eventually signs off his performance.</p>
+            </div>
+            <div type="glossary">
+                <head type="subTitle">A Glossary of Likpakpaln Words and Phrases</head>
+                <list type="gloss">
+                    <lable>tiin tiin kulb (also <q>tiin tiin kolb</q> in some Likpakpaln dialects):</lable><item><gloss xml:id="gloss1">translated as <q>The end of my story.</q> This is the commonest and easiest way to end one’s story in the Konkomba storytelling culture.</gloss></item>
+                    <lable>uja:</lable><item><gloss xml:id="gloss2">Likpakpaln word for a man or a male. The plural form is bijab (i.e., men, males, guys, etc.). However, in everyday usage, uja is also commonly used as an emphasis marker or as an affectionate address to a friend or colleague. In such situations, uja sheds off its gender associations and assumes a new role as an intensifier of something a speaker wants to emphasise or as a noun to refer to someone as a buddy or friend. In the context of this story, when the storyteller addresses his audience as <q>uja,</q> he employs it in the latter two senses – that is, to emphasise what he says and also as a rhetorical tool to establish camaraderie with his audience.</gloss></item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

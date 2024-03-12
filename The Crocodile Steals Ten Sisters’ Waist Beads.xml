@@ -1,0 +1,638 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Crocodile Steals 10 Sisters' Waist Beads</title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller> Uninkpel Gmasimboon </storyteller> 
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt> 
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name>Carlotta Cilia</name>
+                    <name>Teona Sandu</name>
+                    <name>Yannic Wolle</name>
+                    <resp> coding and editing </resp>
+                </respStmt>
+                <respStmt> 
+                    <name> Prof. Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name> 
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name></address>
+            </titleStmt> 
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status>not yet published</status> 
+                <pubPlace>Düsseldorf</pubPlace> 
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street> 
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> not yet available </availability>
+<date> TBD </date>
+            </publicationStmt>
+            <sourceDesc>
+              <bibl> <title>The Crocodile Steals 10 Sisters' Waist Beads</title> <storyteller>Uninkpel Gmasimboon</storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl>
+            </sourceDesc>
+        </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc> 
+                </tagsDesc>
+            <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+                </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Chakping">
+                     <placeName> Chakping</placeName>
+                     <location>
+                         <geo>9.660736, 0.198422</geo>    
+                     </location>
+                 </place>
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller">Uninkpel Gmasimboon</name> on <date when="2022">16th March 2022</date> in <name type="city">Chakping</name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type="mainTitle">The Crocodile Steals 10 Sisters' Waist Beads</head>
+            <p>(As told by Uninkpel Gmasimboon at Chakping on 16/03/2022)<p>
+            <div type="introduction">
+                <head type="subTitle">Introduction</head>
+                <p>The story below relates an encounter between ten sisters and a crocodile, which eventually results in the death of one of them. The story has it that the sisters go to bath at the river. Unfortunately, the crocodile confiscates their waist beads and eats one of them. The story is an etiological tale that seeks to explain why crocodiles attack and even eat human beings, but it fails woefully at that – to say the least. That said, it poses questions as regards the operations of fate. For example, was the last sister simply unlucky or a victim of fate?</p>
+            </div>
+            <div type="story">
+                <head type="subTitle">Story</head>
+                <p><q>There lived a woman who had ten children – they were all girls,</q> Gmasimboon commences his rendition without the usual protocol of announcing his intent to tell his story.</p>
+                <p>One day the girls went to take their baths at the riverside. On arrival, they took off their ileen and started bathing. As the sisters were bathing, ukpindaan came out of the river, took their ileen and returned into the water with them.</p>
+                <p>Soon, the girls were done bathing and wanted to return home. But where were their ileen? The eldest of the girls broke into song:</p>
+            <div type="song">
+            <table type="translation">
+                <row role="head">
+                <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                <cell><hi rend="bold">English translation</hi></cell>
+                </row>
+                <row>
+                <cell></cell>
+                </row>
+                <row>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna mel ubaa yee.</l></cell>
+                <cell><l>My mother has given birth to one.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma bilii yee.</l></cell>
+                <cell><l>My mother has given birth to two.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma bitaa yee.</l></cell>
+                <cell><l>My mother has given birth to three.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma binaa yee.</l></cell>
+                <cell><l>My mother has given birth to four.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma biŋmoo yee.</l></cell>
+                <cell><l>My mother has given birth to five.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma biluu yee.</l></cell>
+                <cell><l>My mother has given birth to six.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma bilile.</l></cell>
+                <cell><l>My mother has given birth to seven.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma biniin ee.</l></cell>
+                <cell><l>My mother has given birth to eight.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma biwee yee.</l></cell>
+                <cell><l>My mother has given birth to nine.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Ka m kpee kipiik ee.</l></cell>
+                <cell><l>And I’m the tenth.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee!!!!</l></cell>
+                <cell><l>Give me my waist beads so that I can go home!!!!</l></cell>
+                </row>
+                <row>
+                <cell></cell>
+                </row>
+            </table>
+            </div>
+               <p><q>Walai!</q> exclaims one of the audience, who then adds,</p>
+               <p><q>That means that there were ten ileen in all.</q> But the storyteller ignores the interjection and continues his rendition as follows:</p>
+               <p>On hearing the girl’s song, ukpindaan returned her nleen to her. On returning… </p>
+               <p><q>So there were ten waist beads?</q> the person from the audience who interjected earlier asks again.</p>
+               <p><q>Enn!</q> Gmasimboon confirms and proceeds:</p>
+               <p>On returning her nleen to her, the next sister also intoned her song:</p>
+            <div type="song">
+            <table type="translation">
+                <row role="head">
+                <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                <cell><hi rend="bold">English translation</hi></cell>
+                </row>
+                <row>
+                <cell></cell>
+                </row>
+                <row>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna mel ubaa yee.</l></cell>
+                <cell><l>My mother has given birth to one.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma bilii yee.</l></cell>
+                <cell><l>My mother has given birth to two.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma bitaa yee.</l></cell>
+                <cell><l>My mother has given birth to three.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma binaa yee.</l></cell>
+                <cell><l>My mother has given birth to four.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma biŋmoo yee.</l></cell>
+                <cell><l>My mother has given birth to five.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma biluu yee.</l></cell>
+                <cell><l>My mother has given birth to six.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma bilile.</l></cell>
+                <cell><l>My mother has given birth to seven.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma biniin ee.</l></cell>
+                <cell><l>My mother has given birth to eight.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Ka m kpee biwee yee.</l></cell>
+                <cell><l>And I’m the ninth.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee!!!!</l></cell>
+                <cell><l>Give me my waist beads so that I can go home!!!!</l></cell>
+                </row>
+                <row>
+                <cell></cell>
+                </row>
+            </table>
+            </div>
+            <p>Ukpindaan returned her nleen to her as well, after which the next sister broke into song:</p>
+            <div type="song">
+            <table type="translation">
+                <row role="head">
+                <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                <cell><hi rend="bold">English translation</hi></cell>
+                </row>
+                <row>
+                <cell></cell>
+                </row>
+                <row>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna mel ubaa yee.</l></cell>
+                <cell><l>My mother has given birth to one.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma bilii yee.</l></cell>
+                <cell><l>My mother has given birth to two.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma bitaa yee.</l></cell>
+                <cell><l>My mother has given birth to three.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma binaa yee.</l></cell>
+                <cell><l>My mother has given birth to four.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma biŋmoo yee.</l></cell>
+                <cell><l>My mother has given birth to five.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma biluu yee.</l></cell>
+                <cell><l>My mother has given birth to six.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma bilile.</l></cell>
+                <cell><l>My mother has given birth to seven.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Ka m kpee biniin yee.</l></cell>
+                <cell><l>And I’m the eighth.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee!!!!</l></cell>
+                <cell><l>Give me my waist beads so that I can go home!!!!</l></cell>
+                </row>
+                <row>
+                <cell></cell>
+                </row>
+            </table>
+            </div>
+            <p>The eighth sister also got her nleen back. After that, the seventh, sixth and fifth sisters also sang their songs and got their ileen back. It was the turn of the fourth sister, so she broke into song:</p>
+            <div type="song">
+            <table type="translation">
+                <row role="head">
+                <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                <cell><hi rend="bold">English translation</hi></cell>
+                </row>
+                <row>
+                <cell></cell>
+                </row>
+                <row>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna mel ubaa yee.</l></cell>
+                <cell><l>My mother has given birth to one.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma bilii yee.</l></cell>
+                <cell><l>My mother has given birth to two.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma bitaa yee.</l></cell>
+                <cell><l>My mother has given birth to three.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Ka m kpee binaa yee.</l></cell>
+                <cell><l>And I’m the fourth</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee!!!!</l></cell>
+                <cell><l>Give me my waist beads so that I can go home!!!!</l></cell>
+                </row>
+                <row>
+                <cell></cell>
+                </row>
+            </table>
+            </div>
+            <p>That sister also got her nleen back. The next one then intoned her song too:</p>
+            <div type="song">
+            <table type="translation">
+                <row role="head">
+                <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                <cell><hi rend="bold">English translation</hi></cell>
+                </row>
+                <row>
+                <cell></cell>
+                </row>
+                <row>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna mel ubaa yee.</l></cell>
+                <cell><l>My mother has given birth to one.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna ma bilii yee.</l></cell>
+                <cell><l>My mother has given birth to two.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Ka m kpee bitaa yee.</l></cell>
+                <cell><l>And I’m the third.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee!!!!</l></cell>
+                <cell><l>Give me my waist beads so that I can go home!!!!</l></cell>
+                </row>
+                <row>
+                <cell></cell>
+                </row>
+            </table>
+            </div>
+            <p> Ukpindaan gave that one’s nleen to her as well. Two of the sisters were still without theirs. </p>
+            <p> The next sister in line then intoned her song: </p>
+            <div type="song">
+            <table type="translation">
+                <row role="head">
+                <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                <cell><hi rend="bold">English translation</hi></cell>
+                </row>
+                <row>
+                <cell></cell>
+                </row>
+                <row>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna mel ubaa yee.</l></cell>
+                <cell><l>My mother has given birth to one.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Ka m kpee bilii yee.</l></cell>
+                <cell><l>And I’m the second.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee!!!!</l></cell>
+                <cell><l>Give me my waist beads so that I can go home!!!!</l></cell>
+                </row>
+                <row>
+                <cell></cell>
+                </row>
+            </table>
+            </div>
+            <p>That sister was also given hers. It was the turn of the last one. She too broke into her song:</p>
+            <div type="song">
+            <table type="translation">
+                <row role="head">
+                <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                <cell><hi rend="bold">English translation</hi></cell>
+                </row>
+                <row>
+                <cell></cell>
+                </row>
+                <row>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                <cell><l>Tinchang, Tinchang,</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee.</l></cell>
+                <cell><l>Give me my waist beads so that I can go home.</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna mel ubaa yee.</l></cell>
+                <cell><l>My mother has given birth to one.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee!!!!</l></cell>
+                <cell><l>Give me my waist beads so that I can go home!!!!</l></cell>
+                </row>
+                <row>
+                <cell><l>Nna mel ubaa yee.</l></cell>
+                <cell><l>My mother has given birth to one.</l></cell>
+                </row>
+                <row>
+                <cell><l>Tii maaleen ka nkun’a yee!!!!</l></cell>
+                <cell><l>Give me my waist beads so that I can go home!!!!</l></cell>
+                </row>
+                <row>
+                <cell></cell>
+                </row>
+            </table>
+            </div>
+            <p>But unyii refused to give her nleen to her. Instead, it ate her. She was the first human being to have ever been eaten by unyii.</p>
+            <p><q>Unyii ate that one,</q> one of the audience says, adding simultaneously as the storyteller and some other members of the audience, “That is why to date, unyii eats human flesh. Unyii used not to eat human beings.</p>
+            </div>
+            <div type="Notes">
+                <head type="subTitle">Note</head>
+                    <list type="index">
+                    <lable>1.</lable><item><gloss target="#footnote1">Binaanum are one of the neighbours of the Konkomba people while Bijingbeeb are Muslim merchants with whom Konkombas have often traded. In this story, the two are deliberately labelled as “passers-by” to draw attention to their status as visitors or traders on the move. 
+                        It might be of interest to know that the word ‘<hi rend="bold">Binaanum</hi>’ is the Likpakpaln name for the <hi rend="bold">Nanumba</hi> people of northern Ghana while <hi rend="bold">Bijingbeeb</hi> is the Likpakpaln name for the <hi rend="bold">Hausa</hi> people. Even though there are standardised names – usually Anglicised forms – for the various ethnic groups in Ghana, the ethnic groups have their own local versions/vernacular names for themselves and for the other ethnic groups. 
+                        For instance, Konkombas call themselves Bikpakpaam and refer to their neighbours (i.e., the Nanumba people) as Binaanum. The latter in turn call the Konkomba people Kpankpaamba instead of the Anglicised form, Konkomba. </gloss></item>
+                    </list>
+            </div>
+            <div type="glossary">
+                <head type="subTitle">A Glossary of Likpakpaln Words</head>
+                <list type="gloss">
+                    <lable>Asantes:</lable><item><gloss xml:id="gloss1">plural form of Asante. The Asante people, who are commonly known as Ashanti people or Ashantis, are one of the ethnic groups in Ghana that make up the Akan group. They inhabit the southern part of Ghana, especially the Ashanti region.</gloss></item>
+                    <lable>Hausa:</lable><item><gloss xml:id="gloss2">plural form of Hausa. The Hausa people inhabit various countries across West and Central Africa.</gloss></item>
+                    <lable>liwakpil (aka liwakpol/liwankpol):</lable><item><gloss xml:id="gloss3">literally translated variously as a dead thing, carcass or dysfunctional thing, it a derogatory word often used by Konkombas to denigrate something as ugly, undesirable or substandard. Note that during articulation, the “n” in liwankpol is silent in some Likpakpaln dialects. Similarly, liwakpil is articulated with an “n” in some Likpakpaln dialects.</gloss></item>
+                    <lable>Nanumbas:</lable><item><gloss xml:id="gloss4">plural form of Nanumba (i.e., the Nanumba ethnic group).</gloss></item>
+                    <lable>unyanyaan:</lable><item><gloss xml:id="gloss5">Likpakpaln word for someone or something beautiful, attractive, nice or appealing. In the context of this story, it refers to the physically attractive child. In another context, it can also refer to something or someone with good inner qualities than just physical looks.</gloss></item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

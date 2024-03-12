@@ -1,0 +1,150 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WHY THE TORTOISE HAS A CRACKED SHELL</title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller> Wajabuu Maakpork </storyteller>
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name>Jule Lena Wolters</name>
+                    <resp> coding and editing </resp>
+                    </respStmt>
+                <respStmt> 
+                    <name> Prof. Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name></address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status>not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace>
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street>
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> not yet available </availability>
+<date> TBD </date>
+            </publicationStmt>
+            <sourceDesc>
+              <bibl> <title>WHY THE TORTOISE HAS A CRACKED SHELL</title> <storyteller>Wajabuu Maakpork</storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+        </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc> 
+                </tagsDesc>
+            <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+                </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Chakping">
+                     <placeName>Chagbaan</placeName>
+                     <location>
+                         <geo>9,54, 0,23</geo>    
+                     </location>
+                    </place>  
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller">Wajabuu Maakpork</name> on <date when="2022">24th March 2022</date> in <name type="city">Chagbaan</name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type="mainTitle">WHY THE TORTOISE HAS A CRACKED SHELL</head>
+            <head type="subTitle">(As told by Wajabuu Maakpork at Chagbaan on 24/03/2022)</head>
+            <div type="introduction">
+                <head type="subTitle">Introduction</head>
+                <p>The story below is one of the variants of an etiological tale that proffers an explanation as to why the tortoise’s shell has cracks. This variant has it that the tortoise’s greed at a wedding ceremony results in the dismemberment of his body, which necessitates its reforging by a blacksmith. Unfortunately, the poor quality of the blacksmith’s work leaves the tortoise with an uneven shell in perpetuity. The story seeks to caution against selfishness.
+                </p>
+                </div>
+                <div type="story">
+                    <head type="subTitle">Story</head>
+                    <p><q>My story is as follows:</q>announces Wajabuu.</p>
+                    <p><q>Naba,</q> his audience respond, after which he proceeds as follows:
+                    </p>
+                    <p>There lived some wild creatures – <term ref="gloss1">inoon</term> specifically. One day <term ref="gloss1">inoon</term> decided to attend a friend’s wedding ceremony on top of a tree. Now <term ref="gloss3">lipulaakpil</term> was <term ref="gloss1">inoon</term>’s friend, so <term ref="gloss1">inoon</term> decided to invite him to attend the ceremony. But since he didn’t have wings like his <term ref="gloss1">inoon</term> buddies, how was he going to accompany them to their friend’s wedding?
+                    </p>
+                    <p>When they informed <term ref="gloss3">lipulaakpil</term>, that was his first complaint. “You can all see that I don’t have wings,” he told them. On hearing this, <term ref="gloss1">inoon</term> came to a consensus and donated a feather each to their friend. The feathers were attached to <term ref="gloss3">lipulaakpil</term>, after which he was asked to ‘test fly.’ On testing, they realised that <term ref="gloss3">lipulaakpil</term> could fly with the donated feathers; so they departed for the wedding together.
+                    </p>
+                    <p>Midway through their flight, <term ref="gloss3">lipulaakpil</term> told his <term ref="gloss1">inoon</term> buddies to pause for a second. When they did, he told them that it wasn’t good that they didn’t know one another’s names. He then proposed that they should give one another names or get to know one another’s names before getting to their destination. Before anyone could commence the introduction, he quickly announced that his name was <term ref="gloss5">Tizaabuni</term>.
+                    </p>
+                    <p><q>Mm!!</q> one of Wajabuu’s audience feigns surprise at <term ref="gloss3">lipulaakpil</term>’s behaviour.</p>
+                    <p><q>For all of us,</q> interjects another person from the audience, who obviously knows the meaning of the word <term ref="gloss5">Tizaabuni</term>.
+                    </p>
+                    <p><q>For all of us,</q> Wajabuu confirms (the meaning of <term ref="gloss5">Tizaabuni</term>) and proceeds thus:</p>
+                    <p><term ref="gloss3">lipulaakpil</term> introduced himself thus:<q>My name is <q>For all of us.</q></q> The birds followed suit and introduced themselves. After that, the group resumed its journey. They soon arrived at the wedding ground and were ushered into their seats. As soon as they offered water to the group, <term ref="gloss3">lipulaakpil</term> asked,<q>To whom is the water being served?</q> The bearer of the water replied,<q>For all of us.</q> That response clearly indicated that the water was meant for <term ref="gloss3">lipulaakpil</term>, wasn’t it?<hi rend="italic">(Wajubuu asks rhetorically.)</hi>
+                    </p>
+                    <p>As a result, <term ref="gloss3">lipulaakpil</term> collected the water and drank his fill. Whether the others had water to drink or not, he couldn’t care less. From then on, the selfish <term ref="gloss3">lipulaakpil</term> claimed ownership of everything that was served and enjoyed it alone. Whenever food was served, he would immediately ask, <q>Whose is it?</q> In response, those serving the food would say, <q>For all of us.</q> 
+                    </p>
+                    <p>And who was called <q>For all of us?</q> <hi rend="italic">(Wajabuu asks rhetorically.)</hi> It was <term ref="gloss3">lipulaakpil</term>. <hi rend="italic">(He answers the question and proceeds.)</hi> He ate everything that was meant for him and his buddies. He was so engrossed in the food and drinks that he missed the wedding ceremony itself. By the time the couple tied the knot, <term ref="gloss3">lipulaakpil</term> had eaten and drunk his fill and was fast asleep on a <term ref="gloss2">lijal</term>.    
+                    </p>
+                    <p>The marriage ceremony was eventually over so <term ref="gloss3">lipulaakpil</term>’s bird buddies informed him that they were leaving. Out of anger, each bird collected the feather it had donated to <term ref="gloss3">lipulaakpil</term> to enable the latter to fly to the wedding ground. They all agreed to punish <term ref="gloss3">lipulaakpil</term> for his selfishness. They were mad at him for diabolically changing his name midway through their journey and subsequently eating and drinking all the food and drinks meant for all of them. That was their reason for taking back their feathers.
+                    </p>
+                    <p>As his bird buddies were about to depart, <term ref="gloss3">lipulaakpil</term> said, <q>Friends, I beg you; please inform my wives and children to bring out every cushion and soft thing in the house and spread them in the courtyard so that I’ll fall from the top of the tree. Please tell them that when they’re done covering the courtyard with all the cushions, mattresses, pillows, and all cotton-stuffed, puffy and soft things, they should alert me thus: ‘<term ref="gloss3">lipulaakpil</term>, we’re done; you can fall now.’</q> 
+                    </p>
+                    <p>However, on arrival the birds informed one of <term ref="gloss3">lipulaakpil</term>’s wives that <term ref="gloss3">lipulaakpil</term> had been enskinned as <term ref="gloss6">ubɔr</term> and so had remained on top of the<term xml:id=“footnote1”>tree</term>. According to the birds, their friend had instructed that his family should fill the courtyard with stones, rocks, and every hard object or thing they could find. After that, they added, the family should then alert him to fall from the tree. The women and children consequently did as allegedly instructed, covering their courtyard with every stone, rock and hard object they found. When they were done, they called out loudly: <q><term ref="gloss3">lipulaakpil</term>,</q> – to which the latter responded, <q>Whouy! [to wit yeees! or I’m listening.]</q> <q>We’re done,</q> the family told him. 
+                    </p>
+                    <p>On hearing that, <term ref="gloss3">lipulaakpil</term> threw himself off the tree, landing on the stones, rocks and other hard things that had been spread all over the yard. The impact of the fall resulted in the rupturing of his body. His wives and children then took the dismembered body to a blacksmith, who reforged together the body parts, especially the shell. That’s why when you look at the tortoise, you’ll realise that the shell has cracks all over it. 
+                    </p>
+                   <p><q>Is that the result of the reforging?</q> one of Wajabuu’s audience asks.</p>
+                   <p><q>Enn [to wit ‘yes’]. The pieces the blacksmith reforged resulted in the cracks on <term ref="gloss3">lipulaakpil</term>’s shell.</q> </p>
+                   <p><q>Mmmmm! [to wit ‘well noted’]. That’s true,</q> adds the person who interjected, after which the storyteller signs off as follows:
+                   </p>
+                   <p><term ref="gloss4">Maatiin n-muun chaa</term>.</p>
+                </div>
+                <div type="Note">
+                    <head type="subTitle">Note</head>
+                    <list type="index">
+                        <label>1.</label><item><gloss target="footnote1">In the northern part of Ghana, the enthronement or installation of the traditional leader of a community is called enskinment while dethronement is known as deskinment. The reason is that a skin (not a throne) is the symbol of traditional political authority in northern Ghana. In southern Ghana, the symbol of traditional political authority is a stool; so most southern Ghanaian ethnic groups use the terms enstoolment and destoolment for enthronement and dethronement respectively. 
+                        </gloss></item>
+                    </list>
+                </div>
+                <div type="glossary">
+                    <head type="subTitle">A Glossary of Likpakpaln Words and Phrases</head>
+                    <list type="gloss">
+                        <label>inoon (also spelt inyoon in another dialect):</label><item><gloss xml:id="gloss1">
+                            Likpakpaln word for birds. The singular form is unoon (i.e., a bird) – or unyoon in another Likpakpaln dialect. Unoon is one of several heteronyms in Likpakpaln. When pronounced with a falling intonation, it refers to a bird – as pertains in this story. But when pronounced with a rising intonation, it refers to a scorpion.
+                        </gloss></item>
+                        <label>lijal:</label><item><gloss xml:id="gloss2">
+                            Likpakpaln word for a chair, stool, bench or seat. The storyteller does not specify whether it is a stool, chair, bench, etc. – hence, the translator’s inability to provide an English equivalent.
+                        </gloss></item>
+                        <label>lipulaakpil (also spelt lipulaakpel):</label><item><gloss xml:id="gloss3">
+                            Likpakpaln word for a tortoise.
+                        </gloss></item>
+                        <label>maatiin n-muun chaa:</label><item><gloss xml:id="gloss4">
+                            transliterated as, <q>May my story grow very tall.</q> This is an atypical, shortened version of the standard conclusion <q><hi rend="italic">Maatiin gur ki m muun ke n-yaaja aagbem na</hi></q> (translated as, <q>May my story diminish while I grow as tall as my grandfather’s Kapok tree</q>). This standard conclusion is one of the numerous ways in which a Konkomba storyteller can end his/her story. The ending and its numerous variants suggest that Konkombas believe that storytelling (or entertainment in general) has health benefits, especially healthy physical growth. The association of storytelling with physical growth is so entrenched in the Konkomba belief system that it is even believed that when a child engages in storytelling in the daytime – for Konkomba storytelling sessions are held normally in the evenings after supper – he or she will suffer stunted growth. However, the above storyteller’s conclusion or signing off statement clearly deviates from this communal belief when its focus is on the growth of the storyteller’s tale rather than his own physical growth. In this context, therefore, this atypical signing off statement could be translated as <q>May my story spread far and wide.</q> The foregoing points to the flexibility inherent in the Konkomba storytelling culture – one must not always conform to normative structures.
+                        </gloss></item>
+                        <label>Tizaabuni:</label><item><gloss xml:id="gloss5">
+                            a Kusaal word which means <q>For all of us</q> or <q>It belongs to all of us.</q> Considering that the protagonist of this tale bears a Kusasi name, one could say that this story originates from the Kusasi folklore and might have made its way into the Konkomba folklore due to inter-ethnic interactions between the Konkomba people and the Kusasi people. Note that Kusaal is the language spoken by the Kusasi people of northern Ghana.   
+                        </gloss></item>
+                        <label>ubɔr:</label><item><gloss xml:id="gloss6">
+                            the political head of a Konkomba community. Ubɔr is usually the eldest male member of the royal family. He inherits that position from his father after the latter’s demise. Thus, Konkombas practice the patrilineal system of inheritance. 
+                        </gloss></item>
+                    </list>
+                </div>
+                </body>
+                </text>
+                </TEI>

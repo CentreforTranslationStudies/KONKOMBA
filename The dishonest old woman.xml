@@ -1,0 +1,101 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>THE DISHONEST OLD WOMAN</title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller>Danaa</storyteller>
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name>Sally Lambirth</name>
+                    <resp> coding and editing </resp>
+                </respStmt>
+                    <respStmt> 
+                    <name> Prof. Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type=""> Heinrich-Heine-Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name></address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status>not yet published</status> 
+                <pubPlace>Düsseldorf</pubPlace>
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street>
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability>not yet available </availability>
+<date> TBD </date>
+            </publicationStmt>
+            <sourceDesc>
+              <bibl> <title>THE DISHONEST OLD WOMAN</title> <storyteller>Danaa</storyteller> Translated by <editor role=translator> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+        </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc>
+                </tagsDesc>
+            <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+                </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Kutol">
+                     <placeName>Kutol</placeName>
+                     <location>
+                         <geo>9.58, 0.24</geo>    
+                     </location>
+                 <place>  
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller">Danaa</name> on <date when="2022">18th March 2022</date> in <name type="city">Kutol</name>, <type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+    </teiHeader>
+    <text>
+    <body>
+        <p></p>
+        <head type="mainTitle">THE DISHONEST OLD WOMAN</head>
+        <p>(As narrated by Danaa at Kutol on 18/03/2022)</p>
+        <div type="introduction">
+            <head type="subTitle">Introduction</head>
+            <p>In the story below, a child narrator relates how an old woman offers her only daughter to four suitors for material gains. According to the story, the old woman promises four young men the hands of her daughters in marriage - when in fact, she has only one daughter. But through the spiritual intervention of a fetish priest, she succeeds in finding daughters for all suitors at the end of the day. The only problem is that she is unable to live with her daughters and their husbands, save her biological daughter and her husband. Centred around the traditional courtship system among the Konkomba people, the story cautions against dishonest dealings during the process.</p>
+        </div>
+        <div type="story">
+            <head type="subTitle">Story</head>
+            <p><q>My story is as follows:</q> Danaa announces and proceeds thus:</p>
+            <p>There lived an <term ref="#gloss1">upininkpil</term> who had only one child. When the girl came of age, four suitors expressed interest in marrying her. Whenever any of the young men gave the <term ref="#gloss1">upininkpil</term>money, she would accept it and assure the suitor of a wife. Soon, the day on which the suitors were supposed to marry the young lady was upon her.</p>
+            <p>The <term ref="#gloss1">upininkpil</term> went to seek the help of an <term ref="#gloss2">uwaadaan.</term> After narrating her problem to the <term ref="#gloss2">uwaadaan,</term> the latter instructed her to get a virgin nanny goat, a virgin ewe, and a virgin bitch. After procuring these animals, the <term ref="#gloss2">uwaadaan</term> added, she must put them and her daughter in the same room. The old woman did exactly as instructed.</p>
+            <p>She had also been instructed that at midday she should open the room. So at midday, she opened the room and discovered that all the animals had been magically transformed into young ladies. The first suitor arrived shortly after that and gave her actual daughter to him to marry. When the secon suitor came, she handed over to him the bitch that had been magically transformed into a young lady. So he married that one. The third and fouth suitors followed and were given the nanny goat-turned-young lady and the ewe-turned-young lady to marry respectively.</p>
+            <p>In the course of time, the <term ref="#gloss1">upininkpil</term> decided to visit her daughters and their husbands. Her first stop was her real daughter. When she arrived, she was well recieved. She noticed that her daughter was living happily with her husband. After interacting with them, she went to the next daughter's home - the ewe-turned-young lady's home. When she arrived, she couldn't stay there for long due to the chaos in the house. She didn't enjoy her stay there. She then went to the nanny goat-turned-young lady's home. It was just as chaotic as the previous daughter's home, so she left. On visiting the bitch-turned-young lady and her husband, there was no peace at their home. The reason was simple: whenever the daughter was given meat to cook for the family, she ate everything before the food was even ready. As a result, there were always quarrels between her and her husband.</p>
+            <p>That is the end of my story. The moral is that if one has only one daughter and several suitors come to ask for her hand in marriage, the fellow should not give the lady to all the suitors. <q>If you do that, you'll end up causing a conflict between the suitors,</q> one of the audience adds, after which everyone claps for the storyteller.</p>
+        </div>    
+        <div type="glossay">
+            <head type="subTitle">A Glossary of Likpakpaln Words</head>
+            <list type="glossay">
+            <p>   <label><hi rend="bold"> upininkpil </hi> (also spelt <hi rend="bold"> upininkpel</hi>):</label><item><gloss xml:id="gloss1"> Likpakpaln word for an old lady or old woman. The plural form is bipininkpiib</gloss></item> </p>
+            <p>   <label><hi rend="bold"> uwaadaan:</hi></label><item><gloss xml:id="gloss2"> a fetish priest or priestess. This is a traditional priest or priestess who serves a local deity and acts as a mediator between that deity and the physical world - especially human beings. Traditional people often consult such priests or priestesses for spiritual assistance - usually at a token. Such a priest or priestess is distinct from a community priest (known as utindaan), who acts as the spiritual leader and mediator between a Konkomba community and their ancestors, lesser gods and the supreme God. Thus, unlike utindaan, uwaadaan is a private practitioner who gets compensated for his or her services.</gloss></item> </p>
+            </list>
+        </div>
+    </body>
+    </text>
+</TEI>    

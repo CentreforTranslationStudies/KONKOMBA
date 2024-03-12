@@ -1,0 +1,226 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rabbit Cheats Chameleon at a Marriage Contest</title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller>Abena</storyteller>
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Jessica Hüttig</name>
+                    <name>Lucas Worm</name>
+                    <resp> coding and editing </resp>
+                </respStmt>
+                <respStmt> 
+                    <name> Prof. Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name></address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status>not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace>
+                <address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                <street> Universitätsstraße 1 </street>
+                <postCode> 40225 </postCode>
+                <name type="city"> Düsseldorf </name>
+                <name type="country"> Germany </name>
+                </address>
+                <availability> not yet available </availability>
+                <date> TBD </date>
+            </publicationStmt>
+            <sourceDesc>
+              <bibl> <title>Rabbit Cheats Chameleon at a Marriage Contest</title> <storyteller>Abena</storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc>  
+                </tagsDesc>
+            <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+            </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Chakping">
+                     <placeName>Chakping</placeName>
+                     <location>
+                         <geo>9.67, -0.27</geo>    
+                     </location>
+                </place>  
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller">Abena </name> on <date when="2022">16th March 2022</date> in <name type="city">Chakping</name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type="mainTitle">Rabbit Cheats Chameleon at a Marriage Contest</head>
+            <p>(As narrated by Abena at Chakping on 16/03/2022)</p>
+            <div type="introduction">
+                <head type="subTitle">Introduction</head>
+                <p>The story below details how the rabbit beats the chameleon at a marriage contest centred around uncovering the names of their political leader’s daughters. 
+                    The story has it that the chameleon employs tact to uncover the names of the girls. 
+                    However, his careless handling of the information results in his inability to receive the ultimate reward of marrying the girls – 
+                    a loss that causes him so much agony that his head eventually deforms. </p>
+            </div>
+            <div type="story">
+                <head type="subTitle">Story</head>
+                <p><q>There once lived an ubɔr who had two daughters,</q> Abena commences and proceeds thus: 
+                    One day he summoned all animals and told them that anyone who was able to tell him the names of the girls would get to marry them. 
+                    Various animals subsequently took up the challenge and tried to no avail to guess the girls’ names.</p>
+                <p>One day the girls decided to go to the riverside and do their laundry. On learning this, <term ref="#gloss3">umuatoon</term> quickly went ahead of them and hid in a nearby shrub. 
+                    At the river, one of the girls finished washing her underwear and dried it on the shrub in which <term ref="#gloss3">umuatoon</term> was hiding. 
+                    <term ref="#gloss3">Umuatoon</term> immediately took the underwear and hid it. If the girl couldn’t find the underwear, wouldn’t she be forced to call her sister’s name and ask? 
+                    <hi rend="italic">(Abena asks her audience, in an attempt to explain <term ref="#gloss3">umuatoon’s</term> reason for hiding the underwear.)</hi></p>
+                <p><q>Mmm!</q> responds one of Abena’s audience, after which she continues thus:</p>
+                <p>When the girl returned and didn’t see the underwear, she called out to her sister, <q>Tibɔrkuun, have you seen my underwear?</q> 
+                    Her sister responded in the negative: <q>I haven’t seen it.</q> 
+                    After a while, the other sister called out to her sister and asked, <q>Doyala, have you seen it yet? I didn’t pick it.</q> 
+                    In the end, didn’t <term ref="#gloss3">umuatoon</term> get to know their names as a result? <hi rend="italic">(Abana asks her audience again.)</hi></p>
+                <p><q>He did,</q> a child from the audience responds.</p>
+                <p><q><term ref="#gloss3">Umuatoon</term> got to know the girls’ names,</q> Abena affirms and continues as follows:</p>
+                <p>The girls were soon done and returned home. <term ref="#gloss3">Umuatoon</term> climbed out of the shrub and also headed homewards. 
+                    On his way, having forgotten how slowly he walks, <term ref="#gloss3">umuatoon</term> started singing:</p>
+                <div type="song">
+                    <table type="translation">
+                        <row role="head">
+                            <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                            <cell><hi rend="bold">English translation</hi></cell>
+                        </row>
+                        <row>
+                            <cell><l>Udaan u bɔr Tibɔrkuun ee</l></cell>
+                            <cell><l>The person who hid Tibɔrkuun</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>Ukpaakun bɔnn Doyala.</l></cell>
+                            <cell><l>Ukpaakun has befriended Doyala.</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>M-mmm, Ukpaakun bɔnn Doyala</l></cell>
+                            <cell><l>M-mmm, Ukpaakun has befriended Doyala.</l></cell>
+                        </row>
+                        <row></row>
+                        <row>
+                            <cell><l>Unii u bɔr Tibɔrkuun ee</l></cell>
+                            <cell><l>The person who hid Tibɔrkuun</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>Ukpaakun bɔnn Doyala.</l></cell>
+                            <cell><l>Ukpaakun has befriended Doyala.</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>M-mmm, Ukpaakun bɔnn Doyalaa!!!</l></cell>
+                            <cell><l>M-mmm, Ukpaakun has befriended Doyalaa!!!</l></cell>
+                        </row>
+                        <row></row>
+                    </table>
+                </div>
+                <p>As he was singing the song, <term ref="#gloss2">sandee</term> – who was resting in a shrub along the path – heard the song and quickly ran ahead of <term ref="gloss3">umuatoon</term> to ubɔr’s palace. 
+                    On arrival he said, <q>Ubɔr, I‘ve discovered your daughters’ names.</q> 
+                    Ubɔr then asked him what the names were, whereupon <term ref="#gloss2">sandee</term> replied that one was called Tibɔrkuun while the other was called Doyala.</p>
+                <p>Meanwhile, <term ref="gloss3">umuatoon</term> was still on his way to the palace. He was still singing his song:</p>
+                <div type="song">
+                    <table type="translation">
+                        <row role="head">
+                            <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                            <cell><hi rend="bold">English translation</hi></cell>
+                        </row>
+                        <row>
+                            <cell><l>Udaan u bɔr Tibɔrkuun ee</l></cell>
+                            <cell><l>The person who hid Tibɔrkuun</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>Ukpaakun bɔnn Doyala.</l></cell>
+                            <cell><l>Ukpaakun has befriended Doyala.</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>M-mmm, Ukpaakun bɔnn Doyala</l></cell>
+                            <cell><l>M-mmm, Ukpaakun has befriended Doyala.</l></cell>
+                        </row>
+                        <row></row>
+                        <row>
+                            <cell><l>Unii u bɔr Tibɔrkuun ee</l></cell>
+                            <cell><l>The person who hid Tibɔrkuun</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>Ukpaakun bɔnn Doyala.</l></cell>
+                            <cell><l>Ukpaakun has befriended Doyala.</l></cell>
+                        </row>
+                        <row>
+                            <cell><l>M-mmm, Ukpaakun bɔnn Doyalaa!!!</l></cell>
+                            <cell><l>M-mmm, Ukpaakun has befriended Doyalaa!!!</l></cell>
+                        </row>
+                        <row></row>
+                    </table>
+                </div>
+                <p>Eventually he arrived at the palace, where he was informed by ubɔr that <term ref="#gloss2">sandee</term>  had already 
+                   revealed the girls’ names. But <term ref="#gloss3">umuatoon</term> insisted that he was the one who uncovered the girls’  
+                   names. Ubɔr then asked, <q><term ref="#gloss2">Sandee</term> has been here for a while now; where have you been all this time?</q></p>
+                <p><term ref="#gloss2">Sandee</term> was therefore adjudged the winner of the contest. A sorrow-stricken <term ref="#gloss3">umuatoon</term> burst
+                    into uncontrollable tears. He wept so much that his head eventually deformed into a helmet
+                    shape. <term ref="#gloss3">Umuatoon</term>'s head was originally not shaped like a bicycle helmet.</p>
+                <p><term ref="#gloss2">Sandee</term> has always been wiser than <term ref="#gloss3">umuatoon</term>. <term ref="#gloss3">Umuatoon</term> can’t walk fast but he was smart to
+                    hide the girl’s underwear in order to discover the girls’ names. Unfortunately, in the end, <term ref="#gloss2">sandee</term> 
+                    outsmarted him and got the girls.</p>
+                <p><q><term ref="#gloss1">Maatiin gur ka m muun chaa</term>,</q> Abena signs off. But one of her audience cuts in even before 
+                    she ends the signing off statement:</p>
+                <p><q>He should have kept quiet while slowly making his way to the palace. He shouldn’t have
+                    composed a song with the girls’ names,</q> he says the latter sentence simultaneously with some
+                    other audience.</p>
+                <p><q>Enn! He mistakenly sang the song – which made it possible for the wise <term ref="#gloss2">sandee</term> to cheat him,</q> 
+                    the storyteller concurs with her audience.</p>
+                <p><q>Mm! Well, let’s end the post-narrative discussion and listen to other stories,</q> another person 
+                    from the audience interjects. The discussion consequently ends and the next storyteller
+                    commences.</p>
+            </div>
+            <div type="glossary">
+                <head type="subTitle">A Glossary of Likpakpaln Words and Phrases (or Expressions)</head>
+                <list type="gloss">
+                <label>maatiin gur ka m muun chaa:</label><item><gloss xml:id="gloss1">translated as,<q>May my story diminish while I grow very tall.</q>
+                    This is a shortened version of the standard conclusion <q><hi rend="italic">Maatiin gur ki m muun ke n-yaaja aagbem na</hi></q> (translated as, <q>May my story diminish while I grow as tall as my grandfather’s Kapok tree</q>).
+                    This standard conclusion is one of the numerous ways in which a Konkomba storyteller can end his/her story. The ending and its numerous variants, such as the one in the 
+                    story above, suggest that Konkombas believe that storytelling (or entertainment in general) has health benefits, especially healthy physical growth. The association of storytelling with
+                    physical growth is so entrenched in the Konkomba belief system that it is even believed that when a child engages in storytelling during the day – for Konkomba storytelling sessions are
+                    held normally in the evenings after supper – he or she will suffer stunted growth.</gloss></item>
+                <label>sandee:</label><item><gloss xml:id="gloss2">Likpakpaln word for a rabbit, bunny or hare. Sandee is the wisest and trickster character in Konkomba folklore.
+                    It is notorious for often using its cunning and witty nature to wriggle its way out of difficult situations or to cheat others – as it does in this story.</gloss></item>
+                <label>umuatoon:</label><item><gloss xml:id="gloss3">Likpakpaln word for a chameleon.</gloss></item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+                
+
+
+
+
+
+
+            

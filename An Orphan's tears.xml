@@ -1,0 +1,312 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An Orphan's Tears Bring Dead Mother Back To Life</title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller> Inimoan </storyteller>
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name>Jule Lena Wolters</name>
+                    <name>Louisa Urach</name>
+                    <resp> coding and editing </resp>
+                    </respStmt>
+                <respStmt> 
+                    <name> Prof. Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name></address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status>not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace>
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street>
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> not yet available </availability>
+<date> TBD </date>
+            </publicationStmt>
+            <sourceDesc>
+              <bibl> <title>An Orphan's Tears Bring Dead Mother Back To Life </title> <storyteller>Inimoan</storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+        </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc> 
+                </tagsDesc>
+            <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+                </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Chakping">
+                     <placeName> Chakping</placeName>
+                     <location>
+                         <geo>9.67, -0.27</geo>    
+                     </location>
+                    </place>  
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller">Inimoan</name> on <date when="2022">16th March 2022</date> in <name type="city">Chakping</name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type="mainTitle">An Orphan's Tears Bring Dead Mother Back To Life</head>
+            <head type="subTitle">(As narrated by Inimoan at Chakping on 16/03/2022)</head>
+            <div type="introduction">
+                <head type="subTitle">Introduction</head>
+                <p>The following story highlights the plight of an orphan girl who suffers at the hands of her stepmother. Fortunately for her, and by some divine providence, her incessant tears and singing at her mother’s grave resurrect the mother. The story seeks to highlight a problem prevalent in polygamous homes while simultaneously warning against the maltreatment of children – especially orphans. 
+                </p>
+            </div>
+            <div type="story">
+                <head type="subTitle">Story</head>
+                <p><q>My story is as follows:</q> announces Inimoan, after which she continues thus:</p>
+                <p>There once lived a woman. She gave birth to a child but passed away. The child subsequently grew up with another mother – the deceased’s co-wife.
+                </p>
+                <p>Unfortunately, the stepmother of the child maltreated her. Whenever it was the season for harvesting okro (or okra) on the farm, it was the orphan who did all the work. Even though the stepmom had children, at the crack of dawn, it was only the orphan she would wake up to go and harvest okro on the farm. 
+                </p>
+                <p>The orphan would usually oblige, go to the farm and harvest the okro. Whenever she got tired, she would visit her mother’s grave and break into song:
+                </p>
+             <div type="song">
+                <table type="translation">
+                     <row role="head">
+                        <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                        <cell><hi rend="bold">English translation</hi></cell>
+                     </row>
+                     <row>
+                        <cell><l>Ma’na yaa ba bi ee,</l></cell>
+                        <cell><l>If my mom were alive,</l></cell>
+                     </row>
+                     <row>
+                        <cell><l>ŋma ban tun mi limɔnpool ee,</l></cell>
+                        <cell><l>Who would have sent me to harvest okro?</l></cell>
+                     </row>
+                     <row>
+                        <cell><l>Ma’na yaa ba bi ee,</l></cell>
+                        <cell><l>If my mom were alive,</l></cell>
+                     </row>
+                     <row>
+                        <cell><l>ŋma ban tun mi limɔnpool ee,</l></cell>
+                        <cell><l>Who would have sent me to harvest okro?</l></cell>
+                     </row>
+                     <row>
+                        <cell><l>M poo imɔan ki ila ŋɔk la;</l></cell>
+                        <cell><l> I’ve harvested premature okro pods;</l></cell>
+                     </row>
+                     <row>
+                        <cell><L>M poo imɔan ki ila buukr eeee!!!! </L></cell>
+                        <cell><l>I’ve harvested barely mature okro pods!!!!</l></cell>
+                     </row>
+                     <row>
+                    </row>
+                    </table>
+                    </div>
+                    <p>After singing for a while, she would resume harvesting the okro. But on getting tired again, she would return to the grave and sing:
+                    </p>
+                <div type="song">
+                     <table type="translation">
+                          <row role="head">
+                            <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                            <cell><hi rend="bold">English translation</hi></cell>
+                         </row>
+                         <row>
+                            <cell><l>Ma’na yaa ba bi ee,</l></cell>
+                            <cell><l>If my mom were alive,</l></cell>
+                         </row>
+                         <row>
+                            <cell><l>ŋma ban tun mi limɔnpool ee,</l></cell>
+                            <cell><l>Who would have sent me to harvest okro?</l></cell>
+                         </row>
+                         <row>
+                           <cell><l>Ma’na yaa ba bi ee,</l></cell>
+                           <cell><l>If my mom were alive,</l></cell>
+                        </row>
+                        <row>
+                           <cell><l>ŋma ban tun mi limɔnpool ee,</l></cell>
+                           <cell><l>Who would have sent me to harvest okro?</l></cell>
+                        </row>
+                         <row>
+                            <cell><l>M poo imɔan ki ila ŋɔk la;</l></cell>
+                            <cell><l> I’ve harvested premature okro pods;</l></cell>
+                         </row>
+                         <row>
+                            <cell><L>M poo imɔan ki ila buukr eeee!!!! </L></cell>
+                            <cell><l>I’ve harvested barely mature okro pods!!!!</l></cell>
+                         </row>
+                         <row>
+                         </row>
+                         </table>
+                         </div>
+                         <p>One day after singing the song, she noticed that the grave burst open.
+                        </p>
+                        <p><q>It cracked,</q> interjects one of Inimoan’s audience. 
+                        </p>
+                        <p><q><term ref="#gloss1">Mm</term>, the grave cracked,</q> Inimoan agrees and corrects that detail, after which she proceeds thus:
+                        </p>
+                        <p>On seeing the crack, the girl commenced singing again:
+                        </p>
+                     <div type="song">
+                        <table type="translation">
+                             <row role="head">
+                               <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                               <cell><hi rend="bold">English translation</hi></cell>
+                            </row>
+                            <row>
+                               <cell><l>Ma’na yaa ba bi ee,</l></cell>
+                               <cell><l>If my mom were alive,</l></cell>
+                            </row>
+                            <row>
+                               <cell><l>ŋma ban tun mi limɔnpool ee,</l></cell>
+                               <cell><l>Who would have sent me to harvest okro?</l></cell>
+                            </row>
+                            <row>
+                              <cell><l>Ma’na yaa ba bi ee,</l></cell>
+                              <cell><l>If my mom were alive,</l></cell>
+                           </row>
+                           <row>
+                              <cell><l>ŋma ban tun mi limɔnpool ee,</l></cell>
+                              <cell><l>Who would have sent me to harvest okro?</l></cell>
+                           </row>
+                            <row>
+                               <cell><l>M poo imɔan ki ila ŋɔk la;</l></cell>
+                               <cell><l> I’ve harvested premature okro pods;</l></cell>
+                            </row>
+                            <row>
+                               <cell><L>M poo imɔan ki ila buukr eeee!!!! </L></cell>
+                               <cell><l>I’ve harvested barely mature okro pods!!!!</l></cell>
+                            </row>
+                            <row>
+                            </row>
+                            </table>
+                            </div>
+                            <p>The grave developed further cracks after that. The girl resumed singing:
+                            </p>
+                        <div type="song">
+                            <table type="translation">
+                                 <row role="head">
+                                   <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                                   <cell><hi rend="bold">English translation</hi></cell>
+                                </row>
+                                <row>
+                                   <cell><l>Ma’na yaa ba bi ee,</l></cell>
+                                   <cell><l>If my mom were alive,</l></cell>
+                                </row>
+                                <row>
+                                   <cell><l>ŋma ban tun mi limɔnpool ee,</l></cell>
+                                   <cell><l>Who would have sent me to harvest okro?</l></cell>
+                                </row>
+                                <row>
+                                   <cell><l>Ma’na yaa ba bi ee,</l></cell>
+                                   <cell><l>If my mom were alive,</l></cell>
+                                </row>
+                                <row>
+                                   <cell><l>ŋma ban tun mi limɔnpool ee,</l></cell>
+                                   <cell><l>Who would have sent me to harvest okro?</l></cell>
+                                </row>
+                                <row>
+                                   <cell><l>M poo imɔan ki ila ŋɔk la;</l></cell>
+                                   <cell><l> I’ve harvested premature okro pods;</l></cell>
+                                </row>
+                                <row>
+                                   <cell><L>M poo imɔan ki ila buukr eeee!!!! </L></cell>
+                                   <cell><l>I’ve harvested barely mature okro pods!!!!</l></cell>
+                                </row>
+                                <row>
+                                </row>
+                                </table>
+                                </div>
+                                <p>The orphan’s mother’s body emerged from the grave – this time only to the neck level.
+                                </p>
+                                <p>After this, the girl sang her song again:
+                                </p>
+                            <div type="song">
+                                <table type="translation">
+                                     <row role="head">
+                                       <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                                       <cell><hi rend="bold">English translation</hi></cell>
+                                    </row>
+                                    <row>
+                                       <cell><l>Ma’na yaa ba bi ee,</l></cell>
+                                       <cell><l>If my mom were alive,</l></cell>
+                                    </row>                                        <row>
+                                       <cell><l>ŋma ban tun mi limɔnpool ee,</l></cell>
+                                       <cell><l>Who would have sent me to harvest okro?</l></cell>
+                                    </row>
+                                    <row>
+                                       <cell><l>Ma’na yaa ba bi ee,</l></cell>
+                                       <cell><l>If my mom were alive,</l></cell>
+                                    </row>
+                                    <row>
+                                       <cell><l>ŋma ban tun mi limɔnpool ee,</l></cell>
+                                       <cell><l>Who would have sent me to harvest okro?</l></cell>
+                                    </row>
+                                    <row>
+                                       <cell><l>M poo imɔan ki ila ŋɔk la;</l></cell>
+                                       <cell><l> I’ve harvested premature okro pods;</l></cell>
+                                    </row>
+                                    <row>
+                                       <cell><L>M poo imɔan ki ila buukr eeee!!!! </L></cell>
+                                       <cell><l>I’ve harvested barely mature okro pods!!!!</l></cell>
+                                    </row>
+                                    <row>
+                                    </row>
+                                    </table>
+                                    </div>
+                                    <p>Her mother’s body emerged further, so the orphan pulled and succeeded in pulling the mother out of the grave alive.
+                                    </p>
+                                    <p>That is why in this world when someone dies and you’re entrusted with bringing up the person’s child, you must treat that child exactly as you would your own. Do not maltreat the child because the child is an orphan.
+                                        <hi rend="italic">(Inimoan says the above, aided intermittently by some of her audience.)</hi>
+                                    </p>
+                                    <p><q><term ref="#gloss1">Maatiin gur ki m muun chaa,</term></q> she signs off.</p>
+                                  </div>
+                                  <div type="glossary">
+                                    <head type="subTitle">A Glossary of Likpakpaln Words and Phrases</head>
+                                    <list type="gloss">
+                                       <label>maatiin gur ki  m muun chaa:</label>
+                                       <item>
+                                          <gloss xml:id="gloss1">
+                                             translated as, <q>May my story diminish while I grow very tall.</q> This is a shortened version of the standard conclusion<q><hi rend="italics"> Maatiin gur ki m muun ke n-yaaja aagbem na</hi></q> (translated as,<q>May my story diminish while I grow as tall as my grandfather’s Kapok tree</q>). This standard conclusion is one of the numerous ways in which a Konkomba storyteller can end his/her story. The ending and its numerous variants suggest that Konkombas believe that storytelling (or entertainment in general) has health benefits, especially healthy physical growth. The association of storytelling with physical growth is so entrenched in the Konkomba belief system that it is even believed that when a child engages in storytelling in the daytime – for Konkomba storytelling sessions are held normally in the evenings after supper – he or she will suffer stunted growth.
+                                          </gloss>
+                                       </item>
+                                       <label>mm:</label>
+                                       <item>
+                                          <gloss xml:id="gloss2">
+                                             one of the numerous ideophones in Likpakpaln. It is often used to say ‘yes’ or express an agreement with someone – as the storyteller does in this tale.
+                                          </gloss>
+                                       </item>
+                                    </list>
+                                    </div>
+                                    </body>
+                                    </text>
+                                    </TEI>
+                                    
+                                    
+
+                    
+
+                        
+                
+                

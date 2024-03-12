@@ -1,0 +1,121 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Rabbit Tricks The Hyena And Steals His Guinea Corn</title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller> Naaja Bilinyi </storyteller>
+                <editor> Tasun Tidorchibe </editor>
+                <respStmt>
+                    <name> Tasun Tidorchibe </name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                    <respStmt>
+                    <name>Jule Lena Wolters</name>
+                    <name>Louisa Urach</name>
+                    <resp> coding and editing </resp>
+                    </respStmt>
+                <respStmt> 
+                    <name> Prof. Dr. Eva Ulrike Pirker </name>
+                    <resp> supervision </resp>
+                </respStmt>
+                <sponsor type="digitisation"> E-Learning Förderfonds HHU </sponsor>
+               <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address><name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+                    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+                    <street> Universitätsstraße 1 </street>
+                    <postCode> 40225 </postCode>
+                    <name type="city"> Düsseldorf </name>
+                    <name type="country"> Germany </name></address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Centre for Translation Studies Düsseldorf </publisher>
+                <status>not yet published</status> 
+                <pubPlace> Düsseldorf </pubPlace>
+<address> <name type="institution"> Centre for Translation Studies Düsseldorf </name> 
+    <name type="institution"> Heinrich-Heine-Universität Düsseldorf </name>
+    <street> Universitätsstraße 1 </street>
+    <postCode> 40225 </postCode>
+    <name type="city"> Düsseldorf </name>
+    <name type="country"> Germany </name>
+</address>
+<availability> not yet available </availability>
+<date> TBD </date>
+            </publicationStmt>
+            <sourceDesc>
+              <bibl> <title>The Rabbit Tricks The Hyena And Steals His Guinea Corn </title> <storyteller>Naaja Bilinyi</storyteller> Translated by <editor role="translator"> Tasun Tidorchibe </editor> </bibl> 
+            </sourceDesc>
+        </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc> 
+                </tagsDesc>
+            <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+                </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in
+                <place xml:id="Kutol">
+                     <placeName> Kutol </placeName>
+                     <location>
+                         <geo>9,58, 0,24</geo>    
+                     </location>
+                    </place>  
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller">Naaja Bilinyi</name> on <date when="2022">17th March 2022</date> in <name type="city">Kutol </name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type="mainTitle">The Rabbit Tricks The Hyena And Steals His Guinea Corn</head>
+            <head type="subTitle">(As narrated by Naaja Bilinyi at Kutol on 17/03/2022)</head>
+            <div type="introduction">
+                <head type="subTitle">Introduction</head>
+                <p>In the story below, the rabbit – the wisest animal character in Konkomba folklore – is at his antics again. In this story, a child narrator relates how the rabbit pulls a fast one on the hyena (the most unintelligent animal character in Konkomba folklore) and steals his guinea corn. According to the narrative, the rabbit deceives the hyena into selling his mother while his (the rabbit’s) mother is clandestinely told to run away. After that, the rabbit again tricks the hyena and steals his guinea corn.
+            </p>
+            </div>
+            <div type="story">
+                <head type="subTitle">Story</head>
+                <p><q>My story is as follows:</q> Naaja announces to his audience and proceeds thus:
+                </p>
+                <p>All animals lived with their mothers. But one day <term ref="#gloss1">naachiin</term>decided to sell his mother. He agreed with <term ref="#gloss2">sandee</term> that they would each sell their mothers. <term ref="#gloss1">naachiin</term> tied a big, strong rope around the mother’s neck, took her to the market and sold her. However, <term ref="#gloss2">sandee</term> tied a very thin, weak rope around the mother’s neck and told her to break free and run away when they got to the market. As a result, when they arrived at the market with their mothers, <term ref="#gloss2">sandee's</term>mother broke free and ran away.  But <term ref="#gloss1">naachiin</term>…
+                <hi rend ="italic">(Naaja appears to be struggling to recollect the next details of the story.)
+                </hi></p>
+                <p><q><term ref="#gloss1">naachiin</term> sold his mother,</q> chips in one of Naaja’s audience, on realising that the storyteller is struggling to remember the next details.
+                </p>
+                <p><q><term ref="#gloss1">naachiin</term> sold her and bought guinea corn when he was about to return home,</q> Naaja integrates the audience’s addition and continues his rendition. </p>    
+<p>Immediately <term ref="#gloss1">naachiin</term> departed, <term ref="#gloss2">sandee</term> quickly ran ahead of him and played dead on the road <term ref="#gloss1">naachiin</term> had taken. As soon as <term ref="#gloss1">naachiin</term> passed, <term ref="#gloss2">sandee</term> ran again ahead of him and played dead on the road. On seeing the ‘dead’ <term ref="#gloss2">sandee</term>, <term ref="#gloss1">naachiin</term>mocked him and continued his journey. <term ref="#gloss2">sandee</term> once again ran ahead of him and played dead again. At this point, <term ref="#gloss1">naachiin</term> decided that the carcasses of the rabbits would make good meat for him and his family. He therefore picked the ‘dead’ <term ref="#gloss2">sandee</term>, left the guinea corn he had bought at the market and returned to pick the second ‘dead’ rabbit he had earlier seen on the road. 
+</p>
+<p>As soon as <term ref="#gloss1">naachiin</term> left to pick the other rabbit, <term ref="#gloss2">sandee</term> emptied the latter’s guinea corn and refilled <term ref="#gloss1">naachiin</term>’s container with gravel. When <term ref="#gloss1">naachiin</term> finally got home, he told his family to bring storage containers and empty into them the guinea corn he had brought from the market. On pouring out the contents of the container, they discovered gravel rather than guinea corn.
+</p>
+<p><q><term ref="#gloss2">sandee</term> had deceived him and stolen the guinea corn,</q> one of the audience interjects.</p>
+<p><q>Mm!</q> Naaja confirms, after which the same person adds: </p>
+<p><q> When he went to pick the other dead <term ref="#gloss2">sandee</term>, the actual <term ref="#gloss2">sandee</term> stole his guinea corn and ran away. In the end, he had neither the dead rabbits nor his guinea corn.</q> </p>
+<p><q>Mm! You’ve done well,</q> he tells the child narrator.</p>
+<p><q>Well done,</q> adds another person from the audience, after which everyone claps for the storyteller.            
+</p>
+</div>
+<div type="gloss">
+    <head type="subTitle">A Glossary of Likpakpaln Words</head>
+    <list type="gloss">
+        <label>naachiin (aka tɔkɔ or baanaan):</label>
+            <item>
+                <gloss xml:id="gloss1">Likpakpaln word for a hyena. In Konkomba folklore, naachiin is the most unintelligent animal character. It almost always falls prey to the antics of others, especially <term ref="#gloss2">sandee</term>– as pertains in this story for instance.
+                </gloss>
+                </item>
+                <label>sandee:</label>
+                <item>
+                    <gloss xml:id="gloss2"></gloss>Likpakpaln word for a rabbit, bunny or hare. Sandee is the wisest and trickster character in Konkomba folklore. It is notorious for often using its cunning and witty nature to deceive other characters or wriggle its way out of difficult situations.
+                </item>
+    </list>
+</div>
+</body>
+</text>
+</TEI>

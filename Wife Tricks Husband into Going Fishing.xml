@@ -1,0 +1,237 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Wife Tricks Husband into Going Fishing</title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller>Wumbein</storyteller>
+                <editor>Tasun Tidorchibe</editor>
+                <respStmt>
+                    <name>Tasun Tidorchibe</name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Lara Wenisch</name>
+                    <resp>coding and editing</resp>
+                </respStmt>
+                <respStmt> 
+                    <name>Dr. Eva Ulrike Pirker</name>
+                    <resp>supervision</resp>
+                </respStmt>
+                <sponsor type="digitisation">
+                    E-Learning Förderfonds HHU
+                </sponsor>
+                <sponsor type="funding">
+                    Katholischer Akademischer Ausländerdienst
+                </sponsor>
+                <address>
+                    <name type="institution">Centre for Translation Studies Düsseldorf</name> 
+                    <name type="institution">Heinrich-Heine-Universität Düsseldorf</name>
+                    <street>Universitätsstraße 1</street>
+                    <postCode>40225</postCode>
+                    <name type="city">Düsseldorf</name>
+                    <name type="country">Germany</name>
+                </address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Translation Studies Düsseldorf</publisher>
+                <status>not yet published</status> 
+                <pubPlace>Düsseldorf</pubPlace>
+                <address>
+                    <name type="institution">Centre for Translation Studies Düsseldorf</name> 
+                    <name type="institution">Heinrich-Heine-Universität Düsseldorf</name>
+                    <street>Universitätsstraße 1</street>
+                    <postCode>40225</postCode>
+                    <name type="city">Düsseldorf</name>
+                    <name type="country">Germany</name>
+                </address>
+                <availability> not yet available </availability>
+                <date> TBD </date>
+            </publicationStmt>
+            <sourceDesc>
+            <bibl>
+                <title>Wife Tricks Husband into Going Fishing</title> <storyteller>Wumbein</storyteller> Translated by <editor role="translator">Tasun Tidorchibe</editor>
+            </bibl> 
+            </sourceDesc>
+        </fileDesc>
+            <encodingDesc>
+                <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+                <tagsDesc></tagsDesc>
+            <editorialDecl> No author can be assigned to the story due to it being an oral tradition; The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through processes of colonisation, the accompanying priviledging of written/print culture and Eurocentric/Western thinking has been marginalised.</projectDesc>
+            </encodingDesc>
+            <profileDesc> 
+                <creation> Originally told in 
+                <place xml:id="Chakping, Ghana">
+                     <placeName> Chakping, Ghana</placeName>
+                     <location>
+                         <geo>9.67, -0.27</geo>    
+                     </location>
+                 </place>  
+                  transcribed folktale from Likpakpaln as told by <name type="storyteller">Wumbein</name> on <date when="2022">16th March 2022</date> in <name type="city">Chakping</name>, <name type="country">Ghana</name>
+               </creation>
+               <langUsage>
+                   <language ident="lik">Likpakpaln</language>
+                   <language ident="en">English</language>
+               </langUsage>
+               <textClass>placeholder tbd</textClass>
+            </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type="mainTitle">Wife Tricks Husband into Going Fishing</head>
+            <p>(as narrated by Wumbein in Chakping on 16/03/2022)</p>
+            <div type="introduction">
+                <head type="subTitle">Introduction</head>
+                <p>The following story presents a wife who takes advantage of her husband’s blindness to get him to go fishing. According to the story, she lies that her genitalia has fallen into the river; so the husband goes to help search for it but ends up helping her to catch a lot of fish.</p>
+            </div>
+            <div type="story">
+                <head type="subTitle">Story</head>
+            <p><q>My story is as follows:</q> Wumbein announces and proceeds thus:</p>
+            <p><term ref="#gloss2">Ujoon</term> once got married. Unfortunately, at a point in the marriage, his wife was reluctant to sleep with him. She therefore told him a lie – which was that her genitalia had fallen into the river. On hearing this, the blind man went together with his wife to search for the genitalia in the river. Now, their modus operandi was that they were going to scoop as much water as possible from the river and splash it on the riverbanks. Hopefully, in one of the scoops, they would scoop out the missing genitalia.</p>
+            <p>When they got to the river, the woman stepped into the water and started scooping the water while singing as follows:</p>
+            <div type="song">
+                <table type="translation">
+                    <row role="head">
+                        <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                        <cell><hi rend="bold">English translation</hi></cell>
+                    </row>
+                    <row>
+                        <cell><l>Pii pii chala,</l></cell>
+                        <cell><l>It’s white everywhere,</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Pii chala.</l></cell>
+                        <cell><l>White everywhere.</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>(5x)</l></cell>
+                    </row>
+                    <row></row>
+                </table>
+            </div>
+            <p>But the husband got impatient and told the wife to step out since she wasn’t scooping faster. On stepping into the water himself, he started scooping amid singing:</p>
+            <div type="song">
+                <table type="translation">
+                    <row role="head">
+                        <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                        <cell><hi rend="bold">English translation</hi></cell>
+                    </row>
+                    <row>
+                        <cell><l>Dan buka buka.</l></cell>
+                        <cell><l>Come in large numbers.</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Dan bulgbɔɔ.</l></cell>
+                        <cell><l>Come in multitudes.</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>(4x)</l></cell>
+                    </row>
+                    <row></row>
+                </table>
+            </div>
+            <p>He soon got tired, so the wife took over and broke into her song again:</p>
+            <div type="song">
+                <table type="translation">
+                    <row role="head">
+                        <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                        <cell><hi rend="bold">English translation</hi></cell>
+                    </row>
+                    <row>
+                        <cell><l>Pii pii chala,</l></cell>
+                        <cell><l>It’s white everywhere,</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Pii chala.</l></cell>
+                        <cell><l>White everywhere.</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>(6x)</l></cell>
+                    </row>
+                    <row></row>
+                </table>
+            </div>
+            <p>There was still no luck. The woman got exhausted, so the husband took over again:</p>
+            <div type="song">
+                <table type="translation">
+                    <row role="head">
+                        <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                        <cell><hi rend="bold">English translation</hi></cell>
+                    </row>
+                    <row>
+                        <cell><l>Dan buka buka.</l></cell>
+                        <cell><l>Come in large numbers.</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Dan bulgbɔɔ.</l></cell>
+                        <cell><l>Come in multitudes.</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>(5x)</l></cell>
+                    </row>
+                    <row></row>
+                </table>
+            </div>
+            <p>After a while, the wife told the husband to step out because he wasn’t scooping fast enough. The man stepped out and the woman began scooping amid singing again:</p>
+            <div type="song">
+                <table type="translation">
+                    <row role="head">
+                        <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                        <cell><hi rend="bold">English translation</hi></cell>
+                    </row>
+                    <row>
+                        <cell><l>Pii pii chala,</l></cell>
+                        <cell><l>It’s white everywhere,</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Pii chala.</l></cell>
+                        <cell><l>White everywhere.</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>(4x)</l></cell>
+                    </row>
+                    <row></row>
+                </table>
+            </div>
+            <p>There was still nothing to show for their efforts. So the man took over again when the wife got tired. Now, unknown to the man, the wife’s genitalia had not fallen into the river. The woman merely tricked him so that they would go fishing and catch fish for cooking. So ignorantly, the man stepped into the water again amid singing:</p>
+            <div type="song">
+                <table type="translation">
+                    <row role="head">
+                        <cell><hi rend="bold">Likpakpaln transcription</hi></cell>
+                        <cell><hi rend="bold">English translation</hi></cell>
+                    </row>
+                    <row>
+                        <cell><l>Dan buka buka.</l></cell>
+                        <cell><l>Come in large numbers.</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>Dan bulgbɔɔ.</l></cell>
+                        <cell><l>Come in multitudes.</l></cell>
+                    </row>
+                    <row>
+                        <cell><l>(4x)</l></cell>
+                    </row>
+                    <row></row>
+                </table>
+            </div>
+            <p>The river was soon empty, leaving all the fish at the mercy of the man and his wife. The two caught as many fish as they could. When they had caught enough, the wife told her husband that she had found her genitalia.</p>
+            <p><q><term ref="#gloss1">Maatiin muun ki lijool sakpiln na,</term></q> Wumbein concludes his story.</p>
+        </div>
+            <div type="glossary">
+                <head type="subTitle">A Glossary of Likpakpaln Words</head>
+                <list type="gloss">
+                    <label>maatiin muun ki lijool sakpiln na:</label><item><gloss xml:id="gloss1">translated as, <q>May my story grow as tall as a high mountain.</q> This is a shortened, atypical version of the standard conclusion, <hi rend="italic"><q>Maatiin gur ki m muun ke n-yaaja aagbem na</q></hi> (translated as, <q>May my story diminish while I grow as tall as my grandfather’s Kapok tree</q>). This standard conclusion is one of the numerous ways in which a Konkomba storyteller can end his/her story. The ending and its numerous variants suggest that Konkombas believe that storytelling (or entertainment in general) has health benefits, especially healthy physical growth. The association of storytelling with physical growth is so entrenched in the Konkomba belief system that it is even believed that when a child engages in storytelling in the daytime – for Konkomba storytelling sessions are held normally in the evenings after supper – he or she will suffer stunted growth. However, the above storyteller’s conclusion or signing off statement clearly deviates from this communal belief when its focus is on the growth of the storyteller’s tale rather than his own physical growth. This points to the flexibility inherent in the Konkomba storytelling culture – one must not always conform to normative structures</gloss></item>
+                    <label>ujoon:</label><item><gloss xml:id="gloss2">Likpakpaln word for a blind person. Ujoon is one of the gender-neutral nouns in Likpakpaln. The gender of a subject (or a referent) is often derived contextually.</gloss></item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>
+            
+
+            
+
+            

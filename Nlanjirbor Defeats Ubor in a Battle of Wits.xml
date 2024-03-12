@@ -1,0 +1,249 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    NLANJIRBƆR DEFEATS UBƆR IN A BATTLE OF WITS
+                </title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller>Yaawork</storyteller>
+                <editor>Tasun Tidorchibe</editor>
+                <respStmt>
+                    <name>Tasun Tidorchibe</name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anna Schmitt</name>
+                    <name>Lara Wenisch</name>
+                    <name>Hannah Lea Küppers </name>
+                    <resp>coding and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Prof. Dr. Eva Ulrike Pirker</name>
+                    <resp>supervision</resp>
+                </respStmt>
+                <sponsor type="digitisation">E-Learning Förderfonds HHU</sponsor>
+                <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address>
+                    <name type="institution">Centre for Translation Studies Düsseldorf</name>
+                    <name type="institution">Heinrich-Heine-Universität Düsseldorf</name>
+                    <street>Universitätsstraße 1</street>
+                    <postCode>40225</postCode>
+                    <name type="city">Düsseldorf</name>
+                    <name type="country">Germany</name>
+                </address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Translation Studies Düsseldorf</publisher>
+                <status>not yet published</status>
+                <pubPlace>Düsseldorf</pubPlace>
+                <address>
+                    <name type="institution">Centre for Translation Studies Düsseldorf</name>
+                    <name type="institution">Heinrich-Heine-Universität Düsseldorf</name>
+                    <street>Universitätsstraße 1</street>
+                    <postCode>40225</postCode>
+                    <name type="city">Düsseldorf</name>
+                    <name type="country">Germany</name>
+                </address>
+                <availability>not yet available</availability>
+                <date>TBD</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>NLANJIRBƆR DEFEATS UBƆR IN A BATTLE OF WITS</title> <storyteller>
+                        Yaawork</storyteller>Translated by<editor role="translator">Tasun Tidorchibe</editor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+            <tagsDesc>
+            </tagsDesc>
+            <editorialDecl>No author can be assigned to the story due to it being an oral tradition;
+                The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically
+                the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them
+                available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through
+                processes of colonisation, the accompanying priviledging of written/print culture
+                and Eurocentric/Western thinking has been marginalised.</projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <creation> Originally told at <place xml:id="Chakping, Saboba">
+                    <placeName>Chakping, Saboba</placeName>
+                    <location>
+                        <geo>9.67, -0.27</geo>
+                    </location>
+                </place>
+                transcribed folktale from Likpakpaln as told by <name type="storyteller">Yaawork </name>
+                on <date when="2022">16th March 2022</date> in <name type="city">Chakping, Saboba</name>
+                ,<name type="country">Ghana</name>
+            </creation>
+            <langUsage>
+                <language ident="lik">Likpakpaln</language>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>placeholder tbd</textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type="mainTitle">NLANJIRBƆR DEFEATS UBƆR IN A BATTLE OF WITS</head>
+            <p>(as narrated by Yaawork at Chakping, Saboba on 16/03/2022)</p>
+            <div type="introduction">
+                <head type="subTitle">Introduction</head>
+                <p> The following story is a variant of a tale (in the Konkomba folklore) that
+                    features a little boy who outsmarts a self-acclaimed wise <term ref="#gloss4">
+                    ubɔr</term>. In this variant, a battle of wits ensues between a certain <term
+                        ref="#gloss4">ubɔr</term> (i.e., the political head of a Konkomba community)
+                    and a little boy when the latter decides to call himself <term ref="#gloss2">
+                    Nlanjirbɔr</term> – a name which translates as <q>Wiser than <term ref="#gloss4">
+                    ubɔr</term>.</q> In the end, the boy proves to be truly wiser than the <term
+                        ref="#gloss4">ubɔr</term> and receives two cattle from the former.
+                    Essentially aimed at showing that no man is the repository of all wisdom, this
+                    story reflects the Konkomba belief that names have the power to shape behaviour
+                    and determine destinies – the reason Konkombas often give names that communicate
+                    specific messages or wishes parents desire for their families, their children
+                    and even their foes. </p>
+            </div>
+            <div type="story">
+                <head type="subTitle">Story</head>
+                <p>
+                    <q>There lived a certain <term ref="#gloss4">ubɔr</term>,</q> Yaawork commences
+                    her story directly without the usual introductory protocol of declaring her
+                    intent to tell the story.<term xml:id="footnote1">
+                        <hi rend="superscript">1</hi>
+                    </term> She then proceeds
+                    as follows: </p>
+                <p> One day a child was born in his community. The child told the parents to name
+                    him <term ref="#gloss2">Nlanjirbɔr</term>. When <term ref="#gloss4">ubɔr</term>
+                    heard it, he wasn’t happy about it – for he couldn’t fathom why a little boy
+                    would claim to be wiser than him. <term ref="#gloss4">Ubɔr</term> therefore
+                    summoned him and confronted him. But the boy told <term ref="#gloss4">ubɔr</term>
+                    to fret not because his title was <term ref="#gloss4">ubɔr</term> while his name
+                    was <term ref="#gloss2">Nlanjirbɔr</term> – the two were, thus, not the same. </p>
+                <p> A while after this confrontation, <term ref="#gloss4">ubɔr</term> summoned <term
+                        ref="#gloss2">Nlanjirbɔr</term> again. When the boy arrived, he took him to
+                    his cattle ranch and gave him an <term ref="#gloss3">unaaja</term>. He then told
+                    the boy to take the unaa home and look after it so that when it gave birth, they
+                    would share the calves. Without uttering a word, the boy took the <term
+                        ref="#gloss3">unaaja</term> and departed. </p>
+                <p> On arrival he informed his father, who couldn’t help but wonder how and why <term
+                        ref="#gloss4">ubɔr</term> could give his son an <term ref="#gloss3">unaaja</term>
+                    to take care of it so that when it delivered, they would share the calves. The
+                    boy then told his father not to worry because he knew exactly how to make the
+                    unaa multiple. </p>
+                <p> The next day, at the crack of dawn, the boy took a machete and went to <term
+                        ref="#gloss4">ubɔr</term>’s palace. Near the palace was a shea tree. The boy
+                    started chopping the tree, kpa kpa. One of <term ref="#gloss4">ubɔr</term>’s
+                    wives heard the noise, came out of the house and saw the boy chopping the tree.
+                    She then called out to <term ref="#gloss4">ubɔr</term> to come out quickly
+                    because <term ref="#gloss2">Nlanjirbɔr</term> was chopping the tree near the
+                    palace. <term ref="#gloss4">Ubɔr</term> soon emerged from the house and asked, <q><term
+                            ref="#gloss2">Nlanjirbɔr</term>, why are you chopping the tree at this
+                    ungodly hour?</q> In reply, the boy told him that his father had given birth the
+                    previous night. Unfortunately, they didn’t have firewood to boil water for him;
+                    and so, he was chopping the firewood for that purpose. On hearing that, <term
+                        ref="#gloss4">ubɔr</term> shook his head, amid laughter, and asked: <q>How
+                    on earth can a man give birth?</q> The boy replied, <q>Well, if males don’t give
+                    birth, why did you give me an <term ref="#gloss3">unaaja</term> to take care of
+                    it so that when it gives birth we’ll share the calves?</q>
+                </p>
+                <p>
+                    <term ref="#gloss4">Ubɔr</term> realised that the boy had outwitted him. He then
+                    took the boy to the ranch again and gave him … </p>
+                <p>
+                    <q>… an unaasal,</q> interjects one of Yaawork’s audience who probably thought
+                    that the storyteller had forgotten that detail due to a short pause she made. </p>
+                <p>
+                    <q>… an unaasal,</q> Yaawork adds that detail and continues her narration as
+                    follows: </p>
+                <p> The boy took the unaa home and hitched it outside the house. When the father
+                    came out of the house, he saw it and asked his son, <q>Ah! ’lanjirbɔr, you
+                    brought only one unaa yesterday; how come there are two inaa today?</q> The boy
+                    replied, <q>Yesterday I told you I knew how to make the unaa multiply, didn’t I?</q>
+                    He then added that at dawn he went and started chopping a tree near <term
+                        ref="#gloss4">ubɔr</term>’s palace. The latter came out and inquired why he
+                    was doing that, and he told him that his father had given birth the previous
+                    night. He added that <term ref="#gloss4">ubɔr</term> then asked him how on earth
+                    a man could give birth, whereupon he in turn asked him why he had given him an <term
+                        ref="#gloss3">unaaja</term> so that when it gave birth they would share the
+                    calves. He further added that <term ref="#gloss4">ubɔr</term> realised his fault
+                    and gave him an unaasal in addition. </p>
+                <p>
+                    <q>
+                        <term ref="#gloss1">Maatiin gur ki m muun chaa,</term>
+                    </q>
+                    Yaawork concludes her story rather abruptly after admitting that she has
+                    forgotten the musical interlude of the tale. </p>
+            </div>
+            <div type="Note">
+                <head type="subTitle">Note</head>
+                <list type="index">
+                    <label>1.</label>
+                    <item>
+                        <gloss target="#footnote1">In the Konkomba storytelling culture, one can
+                            plunge directly
+                            into his or her story without seeking permission in the form of
+                            announcing an intent to tell the story and
+                            receiving permission in the form of a response from the audience. This
+                            is mostly the case when a storytelling session
+                            has been ongoing for a while, or if a storyteller has already told one
+                            or more stories and is seeking to add another one.</gloss>
+                    </item>
+                </list>
+            </div>
+            <div type="glossary">
+                <head type="subTitle">A Glossary of Likpakpaln Words</head>
+                <list type="gloss">
+                    <label>maatiin gur ki m muun chaa:</label>
+                    <item>
+                        <gloss xml:id="gloss1">translated as, <q>May my story diminish while I grow
+                            very tall.</q> This is a shortened version of the standard conclusion <hi
+                                rend="italic">Maatiin gur ki m muun ke n-yaaja aagbem na</hi>
+                            (translated as, <q>May my story diminish while I grow as tall as my
+                            grandfather’s Kapok tree</q>). This standard conclusion is one of the
+                            numerous ways in which a Konkomba storyteller can end his/her story. The
+                            ending and its numerous variants suggest that Konkombas believe that
+                            storytelling (or entertainment in general) has health benefits,
+                            especially healthy physical growth. The association of storytelling with
+                            physical growth is so entrenched in the Konkomba belief system that it
+                            is even believed that when a child engages in storytelling in the
+                            daytime – for Konkomba storytelling sessions are held normally in the
+                            evenings after supper – he or she will suffer stunted growth. </gloss>
+                    </item>
+                    <label>Nlanjirbɔr:</label>
+                    <item>
+                        <gloss xml:id="gloss2">a male name which is a truncation of the Likpakpaln
+                            phrase, <q>Kpa nlan jir ubɔr</q> (transliterated as <q>Wiser than the
+                            chief</q>).</gloss>
+                    </item>
+                    <label>unaaja:</label>
+                    <item>
+                        <gloss xml:id="gloss3">Likpakpaln word for a bull. Its stem is <hi
+                                rend="bold">unaa.</hi> Unaa is a gender-fluid noun so to assign
+                            gender distinctions, one will have to add Likpakpaln gender markers such
+                            as <q>ja</q> (for masculine) or <q>sal</q> (for feminine) to the noun.
+                            Thus, a cow is called unaasal while a bull is called unaaja. In the
+                            context of this story, the storyteller uses unaaja and unaasal to
+                            distinguish between the bull and the cow in the tale. But occasionally
+                            she uses the non-gender-specific noun, unaa. In such situations, the
+                            context determines whether she is referring to the bull or the cow. The
+                            plural form of unaa is <hi rend="bold">inaa</hi> while the plural forms
+                            of unaaja and unaasal are <hi rend="bold">inaaja</hi> and <hi
+                                rend="bold">inaasal</hi> respectively. </gloss>
+                    </item>
+                    <label>ubɔr:</label>
+                    <item>
+                        <gloss xml:id="gloss4">the political head of a Konkomba community.
+                            Ubɔr is usually the eldest male member of the royal family. He inherits
+                            that position from
+                            his father after the latter’s demise. Thus, Konkombas practice the
+                            patrilineal system of inheritance.</gloss>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,437 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    THE RABBIT STEALS THE HORSE’S MOUTH
+                </title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller>Bilinyi Chiikpaab</storyteller>
+                <editor>Tasun Tidorchibe</editor>
+                <respStmt>
+                    <name>Tasun Tidorchibe</name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anna Schmitt</name>
+                    <name>Lara Wenisch</name>
+                    <name>Hannah Lea Küppers </name>
+                    <resp>coding and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Prof. Dr. Eva Ulrike Pirker</name>
+                    <resp>supervision</resp>
+                </respStmt>
+                <sponsor type="digitisation">E-Learning Förderfonds HHU</sponsor>
+                <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address>
+                    <name type="institution">Centre for Translation Studies Düsseldorf</name>
+                    <name type="institution">Heinrich-Heine-Universität Düsseldorf</name>
+                    <street>Universitätsstraße 1</street>
+                    <postCode>40225</postCode>
+                    <name type="city">Düsseldorf</name>
+                    <name type="country">Germany</name>
+                </address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Translation Studies Düsseldorf</publisher>
+                <status>not yet published</status>
+                <pubPlace>Düsseldorf</pubPlace>
+                <address>
+                    <name type="institution">Centre for Translation Studies Düsseldorf</name>
+                    <name type="institution">Heinrich-Heine-Universität Düsseldorf</name>
+                    <street>Universitätsstraße 1</street>
+                    <postCode>40225</postCode>
+                    <name type="city">Düsseldorf</name>
+                    <name type="country">Germany</name>
+                </address>
+                <availability>not yet available</availability>
+                <date>TBD</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>THE RABBIT STEALS THE HORSE’S MOUTH</title>
+                    <storyteller>Bilinyi Chiikpaab</storyteller>Translated
+                    by <editor role="translator">Tasun
+                        Tidorchibe
+                    </editor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <styleDefDecl scheme="css" Version="2.1"></styleDefDecl>
+            <tagsDesc></tagsDesc>
+            <editorialDecl>No author can be assigned to the story due to it being an oral tradition;
+                The decision was
+                taken to treat notes the same as a glossary in terms of coding
+            </editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically
+                the Konkomba people,
+                through different media. The project puts a body of oral folktales into writing and
+                eventually makes
+                them available as annotated, digitised narratives. It thus aims to make a
+                contribution to visibilising
+                this culture, which through processes of colonisation, the accompanying priviledging
+                of written/print
+                culture and Eurocentric/Western thinking has been marginalised.
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <creation>Originally told at <place xml:id="Kutol">
+                    <placeName>Kutol</placeName>
+                    <location>
+                        <geo>9,58, 0,24</geo>
+                    </location>
+                </place>
+                transcribed folktale from Likpakpaln as told by <name type="storyteller">Bilinyi
+                Chiikpaab</name> on <date when="2022">17th March 2022
+                </date> in <name type="city">City name not
+                available</name> , <name type="country">Ghana</name>
+            </creation>
+            <langUsage>
+                <language ident="lik">Likpakpaln</language>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>placeholder tbd</textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type="mainTitle">
+                The Rabbit Steals the Horse's Mouth
+            </head>
+            <p>(as told by Bilinyi Chiikpaab at Kutol on 17/03/2022)</p>
+            <div type="introduction">
+                <head type="subTitle">
+                    Introduction
+                </head>
+                <p>The following story presents us with one of the rare occasions when the rabbit,
+                    who is the wisest
+                    animal character in Konkomba folklore, is at the receiving end of his antics. In
+                    this story, the
+                    rabbit’s greed lands him in trouble when he decides to eat a billy goat alone in
+                    the bush.
+                    Unfortunately for him, a testicle wielding the power of life and death prevents
+                    him from enjoying
+                    the chevon. Added to this, the rabbit ends up with a big, swollen mouth. But
+                    typical of the rabbit,
+                    he employs wit to steal the horse’s cute mouth during a communal event. The
+                    story essentially warns
+                    against selfishness.
+                </p>
+            </div>
+            <div type="story">
+
+                <head type="subTitle">
+                    Story
+                </head>
+                <p>
+                    <q>My story is as follows:</q> Bilinyi announces to his audience and proceeds
+                    thus: </p>
+                <p>There’s a reason <term ref="#gloss9">utaan</term> often sighs, hm hm hm! There’s
+                    an unresolved problem. <term ref="#gloss6">Sandee</term> is the cause of <term
+                        ref="#gloss9">utaan</term>’s heavy sighs. The story has it that <term
+                        ref="#gloss6">sandee</term> once bought a billy goat to slaughter and eat.
+                    But because he didn’t want to share the meat with his family, he decided to go
+                    and eat it in the bush alone. He lied to his family that he had to make a
+                    sacrifice in the bush to appease the gods. </p>
+                <p>He took the billy goat to the bush and slaughtered it. <term ref="#gloss8">Uja</term>,
+                    if you saw how fatty the billy goat was! <hi rend="italic">(Bilinyi addresses
+                    the last sentence to his audience directly amid body movements
+                        of exaggeration. This elicits laughter from the audience, after which he
+                    continues as follows:)
+                    </hi>After
+                    chopping the meat into pieces, he started cooking it. </p>
+                <p>A cricket accidentally jumped out of one of the holes under the stones he used as
+                    his stove for cooking. Well, you know how fatty the cricket is <hi rend="italic">(Bilinyi
+                    addresses his audience
+                        again.)</hi>The cricket’s fat was all over the place. <term ref="#gloss6">
+                    Sandee</term>, unable to restrain himself, ate the cricket as an appetiser. He
+                    then decided to hunt for more crickets and eat in order to whet his appetite for
+                    the chevon that was still cooking. He started searching under every nearby
+                    stone. Unfortunately, under one of the stones, he saw a big testicle instead of
+                    a cricket. If you saw that testicle! He was a very big testicle – big and
+                    mature. If you saw the mass and height! He was visibly above ground level. <hi
+                        rend="italic">(The storyteller addresses the above directly to his
+                        audience again, employing gestures aimed at describing the size of the
+                    testicle while the
+                        audience laugh.)
+                    </hi>
+                </p>
+                <p>On seeing the testicle, <term ref="#gloss6">sandee</term> attempted to cover him
+                    again with the stone. But the testicle told him to do no such thing. <term
+                        ref="#gloss6">Sandee</term> ignored him and tried to return the stone to its
+                    previous position on top of the testicle. Before he could do that, the testicle
+                    said: <q>Then die <term ref="#gloss1">bra bla kum</term>.</q>
+                    <term ref="#gloss6">
+                    Sandee</term> immediately fell over dead. The testicle then said again, <q><term
+                            ref="#gloss2">Fikrku</term>.</q> At this command – or rather incantation
+                    – <term ref="#gloss6">sandee</term> came back to life again. The testicle then
+                    ordered <term ref="#gloss6">sandee</term> to pick him up. <term ref="#gloss6">
+                    Sandee</term> complied and carried the testicle on his back. </p>
+                <p>The testicle then saw smoke at a distance and ordered <term ref="#gloss6">sandee</term>
+                    to take him there. But <term ref="#gloss6">sandee</term> said the smoke was
+                    emanating from a fire ubɔr’s herdsmen had made and that they would be angry if
+                    they (<term ref="#gloss6">sandee</term> and the testicle) went there. He didn’t
+                    want to share the chevon with the testicle. <hi
+                        rend="italic">(Bilinyi says the latter amid laughter, together with some of
+                    his audience.)
+                    </hi>
+                    The testicle sensed <term ref="#gloss6">sandee</term>’s reluctance and said: <q>Well,
+                    if that’s the case, bla kum.</q>
+                    <term ref="#gloss6">Sandee</term> died
+                    instantly. The testicle again said, <q>
+                        <term ref="#gloss2">Fikrku</term>
+                    </q> – and sandee came
+                    back to life. The testicle ordered him again to take him to the place from which
+                    the smoke was emanating. Left with no other option, <term ref="#gloss6">sandee</term>
+                    took him to the place he was cooking his meat. </p>
+                <p>When they arrived at the spot, the chevon had been well-cooked and ready for
+                    consumption. The testicle then asked, <q><term ref="#gloss6">Sandee</term>, what
+                    is being cooked?</q> <term ref="#gloss6">Sandee</term> replied that it was meat
+                    and that it belonged to ubɔr’s herdsmen. The testicle ordered him to take the
+                    meat off the stove but <term ref="#gloss6">sandee</term> protested, saying that
+                    ubɔr’s herdsmen would be displeased. Infuriated, the testicle said, <q>Bra
+                        kum,
+                    </q> whereupon <term
+                        ref="#gloss6">sandee</term> fell over dead. He then said, <q>
+                        <term ref="#gloss2">Fikrku</term>
+                    </q> – and <term
+                        ref="#gloss6">sandee</term> regained consciousness. The testicle then told <term
+                        ref="#gloss6">sandee</term>, once again, to take the meat off the stove – to
+                    which <term ref="#gloss6">sandee</term> complied. </p>
+                <p>After that, the testicle told <term ref="#gloss6">sandee</term> to dish out the
+                    meat so that he would eat. <term ref="#gloss6">Sandee</term> complied again and
+                    said the testicle should eat the fleshy pieces so that he would eat only the
+                    bones. The testicle ate his fill of all the fleshy and fatty meat and became big
+                    beyond verbal description. After eating, the testicle topped it up with water
+                    and ordered <term ref="#gloss6">sandee</term> to carry him on his back again.
+                    But <term ref="#gloss6">sandee</term> declined, whereupon the testicle said, <q>Bla
+                    kum.</q> <term ref="#gloss6">Sandee</term> died instantly. <q>Fikrku,</q> he
+                    chanted again – and <term ref="#gloss6">sandee</term> was back to life. The
+                    testicle asked <term ref="#gloss6">sandee</term>, once more, to carry him on his
+                    back, to which <term ref="#gloss6">sandee</term> complied. </p>
+                <p>As <term ref="#gloss6">sandee</term> was carrying him, he saw a hawk hovering
+                    above them. By this time <term ref="#gloss6">sandee</term> was exhausted so he
+                    broke into song: <hi rend="italic">(Before intoning the song, Bilinyi admonishes
+                    his audience to
+                        sing along with him. He then intones the song and the audience join in.)
+                    </hi>
+                </p>
+                <div type="song">
+                    <table type="translation">
+                        <row role="head">
+                            <cell>
+                                <hi rend="bold">Likpakpaln transcription</hi>
+                            </cell>
+                            <cell>
+                                <hi rend="bold">English translation</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <l>Kaasaa kaasaa, loon loonkaan</l>
+                            </cell>
+                            <cell>
+                                <l>Hawk, hawk, swoop in stealthily</l>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <l><term ref="#gloss5">Ntakpapeen</term> bu ee.</l>
+                            </cell>
+                            <cell>
+                                <l>And drop on a rocky ground.</l>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <l>Kaasaa kaasaa, loon loonkaan</l>
+                            </cell>
+                            <cell>
+                                <l>Hawk, hawk, swoop in stealthily</l>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <l><term ref="#gloss5">Ntakpapeen</term> bu ee.</l>
+                            </cell>
+                            <cell>
+                                <l>And drop on a rocky ground.</l>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <l>Kaasaa kaasaa, loon loonkaan</l>
+                            </cell>
+                            <cell>
+                                <l>Hawk, hawk, swoop in stealthily</l>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <l>Ntakpapeen bu eeee!!!!</l>
+                            </cell>
+                            <cell>
+                                <l>And drop on a rocky ground!!!!</l>
+                            </cell>
+                        </row>
+                        <row></row>
+                    </table>
+                </div>
+                <p>That the hawk should quietly swoop in, snatch the testicle and drop him on a
+                    rocky ground. That’s the meaning of the song. <hi rend="italic">(Bilinyi
+                    explains to his audience amid gestures.)</hi>
+                </p>
+                <p>The hawk got the message. It swooped in, snatched the testicle and flew very high
+                    while <term ref="#gloss6">sandee</term> urged it on: <q>Take him higher and
+                    higher and higher and higher. Take him to a rocky ground; take him to
+                        a rocky ground.</q>
+                    <hi rend="italic">(Bilinyi mimics <term ref="#gloss6">
+                    sandee</term>, amid gestures, as he renders these sentences.)</hi> When the hawk
+                    got to the rocky area, it dropped the testicle and he fell and spurted, <term
+                        ref="#gloss4">kpinn</term>! The billy goat’s fat was scattered all over the
+                    place. <term ref="#gloss6">Sandee</term> rushed there and started licking the
+                    fat while remarking, <q>Yes, that’s my billy goat’s fat.</q> By the time he was
+                    done licking all the fat, his mouth became very big. </p>
+                <p>On arriving home, <term ref="#gloss6">sandee</term>’s kids could not recognise
+                    their father. <q>This can’t be our father’s
+                        mouth,</q> they remarked. <term ref="#gloss6">Sandee</term> then hatched a
+                    plan and told everyone in the community that night that ubɔr had asked that the
+                    next day everyone should go to the dam and fetch water. He entreated all to turn
+                    up so that they could fetch the water. Mark you, his plan was to steal <term
+                        ref="#gloss9">utaan</term>’s mouth. <term ref="#gloss9">Utaan</term>’s mouth
+                    wasn’t as big as it is today. <term ref="#gloss9">Utaan</term> is now saddled
+                    with <term ref="#gloss6">sandee</term>’s big mouth. <hi rend="italic">
+                        (Bilinyi tells his audience.)
+                    </hi>
+                </p>
+                <p>When everyone converged at the dam, <term ref="#gloss6">sandee</term> told them
+                    that the order was that everyone must leave their mouths at the shore before
+                    fetching the water. Meanwhile, <term ref="#gloss6">sandee</term> had told his
+                    children that at midmorning, they should set ablaze the pile of dry grass
+                    outside his house. As <term ref="#gloss6">sandee</term> and the others were
+                    fetching the water, the former kept looking intermittently in the direction of
+                    his house. As soon as he saw the smoke from the fire at his house, he shouted
+                    that ubɔr’s <term ref="#gloss3">kinakook</term> was on fire, adding that
+                    everyone should grab the closest mouth and rush there. His target was <term
+                        ref="#gloss9">utaan</term>’s mouth. So on saying that, he quickly picked <term
+                        ref="#gloss9">utaan</term>’s mouth and took off running homeward. When <term
+                        ref="#gloss9">utaan</term> went to pick a mouth, he realised that all that
+                    was left was <term ref="#gloss6">sandee</term>’s big mouth. He therefore took it
+                    and ran home as well. </p>
+                <p>On arrival, he accused <term ref="#gloss6">sandee</term> of taking his mouth. But <term
+                        ref="#gloss6">sandee</term> insisted that the mouth was his. He asked ubɔr
+                    to take a good look at both mouths and determine which one was more likely his.
+                    Before ubɔr could reply, he turned and asked <term ref="#gloss9">utaan</term>: <q>How
+                    can a big fellow like you have this tiny mouth
+                        while a tiny creature like me will have such a big mouth?</q> Ubɔr
+                    subsequently ruled in favour of <term ref="#gloss6">sandee</term>, thereby
+                    allowing the latter to keep <term ref="#gloss9">utaan</term>’s mouth while the
+                    latter kept <term ref="#gloss6">sandee</term>’s. So <term ref="#gloss6">sandee</term>
+                    is using <term ref="#gloss9">utaan</term>’s mouth. That is why occasionally
+                    utaan will sigh heavily, <q>hm hm hm hm!</q> His problem is that he is now
+                    saddled with a mouth that was originally not his. <hi rend="italic">(On hearing
+                    this, Bilinyi’s audience burst into laughter while
+                        the storyteller signs off thus:)
+                    </hi>
+                </p>
+                <p>
+                    <q>
+                        <term ref="#gloss7">Tiin tiin kulb.</term>
+                    </q>
+                </p>
+            </div>
+            <div type="glossary">
+
+                <head type="subTitle">A Glossary of Likpakpaln Words and Phrases</head>
+                <list type="gloss">
+                    <label>bra bla kum:</label>
+                    <item>
+                        <gloss xml:id="gloss1">this phrase has no semantic value in Likpakpaln since
+                            it is merely an incantation employed by the testicle in this story.</gloss>
+                    </item>
+                    <label>
+                        fikrku:
+                    </label>
+                    <item>
+                        <gloss xml:id="gloss2">an incantation employed by the testicle to bring the
+                            rabbit back to life. Its root is the Likpakpaln verb, fikr – which means <q>to
+                            resurrect.</q> In this story, therefore, the word <q>fikrku</q> means <q>come
+                            back to life</q> or <q>regain consciousness</q> or <q>
+                                resurrect.</q></gloss>
+                    </item>
+                    <label>
+                        kinakook (also spelt kinakuɔk):
+                    </label>
+                    <item>
+                        <gloss xml:id="gloss3">a round room that serves as the main entrance to a
+                            typical Konkomba house. It has two
+                            doors at both ends to serve as the passage in or out of a house. It also
+                            serves as a
+                            place for relaxing or hosting visitors/guests. In ubɔr’s palace,
+                            kinakook usually has a
+                            stage/platform where ubɔr sits to hold meetings and perform other
+                            functions.</gloss>
+                    </item>
+                    <label>
+                        kpinn!
+                    </label>
+                    <item>
+                        <gloss xml:id="gloss4">an onomatopoeic word employed by the storyteller to
+                            capture the loud sound made by the
+                            testicle when it fell on the rock and spurted.</gloss>
+                    </item>
+                    <label>
+                        ntakpapeen:
+                    </label>
+                    <item>
+                        <gloss xml:id="gloss5">Likpakpaln word for rocky ground. The word is also
+                            variously spelled ntakpateer or
+                            ntakpateen depending on the Likpakpaln dialect being used.</gloss>
+                    </item>
+                    <label>
+                        sandee:
+                    </label>
+                    <item>
+                        <gloss xml:id="gloss6">a rabbit, hare or bunny. Sandee is the wisest and
+                            trickster character in Konkomba
+                            folklore. It is notorious for often using its cunning and witty nature
+                            to wriggle its
+                            way out of difficult situations or to cheat others – as it does in this
+                            story.</gloss>
+                    </item>
+                    <label>
+                        tiin tiin kulb:
+                    </label>
+                    <item>
+                        <gloss xml:id="gloss7">translated as <q>the end of my story.</q> This is one
+                            of the commonest and easiest ways to end one’s story in the Konkomba
+                            storytelling culture.</gloss>
+                    </item>
+                    <label>
+                        uja:
+                    </label>
+                    <item>
+                        <gloss xml:id="gloss8">Likpakpaln word for a man or a male. The plural form
+                            is bijab (i.e., men, males, guys, etc.). However, in everyday usage, uja
+                            is also commonly used as an emphasis marker or as an affectionate
+                            address to a friend or colleague. In such situations, uja sheds off its
+                            gender associations and assumes a new role as an intensifier of
+                            something a speaker wants to emphasise or as a noun to refer to someone
+                            as a buddy or a friend. In the context of this story, when the
+                            storyteller addresses his audience as <q>uja,</q> he employs it in the
+                            latter two senses – that is, to emphasise what he says and also as a
+                            rhetorical tool to establish camaraderie with his audience.</gloss>
+                    </item>
+                    <label>
+                        utaan:
+                    </label>
+                    <item>
+                        <gloss xml:id="gloss9">Likpakpaln word for a horse.</gloss>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

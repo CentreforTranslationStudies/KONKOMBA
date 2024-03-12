@@ -1,0 +1,114 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <b>THE RICH FARMER AND HIS WASTEFUL SON</b>
+                </title>
+                <author>Konkomba Oral Tradition (Ghana)</author>
+                <storyteller>Gmakanwadoon</storyteller>
+                <editor>Tasun Tidorchibe</editor>
+                <respStmt>
+                    <name>Tasun Tidorchibe</name>
+                    <resp>transcript, editing and translation</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Anna Schmitt</name>
+                    <resp>coding and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Prof. Dr. Eva Ulrike Pirker</name>
+                    <resp>supervision</resp>
+                </respStmt>
+                <sponsor type="digitisation">E-Learning Förderfonds HHU</sponsor>
+                <sponsor type="funding">Katholischer Akademischer Ausländerdienst</sponsor>
+                <address>
+                    <name type="institution">Centre for Translation Studies Düsseldorf</name>
+                    <name type="institution">Heinrich-Heine-Universität Düsseldorf</name>
+                    <street>Universitätsstraße 1</street>
+                    <postCode>40225</postCode>
+                    <name type="city">Düsseldorf</name>
+                    <name type="country">Germany</name>
+                </address>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Centre for Translation Studies Düsseldorf</publisher>
+                <status>not yet published</status>
+                <pubPlace>Düsseldorf</pubPlace>
+                <address>
+                    <name type="institution">Centre for Translation Studies Düsseldorf</name>
+                    <name type="institution">Heinrich-Heine-Universität Düsseldorf</name>
+                    <street>Universitätsstraße 1</street>
+                    <postCode>40225</postCode>
+                    <name type="city">Düsseldorf</name>
+                    <name type="country">Germany</name>
+                </address>
+                <availability>not yet available</availability>
+                <date>TBD</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>THE RICH FARMER AND HIS WASTEFUL SON</title> <storyteller>
+                        Gmakanwaddon</storyteller>Translated by<editor role="translator">Tasun Tidorchibe</editor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <styleDefDecl scheme="css" Version="2.1"> </styleDefDecl>
+            <tagsDesc>
+            </tagsDesc>
+            <editorialDecl>No author can be assigned to the story due to it being an oral tradition;
+                The decision was taken to treat notes the same as a glossary in terms of coding</editorialDecl>
+            <projectDesc>The project focuses on digitising oral folktales from Ghana, specifically
+                the Konkomba people, through different media.
+                The project puts a body of oral folktales into writing and eventually makes them
+                available as annotated, digitised narratives.
+                It thus aims to make a contribution to visibilising this culture, which through
+                processes of colonisation, the accompanying priviledging of written/print culture
+                and Eurocentric/Western thinking has been marginalised.</projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <creation> Originally told at <place xml:id="Kutol">
+                    <placeName>Kutol</placeName>
+                    <location>
+                        <geo>9.71, 0.32</geo>
+                    </location>
+                </place>
+                transcribed folktale from Likpakpaln as told by <name type="storyteller">Gmakanwadoon</name>
+                on <date when="2022">18th March 2022</date> in <name type="city">Kutol</name>
+                ,<name type="country">Ghana</name>
+            </creation>
+            <langUsage>
+                <language ident="lik">Likpakpaln</language>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>placeholder tbd</textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type="mainTitle">THE RICH FARMER AND HIS WASTEFUL SON</head>
+            <p>(as narrated by Gmakanwadoon at Kutol on 18/03/2022)</p>
+            <div type="introduction">
+                <head type="subTitle">Introduction</head>
+                <p>The story below details how a rich farmer shows his son unconditional but tough love. According to the story, the son requests for a share of his father's wealth; but on receiving it, he mismanages the wealth in a foreign land and soon becomes poor. On returning to his father, he is received with open arms. But the father insists that the young man cannot lay claim to the rest of his property since he has already squandered his share. He then advises the son to be diligent in order to make it and maintain the wealth. The story essentially celebrates diligence and unconditional love laced with a hint of tough love. Ultimately, it seeks to teach parents to love their children unconditionally but also discipline them when the need arises. Most importantly, the story reveals that one achievement marker among the Konkomba people is success at farming. You may read more about this in a short article titled <q>Concepts of Achievement among Konkombas: Representation in Their Folktales.</q></p>
+            </div>
+            <div type="story">
+                <head type="subTitle">Story</head>
+                <p><q>My story is as follows,</q> Gmakanwadoon announces to his audience and proceeds thus:</p>
+                <p>There once lived a certain <term ref="#gloss4">ukpadaan</term> who had many children. One day the youngest of them requested that their father`s <term ref="#gloss2">liwankpal</term> be shared among them. The father agreed and shared the property. After receiving his share, the youngest son relocated to <term ref="#gloss3">timoorni</term> while his other siblings remained at home with theirs.</p>
+                <p>In no time, the youngest son squandered his share of the property in the <term ref="#gloss3">timoorni</term>. He then decided that he would return home and engage in <term ref="#gloss1">badee</term> labour in his father's farm. While on his way home, his father saw him from a distance and ran to welcome him. The boy told his father that he had returned to serve as a farmhand on his father's farm in order to earn his daily wages. However, his father wouldn't hear of it, insisting that he was still his son and could therefore not serve as a farmhand.</p>
+                <p>The youngest son soon became prosperous again. But he was never allowed to touch the rest of his father's wealth since he had already squandered his share. His father reminded him that he had to be diligent in order to safeguard the wealth he had made and not lose it again. This is the end of my story.</p>
+            </div>
+           <div type="glossary">
+            <head type="subTitle">A Glossary of Likpakpaln Words</head>
+            <list type="gloss">
+                <label>badee</label><item><gloss xml:id="gloss1">an appropriated and corrupted version of the English phrase, "by day." It is often used to describe a situation where someone earns his wage on a daily basis. Konkomba farmers sometimes hire farmhands to work on their farms. Some of these labourers work and earn their wages on a daily basis. This is why it is called "by day" or badee.</gloss></item>
+                <label>liwankpal</label><item><gloss xml:id="gloss2">Likpakpaln word for wealth. In certain contexts, it also refers to property or prossessions.</gloss></item>
+                <label>timoorni</label><item><gloss xml:id="gloss3">in everyday usage, this word is the Likpakpaln equivalent of the English word "bush". However, in advanced Likpakpaln usage, it refers to a foreign land (be it a village, town, city, country, continent, etc.) The latter case applies in this story. Thus, the young man relocated to a foreign land.</gloss></item>
+                <label>ukpadaan</label><item><gloss xml:id="gloss4">Likpakpaln word for a rich person. It is one of the gender-neutral words in the Konkomba language. Unlike some other gender-neutral Likpakpaln words, ukpadaan cannot be inflected to indicate a person's gender. One had to therefore rely on the context to determine the gender of a person.</gloss></item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>
